@@ -1,0 +1,3350 @@
+RyanairAirportsController constructor - Started
+(1%) AAR name: Aarhus - city: Aarhus
+(1%) ACE name: Lanzarote - city: Arrecife
+(2%) AGA name: Agadir - city: Agadir
+(2%) AGP name: Malaga - city: Malaga
+(3%) AHO name: Alghero - city: Alghero
+(3%) ALC name: Alicante - city: Alicante
+(4%) AOI name: Ancona - city: Ancona
+(4%) ATH name: Athens - city: Athens
+(5%) BCN name: Barcelona El Prat - city: Barcelona
+(5%) BDS name: Brindisi - city: Brindisi
+(6%) BES name: Brest - city: Brest
+(6%) BGY name: Milan Bergamo - city: Milan
+(7%) BHX name: Birmingham - city: Birmingham
+(7%) BIQ name: Biarritz - city: Biarritz
+(8%) BLL name: Billund - city: Billund
+(8%) BLQ name: Bologna - city: Bologna
+(9%) BOD name: Bordeaux - city: Bordeaux
+(9%) BOH name: Bournemouth - city: Bournemouth
+(10%) BRE name: Bremen - city: Bremen
+(11%) BRI name: Bari - city: Bari
+(11%) BRQ name: Brno - city: Brno
+(12%) BRS name: Bristol - city: Bristol
+(12%) BRU name: Brussels Zaventem - city: Brussels
+(13%) BSL name: Basel - city: Mulhouse
+(13%) BTS name: Bratislava - city: Bratislava
+(14%) BUD name: Budapest - city: Budapest
+(14%) BVA name: Paris Beauvais - city: Paris
+(15%) BVE name: Brive - city: Brive-La-Gaillarde
+(15%) BZG name: Bydgoszcz - city: Bydgoszcz
+(16%) BZR name: Beziers - city: Beziers
+(16%) CAG name: Cagliari - city: Cagliari
+(17%) CCF name: Carcassonne - city: Carcassonne
+(17%) CFE name: Clermont Ferrand - city: Clermont-Ferrand
+(18%) CFU name: Corfu - city: Kerkyra
+(18%) CGN name: Cologne - city: Cologne
+(19%) CHQ name: Chania - city: Chania
+(19%) CIA name: Rome Ciampino - city: Rome
+(20%) CIY name: Comiso - city: Comiso
+(21%) CRL name: Brussels Charleroi - city: Brussels
+(21%) CRV name: Crotone - city: Crotone
+(22%) CTA name: Catania - city: Catania
+(22%) CUF name: Cuneo - city: Cuneo
+(23%) CWL name: Cardiff - city: Cardiff
+(23%) DLE name: Dole - city: Dole
+(24%) DNR name: Dinard - city: Dinard
+(24%) DOL name: Deauville-Normandy - city: Deauville
+(25%) DTM name: Dortmund - city: Dortmund
+(25%) DUB name: Dublin - city: Dublin
+(26%) EBU name: St Etienne - city: St Etienne
+(26%) EDI name: Edinburgh - city: Edinburgh
+(27%) EFL name: Kefalonia - city: Kefalonia
+(27%) EGC name: Bergerac - city: Bergerac
+(28%) EIN name: Eindhoven - city: Eindhoven
+(28%) EMA name: East Midlands - city: Nottingham
+(29%) ESU name: Essaouira - city: Essaouira
+(29%) FAO name: Faro - city: Faro
+(30%) FCO name: Rome Fiumicino - city: Rome
+(31%) FEZ name: Fez - city: Fez
+(31%) FKB name: Baden-Baden - city: Karlsruhe
+(32%) FMM name: Memmingen (Munich West) - city: Memmingen
+(32%) FMO name: Münster - city: Greven
+(33%) FNI name: Nimes - city: Nimes
+(33%) FSC name: Figari - city: Figari
+(34%) FUE name: Fuerteventura - city: Puerto del Rosario
+(34%) GDN name: Gdansk - city: Gdansk
+(35%) GNB name: Grenoble - city: Lyon
+(35%) GOA name: Genoa - city: Genova
+(36%) GPA name: Patras (Araxos) - city: Patras
+(36%) GRO name: Girona Barcelona - city: Gerona
+(37%) HAU name: Haugesund - city: Haugesund
+(37%) HHN name: Frankfurt Hahn - city: Frankfurt
+(38%) IBZ name: Ibiza - city: Ibiza
+(38%) KGS name: Kos - city: Kos
+(39%) KIR name: Kerry - city: Farranfore
+(39%) KLX name: Kalamata - city: Kalamata
+(40%) KRK name: Krakow - city: Krakow
+(41%) KTW name: Katowice - city: Katowice
+(41%) KUN name: Kaunas - city: Kaunas
+(42%) LBA name: Leeds Bradford - city: Leeds
+(42%) LCJ name: Lodz - city: Lodz
+(43%) LDE name: Lourdes - city: Lourdes
+(43%) LDY name: Derry - city: Derry
+(44%) LEI name: Almeria - city: Almeria
+(44%) LEJ name: Leipzig - city: Leipzig-Halle
+(45%) LGW name: London Gatwick - city: London
+(45%) LIG name: Limoges - city: Limoges
+(46%) LIL name: Lille - city: Lille
+(46%) LIS name: Lisbon - city: Lisbon
+(47%) LNZ name: Linz - city: Linz
+(47%) LPA name: Gran Canaria - city: Las Palmas
+(48%) LPL name: Liverpool - city: Liverpool
+(48%) LPP name: Lappeenranta - city: Lappeenranta
+(49%) LRH name: La Rochelle - city: La Rochelle
+(49%) LTN name: London Luton - city: London
+(50%) LUZ name: Lublin - city: Lushan
+(51%) MAD name: Madrid - city: Madrid
+(51%) MAH name: Menorca - city: Menorca
+(52%) MAN name: Manchester - city: Manchester
+(52%) MJV name: Murcia - city: Murcia
+(53%) MLA name: Malta - city: Gudja
+(53%) MPL name: Montpellier - city: Montpellier
+(54%) MRS name: Marseille Provence - city: Marseille
+(54%) MST name: Maastricht - city: Maastricht
+(55%) MXP name: Milan Malpensa - city: Milan
+(55%) NCE name: Nice - city: Nice
+(56%) NCL name: Newcastle - city: Newcastle
+(56%) NDR name: Nador - city: Nador
+(57%) NOC name: Knock Ireland West - city: Knock
+(57%) NRN name: Dusseldorf Weeze - city: Dusseldorf
+(58%) NTE name: Nantes - city: Nantes
+(58%) NUE name: Nuremberg - city: Nürnberg
+(59%) NYO name: Stockholm Skavsta - city: Stockholm
+(59%) OPO name: Porto - city: Porto
+(60%) ORK name: Cork - city: Cork
+(61%) OSI name: Osijek - city: Osijek
+(61%) OSR name: Ostrava - city: Ostrava
+(62%) OTP name: Bucharest (Otopeni) - city: Bucharest
+(62%) OUD name: Oujda - city: Oujda
+(63%) PDV name: Plovdiv - city: Plovdiv
+(63%) PEG name: Perugia - city: Perugia
+(64%) PFO name: Paphos - city: Paphos
+(64%) PGF name: Perpignan - city: Perpignan
+(65%) PIK name: Glasgow Prestwick - city: Glasgow
+(65%) PIS name: Poitiers - city: Poitiers
+(66%) PMF name: Parma - city: Milan
+(66%) PMI name: Palma - city: Palma Mallorca
+(67%) PMO name: Palermo - city: Palermo
+(67%) POZ name: Poznan - city: Poznan
+(68%) PRG name: Prague - city: Prague
+(68%) PSA name: Pisa - city: Pisa
+(69%) PSR name: Pescara - city: Pescara
+(69%) PUY name: Pula - city: Pula
+(70%) RAK name: Marrakesh - city: Marrakech
+(71%) RBA name: Rabat - city: Rabat
+(71%) RDZ name: Rodez - city: Rodez
+(72%) REU name: Reus Barcelona - city: Reus
+(72%) RHO name: Rhodes - city: Rhodes
+(73%) RIX name: Riga - city: Riga
+(73%) RJK name: Rijeka - city: Rijeka
+(74%) RYG name: Oslo Rygge - city: Oslo
+(74%) RZE name: Rzeszow - city: Rzeszow
+(75%) SCQ name: Santiago - city: Santiago De Compostela
+(75%) SDR name: Santander - city: Santander
+(76%) SFT name: Skelleftea - city: Skelleftea
+(76%) SKG name: Thessaloniki - city: Thessaloniki
+(77%) SNN name: Shannon - city: Shannon
+(77%) STN name: London Stansted - city: London
+(78%) SUF name: Lamezia - city: Lamezia Terme
+(78%) SVQ name: Seville - city: Sevilla
+(79%) SXB name: Strasbourg - city: Strasbourg
+(79%) SXF name: Berlin Schonefeld - city: Berlin
+(80%) SZG name: Salzburg - city: Salzburg
+(81%) SZZ name: Szczecin - city: Szczecin
+(81%) TFN name: Tenerife North - city: Tenerife
+(82%) TFS name: Tenerife Sth - city: Tenerife
+(82%) TGD name: Podgorica - city: Podgorica
+(83%) TLL name: Tallinn - city: Tallinn
+(83%) TLN name: Toulon - city: Hyeres
+(84%) TMP name: Tampere - city: Tampere
+(84%) TNG name: Tangier - city: Tangier
+(85%) TPS name: Trapani - city: Trapani
+(85%) TRF name: Oslo Torp - city: Oslo
+(86%) TRN name: Turin - city: Turin
+(86%) TRS name: Trieste - city: Trieste
+(87%) TSF name: Venice Treviso - city: Venice
+(87%) TUF name: Tours Loire Valley - city: Tours
+(88%) VLC name: Valencia - city: Manises
+(88%) VLL name: Valladolid - city: Valladolid
+(89%) VNO name: Vilnius - city: Vilnius
+(89%) VRN name: Verona - city: Verona
+(90%) VST name: Stockholm Vasteras - city: Stockholm
+(91%) VXO name: Växjö - city: Växjö
+(91%) WMI name: Warsaw Modlin - city: Nowy Dwor Mazowiecki
+(92%) WRO name: Wroclaw - city: Wroclaw
+(92%) XCR name: Paris Vatry - city: Paris
+(93%) XRY name: Jerez - city: Jerez De La Frontera
+(93%) ZAD name: Zadar - city: Zadar
+(94%) ZAZ name: Zaragoza - city: Zaragoza
+(94%) ZTH name: Zakynthos - city: Zakinthos
+(95%) GLA name: Glasgow International - city: Glasgow
+(95%) CPH name: Copenhagen - city: Copenhagen
+(96%) HAM name: Hamburg - city: Hamburg
+(96%) GOT name: Gothenburg Landvetter - city: Gothenburg
+(97%) PDL name: Ponta Delgada - city: Ponta Delgada
+(97%) LRT name: Lorient - city: Lorient
+(98%) JTR name: Santorini National - city: Santorini (Thira)
+(98%) STR name: Stuttgart - city: Stuttgart
+(99%) CDT name: Castellon - city: Castellon de la Plana
+(99%) VDA name: Eilat (Ovda) - city: Ovda
+(100%) SOF name: Sofia - city: Sofia
+RyanairAirportsController constructor - Finished
+--------------------------------------------------
+Calculating for: AAR name: Aarhus - city: Aarhus
+(1) Aarhus to London Stansted Distance: 835
+--------------------------------------------------
+Calculating for: ACE name: Lanzarote - city: Arrecife
+(2) Lanzarote to Manchester Distance: 2866
+(3) Lanzarote to Barcelona El Prat Distance: 1974
+(4) Lanzarote to Birmingham Distance: 2790
+(5) Lanzarote to Madrid Distance: 1575
+(6) Lanzarote to East Midlands Distance: 2840
+(7) Lanzarote to London Luton Distance: 2774
+(8) Lanzarote to Liverpool Distance: 2850
+(9) Lanzarote to Bristol Distance: 2654
+(10) Lanzarote to Frankfurt Hahn Distance: 2922
+(11) Lanzarote to Glasgow Prestwick Distance: 3039
+(12) Lanzarote to Dusseldorf Weeze Distance: 3004
+(13) Lanzarote to Dublin Distance: 2786
+(14) Lanzarote to Brussels Charleroi Distance: 2831
+(15) Lanzarote to London Stansted Distance: 2796
+(16) Lanzarote to Edinburgh Distance: 3110
+(17) Lanzarote to Bologna Distance: 2795
+(18) Lanzarote to Shannon Distance: 2669
+(19) Lanzarote to Eindhoven Distance: 2957
+(20) Lanzarote to Knock Ireland West Distance: 2802
+(21) Lanzarote to Leeds Bradford Distance: 2935
+(22) Lanzarote to Santiago Distance: 1619
+(23) Lanzarote to Santander Distance: 1831
+(24) Lanzarote to Seville Distance: 1183
+(25) Lanzarote to Valladolid Distance: 1623
+(26) Lanzarote to Zaragoza Distance: 1812
+(27) Lanzarote to Cork Distance: 2580
+(28) Lanzarote to Milan Bergamo Distance: 2757
+(29) Lanzarote to Paris Beauvais Distance: 2640
+--------------------------------------------------
+Calculating for: AGA name: Agadir - city: Agadir
+(30) Agadir to Marseille Provence Distance: 1948
+(31) Agadir to Brussels Charleroi Distance: 2518
+(32) Agadir to Dusseldorf Weeze Distance: 2689
+--------------------------------------------------
+Calculating for: AGP name: Malaga - city: Malaga
+(33) Malaga to Münster Distance: 1966
+(34) Malaga to Knock Ireland West Distance: 1945
+(35) Malaga to Nuremberg Distance: 1897
+(36) Malaga to Cologne Distance: 1829
+(37) Malaga to Barcelona El Prat Distance: 765
+(38) Malaga to Birmingham Distance: 1767
+(39) Malaga to Bournemouth Distance: 1582
+(40) Malaga to Bremen Distance: 2092
+(41) Malaga to Brussels Charleroi Distance: 1691
+(42) Malaga to Dortmund Distance: 1907
+(43) Malaga to Dublin Distance: 1867
+(44) Malaga to Edinburgh Distance: 2144
+(45) Malaga to East Midlands Distance: 1813
+(46) Malaga to Frankfurt Hahn Distance: 1751
+(47) Malaga to Liverpool Distance: 1856
+(48) Malaga to Manchester Distance: 1862
+(49) Malaga to Marseille Provence Distance: 1116
+(50) Malaga to Dusseldorf Weeze Distance: 1859
+(51) Malaga to Glasgow Prestwick Distance: 2094
+(52) Malaga to Shannon Distance: 1815
+(53) Malaga to London Stansted Distance: 1731
+(54) Malaga to Milan Bergamo Distance: 1549
+(55) Malaga to Bristol Distance: 1641
+(56) Malaga to Leeds Bradford Distance: 1924
+(57) Malaga to Oslo Rygge Distance: 2753
+(58) Malaga to Bologna Distance: 1589
+(59) Malaga to Santiago Distance: 768
+(60) Malaga to Santander Distance: 753
+(61) Malaga to Oslo Torp Distance: 2719
+(62) Malaga to Stockholm Skavsta Distance: 2906
+(63) Malaga to Tampere Distance: 3374
+(64) Malaga to Krakow Distance: 2445
+(65) Malaga to Wroclaw Distance: 2331
+(66) Malaga to Eindhoven Distance: 1818
+(67) Malaga to Memmingen (Munich West) Distance: 1740
+(68) Malaga to Bratislava Distance: 2180
+(69) Malaga to Paris Beauvais Distance: 1517
+(70) Malaga to Billund Distance: 2356
+(71) Malaga to Cork Distance: 1715
+(72) Malaga to Haugesund Distance: 2615
+(73) Malaga to Stockholm Vasteras Distance: 2963
+(74) Malaga to Ibiza Distance: 570
+(75) Malaga to Baden-Baden Distance: 1688
+(76) Malaga to Venice Treviso Distance: 1711
+(77) Malaga to Palma Distance: 709
+(78) Malaga to Rome Ciampino Distance: 1575
+(79) Malaga to Brussels Zaventem Distance: 1735
+(80) Malaga to Gothenburg Landvetter Distance: 2641
+(81) Malaga to Berlin Schonefeld Distance: 2243
+(82) Malaga to Copenhagen Distance: 2471
+(83) Malaga to Warsaw Modlin Distance: 2630
+(84) Malaga to Hamburg Distance: 2191
+--------------------------------------------------
+Calculating for: AHO name: Alghero - city: Alghero
+(85) Alghero to Paris Beauvais Distance: 1093
+(86) Alghero to Trieste Distance: 713
+(87) Alghero to Pisa Distance: 380
+(88) Alghero to Milan Bergamo Distance: 572
+(89) Alghero to Rome Ciampino Distance: 382
+(90) Alghero to Cuneo Distance: 438
+(91) Alghero to Dortmund Distance: 1211
+(92) Alghero to Dublin Distance: 1792
+(93) Alghero to Girona Barcelona Distance: 483
+(94) Alghero to Frankfurt Hahn Distance: 1039
+(95) Alghero to Dusseldorf Weeze Distance: 1230
+(96) Alghero to Stockholm Skavsta Distance: 2107
+(97) Alghero to London Stansted Distance: 1394
+(98) Alghero to Madrid Distance: 1001
+(99) Alghero to Ancona Distance: 533
+(100) Alghero to Eindhoven Distance: 1223
+(101) Alghero to Memmingen (Munich West) Distance: 832
+(102) Alghero to Bratislava Distance: 1096
+(103) Alghero to Venice Treviso Distance: 641
+(104) Alghero to Brussels Charleroi Distance: 1132
+(105) Alghero to Bologna Distance: 498
+(106) Alghero to Turin Distance: 510
+(107) Alghero to Gothenburg Landvetter Distance: 1916
+--------------------------------------------------
+Calculating for: ALC name: Alicante - city: Alicante
+(108) Alicante to Derry Distance: 1928
+(109) Alicante to Shannon Distance: 1728
+(110) Alicante to Cork Distance: 1629
+(111) Alicante to Katowice Distance: 2055
+(112) Alicante to Nuremberg Distance: 1552
+(113) Alicante to Birmingham Distance: 1578
+(114) Alicante to Liverpool Distance: 1682
+(115) Alicante to Dusseldorf Weeze Distance: 1570
+(116) Alicante to London Stansted Distance: 1513
+(117) Alicante to Dublin Distance: 1739
+(118) Alicante to Stockholm Skavsta Distance: 2600
+(119) Alicante to Milan Bergamo Distance: 1179
+(120) Alicante to Billund Distance: 2071
+(121) Alicante to Bournemouth Distance: 1393
+(122) Alicante to Paris Beauvais Distance: 1260
+(123) Alicante to Brussels Charleroi Distance: 1410
+(124) Alicante to East Midlands Distance: 1618
+(125) Alicante to Baden-Baden Distance: 1357
+(126) Alicante to Maastricht Distance: 1489
+(127) Alicante to Bremen Distance: 1791
+(128) Alicante to Edinburgh Distance: 1975
+(129) Alicante to Leeds Bradford Distance: 1734
+(130) Alicante to Wroclaw Distance: 1973
+(131) Alicante to Knock Ireland West Distance: 1847
+(132) Alicante to Bristol Distance: 1466
+(133) Alicante to Oslo Torp Distance: 2448
+(134) Alicante to Frankfurt Hahn Distance: 1437
+(135) Alicante to Santiago Distance: 838
+(136) Alicante to Memmingen (Munich West) Distance: 1387
+(137) Alicante to Haugesund Distance: 2377
+(138) Alicante to Bologna Distance: 1206
+(139) Alicante to Oslo Rygge Distance: 2480
+(140) Alicante to Glasgow Prestwick Distance: 1939
+(141) Alicante to Eindhoven Distance: 1535
+(142) Alicante to Krakow Distance: 2074
+(143) Alicante to Stockholm Vasteras Distance: 2663
+(144) Alicante to Växjö Distance: 2356
+(145) Alicante to Kerry Distance: 1694
+(146) Alicante to Tampere Distance: 3062
+(147) Alicante to Kaunas Distance: 2616
+(148) Alicante to Manchester Distance: 1681
+(149) Alicante to Warsaw Modlin Distance: 2270
+(150) Alicante to Brussels Zaventem Distance: 1458
+(151) Alicante to Gdansk Distance: 2294
+(152) Alicante to Cologne Distance: 1524
+(153) Alicante to Gothenburg Landvetter Distance: 2349
+(154) Alicante to Berlin Schonefeld Distance: 1908
+(155) Alicante to Copenhagen Distance: 2164
+(156) Alicante to Rome Ciampino Distance: 1184
+(157) Alicante to Hamburg Distance: 1886
+(158) Alicante to Newcastle Distance: 1865
+--------------------------------------------------
+Calculating for: AOI name: Ancona - city: Ancona
+(159) Ancona to London Stansted Distance: 1341
+(160) Ancona to Dusseldorf Weeze Distance: 1038
+(161) Ancona to Alghero Distance: 533
+(162) Ancona to Brussels Charleroi Distance: 1015
+(163) Ancona to Trapani Distance: 638
+--------------------------------------------------
+Calculating for: ATH name: Athens - city: Athens
+(164) Athens to Thessaloniki Distance: 299
+(165) Athens to Chania Distance: 268
+(166) Athens to Rhodes Distance: 404
+(167) Athens to Milan Bergamo Distance: 1457
+(168) Athens to London Stansted Distance: 2407
+(169) Athens to Paphos Distance: 844
+(170) Athens to Rome Ciampino Distance: 1058
+(171) Athens to Brussels Charleroi Distance: 2074
+(172) Athens to Warsaw Modlin Distance: 1634
+(173) Athens to Budapest Distance: 1123
+(174) Athens to Bratislava Distance: 1261
+(175) Athens to Santorini National Distance: 218
+(176) Athens to Berlin Schonefeld Distance: 1797
+--------------------------------------------------
+Calculating for: BCN name: Barcelona El Prat - city: Barcelona
+(177) Barcelona El Prat to Manchester Distance: 1379
+(178) Barcelona El Prat to Turin Distance: 625
+(179) Barcelona El Prat to Bologna Distance: 831
+(180) Barcelona El Prat to Nador Distance: 831
+(181) Barcelona El Prat to Fez Distance: 1027
+(182) Barcelona El Prat to Lanzarote Distance: 1974
+(183) Barcelona El Prat to Malaga Distance: 765
+(184) Barcelona El Prat to Milan Bergamo Distance: 783
+(185) Barcelona El Prat to Paris Beauvais Distance: 907
+(186) Barcelona El Prat to Rome Ciampino Distance: 876
+(187) Barcelona El Prat to Brussels Charleroi Distance: 1035
+(188) Barcelona El Prat to Dublin Distance: 1485
+(189) Barcelona El Prat to Edinburgh Distance: 1676
+(190) Barcelona El Prat to East Midlands Distance: 1307
+(191) Barcelona El Prat to Fuerteventura Distance: 2031
+(192) Barcelona El Prat to Ibiza Distance: 276
+(193) Barcelona El Prat to Gran Canaria Distance: 2174
+(194) Barcelona El Prat to Liverpool Distance: 1388
+(195) Barcelona El Prat to Menorca Distance: 241
+(196) Barcelona El Prat to Stockholm Skavsta Distance: 2203
+(197) Barcelona El Prat to Porto Distance: 898
+(198) Barcelona El Prat to Glasgow Prestwick Distance: 1653
+(199) Barcelona El Prat to Palma Distance: 201
+(200) Barcelona El Prat to Santander Distance: 539
+(201) Barcelona El Prat to Santiago Distance: 883
+(202) Barcelona El Prat to London Stansted Distance: 1185
+(203) Barcelona El Prat to Seville Distance: 809
+(204) Barcelona El Prat to Tenerife North Distance: 2194
+(205) Barcelona El Prat to Tenerife Sth Distance: 2245
+(206) Barcelona El Prat to Venice Treviso Distance: 947
+(207) Barcelona El Prat to Valladolid Distance: 578
+(208) Barcelona El Prat to Vilnius Distance: 2258
+(209) Barcelona El Prat to Jerez Distance: 865
+(210) Barcelona El Prat to Budapest Distance: 1522
+(211) Barcelona El Prat to Warsaw Modlin Distance: 1869
+(212) Barcelona El Prat to Birmingham Distance: 1273
+(213) Barcelona El Prat to Rome Fiumicino Distance: 847
+(214) Barcelona El Prat to Brussels Zaventem Distance: 1083
+(215) Barcelona El Prat to Cologne Distance: 1132
+(216) Barcelona El Prat to Berlin Schonefeld Distance: 1504
+(217) Barcelona El Prat to Hamburg Distance: 1492
+--------------------------------------------------
+Calculating for: BDS name: Brindisi - city: Brindisi
+(218) Brindisi to Milan Bergamo Distance: 869
+(219) Brindisi to Bologna Distance: 694
+(220) Brindisi to Paris Beauvais Distance: 1576
+(221) Brindisi to Rome Ciampino Distance: 465
+(222) Brindisi to Brussels Charleroi Distance: 1509
+(223) Brindisi to Eindhoven Distance: 1538
+(224) Brindisi to Girona Barcelona Distance: 1274
+(225) Brindisi to Stockholm Skavsta Distance: 2017
+(226) Brindisi to Pisa Distance: 707
+(227) Brindisi to London Stansted Distance: 1838
+(228) Brindisi to Turin Distance: 977
+(229) Brindisi to Venice Treviso Distance: 724
+(230) Brindisi to Perugia Distance: 525
+(231) Brindisi to Rome Fiumicino Distance: 493
+--------------------------------------------------
+Calculating for: BES name: Brest - city: Brest
+(232) Brest to Marseille Provence Distance: 929
+--------------------------------------------------
+Calculating for: BGY name: Milan Bergamo - city: Milan
+(233) Milan Bergamo to Catania Distance: 1015
+(234) Milan Bergamo to Kalamata Distance: 1401
+(235) Milan Bergamo to Malta Distance: 1162
+(236) Milan Bergamo to Knock Ireland West Distance: 1606
+(237) Milan Bergamo to Alicante Distance: 1179
+(238) Milan Bergamo to Malaga Distance: 1549
+(239) Milan Bergamo to Alghero Distance: 572
+(240) Milan Bergamo to Barcelona El Prat Distance: 783
+(241) Milan Bergamo to Brindisi Distance: 869
+(242) Milan Bergamo to Billund Distance: 1119
+(243) Milan Bergamo to Bratislava Distance: 633
+(244) Milan Bergamo to Bremen Distance: 822
+(245) Milan Bergamo to Bari Distance: 760
+(246) Milan Bergamo to Bristol Distance: 1111
+(247) Milan Bergamo to Paris Beauvais Distance: 707
+(248) Milan Bergamo to Cagliari Distance: 716
+(249) Milan Bergamo to Chania Distance: 1656
+(250) Milan Bergamo to Corfu Distance: 1072
+(251) Milan Bergamo to Brussels Charleroi Distance: 659
+(252) Milan Bergamo to Dublin Distance: 1433
+(253) Milan Bergamo to Fuerteventura Distance: 2815
+(254) Milan Bergamo to Kefalonia Distance: 1224
+(255) Milan Bergamo to Eindhoven Distance: 716
+(256) Milan Bergamo to East Midlands Distance: 1126
+(257) Milan Bergamo to Fez Distance: 1805
+(258) Milan Bergamo to Frankfurt Hahn Distance: 508
+(259) Milan Bergamo to Ibiza Distance: 1019
+(260) Milan Bergamo to Lourdes Distance: 818
+(261) Milan Bergamo to Gran Canaria Distance: 2957
+(262) Milan Bergamo to Lappeenranta Distance: 2086
+(263) Milan Bergamo to Madrid Distance: 1219
+(264) Milan Bergamo to Manchester Distance: 1212
+(265) Milan Bergamo to Dusseldorf Weeze Distance: 709
+(266) Milan Bergamo to Stockholm Skavsta Distance: 1536
+(267) Milan Bergamo to Porto Distance: 1559
+(268) Milan Bergamo to Palermo Distance: 879
+(269) Milan Bergamo to Pescara Distance: 507
+(270) Milan Bergamo to Riga Distance: 1589
+(271) Milan Bergamo to Santander Distance: 1098
+(272) Milan Bergamo to London Stansted Distance: 977
+(273) Milan Bergamo to Lamezia Distance: 924
+(274) Milan Bergamo to Seville Distance: 1585
+(275) Milan Bergamo to Berlin Schonefeld Distance: 795
+(276) Milan Bergamo to Tampere Distance: 1967
+(277) Milan Bergamo to Trapani Distance: 893
+(278) Milan Bergamo to Valencia Distance: 1079
+(279) Milan Bergamo to Zaragoza Distance: 971
+(280) Milan Bergamo to Krakow Distance: 896
+(281) Milan Bergamo to Marrakesh Distance: 2185
+(282) Milan Bergamo to Wroclaw Distance: 802
+(283) Milan Bergamo to Tenerife Sth Distance: 3025
+(284) Milan Bergamo to Kos Distance: 1751
+(285) Milan Bergamo to Rhodes Distance: 1847
+(286) Milan Bergamo to Tallinn Distance: 1829
+(287) Milan Bergamo to Santiago Distance: 1471
+(288) Milan Bergamo to Palma Distance: 887
+(289) Milan Bergamo to Thessaloniki Distance: 1218
+(290) Milan Bergamo to Lanzarote Distance: 2757
+(291) Milan Bergamo to Vilnius Distance: 1485
+(292) Milan Bergamo to Oslo Rygge Distance: 1525
+(293) Milan Bergamo to Cork Distance: 1494
+(294) Milan Bergamo to Budapest Distance: 755
+(295) Milan Bergamo to Warsaw Modlin Distance: 1095
+(296) Milan Bergamo to Athens Distance: 1457
+(297) Milan Bergamo to Lisbon Distance: 1724
+(298) Milan Bergamo to Crotone Distance: 957
+(299) Milan Bergamo to Copenhagen Distance: 1124
+(300) Milan Bergamo to Gothenburg Landvetter Distance: 1345
+(301) Milan Bergamo to Cologne Distance: 607
+(302) Milan Bergamo to Bucharest (Otopeni) Distance: 1290
+(303) Milan Bergamo to Comiso Distance: 1047
+--------------------------------------------------
+Calculating for: BHX name: Birmingham - city: Birmingham
+(304) Birmingham to Perpignan Distance: 1133
+(305) Birmingham to Malaga Distance: 1767
+(306) Birmingham to Alicante Distance: 1578
+(307) Birmingham to Bratislava Distance: 1423
+(308) Birmingham to Dublin Distance: 321
+(309) Birmingham to Gdansk Distance: 1351
+(310) Birmingham to Kaunas Distance: 1712
+(311) Birmingham to Murcia Distance: 1633
+(312) Birmingham to Palma Distance: 1475
+(313) Birmingham to Lanzarote Distance: 2790
+(314) Birmingham to Gran Canaria Distance: 2951
+(315) Birmingham to Tenerife Sth Distance: 2978
+(316) Birmingham to Katowice Distance: 1454
+(317) Birmingham to Bydgoszcz Distance: 1324
+(318) Birmingham to Faro Distance: 1784
+(319) Birmingham to Ibiza Distance: 1529
+(320) Birmingham to Malta Distance: 2242
+(321) Birmingham to Fuerteventura Distance: 2849
+(322) Birmingham to Krakow Distance: 1515
+(323) Birmingham to Barcelona El Prat Distance: 1273
+--------------------------------------------------
+Calculating for: BIQ name: Biarritz - city: Biarritz
+(324) Biarritz to Dublin Distance: 1160
+(325) Biarritz to Brussels Charleroi Distance: 899
+(326) Biarritz to Stockholm Skavsta Distance: 2119
+(327) Biarritz to London Stansted Distance: 945
+--------------------------------------------------
+Calculating for: BLL name: Billund - city: Billund
+(328) Billund to Chania Distance: 2519
+(329) Billund to Malaga Distance: 2356
+(330) Billund to Alicante Distance: 2071
+(331) Billund to Milan Bergamo Distance: 1119
+(332) Billund to Budapest Distance: 1154
+(333) Billund to Rome Ciampino Distance: 1570
+(334) Billund to Corfu Distance: 1961
+(335) Billund to Girona Barcelona Distance: 1606
+(336) Billund to Malta Distance: 2247
+(337) Billund to Palma Distance: 1861
+(338) Billund to Pisa Distance: 1343
+(339) Billund to London Stansted Distance: 724
+(340) Billund to Tenerife Sth Distance: 3698
+(341) Billund to Venice Treviso Distance: 1142
+--------------------------------------------------
+Calculating for: BLQ name: Bologna - city: Bologna
+(342) Bologna to Manchester Distance: 1389
+(343) Bologna to Dublin Distance: 1610
+(344) Bologna to Barcelona El Prat Distance: 831
+(345) Bologna to Edinburgh Distance: 1635
+(346) Bologna to Paris Beauvais Distance: 884
+(347) Bologna to Chania Distance: 1480
+(348) Bologna to Brussels Charleroi Distance: 834
+(349) Bologna to Dusseldorf Weeze Distance: 873
+(350) Bologna to London Stansted Distance: 1154
+(351) Bologna to Valencia Distance: 1121
+(352) Bologna to Bari Distance: 584
+(353) Bologna to Lamezia Distance: 748
+(354) Bologna to Brindisi Distance: 694
+(355) Bologna to Alicante Distance: 1206
+(356) Bologna to Madrid Distance: 1295
+(357) Bologna to Seville Distance: 1640
+(358) Bologna to Ibiza Distance: 1035
+(359) Bologna to Bordeaux Distance: 948
+(360) Bologna to Malaga Distance: 1589
+(361) Bologna to Wroclaw Distance: 840
+(362) Bologna to Malta Distance: 1002
+(363) Bologna to Lanzarote Distance: 2795
+(364) Bologna to Tenerife Sth Distance: 3072
+(365) Bologna to Trapani Distance: 743
+(366) Bologna to Porto Distance: 1662
+(367) Bologna to Krakow Distance: 887
+(368) Bologna to Palermo Distance: 722
+(369) Bologna to Kos Distance: 1582
+(370) Bologna to Rhodes Distance: 1679
+(371) Bologna to Palma Distance: 896
+(372) Bologna to Warsaw Modlin Distance: 1116
+(373) Bologna to Catania Distance: 847
+(374) Bologna to Alghero Distance: 498
+(375) Bologna to Bristol Distance: 1287
+(376) Bologna to Berlin Schonefeld Distance: 887
+(377) Bologna to Bucharest (Otopeni) Distance: 1172
+(378) Bologna to Cagliari Distance: 615
+(379) Bologna to Gran Canaria Distance: 2998
+(380) Bologna to Copenhagen Distance: 1236
+--------------------------------------------------
+Calculating for: BOD name: Bordeaux - city: Bordeaux
+(381) Bordeaux to Rome Ciampino Distance: 1126
+(382) Bordeaux to Brussels Charleroi Distance: 735
+(383) Bordeaux to Porto Distance: 759
+(384) Bordeaux to Bologna Distance: 948
+(385) Bordeaux to Edinburgh Distance: 1250
+(386) Bordeaux to Seville Distance: 930
+(387) Bordeaux to London Stansted Distance: 787
+(388) Bordeaux to Cork Distance: 967
+--------------------------------------------------
+Calculating for: BOH name: Bournemouth - city: Bournemouth
+(389) Bournemouth to Alicante Distance: 1393
+(390) Bournemouth to Malaga Distance: 1582
+(391) Bournemouth to Faro Distance: 1605
+(392) Bournemouth to Girona Barcelona Distance: 1048
+(393) Bournemouth to Gran Canaria Distance: 2784
+(394) Bournemouth to Murcia Distance: 1448
+(395) Bournemouth to Malta Distance: 2110
+(396) Bournemouth to Palma Distance: 1298
+(397) Bournemouth to Tenerife Sth Distance: 2815
+--------------------------------------------------
+Calculating for: BRE name: Bremen - city: Bremen
+(398) Bremen to Thessaloniki Distance: 1755
+(399) Bremen to Chania Distance: 2288
+(400) Bremen to Malaga Distance: 2092
+(401) Bremen to Alicante Distance: 1791
+(402) Bremen to Edinburgh Distance: 847
+(403) Bremen to Faro Distance: 2204
+(404) Bremen to Fuerteventura Distance: 3304
+(405) Bremen to Girona Barcelona Distance: 1318
+(406) Bremen to Manchester Distance: 736
+(407) Bremen to Stockholm Skavsta Distance: 813
+(408) Bremen to Porto Distance: 1852
+(409) Bremen to Palma Distance: 1569
+(410) Bremen to Riga Distance: 1057
+(411) Bremen to London Stansted Distance: 593
+(412) Bremen to Tampere Distance: 1282
+(413) Bremen to Gran Canaria Distance: 3425
+(414) Bremen to Tenerife Sth Distance: 3471
+(415) Bremen to Tallinn Distance: 1213
+(416) Bremen to Vilnius Distance: 1094
+(417) Bremen to Venice Treviso Distance: 858
+(418) Bremen to Milan Bergamo Distance: 822
+(419) Bremen to Dublin Distance: 1001
+(420) Bremen to Corfu Distance: 1717
+(421) Bremen to Madrid Distance: 1678
+(422) Bremen to Lisbon Distance: 2094
+(423) Bremen to Prague Distance: 500
+--------------------------------------------------
+Calculating for: BRI name: Bari - city: Bari
+(424) Bari to Milan Bergamo Distance: 760
+(425) Bari to Frankfurt Hahn Distance: 1225
+(426) Bari to Malta Distance: 619
+(427) Bari to Pisa Distance: 594
+(428) Bari to London Stansted Distance: 1732
+(429) Bari to Bologna Distance: 584
+(430) Bari to Cagliari Distance: 687
+(431) Bari to Baden-Baden Distance: 1088
+(432) Bari to Brussels Charleroi Distance: 1405
+(433) Bari to Paris Beauvais Distance: 1467
+(434) Bari to Dusseldorf Weeze Distance: 1417
+(435) Bari to Valencia Distance: 1470
+(436) Bari to Genoa Distance: 741
+(437) Bari to Turin Distance: 865
+(438) Bari to Rome Ciampino Distance: 354
+(439) Bari to Venice Treviso Distance: 622
+(440) Bari to Trieste Distance: 584
+(441) Bari to Maastricht Distance: 1375
+(442) Bari to Dublin Distance: 2193
+(443) Bari to Kos Distance: 1014
+(444) Bari to Rome Fiumicino Distance: 382
+(445) Bari to Berlin Schonefeld Distance: 1273
+--------------------------------------------------
+Calculating for: BRQ name: Brno - city: Brno
+(446) Brno to London Stansted Distance: 1199
+--------------------------------------------------
+Calculating for: BRS name: Bristol - city: Bristol
+(447) Bristol to Chania Distance: 2767
+(448) Bristol to Dublin Distance: 330
+(449) Bristol to Girona Barcelona Distance: 1133
+(450) Bristol to Milan Bergamo Distance: 1111
+(451) Bristol to Knock Ireland West Distance: 498
+(452) Bristol to Poznan Distance: 1341
+(453) Bristol to Rzeszow Distance: 1737
+(454) Bristol to Wroclaw Distance: 1360
+(455) Bristol to Beziers Distance: 1005
+(456) Bristol to Malta Distance: 2201
+(457) Bristol to Limoges Distance: 677
+(458) Bristol to Alicante Distance: 1466
+(459) Bristol to Lanzarote Distance: 2654
+(460) Bristol to Gran Canaria Distance: 2814
+(461) Bristol to Tenerife Sth Distance: 2841
+(462) Bristol to Malaga Distance: 1641
+(463) Bristol to Bergerac Distance: 767
+(464) Bristol to Valencia Distance: 1333
+(465) Bristol to Faro Distance: 1650
+(466) Bristol to Palma Distance: 1381
+(467) Bristol to Gdansk Distance: 1454
+(468) Bristol to Kaunas Distance: 1818
+(469) Bristol to Ibiza Distance: 1427
+(470) Bristol to Venice Treviso Distance: 1266
+(471) Bristol to Budapest Distance: 1642
+(472) Bristol to Warsaw Modlin Distance: 1600
+(473) Bristol to Bologna Distance: 1287
+(474) Bristol to Castellon Distance: 1283
+--------------------------------------------------
+Calculating for: BRU name: Brussels Zaventem - city: Brussels
+(475) Brussels Zaventem to Rome Fiumicino Distance: 1172
+(476) Brussels Zaventem to Palma Distance: 1269
+(477) Brussels Zaventem to Barcelona El Prat Distance: 1083
+(478) Brussels Zaventem to Malaga Distance: 1735
+(479) Brussels Zaventem to Lisbon Distance: 1717
+(480) Brussels Zaventem to Porto Distance: 1473
+(481) Brussels Zaventem to Alicante Distance: 1458
+(482) Brussels Zaventem to Venice Treviso Distance: 815
+(483) Brussels Zaventem to Valencia Distance: 1326
+(484) Brussels Zaventem to Ibiza Distance: 1359
+(485) Brussels Zaventem to Dublin Distance: 784
+(486) Brussels Zaventem to Verona Distance: 774
+(487) Brussels Zaventem to Berlin Schonefeld Distance: 644
+--------------------------------------------------
+Calculating for: BSL name: Basel - city: Mulhouse
+(488) Basel to Dublin Distance: 1168
+(489) Basel to London Stansted Distance: 708
+--------------------------------------------------
+Calculating for: BTS name: Bratislava - city: Bratislava
+(490) Bratislava to Trapani Distance: 1203
+(491) Bratislava to Milan Bergamo Distance: 633
+(492) Bratislava to Dublin Distance: 1741
+(493) Bratislava to London Stansted Distance: 1277
+(494) Bratislava to Girona Barcelona Distance: 1329
+(495) Bratislava to Birmingham Distance: 1423
+(496) Bratislava to Edinburgh Distance: 1642
+(497) Bratislava to Brussels Charleroi Distance: 957
+(498) Bratislava to Liverpool Distance: 1517
+(499) Bratislava to Rome Ciampino Distance: 795
+(500) Bratislava to Paris Beauvais Distance: 1112
+(501) Bratislava to Malaga Distance: 2180
+(502) Bratislava to London Luton Distance: 1317
+(503) Bratislava to Palma Distance: 1500
+(504) Bratislava to Alghero Distance: 1096
+(505) Bratislava to Madrid Distance: 1851
+(506) Bratislava to Athens Distance: 1261
+(507) Bratislava to Berlin Schonefeld Distance: 536
+--------------------------------------------------
+Calculating for: BUD name: Budapest - city: Budapest
+(508) Budapest to Barcelona El Prat Distance: 1522
+(509) Budapest to Milan Bergamo Distance: 755
+(510) Budapest to Billund Distance: 1154
+(511) Budapest to Bristol Distance: 1642
+(512) Budapest to Paris Beauvais Distance: 1281
+(513) Budapest to Rome Ciampino Distance: 818
+(514) Budapest to Brussels Charleroi Distance: 1129
+(515) Budapest to Dublin Distance: 1914
+(516) Budapest to Madrid Distance: 1973
+(517) Budapest to Manchester Distance: 1653
+(518) Budapest to Pisa Distance: 805
+(519) Budapest to London Stansted Distance: 1450
+(520) Budapest to Tampere Distance: 1578
+(521) Budapest to Venice Treviso Distance: 575
+(522) Budapest to Athens Distance: 1123
+(523) Budapest to Copenhagen Distance: 1016
+(524) Budapest to Eilat (Ovda) Distance: 2364
+--------------------------------------------------
+Calculating for: BVA name: Paris Beauvais - city: Paris
+(525) Paris Beauvais to Oujda Distance: 1663
+(526) Paris Beauvais to Alghero Distance: 1093
+(527) Paris Beauvais to Rabat Distance: 1860
+(528) Paris Beauvais to Zadar Distance: 1167
+(529) Paris Beauvais to Barcelona El Prat Distance: 907
+(530) Paris Beauvais to Alicante Distance: 1260
+(531) Paris Beauvais to Milan Bergamo Distance: 707
+(532) Paris Beauvais to Bologna Distance: 884
+(533) Paris Beauvais to Cagliari Distance: 1260
+(534) Paris Beauvais to Rome Ciampino Distance: 1176
+(535) Paris Beauvais to Dublin Distance: 728
+(536) Paris Beauvais to Girona Barcelona Distance: 841
+(537) Paris Beauvais to Madrid Distance: 1091
+(538) Paris Beauvais to Manchester Distance: 529
+(539) Paris Beauvais to Stockholm Skavsta Distance: 1410
+(540) Paris Beauvais to Porto Distance: 1240
+(541) Paris Beauvais to Pisa Distance: 900
+(542) Paris Beauvais to Trapani Distance: 1527
+(543) Paris Beauvais to Bari Distance: 1467
+(544) Paris Beauvais to Bratislava Distance: 1112
+(545) Paris Beauvais to Oslo Rygge Distance: 1235
+(546) Paris Beauvais to Malaga Distance: 1517
+(547) Paris Beauvais to Faro Distance: 1603
+(548) Paris Beauvais to Zaragoza Distance: 899
+(549) Paris Beauvais to Valencia Distance: 1126
+(550) Paris Beauvais to Seville Distance: 1484
+(551) Paris Beauvais to Tangier Distance: 1659
+(552) Paris Beauvais to Marrakesh Distance: 2157
+(553) Paris Beauvais to Fez Distance: 1822
+(554) Paris Beauvais to Nador Distance: 1662
+(555) Paris Beauvais to Krakow Distance: 1268
+(556) Paris Beauvais to Tenerife Sth Distance: 2862
+(557) Paris Beauvais to Brindisi Distance: 1576
+(558) Paris Beauvais to Pescara Distance: 1214
+(559) Paris Beauvais to Beziers Distance: 688
+(560) Paris Beauvais to Venice Treviso Distance: 865
+(561) Paris Beauvais to Wroclaw Distance: 1063
+(562) Paris Beauvais to Vilnius Distance: 1676
+(563) Paris Beauvais to Palma Distance: 1102
+(564) Paris Beauvais to Budapest Distance: 1281
+(565) Paris Beauvais to Warsaw Modlin Distance: 1336
+(566) Paris Beauvais to Lanzarote Distance: 2640
+(567) Paris Beauvais to Lisbon Distance: 1484
+(568) Paris Beauvais to Shannon Distance: 850
+(569) Paris Beauvais to Figari Distance: 1037
+(570) Paris Beauvais to Thessaloniki Distance: 1908
+(571) Paris Beauvais to Gothenburg Landvetter Distance: 1132
+(572) Paris Beauvais to Palermo Distance: 1529
+--------------------------------------------------
+Calculating for: BVE name: Brive - city: Brive-La-Gaillarde
+(573) Brive to London Stansted Distance: 754
+--------------------------------------------------
+Calculating for: BZG name: Bydgoszcz - city: Bydgoszcz
+(574) Bydgoszcz to Birmingham Distance: 1324
+(575) Bydgoszcz to Dublin Distance: 1605
+(576) Bydgoszcz to Dusseldorf Weeze Distance: 819
+(577) Bydgoszcz to London Stansted Distance: 1205
+(578) Bydgoszcz to Glasgow International Distance: 1472
+--------------------------------------------------
+Calculating for: BZR name: Beziers - city: Beziers
+(579) Beziers to Edinburgh Distance: 1483
+(580) Beziers to Bristol Distance: 1005
+(581) Beziers to London Luton Distance: 990
+(582) Beziers to Dusseldorf Weeze Distance: 943
+(583) Beziers to Stockholm Skavsta Distance: 1954
+(584) Beziers to Oslo Rygge Distance: 1855
+(585) Beziers to Paris Beauvais Distance: 688
+(586) Beziers to Manchester Distance: 1189
+--------------------------------------------------
+Calculating for: CAG name: Cagliari - city: Cagliari
+(587) Cagliari to Kaunas Distance: 2075
+(588) Cagliari to Milan Bergamo Distance: 716
+(589) Cagliari to Paris Beauvais Distance: 1260
+(590) Cagliari to Rome Ciampino Distance: 412
+(591) Cagliari to Brussels Charleroi Distance: 1297
+(592) Cagliari to Cuneo Distance: 600
+(593) Cagliari to Baden-Baden Distance: 1062
+(594) Cagliari to Genoa Distance: 574
+(595) Cagliari to Madrid Distance: 1084
+(596) Cagliari to Marseille Provence Distance: 564
+(597) Cagliari to Dusseldorf Weeze Distance: 1391
+(598) Cagliari to Pisa Distance: 505
+(599) Cagliari to Frankfurt Hahn Distance: 1197
+(600) Cagliari to Bari Distance: 687
+(601) Cagliari to Trapani Distance: 333
+(602) Cagliari to Parma Distance: 628
+(603) Cagliari to Perugia Distance: 516
+(604) Cagliari to Krakow Distance: 1469
+(605) Cagliari to Venice Treviso Distance: 756
+(606) Cagliari to Girona Barcelona Distance: 607
+(607) Cagliari to Turin Distance: 671
+(608) Cagliari to Bologna Distance: 615
+--------------------------------------------------
+Calculating for: CCF name: Carcassonne - city: Carcassonne
+(609) Carcassonne to Brussels Charleroi Distance: 821
+(610) Carcassonne to Dublin Distance: 1297
+(611) Carcassonne to East Midlands Distance: 1102
+(612) Carcassonne to Liverpool Distance: 1187
+(613) Carcassonne to London Stansted Distance: 976
+(614) Carcassonne to Porto Distance: 929
+(615) Carcassonne to Eindhoven Distance: 944
+(616) Carcassonne to Cork Distance: 1253
+(617) Carcassonne to Glasgow International Distance: 1466
+--------------------------------------------------
+Calculating for: CFE name: Clermont Ferrand - city: Clermont-Ferrand
+(618) Clermont Ferrand to Porto Distance: 1079
+(619) Clermont Ferrand to London Stansted Distance: 711
+--------------------------------------------------
+Calculating for: CFU name: Corfu - city: Kerkyra
+(620) Corfu to Rome Ciampino Distance: 663
+(621) Corfu to Frankfurt Hahn Distance: 1519
+(622) Corfu to Edinburgh Distance: 2492
+(623) Corfu to Manchester Distance: 2268
+(624) Corfu to London Stansted Distance: 2036
+(625) Corfu to Leeds Bradford Distance: 2267
+(626) Corfu to Brussels Charleroi Distance: 1706
+(627) Corfu to East Midlands Distance: 2183
+(628) Corfu to Glasgow Prestwick Distance: 2525
+(629) Corfu to Milan Bergamo Distance: 1072
+(630) Corfu to Billund Distance: 1961
+(631) Corfu to Dusseldorf Weeze Distance: 1705
+(632) Corfu to Bremen Distance: 1717
+(633) Corfu to Eindhoven Distance: 1730
+--------------------------------------------------
+Calculating for: CGN name: Cologne - city: Cologne
+(634) Cologne to Tenerife Sth Distance: 3223
+(635) Cologne to Faro Distance: 1950
+(636) Cologne to Malaga Distance: 1829
+(637) Cologne to Palma Distance: 1303
+(638) Cologne to Dublin Distance: 956
+(639) Cologne to London Stansted Distance: 492
+(640) Cologne to Madrid Distance: 1418
+(641) Cologne to Rome Ciampino Distance: 1090
+(642) Cologne to Riga Distance: 1286
+(643) Cologne to Barcelona El Prat Distance: 1132
+(644) Cologne to Alicante Distance: 1524
+(645) Cologne to Gran Canaria Distance: 3174
+(646) Cologne to Milan Bergamo Distance: 607
+(647) Cologne to Copenhagen Distance: 642
+(648) Cologne to Porto Distance: 1617
+(649) Cologne to Valencia Distance: 1397
+(650) Cologne to Warsaw Modlin Distance: 946
+(651) Cologne to Berlin Schonefeld Distance: 471
+--------------------------------------------------
+Calculating for: CHQ name: Chania - city: Chania
+(652) Chania to Marseille Provence Distance: 1841
+(653) Chania to Venice Treviso Distance: 1508
+(654) Chania to Memmingen (Munich West) Distance: 1796
+(655) Chania to Vilnius Distance: 2125
+(656) Chania to Warsaw Modlin Distance: 1901
+(657) Chania to Thessaloniki Distance: 564
+(658) Chania to Billund Distance: 2519
+(659) Chania to Bristol Distance: 2767
+(660) Chania to Bremen Distance: 2288
+(661) Chania to Katowice Distance: 1710
+(662) Chania to Eindhoven Distance: 2315
+(663) Chania to Milan Bergamo Distance: 1656
+(664) Chania to Bologna Distance: 1480
+(665) Chania to Rome Ciampino Distance: 1219
+(666) Chania to Brussels Charleroi Distance: 2292
+(667) Chania to East Midlands Distance: 2770
+(668) Chania to Frankfurt Hahn Distance: 2104
+(669) Chania to Leeds Bradford Distance: 2853
+(670) Chania to Dusseldorf Weeze Distance: 2288
+(671) Chania to Stockholm Skavsta Distance: 2639
+(672) Chania to Paphos Distance: 763
+(673) Chania to Pisa Distance: 1483
+(674) Chania to Oslo Rygge Distance: 2823
+(675) Chania to London Stansted Distance: 2623
+(676) Chania to Wroclaw Distance: 1826
+(677) Chania to Dublin Distance: 3086
+(678) Chania to Athens Distance: 268
+(679) Chania to Glasgow International Distance: 3113
+(680) Chania to Manchester Distance: 2854
+--------------------------------------------------
+Calculating for: CIA name: Rome Ciampino - city: Rome
+(681) Rome Ciampino to Corfu Distance: 663
+(682) Rome Ciampino to Fez Distance: 1768
+(683) Rome Ciampino to Alghero Distance: 382
+(684) Rome Ciampino to Barcelona El Prat Distance: 876
+(685) Rome Ciampino to Brindisi Distance: 465
+(686) Rome Ciampino to Billund Distance: 1570
+(687) Rome Ciampino to Bordeaux Distance: 1126
+(688) Rome Ciampino to Bari Distance: 354
+(689) Rome Ciampino to Bratislava Distance: 795
+(690) Rome Ciampino to Paris Beauvais Distance: 1176
+(691) Rome Ciampino to Cagliari Distance: 412
+(692) Rome Ciampino to Chania Distance: 1219
+(693) Rome Ciampino to Brussels Charleroi Distance: 1147
+(694) Rome Ciampino to Dublin Distance: 1904
+(695) Rome Ciampino to Edinburgh Distance: 1949
+(696) Rome Ciampino to Eindhoven Distance: 1205
+(697) Rome Ciampino to East Midlands Distance: 1608
+(698) Rome Ciampino to Baden-Baden Distance: 852
+(699) Rome Ciampino to Memmingen (Munich West) Distance: 712
+(700) Rome Ciampino to Frankfurt Hahn Distance: 995
+(701) Rome Ciampino to Ibiza Distance: 1004
+(702) Rome Ciampino to Krakow Distance: 1074
+(703) Rome Ciampino to Madrid Distance: 1358
+(704) Rome Ciampino to Manchester Distance: 1694
+(705) Rome Ciampino to Marseille Provence Distance: 630
+(706) Rome Ciampino to Dusseldorf Weeze Distance: 1194
+(707) Rome Ciampino to Stockholm Skavsta Distance: 1912
+(708) Rome Ciampino to Porto Distance: 1767
+(709) Rome Ciampino to Glasgow Prestwick Distance: 1967
+(710) Rome Ciampino to Paphos Distance: 1900
+(711) Rome Ciampino to Poznan Distance: 1223
+(712) Rome Ciampino to Santander Distance: 1353
+(713) Rome Ciampino to Thessaloniki Distance: 879
+(714) Rome Ciampino to London Stansted Distance: 1459
+(715) Rome Ciampino to Trapani Distance: 432
+(716) Rome Ciampino to Valencia Distance: 1131
+(717) Rome Ciampino to Vilnius Distance: 1703
+(718) Rome Ciampino to Wroclaw Distance: 1084
+(719) Rome Ciampino to Palma Distance: 867
+(720) Rome Ciampino to Budapest Distance: 818
+(721) Rome Ciampino to Warsaw Modlin Distance: 1330
+(722) Rome Ciampino to Marrakesh Distance: 2151
+(723) Rome Ciampino to Malaga Distance: 1575
+(724) Rome Ciampino to Gdansk Distance: 1463
+(725) Rome Ciampino to Cologne Distance: 1090
+(726) Rome Ciampino to Athens Distance: 1058
+(727) Rome Ciampino to Lisbon Distance: 1868
+(728) Rome Ciampino to Crotone Distance: 491
+(729) Rome Ciampino to Gothenburg Landvetter Distance: 1765
+(730) Rome Ciampino to Copenhagen Distance: 1536
+(731) Rome Ciampino to Berlin Schonefeld Distance: 1178
+(732) Rome Ciampino to Bucharest (Otopeni) Distance: 1136
+(733) Rome Ciampino to Rabat Distance: 1897
+(734) Rome Ciampino to Alicante Distance: 1184
+(735) Rome Ciampino to Malta Distance: 680
+(736) Rome Ciampino to Lamezia Distance: 446
+(737) Rome Ciampino to Palermo Distance: 405
+--------------------------------------------------
+Calculating for: CIY name: Comiso - city: Comiso
+(738) Comiso to London Stansted Distance: 2002
+(739) Comiso to Brussels Charleroi Distance: 1701
+(740) Comiso to Dublin Distance: 2433
+(741) Comiso to Frankfurt Hahn Distance: 1555
+(742) Comiso to Pisa Distance: 824
+(743) Comiso to Rome Fiumicino Distance: 571
+(744) Comiso to Turin Distance: 1081
+(745) Comiso to Milan Bergamo Distance: 1047
+(746) Comiso to Milan Malpensa Distance: 1077
+--------------------------------------------------
+Calculating for: CRL name: Brussels Charleroi - city: Brussels
+(747) Brussels Charleroi to Comiso Distance: 1701
+(748) Brussels Charleroi to Podgorica Distance: 1444
+(749) Brussels Charleroi to Rhodes Distance: 2447
+(750) Brussels Charleroi to Rabat Distance: 2039
+(751) Brussels Charleroi to Paphos Distance: 2857
+(752) Brussels Charleroi to Rijeka Distance: 952
+(753) Brussels Charleroi to Zakynthos Distance: 1919
+(754) Brussels Charleroi to Vilnius Distance: 1476
+(755) Brussels Charleroi to Malaga Distance: 1691
+(756) Brussels Charleroi to Barcelona El Prat Distance: 1035
+(757) Brussels Charleroi to Milan Bergamo Distance: 659
+(758) Brussels Charleroi to Carcassonne Distance: 821
+(759) Brussels Charleroi to Cagliari Distance: 1297
+(760) Brussels Charleroi to Rome Ciampino Distance: 1147
+(761) Brussels Charleroi to Dublin Distance: 804
+(762) Brussels Charleroi to Faro Distance: 1792
+(763) Brussels Charleroi to Fez Distance: 1991
+(764) Brussels Charleroi to Nimes Distance: 745
+(765) Brussels Charleroi to Girona Barcelona Distance: 960
+(766) Brussels Charleroi to Madrid Distance: 1270
+(767) Brussels Charleroi to Manchester Distance: 562
+(768) Brussels Charleroi to Montpellier Distance: 766
+(769) Brussels Charleroi to Marseille Provence Distance: 782
+(770) Brussels Charleroi to Pisa Distance: 876
+(771) Brussels Charleroi to Marrakesh Distance: 2336
+(772) Brussels Charleroi to Tangier Distance: 1837
+(773) Brussels Charleroi to Valencia Distance: 1279
+(774) Brussels Charleroi to Turin Distance: 631
+(775) Brussels Charleroi to Alicante Distance: 1410
+(776) Brussels Charleroi to Porto Distance: 1439
+(777) Brussels Charleroi to Zaragoza Distance: 1064
+(778) Brussels Charleroi to Perpignan Distance: 866
+(779) Brussels Charleroi to Bologna Distance: 834
+(780) Brussels Charleroi to Trapani Distance: 1533
+(781) Brussels Charleroi to Reus Barcelona Distance: 1066
+(782) Brussels Charleroi to Bratislava Distance: 957
+(783) Brussels Charleroi to Santander Distance: 1001
+(784) Brussels Charleroi to Palma Distance: 1220
+(785) Brussels Charleroi to Brindisi Distance: 1509
+(786) Brussels Charleroi to Figari Distance: 1058
+(787) Brussels Charleroi to Ancona Distance: 1015
+(788) Brussels Charleroi to Oslo Rygge Distance: 1070
+(789) Brussels Charleroi to Lanzarote Distance: 2831
+(790) Brussels Charleroi to Tenerife Sth Distance: 3057
+(791) Brussels Charleroi to Gran Canaria Distance: 3012
+(792) Brussels Charleroi to Stockholm Skavsta Distance: 1221
+(793) Brussels Charleroi to Agadir Distance: 2518
+(794) Brussels Charleroi to Edinburgh Distance: 801
+(795) Brussels Charleroi to Bari Distance: 1405
+(796) Brussels Charleroi to Bergerac Distance: 692
+(797) Brussels Charleroi to Bordeaux Distance: 735
+(798) Brussels Charleroi to La Rochelle Distance: 632
+(799) Brussels Charleroi to Ibiza Distance: 1310
+(800) Brussels Charleroi to Seville Distance: 1666
+(801) Brussels Charleroi to Nador Distance: 1823
+(802) Brussels Charleroi to Zadar Distance: 1081
+(803) Brussels Charleroi to Krakow Distance: 1088
+(804) Brussels Charleroi to Fuerteventura Distance: 2891
+(805) Brussels Charleroi to Oujda Distance: 1817
+(806) Brussels Charleroi to Pescara Distance: 1160
+(807) Brussels Charleroi to Perugia Distance: 1021
+(808) Brussels Charleroi to Thessaloniki Distance: 1809
+(809) Brussels Charleroi to Lamezia Distance: 1583
+(810) Brussels Charleroi to Almeria Distance: 1608
+(811) Brussels Charleroi to Biarritz Distance: 899
+(812) Brussels Charleroi to Pula Distance: 939
+(813) Brussels Charleroi to Venice Treviso Distance: 784
+(814) Brussels Charleroi to Alghero Distance: 1132
+(815) Brussels Charleroi to Rodez Distance: 688
+(816) Brussels Charleroi to Corfu Distance: 1706
+(817) Brussels Charleroi to Chania Distance: 2292
+(818) Brussels Charleroi to Budapest Distance: 1129
+(819) Brussels Charleroi to Warsaw Modlin Distance: 1141
+(820) Brussels Charleroi to Athens Distance: 2074
+(821) Brussels Charleroi to Bucharest (Otopeni) Distance: 1744
+(822) Brussels Charleroi to Prague Distance: 697
+(823) Brussels Charleroi to Riga Distance: 1465
+(824) Brussels Charleroi to Copenhagen Distance: 792
+--------------------------------------------------
+Calculating for: CRV name: Crotone - city: Crotone
+(825) Crotone to Pisa Distance: 763
+(826) Crotone to Rome Ciampino Distance: 491
+(827) Crotone to Milan Bergamo Distance: 957
+--------------------------------------------------
+Calculating for: CTA name: Catania - city: Catania
+(828) Catania to Milan Bergamo Distance: 1015
+(829) Catania to Rome Fiumicino Distance: 539
+(830) Catania to Turin Distance: 1058
+(831) Catania to Bologna Distance: 847
+(832) Catania to Venice Treviso Distance: 940
+(833) Catania to Eindhoven Distance: 1731
+(834) Catania to Marseille Provence Distance: 1064
+(835) Catania to Madrid Distance: 1642
+--------------------------------------------------
+Calculating for: CUF name: Cuneo - city: Cuneo
+(836) Cuneo to Alghero Distance: 438
+(837) Cuneo to Cagliari Distance: 600
+(838) Cuneo to Trapani Distance: 842
+--------------------------------------------------
+Calculating for: CWL name: Cardiff - city: Cardiff
+(839) Cardiff to Tenerife Sth Distance: 2822
+(840) Cardiff to Dublin Distance: 300
+(841) Cardiff to Shannon Distance: 408
+--------------------------------------------------
+Calculating for: DLE name: Dole - city: Dole
+(842) Dole to Marrakesh Distance: 2063
+(843) Dole to Porto Distance: 1294
+(844) Dole to Lisbon Distance: 1495
+(845) Dole to Fez Distance: 1699
+--------------------------------------------------
+Calculating for: DNR name: Dinard - city: Dinard
+(846) Dinard to East Midlands Distance: 474
+(847) Dinard to London Stansted Distance: 401
+(848) Dinard to Leeds Bradford Distance: 587
+--------------------------------------------------
+Calculating for: DOL name: Deauville-Normandy - city: Deauville
+(849) Deauville-Normandy to London Stansted Distance: 280
+--------------------------------------------------
+Calculating for: DTM name: Dortmund - city: Dortmund
+(850) Dortmund to Krakow Distance: 869
+(851) Dortmund to Palma Distance: 1382
+(852) Dortmund to Malaga Distance: 1907
+(853) Dortmund to Girona Barcelona Distance: 1130
+(854) Dortmund to Alghero Distance: 1211
+(855) Dortmund to Porto Distance: 1686
+(856) Dortmund to Faro Distance: 2025
+(857) Dortmund to London Stansted Distance: 509
+--------------------------------------------------
+Calculating for: DUB name: Dublin - city: Dublin
+(858) Dublin to Marseille Provence Distance: 1393
+(859) Dublin to Grenoble Distance: 1224
+(860) Dublin to Bologna Distance: 1610
+(861) Dublin to Zadar Distance: 1881
+(862) Dublin to Alghero Distance: 1792
+(863) Dublin to Barcelona El Prat Distance: 1485
+(864) Dublin to Milan Bergamo Distance: 1433
+(865) Dublin to Birmingham Distance: 321
+(866) Dublin to Biarritz Distance: 1160
+(867) Dublin to Bristol Distance: 330
+(868) Dublin to Bratislava Distance: 1741
+(869) Dublin to Paris Beauvais Distance: 728
+(870) Dublin to Carcassonne Distance: 1297
+(871) Dublin to Rome Ciampino Distance: 1904
+(872) Dublin to Brussels Charleroi Distance: 804
+(873) Dublin to Eindhoven Distance: 818
+(874) Dublin to East Midlands Distance: 336
+(875) Dublin to Edinburgh Distance: 337
+(876) Dublin to Faro Distance: 1829
+(877) Dublin to Frankfurt Hahn Distance: 1007
+(878) Dublin to Kaunas Distance: 1966
+(879) Dublin to Krakow Distance: 1820
+(880) Dublin to Leeds Bradford Distance: 307
+(881) Dublin to Lodz Distance: 1735
+(882) Dublin to Liverpool Distance: 227
+(883) Dublin to London Gatwick Distance: 484
+(884) Dublin to London Luton Distance: 433
+(885) Dublin to Lublin Distance: 1969
+(886) Dublin to London Stansted Distance: 470
+(887) Dublin to Malaga Distance: 1867
+(888) Dublin to Madrid Distance: 1451
+(889) Dublin to Manchester Distance: 265
+(890) Dublin to Murcia Distance: 1789
+(891) Dublin to Malta Distance: 2532
+(892) Dublin to Newcastle Distance: 347
+(893) Dublin to Nantes Distance: 771
+(894) Dublin to Poznan Distance: 1545
+(895) Dublin to Pisa Distance: 1628
+(896) Dublin to Reus Barcelona Distance: 1473
+(897) Dublin to Riga Distance: 1942
+(898) Dublin to Rzeszow Distance: 1967
+(899) Dublin to Berlin Schonefeld Distance: 1328
+(900) Dublin to Seville Distance: 1779
+(901) Dublin to Tenerife Sth Distance: 2945
+(902) Dublin to Wroclaw Distance: 1589
+(903) Dublin to Gdansk Distance: 1615
+(904) Dublin to Bydgoszcz Distance: 1605
+(905) Dublin to Alicante Distance: 1739
+(906) Dublin to Katowice Distance: 1758
+(907) Dublin to Szczecin Distance: 1395
+(908) Dublin to Palma Distance: 1686
+(909) Dublin to Memmingen (Munich West) Distance: 1305
+(910) Dublin to Lanzarote Distance: 2786
+(911) Dublin to Gran Canaria Distance: 2931
+(912) Dublin to Valencia Distance: 1610
+(913) Dublin to Oslo Rygge Distance: 1235
+(914) Dublin to Fuerteventura Distance: 2844
+(915) Dublin to Tallinn Distance: 2003
+(916) Dublin to Ibiza Distance: 1719
+(917) Dublin to Vilnius Distance: 2048
+(918) Dublin to La Rochelle Distance: 883
+(919) Dublin to Tours Loire Valley Distance: 829
+(920) Dublin to Santander Distance: 1125
+(921) Dublin to Venice Treviso Distance: 1581
+(922) Dublin to Porto Distance: 1365
+(923) Dublin to Nice Distance: 1466
+(924) Dublin to Girona Barcelona Distance: 1445
+(925) Dublin to Budapest Distance: 1914
+(926) Dublin to Palermo Distance: 2249
+(927) Dublin to Warsaw Modlin Distance: 1796
+(928) Dublin to Bremen Distance: 1001
+(929) Dublin to Turin Distance: 1357
+(930) Dublin to Salzburg Distance: 1491
+(931) Dublin to Chania Distance: 3086
+(932) Dublin to Almeria Distance: 1867
+(933) Dublin to Prague Distance: 1454
+(934) Dublin to Bucharest (Otopeni) Distance: 2530
+(935) Dublin to Bari Distance: 2193
+(936) Dublin to Marrakesh Distance: 2429
+(937) Dublin to Comiso Distance: 2433
+(938) Dublin to Lisbon Distance: 1642
+(939) Dublin to Basel Distance: 1168
+(940) Dublin to Poitiers Distance: 892
+(941) Dublin to Cologne Distance: 956
+(942) Dublin to Cardiff Distance: 300
+(943) Dublin to Glasgow International Distance: 276
+(944) Dublin to Brussels Zaventem Distance: 784
+(945) Dublin to Copenhagen Distance: 1241
+--------------------------------------------------
+Calculating for: EBU name: St Etienne - city: St Etienne
+(946) St Etienne to Fez Distance: 1513
+(947) St Etienne to Porto Distance: 1150
+--------------------------------------------------
+Calculating for: EDI name: Edinburgh - city: Edinburgh
+(948) Edinburgh to Santander Distance: 1392
+(949) Edinburgh to Corfu Distance: 2492
+(950) Edinburgh to Beziers Distance: 1483
+(951) Edinburgh to Bologna Distance: 1635
+(952) Edinburgh to Malaga Distance: 2144
+(953) Edinburgh to Alicante Distance: 1975
+(954) Edinburgh to Barcelona El Prat Distance: 1676
+(955) Edinburgh to Bremen Distance: 847
+(956) Edinburgh to Bratislava Distance: 1642
+(957) Edinburgh to Dublin Distance: 337
+(958) Edinburgh to Frankfurt Hahn Distance: 974
+(959) Edinburgh to Krakow Distance: 1670
+(960) Edinburgh to Dusseldorf Weeze Distance: 789
+(961) Edinburgh to Palma Distance: 1877
+(962) Edinburgh to Poznan Distance: 1365
+(963) Edinburgh to Pisa Distance: 1677
+(964) Edinburgh to Malta Distance: 2609
+(965) Edinburgh to Rome Ciampino Distance: 1949
+(966) Edinburgh to Gran Canaria Distance: 3259
+(967) Edinburgh to Lanzarote Distance: 3110
+(968) Edinburgh to Tenerife Sth Distance: 3276
+(969) Edinburgh to Gdansk Distance: 1392
+(970) Edinburgh to Brussels Charleroi Distance: 801
+(971) Edinburgh to Bordeaux Distance: 1250
+(972) Edinburgh to Kaunas Distance: 1723
+(973) Edinburgh to Faro Distance: 2133
+(974) Edinburgh to Fuerteventura Distance: 3169
+(975) Edinburgh to Marseille Provence Distance: 1519
+(976) Edinburgh to Oslo Rygge Distance: 921
+(977) Edinburgh to Poitiers Distance: 1071
+(978) Edinburgh to London Stansted Distance: 509
+(979) Edinburgh to Gothenburg Landvetter Distance: 970
+(980) Edinburgh to Copenhagen Distance: 1000
+--------------------------------------------------
+Calculating for: EFL name: Kefalonia - city: Kefalonia
+(981) Kefalonia to London Stansted Distance: 2195
+(982) Kefalonia to Pisa Distance: 1049
+(983) Kefalonia to Milan Bergamo Distance: 1224
+--------------------------------------------------
+Calculating for: EGC name: Bergerac - city: Bergerac
+(984) Bergerac to Liverpool Distance: 977
+(985) Bergerac to London Stansted Distance: 785
+(986) Bergerac to Brussels Charleroi Distance: 692
+(987) Bergerac to Bristol Distance: 767
+(988) Bergerac to East Midlands Distance: 900
+--------------------------------------------------
+Calculating for: EIN name: Eindhoven - city: Eindhoven
+(989) Eindhoven to Fez Distance: 2119
+(990) Eindhoven to Chania Distance: 2315
+(991) Eindhoven to Milan Bergamo Distance: 716
+(992) Eindhoven to Rome Ciampino Distance: 1205
+(993) Eindhoven to Dublin Distance: 818
+(994) Eindhoven to Girona Barcelona Distance: 1080
+(995) Eindhoven to Krakow Distance: 1023
+(996) Eindhoven to Marseille Provence Distance: 890
+(997) Eindhoven to Pisa Distance: 941
+(998) Eindhoven to Marrakesh Distance: 2463
+(999) Eindhoven to London Stansted Distance: 357
+(1000) Eindhoven to Stockholm Skavsta Distance: 1094
+(1001) Eindhoven to Reus Barcelona Distance: 1189
+(1002) Eindhoven to Alghero Distance: 1223
+(1003) Eindhoven to Porto Distance: 1560
+(1004) Eindhoven to Alicante Distance: 1535
+(1005) Eindhoven to Brindisi Distance: 1538
+(1006) Eindhoven to Trapani Distance: 1605
+(1007) Eindhoven to Malaga Distance: 1818
+(1008) Eindhoven to Faro Distance: 1918
+(1009) Eindhoven to Seville Distance: 1793
+(1010) Eindhoven to Malta Distance: 1878
+(1011) Eindhoven to Gran Canaria Distance: 3137
+(1012) Eindhoven to Lanzarote Distance: 2957
+(1013) Eindhoven to Palma Distance: 1338
+(1014) Eindhoven to Ibiza Distance: 1432
+(1015) Eindhoven to Carcassonne Distance: 944
+(1016) Eindhoven to Warsaw Modlin Distance: 1050
+(1017) Eindhoven to Catania Distance: 1731
+(1018) Eindhoven to Venice Treviso Distance: 816
+(1019) Eindhoven to Corfu Distance: 1730
+(1020) Eindhoven to Murcia Distance: 1596
+(1021) Eindhoven to Madrid Distance: 1398
+(1022) Eindhoven to Lisbon Distance: 1804
+(1023) Eindhoven to Manchester Distance: 560
+(1024) Eindhoven to Turin Distance: 714
+(1025) Eindhoven to Tenerife Sth Distance: 3181
+--------------------------------------------------
+Calculating for: EMA name: East Midlands - city: Nottingham
+(1026) East Midlands to Menorca Distance: 1502
+(1027) East Midlands to Carcassonne Distance: 1102
+(1028) East Midlands to Rome Ciampino Distance: 1608
+(1029) East Midlands to Dinard Distance: 474
+(1030) East Midlands to Dublin Distance: 336
+(1031) East Midlands to Faro Distance: 1832
+(1032) East Midlands to Limoges Distance: 795
+(1033) East Midlands to Murcia Distance: 1674
+(1034) East Midlands to Berlin Schonefeld Distance: 1002
+(1035) East Midlands to Wroclaw Distance: 1259
+(1036) East Midlands to Milan Bergamo Distance: 1126
+(1037) East Midlands to Pisa Distance: 1333
+(1038) East Midlands to Valencia Distance: 1484
+(1039) East Midlands to Knock Ireland West Distance: 510
+(1040) East Midlands to Krakow Distance: 1488
+(1041) East Midlands to Riga Distance: 1670
+(1042) East Midlands to Tenerife Sth Distance: 3028
+(1043) East Midlands to Alicante Distance: 1618
+(1044) East Midlands to Malaga Distance: 1813
+(1045) East Midlands to Ibiza Distance: 1565
+(1046) East Midlands to Palma Distance: 1508
+(1047) East Midlands to Lanzarote Distance: 2840
+(1048) East Midlands to Gran Canaria Distance: 3001
+(1049) East Midlands to Rzeszow Distance: 1637
+(1050) East Midlands to Lodz Distance: 1410
+(1051) East Midlands to Fuerteventura Distance: 2900
+(1052) East Midlands to Bergerac Distance: 900
+(1053) East Midlands to Venice Treviso Distance: 1262
+(1054) East Midlands to Chania Distance: 2770
+(1055) East Midlands to Corfu Distance: 2183
+(1056) East Midlands to Rhodes Distance: 2924
+(1057) East Midlands to Barcelona El Prat Distance: 1307
+(1058) East Midlands to La Rochelle Distance: 739
+(1059) East Midlands to Warsaw Modlin Distance: 1477
+(1060) East Midlands to Malta Distance: 2256
+--------------------------------------------------
+Calculating for: ESU name: Essaouira - city: Essaouira
+(1061) Essaouira to Marseille Provence Distance: 1871
+--------------------------------------------------
+Calculating for: FAO name: Faro - city: Faro
+(1062) Faro to Cologne Distance: 1950
+(1063) Faro to Brussels Charleroi Distance: 1792
+(1064) Faro to Dortmund Distance: 2025
+(1065) Faro to Dublin Distance: 1829
+(1066) Faro to East Midlands Distance: 1832
+(1067) Faro to Frankfurt Hahn Distance: 1884
+(1068) Faro to Glasgow Prestwick Distance: 2072
+(1069) Faro to London Stansted Distance: 1774
+(1070) Faro to Dusseldorf Weeze Distance: 1965
+(1071) Faro to Bournemouth Distance: 1605
+(1072) Faro to Bremen Distance: 2204
+(1073) Faro to Liverpool Distance: 1857
+(1074) Faro to Porto Distance: 474
+(1075) Faro to Leeds Bradford Distance: 1935
+(1076) Faro to Bristol Distance: 1650
+(1077) Faro to Stockholm Skavsta Distance: 3012
+(1078) Faro to Oslo Rygge Distance: 2826
+(1079) Faro to Derry Distance: 2005
+(1080) Faro to Knock Ireland West Distance: 1879
+(1081) Faro to Kerry Distance: 1690
+(1082) Faro to Paris Beauvais Distance: 1603
+(1083) Faro to Maastricht Distance: 1889
+(1084) Faro to Eindhoven Distance: 1918
+(1085) Faro to Memmingen (Munich West) Distance: 1919
+(1086) Faro to Birmingham Distance: 1784
+(1087) Faro to Cork Distance: 1649
+(1088) Faro to Edinburgh Distance: 2133
+(1089) Faro to Manchester Distance: 1869
+(1090) Faro to Shannon Distance: 1745
+--------------------------------------------------
+Calculating for: FCO name: Rome Fiumicino - city: Rome
+(1091) Rome Fiumicino to Brussels Zaventem Distance: 1172
+(1092) Rome Fiumicino to Catania Distance: 539
+(1093) Rome Fiumicino to Palermo Distance: 409
+(1094) Rome Fiumicino to Lamezia Distance: 467
+(1095) Rome Fiumicino to Barcelona El Prat Distance: 847
+(1096) Rome Fiumicino to Bari Distance: 382
+(1097) Rome Fiumicino to Brindisi Distance: 493
+(1098) Rome Fiumicino to Comiso Distance: 571
+(1099) Rome Fiumicino to Seville Distance: 1625
+(1100) Rome Fiumicino to Marseille Provence Distance: 602
+(1101) Rome Fiumicino to Shannon Distance: 1993
+--------------------------------------------------
+Calculating for: FEZ name: Fez - city: Fez
+(1102) Fez to St Etienne Distance: 1513
+(1103) Fez to Nimes Distance: 1360
+(1104) Fez to Nantes Distance: 1497
+(1105) Fez to Barcelona El Prat Distance: 1027
+(1106) Fez to Rome Ciampino Distance: 1768
+(1107) Fez to Eindhoven Distance: 2119
+(1108) Fez to Milan Bergamo Distance: 1805
+(1109) Fez to Brussels Charleroi Distance: 1991
+(1110) Fez to Frankfurt Hahn Distance: 2043
+(1111) Fez to Marseille Provence Distance: 1377
+(1112) Fez to Dusseldorf Weeze Distance: 2159
+(1113) Fez to Pisa Distance: 1712
+(1114) Fez to London Stansted Distance: 2040
+(1115) Fez to Paris Beauvais Distance: 1822
+(1116) Fez to Madrid Distance: 740
+(1117) Fez to Dole Distance: 1699
+--------------------------------------------------
+Calculating for: FKB name: Baden-Baden - city: Karlsruhe
+(1118) Baden-Baden to Cagliari Distance: 1062
+(1119) Baden-Baden to Girona Barcelona Distance: 870
+(1120) Baden-Baden to London Stansted Distance: 654
+(1121) Baden-Baden to Rome Ciampino Distance: 852
+(1122) Baden-Baden to Alicante Distance: 1357
+(1123) Baden-Baden to Porto Distance: 1556
+(1124) Baden-Baden to Bari Distance: 1088
+(1125) Baden-Baden to Trapani Distance: 1259
+(1126) Baden-Baden to Gran Canaria Distance: 3066
+(1127) Baden-Baden to Tenerife Sth Distance: 3123
+(1128) Baden-Baden to Palma Distance: 1110
+(1129) Baden-Baden to Malaga Distance: 1688
+(1130) Baden-Baden to Thessaloniki Distance: 1489
+(1131) Baden-Baden to Zadar Distance: 760
+--------------------------------------------------
+Calculating for: FMM name: Memmingen (Munich West) - city: Memmingen
+(1132) Memmingen (Munich West) to Tenerife Sth Distance: 3199
+(1133) Memmingen (Munich West) to Girona Barcelona Distance: 896
+(1134) Memmingen (Munich West) to Chania Distance: 1796
+(1135) Memmingen (Munich West) to Malaga Distance: 1740
+(1136) Memmingen (Munich West) to Alicante Distance: 1387
+(1137) Memmingen (Munich West) to Alghero Distance: 832
+(1138) Memmingen (Munich West) to Rome Ciampino Distance: 712
+(1139) Memmingen (Munich West) to Dublin Distance: 1305
+(1140) Memmingen (Munich West) to Faro Distance: 1919
+(1141) Memmingen (Munich West) to Porto Distance: 1668
+(1142) Memmingen (Munich West) to Palma Distance: 1113
+(1143) Memmingen (Munich West) to London Stansted Distance: 835
+(1144) Memmingen (Munich West) to Trapani Distance: 1135
+(1145) Memmingen (Munich West) to Shannon Distance: 1451
+(1146) Memmingen (Munich West) to Palermo Distance: 1115
+--------------------------------------------------
+Calculating for: FMO name: Münster - city: Greven
+(1147) Münster to Malaga Distance: 1966
+--------------------------------------------------
+Calculating for: FNI name: Nimes - city: Nimes
+(1148) Nimes to Fez Distance: 1360
+(1149) Nimes to Liverpool Distance: 1190
+(1150) Nimes to London Luton Distance: 970
+(1151) Nimes to Brussels Charleroi Distance: 745
+--------------------------------------------------
+Calculating for: FSC name: Figari - city: Figari
+(1152) Figari to Brussels Charleroi Distance: 1058
+(1153) Figari to Paris Beauvais Distance: 1037
+--------------------------------------------------
+Calculating for: FUE name: Fuerteventura - city: Puerto del Rosario
+(1154) Fuerteventura to Liverpool Distance: 2909
+(1155) Fuerteventura to Madrid Distance: 1635
+(1156) Fuerteventura to Frankfurt Hahn Distance: 2982
+(1157) Fuerteventura to Brussels Charleroi Distance: 2891
+(1158) Fuerteventura to Glasgow Prestwick Distance: 3098
+(1159) Fuerteventura to Dublin Distance: 2844
+(1160) Fuerteventura to Dusseldorf Weeze Distance: 3064
+(1161) Fuerteventura to Milan Bergamo Distance: 2815
+(1162) Fuerteventura to Pisa Distance: 2742
+(1163) Fuerteventura to East Midlands Distance: 2900
+(1164) Fuerteventura to London Stansted Distance: 2856
+(1165) Fuerteventura to Leeds Bradford Distance: 2995
+(1166) Fuerteventura to Edinburgh Distance: 3169
+(1167) Fuerteventura to London Luton Distance: 2835
+(1168) Fuerteventura to Cork Distance: 2638
+(1169) Fuerteventura to Barcelona El Prat Distance: 2031
+(1170) Fuerteventura to Birmingham Distance: 2849
+(1171) Fuerteventura to Bremen Distance: 3304
+(1172) Fuerteventura to Shannon Distance: 2726
+(1173) Fuerteventura to Manchester Distance: 2926
+(1174) Fuerteventura to Warsaw Modlin Distance: 3890
+--------------------------------------------------
+Calculating for: GDN name: Gdansk - city: Gdansk
+(1175) Gdansk to Pisa Distance: 1324
+(1176) Gdansk to Birmingham Distance: 1351
+(1177) Gdansk to Bristol Distance: 1454
+(1178) Gdansk to Dublin Distance: 1615
+(1179) Gdansk to Edinburgh Distance: 1392
+(1180) Gdansk to Leeds Bradford Distance: 1308
+(1181) Gdansk to Manchester Distance: 1359
+(1182) Gdansk to Cork Distance: 1809
+(1183) Gdansk to London Stansted Distance: 1243
+(1184) Gdansk to Oslo Rygge Distance: 725
+(1185) Gdansk to Warsaw Modlin Distance: 258
+(1186) Gdansk to Rome Ciampino Distance: 1463
+(1187) Gdansk to Krakow Distance: 486
+(1188) Gdansk to Wroclaw Distance: 379
+(1189) Gdansk to Alicante Distance: 2294
+--------------------------------------------------
+Calculating for: GNB name: Grenoble - city: Lyon
+(1190) Grenoble to Dublin Distance: 1224
+(1191) Grenoble to London Stansted Distance: 815
+--------------------------------------------------
+Calculating for: GOA name: Genoa - city: Genova
+(1192) Genoa to Cagliari Distance: 574
+(1193) Genoa to London Stansted Distance: 1046
+(1194) Genoa to Bari Distance: 741
+(1195) Genoa to Trapani Distance: 784
+--------------------------------------------------
+Calculating for: GPA name: Patras (Araxos) - city: Patras
+(1196) Patras (Araxos) to Paphos Distance: 1059
+--------------------------------------------------
+Calculating for: GRO name: Girona Barcelona - city: Gerona
+(1197) Girona Barcelona to Rabat Distance: 1205
+(1198) Girona Barcelona to Memmingen (Munich West) Distance: 896
+(1199) Girona Barcelona to Thessaloniki Distance: 1693
+(1200) Girona Barcelona to Knock Ireland West Distance: 1585
+(1201) Girona Barcelona to Alghero Distance: 483
+(1202) Girona Barcelona to Brindisi Distance: 1274
+(1203) Girona Barcelona to Billund Distance: 1606
+(1204) Girona Barcelona to Bournemouth Distance: 1048
+(1205) Girona Barcelona to Bremen Distance: 1318
+(1206) Girona Barcelona to Bristol Distance: 1133
+(1207) Girona Barcelona to Bratislava Distance: 1329
+(1208) Girona Barcelona to Paris Beauvais Distance: 841
+(1209) Girona Barcelona to Cagliari Distance: 607
+(1210) Girona Barcelona to Brussels Charleroi Distance: 960
+(1211) Girona Barcelona to Dortmund Distance: 1130
+(1212) Girona Barcelona to Dublin Distance: 1445
+(1213) Girona Barcelona to Eindhoven Distance: 1080
+(1214) Girona Barcelona to Baden-Baden Distance: 870
+(1215) Girona Barcelona to Frankfurt Hahn Distance: 959
+(1216) Girona Barcelona to Krakow Distance: 1592
+(1217) Girona Barcelona to London Luton Distance: 1133
+(1218) Girona Barcelona to Manchester Distance: 1327
+(1219) Girona Barcelona to Maastricht Distance: 1027
+(1220) Girona Barcelona to Malta Distance: 1214
+(1221) Girona Barcelona to Dusseldorf Weeze Distance: 1108
+(1222) Girona Barcelona to Cork Distance: 1394
+(1223) Girona Barcelona to Perugia Distance: 810
+(1224) Girona Barcelona to Palma Distance: 261
+(1225) Girona Barcelona to Pisa Distance: 653
+(1226) Girona Barcelona to Pescara Distance: 942
+(1227) Girona Barcelona to Marrakesh Distance: 1492
+(1228) Girona Barcelona to London Stansted Distance: 1126
+(1229) Girona Barcelona to Tallinn Distance: 2468
+(1230) Girona Barcelona to Trapani Distance: 940
+(1231) Girona Barcelona to Wroclaw Distance: 1483
+(1232) Girona Barcelona to Poznan Distance: 1575
+--------------------------------------------------
+Calculating for: HAU name: Haugesund - city: Haugesund
+(1233) Haugesund to London Stansted Distance: 885
+(1234) Haugesund to Alicante Distance: 2377
+(1235) Haugesund to Malaga Distance: 2615
+--------------------------------------------------
+Calculating for: HHN name: Frankfurt Hahn - city: Frankfurt
+(1236) Frankfurt Hahn to Corfu Distance: 1519
+(1237) Frankfurt Hahn to Lanzarote Distance: 2922
+(1238) Frankfurt Hahn to Malaga Distance: 1751
+(1239) Frankfurt Hahn to Alghero Distance: 1039
+(1240) Frankfurt Hahn to Alicante Distance: 1437
+(1241) Frankfurt Hahn to Milan Bergamo Distance: 508
+(1242) Frankfurt Hahn to Bari Distance: 1225
+(1243) Frankfurt Hahn to Cagliari Distance: 1197
+(1244) Frankfurt Hahn to Chania Distance: 2104
+(1245) Frankfurt Hahn to Rome Ciampino Distance: 995
+(1246) Frankfurt Hahn to Dublin Distance: 1007
+(1247) Frankfurt Hahn to Edinburgh Distance: 974
+(1248) Frankfurt Hahn to Fez Distance: 2043
+(1249) Frankfurt Hahn to Faro Distance: 1884
+(1250) Frankfurt Hahn to Fuerteventura Distance: 2982
+(1251) Frankfurt Hahn to Girona Barcelona Distance: 959
+(1252) Frankfurt Hahn to Ibiza Distance: 1316
+(1253) Frankfurt Hahn to Kerry Distance: 1196
+(1254) Frankfurt Hahn to Kos Distance: 2157
+(1255) Frankfurt Hahn to Gran Canaria Distance: 3109
+(1256) Frankfurt Hahn to Montpellier Distance: 751
+(1257) Frankfurt Hahn to Nador Distance: 1861
+(1258) Frankfurt Hahn to Porto Distance: 1567
+(1259) Frankfurt Hahn to Pula Distance: 752
+(1260) Frankfurt Hahn to Plovdiv Distance: 1610
+(1261) Frankfurt Hahn to Palma Distance: 1209
+(1262) Frankfurt Hahn to Pescara Distance: 990
+(1263) Frankfurt Hahn to Pisa Distance: 736
+(1264) Frankfurt Hahn to Reus Barcelona Distance: 1086
+(1265) Frankfurt Hahn to Riga Distance: 1345
+(1266) Frankfurt Hahn to Marrakesh Distance: 2401
+(1267) Frankfurt Hahn to Santiago Distance: 1430
+(1268) Frankfurt Hahn to Thessaloniki Distance: 1610
+(1269) Frankfurt Hahn to Lamezia Distance: 1417
+(1270) Frankfurt Hahn to Venice Treviso Distance: 603
+(1271) Frankfurt Hahn to Santander Distance: 1111
+(1272) Frankfurt Hahn to London Stansted Distance: 537
+(1273) Frankfurt Hahn to Tampere Distance: 1625
+(1274) Frankfurt Hahn to Tenerife Sth Distance: 3161
+(1275) Frankfurt Hahn to Trapani Distance: 1401
+(1276) Frankfurt Hahn to Valencia Distance: 1312
+(1277) Frankfurt Hahn to Jerez Distance: 1815
+(1278) Frankfurt Hahn to Zadar Distance: 891
+(1279) Frankfurt Hahn to Lisbon Distance: 1793
+(1280) Frankfurt Hahn to Comiso Distance: 1555
+(1281) Frankfurt Hahn to Vilnius Distance: 1327
+--------------------------------------------------
+Calculating for: IBZ name: Ibiza - city: Ibiza
+(1282) Ibiza to Barcelona El Prat Distance: 276
+(1283) Ibiza to Milan Bergamo Distance: 1019
+(1284) Ibiza to London Stansted Distance: 1449
+(1285) Ibiza to East Midlands Distance: 1565
+(1286) Ibiza to Liverpool Distance: 1639
+(1287) Ibiza to Rome Ciampino Distance: 1004
+(1288) Ibiza to Dusseldorf Weeze Distance: 1463
+(1289) Ibiza to Glasgow Prestwick Distance: 1902
+(1290) Ibiza to Leeds Bradford Distance: 1682
+(1291) Ibiza to Bologna Distance: 1035
+(1292) Ibiza to Brussels Charleroi Distance: 1310
+(1293) Ibiza to Birmingham Distance: 1529
+(1294) Ibiza to Frankfurt Hahn Distance: 1316
+(1295) Ibiza to Valencia Distance: 173
+(1296) Ibiza to Madrid Distance: 459
+(1297) Ibiza to Manchester Distance: 1634
+(1298) Ibiza to Pisa Distance: 923
+(1299) Ibiza to Dublin Distance: 1719
+(1300) Ibiza to Malaga Distance: 570
+(1301) Ibiza to Eindhoven Distance: 1432
+(1302) Ibiza to Bristol Distance: 1427
+(1303) Ibiza to Marseille Provence Distance: 601
+(1304) Ibiza to Brussels Zaventem Distance: 1359
+(1305) Ibiza to Oslo Rygge Distance: 2375
+--------------------------------------------------
+Calculating for: KGS name: Kos - city: Kos
+(1306) Kos to Krakow Distance: 1588
+(1307) Kos to Milan Bergamo Distance: 1751
+(1308) Kos to Bologna Distance: 1582
+(1309) Kos to Frankfurt Hahn Distance: 2157
+(1310) Kos to Kaunas Distance: 2033
+(1311) Kos to Liverpool Distance: 2948
+(1312) Kos to Pisa Distance: 1607
+(1313) Kos to London Stansted Distance: 2689
+(1314) Kos to Bari Distance: 1014
+--------------------------------------------------
+Calculating for: KIR name: Kerry - city: Farranfore
+(1315) Kerry to Frankfurt Hahn Distance: 1196
+(1316) Kerry to London Stansted Distance: 667
+(1317) Kerry to London Luton Distance: 626
+(1318) Kerry to Faro Distance: 1690
+(1319) Kerry to Alicante Distance: 1694
+--------------------------------------------------
+Calculating for: KLX name: Kalamata - city: Kalamata
+(1320) Kalamata to Milan Bergamo Distance: 1401
+--------------------------------------------------
+Calculating for: KRK name: Krakow - city: Krakow
+(1321) Krakow to Kos Distance: 1588
+(1322) Krakow to Dortmund Distance: 869
+(1323) Krakow to Manchester Distance: 1555
+(1324) Krakow to Alicante Distance: 2074
+(1325) Krakow to Malaga Distance: 2445
+(1326) Krakow to Milan Bergamo Distance: 896
+(1327) Krakow to Bologna Distance: 887
+(1328) Krakow to Paris Beauvais Distance: 1268
+(1329) Krakow to Birmingham Distance: 1515
+(1330) Krakow to Cagliari Distance: 1469
+(1331) Krakow to Brussels Charleroi Distance: 1088
+(1332) Krakow to Rome Ciampino Distance: 1074
+(1333) Krakow to Dublin Distance: 1820
+(1334) Krakow to Edinburgh Distance: 1670
+(1335) Krakow to Eindhoven Distance: 1023
+(1336) Krakow to East Midlands Distance: 1488
+(1337) Krakow to Girona Barcelona Distance: 1592
+(1338) Krakow to Leeds Bradford Distance: 1521
+(1339) Krakow to Liverpool Distance: 1593
+(1340) Krakow to Malta Distance: 1638
+(1341) Krakow to Madrid Distance: 2101
+(1342) Krakow to Stockholm Skavsta Distance: 986
+(1343) Krakow to Palma Distance: 1775
+(1344) Krakow to Paphos Distance: 1994
+(1345) Krakow to Pisa Distance: 1006
+(1346) Krakow to Oslo Rygge Distance: 1182
+(1347) Krakow to London Stansted Distance: 1378
+(1348) Krakow to Trapani Distance: 1471
+(1349) Krakow to Shannon Distance: 1999
+(1350) Krakow to Gdansk Distance: 486
+(1351) Krakow to Gran Canaria Distance: 3852
+(1352) Krakow to Tenerife Sth Distance: 3918
+(1353) Krakow to Eilat (Ovda) Distance: 2573
+--------------------------------------------------
+Calculating for: KTW name: Katowice - city: Katowice
+(1354) Katowice to Chania Distance: 1710
+(1355) Katowice to Alicante Distance: 2055
+(1356) Katowice to Birmingham Distance: 1454
+(1357) Katowice to Dublin Distance: 1758
+(1358) Katowice to London Stansted Distance: 1319
+--------------------------------------------------
+Calculating for: KUN name: Kaunas - city: Kaunas
+(1359) Kaunas to London Luton Distance: 1647
+(1360) Kaunas to Oslo Rygge Distance: 937
+(1361) Kaunas to Trapani Distance: 2087
+(1362) Kaunas to Cagliari Distance: 2075
+(1363) Kaunas to Paphos Distance: 2342
+(1364) Kaunas to Birmingham Distance: 1712
+(1365) Kaunas to London Stansted Distance: 1608
+(1366) Kaunas to Dublin Distance: 1966
+(1367) Kaunas to Malta Distance: 2248
+(1368) Kaunas to Bristol Distance: 1818
+(1369) Kaunas to Edinburgh Distance: 1723
+(1370) Kaunas to London Gatwick Distance: 1667
+(1371) Kaunas to Alicante Distance: 2616
+(1372) Kaunas to Kos Distance: 2033
+(1373) Kaunas to Rhodes Distance: 2086
+(1374) Kaunas to Palma Distance: 2333
+(1375) Kaunas to Shannon Distance: 2160
+(1376) Kaunas to Copenhagen Distance: 726
+(1377) Kaunas to Eilat (Ovda) Distance: 2913
+--------------------------------------------------
+Calculating for: LBA name: Leeds Bradford - city: Leeds
+(1378) Leeds Bradford to Riga Distance: 1643
+(1379) Leeds Bradford to Alicante Distance: 1734
+(1380) Leeds Bradford to Dublin Distance: 307
+(1381) Leeds Bradford to Malaga Distance: 1924
+(1382) Leeds Bradford to Murcia Distance: 1790
+(1383) Leeds Bradford to Palma Distance: 1625
+(1384) Leeds Bradford to Ibiza Distance: 1682
+(1385) Leeds Bradford to Limoges Distance: 912
+(1386) Leeds Bradford to Montpellier Distance: 1215
+(1387) Leeds Bradford to Pisa Distance: 1431
+(1388) Leeds Bradford to Faro Distance: 1935
+(1389) Leeds Bradford to Krakow Distance: 1521
+(1390) Leeds Bradford to Malta Distance: 2359
+(1391) Leeds Bradford to Fuerteventura Distance: 2995
+(1392) Leeds Bradford to Gdansk Distance: 1308
+(1393) Leeds Bradford to Lanzarote Distance: 2935
+(1394) Leeds Bradford to Venice Treviso Distance: 1346
+(1395) Leeds Bradford to Chania Distance: 2853
+(1396) Leeds Bradford to Corfu Distance: 2267
+(1397) Leeds Bradford to Dinard Distance: 587
+(1398) Leeds Bradford to Tenerife Sth Distance: 3117
+--------------------------------------------------
+Calculating for: LCJ name: Lodz - city: Lodz
+(1399) Lodz to Dublin Distance: 1735
+(1400) Lodz to London Stansted Distance: 1313
+(1401) Lodz to East Midlands Distance: 1410
+(1402) Lodz to Oslo Rygge Distance: 1007
+--------------------------------------------------
+Calculating for: LDE name: Lourdes - city: Lourdes
+(1403) Lourdes to London Stansted Distance: 968
+(1404) Lourdes to Milan Bergamo Distance: 818
+--------------------------------------------------
+Calculating for: LDY name: Derry - city: Derry
+(1405) Derry to Faro Distance: 2005
+(1406) Derry to Liverpool Distance: 338
+(1407) Derry to London Stansted Distance: 601
+(1408) Derry to Alicante Distance: 1928
+(1409) Derry to Glasgow International Distance: 186
+--------------------------------------------------
+Calculating for: LEI name: Almeria - city: Almeria
+(1410) Almeria to Brussels Charleroi Distance: 1608
+(1411) Almeria to London Stansted Distance: 1684
+(1412) Almeria to Dublin Distance: 1867
+--------------------------------------------------
+Calculating for: LEJ name: Leipzig - city: Leipzig-Halle
+(1413) Leipzig to London Stansted Distance: 828
+--------------------------------------------------
+Calculating for: LGW name: London Gatwick - city: London
+(1414) London Gatwick to Dublin Distance: 484
+(1415) London Gatwick to Shannon Distance: 622
+(1416) London Gatwick to Cork Distance: 579
+(1417) London Gatwick to Kaunas Distance: 1667
+(1418) London Gatwick to Seville Distance: 1591
+--------------------------------------------------
+Calculating for: LIG name: Limoges - city: Limoges
+(1419) Limoges to Liverpool Distance: 879
+(1420) Limoges to London Stansted Distance: 673
+(1421) Limoges to East Midlands Distance: 795
+(1422) Limoges to Bristol Distance: 677
+(1423) Limoges to Leeds Bradford Distance: 912
+--------------------------------------------------
+Calculating for: LIL name: Lille - city: Lille
+(1424) Lille to Marseille Provence Distance: 808
+(1425) Lille to Porto Distance: 1375
+--------------------------------------------------
+Calculating for: LIS name: Lisbon - city: Lisbon
+(1426) Lisbon to London Stansted Distance: 1627
+(1427) Lisbon to Frankfurt Hahn Distance: 1793
+(1428) Lisbon to Paris Beauvais Distance: 1484
+(1429) Lisbon to Dublin Distance: 1642
+(1430) Lisbon to Brussels Zaventem Distance: 1717
+(1431) Lisbon to Manchester Distance: 1702
+(1432) Lisbon to Pisa Distance: 1716
+(1433) Lisbon to Dole Distance: 1495
+(1434) Lisbon to Marseille Provence Distance: 1307
+(1435) Lisbon to Porto Distance: 277
+(1436) Lisbon to Bremen Distance: 2094
+(1437) Lisbon to Milan Bergamo Distance: 1724
+(1438) Lisbon to Rome Ciampino Distance: 1868
+(1439) Lisbon to Eindhoven Distance: 1804
+(1440) Lisbon to Hamburg Distance: 2197
+(1441) Lisbon to Warsaw Modlin Distance: 2740
+(1442) Lisbon to Ponta Delgada Distance: 1448
+--------------------------------------------------
+Calculating for: LNZ name: Linz - city: Linz
+(1443) Linz to Tenerife Sth Distance: 3463
+(1444) Linz to London Stansted Distance: 1073
+--------------------------------------------------
+Calculating for: LPA name: Gran Canaria - city: Las Palmas
+(1445) Gran Canaria to Pisa Distance: 2890
+(1446) Gran Canaria to Oslo Rygge Distance: 4025
+(1447) Gran Canaria to Stockholm Skavsta Distance: 4229
+(1448) Gran Canaria to Barcelona El Prat Distance: 2174
+(1449) Gran Canaria to Birmingham Distance: 2951
+(1450) Gran Canaria to Madrid Distance: 1766
+(1451) Gran Canaria to East Midlands Distance: 3001
+(1452) Gran Canaria to London Luton Distance: 2941
+(1453) Gran Canaria to Liverpool Distance: 3005
+(1454) Gran Canaria to Bristol Distance: 2814
+(1455) Gran Canaria to Frankfurt Hahn Distance: 3109
+(1456) Gran Canaria to Glasgow Prestwick Distance: 3186
+(1457) Gran Canaria to Dusseldorf Weeze Distance: 3185
+(1458) Gran Canaria to Bournemouth Distance: 2784
+(1459) Gran Canaria to Dublin Distance: 2931
+(1460) Gran Canaria to Brussels Charleroi Distance: 3012
+(1461) Gran Canaria to London Stansted Distance: 2963
+(1462) Gran Canaria to Porto Distance: 1601
+(1463) Gran Canaria to Edinburgh Distance: 3259
+(1464) Gran Canaria to Baden-Baden Distance: 3066
+(1465) Gran Canaria to Cork Distance: 2720
+(1466) Gran Canaria to Eindhoven Distance: 3137
+(1467) Gran Canaria to Milan Bergamo Distance: 2957
+(1468) Gran Canaria to Santiago Distance: 1778
+(1469) Gran Canaria to Santander Distance: 2010
+(1470) Gran Canaria to Seville Distance: 1377
+(1471) Gran Canaria to Valencia Distance: 1879
+(1472) Gran Canaria to Bremen Distance: 3425
+(1473) Gran Canaria to Manchester Distance: 3024
+(1474) Gran Canaria to Warsaw Modlin Distance: 4027
+(1475) Gran Canaria to Cologne Distance: 3174
+(1476) Gran Canaria to Bologna Distance: 2998
+(1477) Gran Canaria to Krakow Distance: 3852
+--------------------------------------------------
+Calculating for: LPL name: Liverpool - city: Liverpool
+(1478) Liverpool to Malta Distance: 2365
+(1479) Liverpool to Vilnius Distance: 1832
+(1480) Liverpool to Barcelona El Prat Distance: 1388
+(1481) Liverpool to Carcassonne Distance: 1187
+(1482) Liverpool to Dublin Distance: 227
+(1483) Liverpool to Bergerac Distance: 977
+(1484) Liverpool to Nimes Distance: 1190
+(1485) Liverpool to Krakow Distance: 1593
+(1486) Liverpool to Derry Distance: 338
+(1487) Liverpool to Limoges Distance: 879
+(1488) Liverpool to Cork Distance: 415
+(1489) Liverpool to Knock Ireland West Distance: 398
+(1490) Liverpool to Poznan Distance: 1320
+(1491) Liverpool to Pisa Distance: 1445
+(1492) Liverpool to Tenerife Sth Distance: 3028
+(1493) Liverpool to Oslo Torp Distance: 1035
+(1494) Liverpool to Wroclaw Distance: 1362
+(1495) Liverpool to Alicante Distance: 1682
+(1496) Liverpool to Palma Distance: 1589
+(1497) Liverpool to Malaga Distance: 1856
+(1498) Liverpool to Ibiza Distance: 1639
+(1499) Liverpool to Lanzarote Distance: 2850
+(1500) Liverpool to Gran Canaria Distance: 3005
+(1501) Liverpool to Bratislava Distance: 1517
+(1502) Liverpool to Faro Distance: 1857
+(1503) Liverpool to Porto Distance: 1412
+(1504) Liverpool to Fuerteventura Distance: 2909
+(1505) Liverpool to Szczecin Distance: 1172
+(1506) Liverpool to Kos Distance: 2948
+(1507) Liverpool to Rhodes Distance: 3040
+(1508) Liverpool to Warsaw Modlin Distance: 1572
+--------------------------------------------------
+Calculating for: LPP name: Lappeenranta - city: Lappeenranta
+(1509) Lappeenranta to Milan Bergamo Distance: 2086
+--------------------------------------------------
+Calculating for: LRH name: La Rochelle - city: La Rochelle
+(1510) La Rochelle to London Stansted Distance: 642
+(1511) La Rochelle to Brussels Charleroi Distance: 632
+(1512) La Rochelle to Porto Distance: 813
+(1513) La Rochelle to Dublin Distance: 883
+(1514) La Rochelle to East Midlands Distance: 739
+--------------------------------------------------
+Calculating for: LTN name: London Luton - city: London
+(1515) London Luton to Kaunas Distance: 1647
+(1516) London Luton to Beziers Distance: 990
+(1517) London Luton to Dublin Distance: 433
+(1518) London Luton to Girona Barcelona Distance: 1133
+(1519) London Luton to Murcia Distance: 1568
+(1520) London Luton to Nimes Distance: 970
+(1521) London Luton to Knock Ireland West Distance: 609
+(1522) London Luton to Marrakesh Distance: 2338
+(1523) London Luton to Malta Distance: 2133
+(1524) London Luton to Kerry Distance: 626
+(1525) London Luton to Rzeszow Distance: 1572
+(1526) London Luton to Lanzarote Distance: 2774
+(1527) London Luton to Gran Canaria Distance: 2941
+(1528) London Luton to Tenerife Sth Distance: 2972
+(1529) London Luton to Bratislava Distance: 1317
+(1530) London Luton to Fuerteventura Distance: 2835
+(1531) London Luton to Copenhagen Distance: 950
+--------------------------------------------------
+Calculating for: LUZ name: Lublin - city: Lushan
+(1532) Lublin to Dublin Distance: 1969
+(1533) Lublin to London Stansted Distance: 1547
+--------------------------------------------------
+Calculating for: MAD name: Madrid - city: Madrid
+(1534) Madrid to Rabat Distance: 769
+(1535) Madrid to Lanzarote Distance: 1575
+(1536) Madrid to Alghero Distance: 1001
+(1537) Madrid to Milan Bergamo Distance: 1219
+(1538) Madrid to Bologna Distance: 1295
+(1539) Madrid to Paris Beauvais Distance: 1091
+(1540) Madrid to Cagliari Distance: 1084
+(1541) Madrid to Rome Ciampino Distance: 1358
+(1542) Madrid to Brussels Charleroi Distance: 1270
+(1543) Madrid to Dublin Distance: 1451
+(1544) Madrid to Porto Distance: 438
+(1545) Madrid to London Stansted Distance: 1299
+(1546) Madrid to Palma Distance: 546
+(1547) Madrid to Santiago Distance: 483
+(1548) Madrid to Menorca Distance: 664
+(1549) Madrid to Manchester Distance: 1433
+(1550) Madrid to Malta Distance: 1655
+(1551) Madrid to Marseille Provence Distance: 796
+(1552) Madrid to Oslo Rygge Distance: 2326
+(1553) Madrid to Gran Canaria Distance: 1766
+(1554) Madrid to Tenerife North Distance: 1772
+(1555) Madrid to Tenerife Sth Distance: 1824
+(1556) Madrid to Tangier Distance: 568
+(1557) Madrid to Marrakesh Distance: 1066
+(1558) Madrid to Fuerteventura Distance: 1635
+(1559) Madrid to Pisa Distance: 1203
+(1560) Madrid to Ibiza Distance: 459
+(1561) Madrid to Krakow Distance: 2101
+(1562) Madrid to Palermo Distance: 1453
+(1563) Madrid to Budapest Distance: 1973
+(1564) Madrid to Catania Distance: 1642
+(1565) Madrid to Warsaw Modlin Distance: 2264
+(1566) Madrid to Bremen Distance: 1678
+(1567) Madrid to Eindhoven Distance: 1398
+(1568) Madrid to Fez Distance: 740
+(1569) Madrid to Cologne Distance: 1418
+(1570) Madrid to Bratislava Distance: 1851
+(1571) Madrid to Vilnius Distance: 2644
+(1572) Madrid to Berlin Schonefeld Distance: 1851
+(1573) Madrid to Bucharest (Otopeni) Distance: 2458
+(1574) Madrid to Copenhagen Distance: 2058
+(1575) Madrid to Hamburg Distance: 1779
+--------------------------------------------------
+Calculating for: MAH name: Menorca - city: Menorca
+(1576) Menorca to East Midlands Distance: 1502
+(1577) Menorca to Barcelona El Prat Distance: 241
+(1578) Menorca to Madrid Distance: 664
+(1579) Menorca to Valencia Distance: 404
+--------------------------------------------------
+Calculating for: MAN name: Manchester - city: Manchester
+(1580) Manchester to Barcelona El Prat Distance: 1379
+(1581) Manchester to Bologna Distance: 1389
+(1582) Manchester to Lanzarote Distance: 2866
+(1583) Manchester to Krakow Distance: 1555
+(1584) Manchester to Corfu Distance: 2268
+(1585) Manchester to Malaga Distance: 1862
+(1586) Manchester to Alicante Distance: 1681
+(1587) Manchester to Milan Bergamo Distance: 1212
+(1588) Manchester to Bremen Distance: 736
+(1589) Manchester to Paris Beauvais Distance: 529
+(1590) Manchester to Beziers Distance: 1189
+(1591) Manchester to Rome Ciampino Distance: 1694
+(1592) Manchester to Brussels Charleroi Distance: 562
+(1593) Manchester to Dublin Distance: 265
+(1594) Manchester to Faro Distance: 1869
+(1595) Manchester to Gdansk Distance: 1359
+(1596) Manchester to Ibiza Distance: 1634
+(1597) Manchester to Girona Barcelona Distance: 1327
+(1598) Manchester to Madrid Distance: 1433
+(1599) Manchester to Murcia Distance: 1735
+(1600) Manchester to Palma Distance: 1581
+(1601) Manchester to Riga Distance: 1703
+(1602) Manchester to Rzeszow Distance: 1702
+(1603) Manchester to Oslo Rygge Distance: 1043
+(1604) Manchester to Tallinn Distance: 1784
+(1605) Manchester to Tenerife Sth Distance: 3048
+(1606) Manchester to Valencia Distance: 1547
+(1607) Manchester to Budapest Distance: 1653
+(1608) Manchester to Warsaw Modlin Distance: 1534
+(1609) Manchester to Gran Canaria Distance: 3024
+(1610) Manchester to Fuerteventura Distance: 2926
+(1611) Manchester to Lisbon Distance: 1702
+(1612) Manchester to Zadar Distance: 1643
+(1613) Manchester to Eindhoven Distance: 560
+(1614) Manchester to Shannon Distance: 450
+(1615) Manchester to Chania Distance: 2854
+(1616) Manchester to Stuttgart Distance: 955
+--------------------------------------------------
+Calculating for: MJV name: Murcia - city: Murcia
+(1617) Murcia to Birmingham Distance: 1633
+(1618) Murcia to Dublin Distance: 1789
+(1619) Murcia to East Midlands Distance: 1674
+(1620) Murcia to Glasgow Prestwick Distance: 1992
+(1621) Murcia to London Luton Distance: 1568
+(1622) Murcia to London Stansted Distance: 1571
+(1623) Murcia to Bournemouth Distance: 1448
+(1624) Murcia to Leeds Bradford Distance: 1790
+(1625) Murcia to Manchester Distance: 1735
+(1626) Murcia to Eindhoven Distance: 1596
+--------------------------------------------------
+Calculating for: MLA name: Malta - city: Gudja
+(1627) Malta to Milan Bergamo Distance: 1162
+(1628) Malta to Liverpool Distance: 2365
+(1629) Malta to Birmingham Distance: 2242
+(1630) Malta to Billund Distance: 2247
+(1631) Malta to Bologna Distance: 1002
+(1632) Malta to Bournemouth Distance: 2110
+(1633) Malta to Bari Distance: 619
+(1634) Malta to Bristol Distance: 2201
+(1635) Malta to Dublin Distance: 2532
+(1636) Malta to Edinburgh Distance: 2609
+(1637) Malta to Eindhoven Distance: 1878
+(1638) Malta to Girona Barcelona Distance: 1214
+(1639) Malta to Krakow Distance: 1638
+(1640) Malta to Kaunas Distance: 2248
+(1641) Malta to London Luton Distance: 2133
+(1642) Malta to Leeds Bradford Distance: 2359
+(1643) Malta to Madrid Distance: 1655
+(1644) Malta to Marseille Provence Distance: 1155
+(1645) Malta to Stockholm Skavsta Distance: 2556
+(1646) Malta to Glasgow Prestwick Distance: 2620
+(1647) Malta to Pisa Distance: 937
+(1648) Malta to Oslo Rygge Distance: 2629
+(1649) Malta to London Stansted Distance: 2108
+(1650) Malta to Trapani Distance: 288
+(1651) Malta to Turin Distance: 1187
+(1652) Malta to Venice Treviso Distance: 1105
+(1653) Malta to Wroclaw Distance: 1706
+(1654) Malta to East Midlands Distance: 2256
+(1655) Malta to Gothenburg Landvetter Distance: 2431
+(1656) Malta to Rome Ciampino Distance: 680
+--------------------------------------------------
+Calculating for: MPL name: Montpellier - city: Montpellier
+(1657) Montpellier to Brussels Charleroi Distance: 766
+(1658) Montpellier to Frankfurt Hahn Distance: 751
+(1659) Montpellier to Leeds Bradford Distance: 1215
+--------------------------------------------------
+Calculating for: MRS name: Marseille Provence - city: Marseille
+(1660) Marseille Provence to Dublin Distance: 1393
+(1661) Marseille Provence to Essaouira Distance: 1871
+(1662) Marseille Provence to Rabat Distance: 1469
+(1663) Marseille Provence to Chania Distance: 1841
+(1664) Marseille Provence to Warsaw Modlin Distance: 1519
+(1665) Marseille Provence to Agadir Distance: 1948
+(1666) Marseille Provence to Malaga Distance: 1116
+(1667) Marseille Provence to Brest Distance: 929
+(1668) Marseille Provence to Cagliari Distance: 564
+(1669) Marseille Provence to Rome Ciampino Distance: 630
+(1670) Marseille Provence to Brussels Charleroi Distance: 782
+(1671) Marseille Provence to Eindhoven Distance: 890
+(1672) Marseille Provence to Fez Distance: 1377
+(1673) Marseille Provence to Lille Distance: 808
+(1674) Marseille Provence to Madrid Distance: 796
+(1675) Marseille Provence to Nador Distance: 1176
+(1676) Marseille Provence to Porto Distance: 1166
+(1677) Marseille Provence to Marrakesh Distance: 1755
+(1678) Marseille Provence to London Stansted Distance: 1010
+(1679) Marseille Provence to Nantes Distance: 674
+(1680) Marseille Provence to Malta Distance: 1155
+(1681) Marseille Provence to Valencia Distance: 646
+(1682) Marseille Provence to Seville Distance: 1153
+(1683) Marseille Provence to Palermo Distance: 883
+(1684) Marseille Provence to Stockholm Skavsta Distance: 1885
+(1685) Marseille Provence to Zadar Distance: 815
+(1686) Marseille Provence to Ibiza Distance: 601
+(1687) Marseille Provence to Oujda Distance: 1141
+(1688) Marseille Provence to Edinburgh Distance: 1519
+(1689) Marseille Provence to Tangier Distance: 1281
+(1690) Marseille Provence to Tours Loire Valley Distance: 565
+(1691) Marseille Provence to Palma Distance: 479
+(1692) Marseille Provence to Catania Distance: 1064
+(1693) Marseille Provence to Lisbon Distance: 1307
+(1694) Marseille Provence to Poitiers Distance: 521
+(1695) Marseille Provence to Rome Fiumicino Distance: 602
+(1696) Marseille Provence to Gothenburg Landvetter Distance: 1657
+--------------------------------------------------
+Calculating for: MST name: Maastricht - city: Maastricht
+(1697) Maastricht to Alicante Distance: 1489
+(1698) Maastricht to Bari Distance: 1375
+(1699) Maastricht to Faro Distance: 1889
+(1700) Maastricht to Girona Barcelona Distance: 1027
+(1701) Maastricht to Porto Distance: 1543
+--------------------------------------------------
+Calculating for: MXP name: Milan Malpensa - city: Milan
+(1702) Milan Malpensa to London Stansted Distance: 932
+(1703) Milan Malpensa to Seville Distance: 1517
+(1704) Milan Malpensa to Comiso Distance: 1077
+(1705) Milan Malpensa to Bucharest (Otopeni) Distance: 1366
+--------------------------------------------------
+Calculating for: NCE name: Nice - city: Nice
+(1706) Nice to Dublin Distance: 1466
+(1707) Nice to Shannon Distance: 1556
+--------------------------------------------------
+Calculating for: NCL name: Newcastle - city: Newcastle
+(1708) Newcastle to Dublin Distance: 347
+(1709) Newcastle to Alicante Distance: 1865
+--------------------------------------------------
+Calculating for: NDR name: Nador - city: Nador
+(1710) Nador to Barcelona El Prat Distance: 831
+(1711) Nador to Brussels Charleroi Distance: 1823
+(1712) Nador to Paris Beauvais Distance: 1662
+(1713) Nador to Frankfurt Hahn Distance: 1861
+(1714) Nador to Marseille Provence Distance: 1176
+--------------------------------------------------
+Calculating for: NOC name: Knock Ireland West - city: Knock
+(1715) Knock Ireland West to Malaga Distance: 1945
+(1716) Knock Ireland West to Milan Bergamo Distance: 1606
+(1717) Knock Ireland West to Girona Barcelona Distance: 1585
+(1718) Knock Ireland West to Bristol Distance: 498
+(1719) Knock Ireland West to East Midlands Distance: 510
+(1720) Knock Ireland West to Liverpool Distance: 398
+(1721) Knock Ireland West to London Luton Distance: 609
+(1722) Knock Ireland West to London Stansted Distance: 647
+(1723) Knock Ireland West to Alicante Distance: 1847
+(1724) Knock Ireland West to Faro Distance: 1879
+(1725) Knock Ireland West to Tenerife Sth Distance: 2944
+(1726) Knock Ireland West to Lanzarote Distance: 2802
+--------------------------------------------------
+Calculating for: NRN name: Dusseldorf Weeze - city: Dusseldorf
+(1727) Dusseldorf Weeze to Santander Distance: 1175
+(1728) Dusseldorf Weeze to Oujda Distance: 1977
+(1729) Dusseldorf Weeze to Lanzarote Distance: 3004
+(1730) Dusseldorf Weeze to Agadir Distance: 2689
+(1731) Dusseldorf Weeze to Malaga Distance: 1859
+(1732) Dusseldorf Weeze to Alghero Distance: 1230
+(1733) Dusseldorf Weeze to Alicante Distance: 1570
+(1734) Dusseldorf Weeze to Ancona Distance: 1038
+(1735) Dusseldorf Weeze to Milan Bergamo Distance: 709
+(1736) Dusseldorf Weeze to Bologna Distance: 873
+(1737) Dusseldorf Weeze to Bari Distance: 1417
+(1738) Dusseldorf Weeze to Beziers Distance: 943
+(1739) Dusseldorf Weeze to Bydgoszcz Distance: 819
+(1740) Dusseldorf Weeze to Cagliari Distance: 1391
+(1741) Dusseldorf Weeze to Corfu Distance: 1705
+(1742) Dusseldorf Weeze to Chania Distance: 2288
+(1743) Dusseldorf Weeze to Rome Ciampino Distance: 1194
+(1744) Dusseldorf Weeze to Edinburgh Distance: 789
+(1745) Dusseldorf Weeze to Faro Distance: 1965
+(1746) Dusseldorf Weeze to Fez Distance: 2159
+(1747) Dusseldorf Weeze to Fuerteventura Distance: 3064
+(1748) Dusseldorf Weeze to Girona Barcelona Distance: 1108
+(1749) Dusseldorf Weeze to Ibiza Distance: 1463
+(1750) Dusseldorf Weeze to Gran Canaria Distance: 3185
+(1751) Dusseldorf Weeze to Porto Distance: 1611
+(1752) Dusseldorf Weeze to Palma Distance: 1365
+(1753) Dusseldorf Weeze to Pisa Distance: 935
+(1754) Dusseldorf Weeze to Pescara Distance: 1186
+(1755) Dusseldorf Weeze to Palermo Distance: 1588
+(1756) Dusseldorf Weeze to Marrakesh Distance: 2506
+(1757) Dusseldorf Weeze to Riga Distance: 1295
+(1758) Dusseldorf Weeze to Thessaloniki Distance: 1782
+(1759) Dusseldorf Weeze to London Stansted Distance: 407
+(1760) Dusseldorf Weeze to Lamezia Distance: 1614
+(1761) Dusseldorf Weeze to Tallinn Distance: 1454
+(1762) Dusseldorf Weeze to Tenerife Sth Distance: 3230
+(1763) Dusseldorf Weeze to Valencia Distance: 1440
+(1764) Dusseldorf Weeze to Växjö Distance: 812
+(1765) Dusseldorf Weeze to Zadar Distance: 1078
+(1766) Dusseldorf Weeze to Perugia Distance: 1059
+(1767) Dusseldorf Weeze to Stockholm Skavsta Distance: 1049
+--------------------------------------------------
+Calculating for: NTE name: Nantes - city: Nantes
+(1768) Nantes to Fez Distance: 1497
+(1769) Nantes to Dublin Distance: 771
+(1770) Nantes to Marseille Provence Distance: 674
+--------------------------------------------------
+Calculating for: NUE name: Nuremberg - city: Nürnberg
+(1771) Nuremberg to Malaga Distance: 1897
+(1772) Nuremberg to London Stansted Distance: 806
+(1773) Nuremberg to Alicante Distance: 1552
+--------------------------------------------------
+Calculating for: NYO name: Stockholm Skavsta - city: Stockholm
+(1774) Stockholm Skavsta to Tenerife Sth Distance: 4271
+(1775) Stockholm Skavsta to Gran Canaria Distance: 4229
+(1776) Stockholm Skavsta to Malaga Distance: 2906
+(1777) Stockholm Skavsta to Alghero Distance: 2107
+(1778) Stockholm Skavsta to Alicante Distance: 2600
+(1779) Stockholm Skavsta to Barcelona El Prat Distance: 2203
+(1780) Stockholm Skavsta to Milan Bergamo Distance: 1536
+(1781) Stockholm Skavsta to Brindisi Distance: 2017
+(1782) Stockholm Skavsta to Biarritz Distance: 2119
+(1783) Stockholm Skavsta to Bremen Distance: 813
+(1784) Stockholm Skavsta to Paris Beauvais Distance: 1410
+(1785) Stockholm Skavsta to Beziers Distance: 1954
+(1786) Stockholm Skavsta to Rome Ciampino Distance: 1912
+(1787) Stockholm Skavsta to Brussels Charleroi Distance: 1221
+(1788) Stockholm Skavsta to Eindhoven Distance: 1094
+(1789) Stockholm Skavsta to Faro Distance: 3012
+(1790) Stockholm Skavsta to Krakow Distance: 986
+(1791) Stockholm Skavsta to Malta Distance: 2556
+(1792) Stockholm Skavsta to Marseille Provence Distance: 1885
+(1793) Stockholm Skavsta to Paphos Distance: 2911
+(1794) Stockholm Skavsta to Palma Distance: 2363
+(1795) Stockholm Skavsta to Pisa Distance: 1737
+(1796) Stockholm Skavsta to Rhodes Distance: 2618
+(1797) Stockholm Skavsta to Rijeka Distance: 1517
+(1798) Stockholm Skavsta to Thessaloniki Distance: 2075
+(1799) Stockholm Skavsta to London Stansted Distance: 1298
+(1800) Stockholm Skavsta to Zadar Distance: 1635
+(1801) Stockholm Skavsta to Venice Treviso Distance: 1495
+(1802) Stockholm Skavsta to Chania Distance: 2639
+(1803) Stockholm Skavsta to Warsaw Modlin Distance: 742
+(1804) Stockholm Skavsta to Dusseldorf Weeze Distance: 1049
+(1805) Stockholm Skavsta to Copenhagen Distance: 435
+--------------------------------------------------
+Calculating for: OPO name: Porto - city: Porto
+(1806) Porto to Clermont Ferrand Distance: 1079
+(1807) Porto to Strasbourg Distance: 1514
+(1808) Porto to Paris Beauvais Distance: 1240
+(1809) Porto to Dortmund Distance: 1686
+(1810) Porto to Frankfurt Hahn Distance: 1567
+(1811) Porto to Marseille Provence Distance: 1166
+(1812) Porto to London Stansted Distance: 1362
+(1813) Porto to Madrid Distance: 438
+(1814) Porto to Milan Bergamo Distance: 1559
+(1815) Porto to Brussels Charleroi Distance: 1439
+(1816) Porto to Tours Loire Valley Distance: 1014
+(1817) Porto to St Etienne Distance: 1150
+(1818) Porto to Eindhoven Distance: 1560
+(1819) Porto to Lille Distance: 1375
+(1820) Porto to Gran Canaria Distance: 1601
+(1821) Porto to Tenerife Sth Distance: 1634
+(1822) Porto to Baden-Baden Distance: 1556
+(1823) Porto to Faro Distance: 474
+(1824) Porto to Dusseldorf Weeze Distance: 1611
+(1825) Porto to Bordeaux Distance: 759
+(1826) Porto to Liverpool Distance: 1412
+(1827) Porto to Carcassonne Distance: 929
+(1828) Porto to Barcelona El Prat Distance: 898
+(1829) Porto to Valencia Distance: 721
+(1830) Porto to Bologna Distance: 1662
+(1831) Porto to Memmingen (Munich West) Distance: 1668
+(1832) Porto to Maastricht Distance: 1543
+(1833) Porto to Bremen Distance: 1852
+(1834) Porto to La Rochelle Distance: 813
+(1835) Porto to Rome Ciampino Distance: 1767
+(1836) Porto to Paris Vatry Distance: 1309
+(1837) Porto to Dublin Distance: 1365
+(1838) Porto to Dole Distance: 1294
+(1839) Porto to Palma Distance: 984
+(1840) Porto to Brussels Zaventem Distance: 1473
+(1841) Porto to Lisbon Distance: 277
+(1842) Porto to Poitiers Distance: 932
+(1843) Porto to Hamburg Distance: 1955
+(1844) Porto to Berlin Schonefeld Distance: 2080
+(1845) Porto to Ponta Delgada Distance: 1508
+(1846) Porto to Lorient Distance: 834
+(1847) Porto to Cologne Distance: 1617
+(1848) Porto to Copenhagen Distance: 2225
+--------------------------------------------------
+Calculating for: ORK name: Cork - city: Cork
+(1849) Cork to Alicante Distance: 1629
+(1850) Cork to Lanzarote Distance: 2580
+(1851) Cork to Malaga Distance: 1715
+(1852) Cork to Milan Bergamo Distance: 1494
+(1853) Cork to Faro Distance: 1649
+(1854) Cork to Fuerteventura Distance: 2638
+(1855) Cork to Girona Barcelona Distance: 1394
+(1856) Cork to Gdansk Distance: 1809
+(1857) Cork to London Gatwick Distance: 579
+(1858) Cork to Gran Canaria Distance: 2720
+(1859) Cork to Liverpool Distance: 415
+(1860) Cork to Palma Distance: 1617
+(1861) Cork to London Stansted Distance: 598
+(1862) Cork to Tenerife Sth Distance: 2730
+(1863) Cork to Wroclaw Distance: 1750
+(1864) Cork to Reus Barcelona Distance: 1397
+(1865) Cork to Carcassonne Distance: 1253
+(1866) Cork to Bordeaux Distance: 967
+(1867) Cork to Pisa Distance: 1670
+--------------------------------------------------
+Calculating for: OSI name: Osijek - city: Osijek
+(1868) Osijek to London Stansted Distance: 1533
+--------------------------------------------------
+Calculating for: OSR name: Ostrava - city: Ostrava
+(1869) Ostrava to London Stansted Distance: 1276
+--------------------------------------------------
+Calculating for: OTP name: Bucharest (Otopeni) - city: Bucharest
+(1870) Bucharest (Otopeni) to Dublin Distance: 2530
+(1871) Bucharest (Otopeni) to London Stansted Distance: 2067
+(1872) Bucharest (Otopeni) to Brussels Charleroi Distance: 1744
+(1873) Bucharest (Otopeni) to Madrid Distance: 2458
+(1874) Bucharest (Otopeni) to Milan Bergamo Distance: 1290
+(1875) Bucharest (Otopeni) to Bologna Distance: 1172
+(1876) Bucharest (Otopeni) to Rome Ciampino Distance: 1136
+(1877) Bucharest (Otopeni) to Milan Malpensa Distance: 1366
+--------------------------------------------------
+Calculating for: OUD name: Oujda - city: Oujda
+(1878) Oujda to Paris Beauvais Distance: 1663
+(1879) Oujda to Dusseldorf Weeze Distance: 1977
+(1880) Oujda to Brussels Charleroi Distance: 1817
+(1881) Oujda to Marseille Provence Distance: 1141
+--------------------------------------------------
+Calculating for: PDV name: Plovdiv - city: Plovdiv
+(1882) Plovdiv to London Stansted Distance: 2147
+(1883) Plovdiv to Frankfurt Hahn Distance: 1610
+--------------------------------------------------
+Calculating for: PEG name: Perugia - city: Perugia
+(1884) Perugia to Brussels Charleroi Distance: 1021
+(1885) Perugia to Cagliari Distance: 516
+(1886) Perugia to Girona Barcelona Distance: 810
+(1887) Perugia to London Stansted Distance: 1340
+(1888) Perugia to Trapani Distance: 576
+(1889) Perugia to Dusseldorf Weeze Distance: 1059
+(1890) Perugia to Brindisi Distance: 525
+--------------------------------------------------
+Calculating for: PFO name: Paphos - city: Paphos
+(1891) Paphos to Brussels Charleroi Distance: 2857
+(1892) Paphos to Chania Distance: 763
+(1893) Paphos to Rome Ciampino Distance: 1900
+(1894) Paphos to Patras (Araxos) Distance: 1059
+(1895) Paphos to Krakow Distance: 1994
+(1896) Paphos to Kaunas Distance: 2342
+(1897) Paphos to Stockholm Skavsta Distance: 2911
+(1898) Paphos to Thessaloniki Distance: 1056
+(1899) Paphos to London Stansted Distance: 3190
+(1900) Paphos to Athens Distance: 844
+--------------------------------------------------
+Calculating for: PGF name: Perpignan - city: Perpignan
+(1901) Perpignan to Birmingham Distance: 1133
+(1902) Perpignan to London Stansted Distance: 1035
+(1903) Perpignan to Brussels Charleroi Distance: 866
+--------------------------------------------------
+Calculating for: PIK name: Glasgow Prestwick - city: Glasgow
+(1904) Glasgow Prestwick to Malaga Distance: 2094
+(1905) Glasgow Prestwick to Rome Ciampino Distance: 1967
+(1906) Glasgow Prestwick to Faro Distance: 2072
+(1907) Glasgow Prestwick to Murcia Distance: 1992
+(1908) Glasgow Prestwick to Pisa Distance: 1693
+(1909) Glasgow Prestwick to Tenerife Sth Distance: 3201
+(1910) Glasgow Prestwick to Lanzarote Distance: 3039
+(1911) Glasgow Prestwick to Gran Canaria Distance: 3186
+(1912) Glasgow Prestwick to Alicante Distance: 1939
+(1913) Glasgow Prestwick to Palma Distance: 1855
+(1914) Glasgow Prestwick to Ibiza Distance: 1902
+(1915) Glasgow Prestwick to Fuerteventura Distance: 3098
+(1916) Glasgow Prestwick to Malta Distance: 2620
+(1917) Glasgow Prestwick to Corfu Distance: 2525
+(1918) Glasgow Prestwick to Barcelona El Prat Distance: 1653
+--------------------------------------------------
+Calculating for: PIS name: Poitiers - city: Poitiers
+(1919) Poitiers to London Stansted Distance: 589
+(1920) Poitiers to Shannon Distance: 949
+(1921) Poitiers to Edinburgh Distance: 1071
+(1922) Poitiers to Dublin Distance: 892
+(1923) Poitiers to Porto Distance: 932
+(1924) Poitiers to Marrakesh Distance: 1812
+(1925) Poitiers to Marseille Provence Distance: 521
+--------------------------------------------------
+Calculating for: PMF name: Parma - city: Milan
+(1926) Parma to London Stansted Distance: 1079
+(1927) Parma to Trapani Distance: 790
+(1928) Parma to Cagliari Distance: 628
+--------------------------------------------------
+Calculating for: PMI name: Palma - city: Palma Mallorca
+(1929) Palma to Warsaw Modlin Distance: 1982
+(1930) Palma to Barcelona El Prat Distance: 201
+(1931) Palma to Birmingham Distance: 1475
+(1932) Palma to Bologna Distance: 896
+(1933) Palma to Dortmund Distance: 1382
+(1934) Palma to Frankfurt Hahn Distance: 1209
+(1935) Palma to Liverpool Distance: 1589
+(1936) Palma to Dusseldorf Weeze Distance: 1365
+(1937) Palma to London Stansted Distance: 1384
+(1938) Palma to Bremen Distance: 1569
+(1939) Palma to Dublin Distance: 1686
+(1940) Palma to Bournemouth Distance: 1298
+(1941) Palma to Shannon Distance: 1711
+(1942) Palma to Edinburgh Distance: 1877
+(1943) Palma to Girona Barcelona Distance: 261
+(1944) Palma to Madrid Distance: 546
+(1945) Palma to Stockholm Skavsta Distance: 2363
+(1946) Palma to Brussels Charleroi Distance: 1220
+(1947) Palma to East Midlands Distance: 1508
+(1948) Palma to Glasgow Prestwick Distance: 1855
+(1949) Palma to Reus Barcelona Distance: 221
+(1950) Palma to Leeds Bradford Distance: 1625
+(1951) Palma to Bristol Distance: 1381
+(1952) Palma to Oslo Rygge Distance: 2276
+(1953) Palma to Bratislava Distance: 1500
+(1954) Palma to Valencia Distance: 276
+(1955) Palma to Seville Distance: 787
+(1956) Palma to Eindhoven Distance: 1338
+(1957) Palma to Billund Distance: 1861
+(1958) Palma to Manchester Distance: 1581
+(1959) Palma to Milan Bergamo Distance: 887
+(1960) Palma to Memmingen (Munich West) Distance: 1113
+(1961) Palma to Baden-Baden Distance: 1110
+(1962) Palma to Marseille Provence Distance: 479
+(1963) Palma to Paris Beauvais Distance: 1102
+(1964) Palma to Krakow Distance: 1775
+(1965) Palma to Cork Distance: 1617
+(1966) Palma to Kaunas Distance: 2333
+(1967) Palma to Poznan Distance: 1791
+(1968) Palma to Santander Distance: 695
+(1969) Palma to Santiago Distance: 1003
+(1970) Palma to Malaga Distance: 709
+(1971) Palma to Rome Ciampino Distance: 867
+(1972) Palma to Porto Distance: 984
+(1973) Palma to Cologne Distance: 1303
+(1974) Palma to Brussels Zaventem Distance: 1269
+(1975) Palma to Gothenburg Landvetter Distance: 2129
+(1976) Palma to Berlin Schonefeld Distance: 1648
+(1977) Palma to Hamburg Distance: 1658
+--------------------------------------------------
+Calculating for: PMO name: Palermo - city: Palermo
+(1978) Palermo to Milan Bergamo Distance: 879
+(1979) Palermo to Pisa Distance: 652
+(1980) Palermo to Bologna Distance: 722
+(1981) Palermo to Seville Distance: 1667
+(1982) Palermo to Marseille Provence Distance: 883
+(1983) Palermo to London Stansted Distance: 1822
+(1984) Palermo to Dusseldorf Weeze Distance: 1588
+(1985) Palermo to Venice Treviso Distance: 834
+(1986) Palermo to Madrid Distance: 1453
+(1987) Palermo to Dublin Distance: 2249
+(1988) Palermo to Rome Fiumicino Distance: 409
+(1989) Palermo to Verona Distance: 823
+(1990) Palermo to Turin Distance: 901
+(1991) Palermo to Paris Beauvais Distance: 1529
+(1992) Palermo to Berlin Schonefeld Distance: 1579
+(1993) Palermo to Memmingen (Munich West) Distance: 1115
+(1994) Palermo to Rome Ciampino Distance: 405
+--------------------------------------------------
+Calculating for: POZ name: Poznan - city: Poznan
+(1995) Poznan to Bristol Distance: 1341
+(1996) Poznan to Rome Ciampino Distance: 1223
+(1997) Poznan to Dublin Distance: 1545
+(1998) Poznan to Edinburgh Distance: 1365
+(1999) Poznan to Liverpool Distance: 1320
+(2000) Poznan to Oslo Rygge Distance: 859
+(2001) Poznan to London Stansted Distance: 1131
+(2002) Poznan to Palma Distance: 1791
+(2003) Poznan to Girona Barcelona Distance: 1575
+--------------------------------------------------
+Calculating for: PRG name: Prague - city: Prague
+(2004) Prague to Dublin Distance: 1454
+(2005) Prague to London Stansted Distance: 999
+(2006) Prague to Brussels Charleroi Distance: 697
+(2007) Prague to Bremen Distance: 500
+--------------------------------------------------
+Calculating for: PSA name: Pisa - city: Pisa
+(2008) Pisa to Thessaloniki Distance: 1094
+(2009) Pisa to Gdansk Distance: 1324
+(2010) Pisa to Seville Distance: 1538
+(2011) Pisa to Gran Canaria Distance: 2890
+(2012) Pisa to Warsaw Modlin Distance: 1235
+(2013) Pisa to Alghero Distance: 380
+(2014) Pisa to Billund Distance: 1343
+(2015) Pisa to Cagliari Distance: 505
+(2016) Pisa to Brussels Charleroi Distance: 876
+(2017) Pisa to Dublin Distance: 1628
+(2018) Pisa to Eindhoven Distance: 941
+(2019) Pisa to East Midlands Distance: 1333
+(2020) Pisa to Girona Barcelona Distance: 653
+(2021) Pisa to Frankfurt Hahn Distance: 736
+(2022) Pisa to Liverpool Distance: 1445
+(2023) Pisa to Malta Distance: 937
+(2024) Pisa to Glasgow Prestwick Distance: 1693
+(2025) Pisa to Palermo Distance: 652
+(2026) Pisa to London Stansted Distance: 1184
+(2027) Pisa to Trapani Distance: 665
+(2028) Pisa to Valencia Distance: 1016
+(2029) Pisa to Stockholm Skavsta Distance: 1737
+(2030) Pisa to Lamezia Distance: 721
+(2031) Pisa to Paris Beauvais Distance: 900
+(2032) Pisa to Edinburgh Distance: 1677
+(2033) Pisa to Bari Distance: 594
+(2034) Pisa to Marrakesh Distance: 2097
+(2035) Pisa to Dusseldorf Weeze Distance: 935
+(2036) Pisa to Brindisi Distance: 707
+(2037) Pisa to Leeds Bradford Distance: 1431
+(2038) Pisa to Krakow Distance: 1006
+(2039) Pisa to Fuerteventura Distance: 2742
+(2040) Pisa to Madrid Distance: 1203
+(2041) Pisa to Fez Distance: 1712
+(2042) Pisa to Rhodes Distance: 1704
+(2043) Pisa to Tenerife Sth Distance: 2965
+(2044) Pisa to Ibiza Distance: 923
+(2045) Pisa to Kos Distance: 1607
+(2046) Pisa to Kefalonia Distance: 1049
+(2047) Pisa to Chania Distance: 1483
+(2048) Pisa to Budapest Distance: 805
+(2049) Pisa to Comiso Distance: 824
+(2050) Pisa to Lisbon Distance: 1716
+(2051) Pisa to Cork Distance: 1670
+(2052) Pisa to Crotone Distance: 763
+(2053) Pisa to Gothenburg Landvetter Distance: 1561
+--------------------------------------------------
+Calculating for: PSR name: Pescara - city: Pescara
+(2054) Pescara to Milan Bergamo Distance: 507
+(2055) Pescara to Paris Beauvais Distance: 1214
+(2056) Pescara to Brussels Charleroi Distance: 1160
+(2057) Pescara to Girona Barcelona Distance: 942
+(2058) Pescara to Frankfurt Hahn Distance: 990
+(2059) Pescara to Dusseldorf Weeze Distance: 1186
+(2060) Pescara to London Stansted Distance: 1484
+--------------------------------------------------
+Calculating for: PUY name: Pula - city: Pula
+(2061) Pula to London Stansted Distance: 1271
+(2062) Pula to Frankfurt Hahn Distance: 752
+(2063) Pula to Brussels Charleroi Distance: 939
+(2064) Pula to Oslo Rygge Distance: 1624
+--------------------------------------------------
+Calculating for: RAK name: Marrakesh - city: Marrakech
+(2065) Marrakesh to Dole Distance: 2063
+(2066) Marrakesh to Tours Loire Valley Distance: 1910
+(2067) Marrakesh to Paris Vatry Distance: 2166
+(2068) Marrakesh to Brussels Charleroi Distance: 2336
+(2069) Marrakesh to Girona Barcelona Distance: 1492
+(2070) Marrakesh to Eindhoven Distance: 2463
+(2071) Marrakesh to Frankfurt Hahn Distance: 2401
+(2072) Marrakesh to London Luton Distance: 2338
+(2073) Marrakesh to Marseille Provence Distance: 1755
+(2074) Marrakesh to Dusseldorf Weeze Distance: 2506
+(2075) Marrakesh to Pisa Distance: 2097
+(2076) Marrakesh to Seville Distance: 675
+(2077) Marrakesh to Madrid Distance: 1066
+(2078) Marrakesh to Milan Bergamo Distance: 2185
+(2079) Marrakesh to Paris Beauvais Distance: 2157
+(2080) Marrakesh to London Stansted Distance: 2353
+(2081) Marrakesh to Rome Ciampino Distance: 2151
+(2082) Marrakesh to Dublin Distance: 2429
+(2083) Marrakesh to Poitiers Distance: 1812
+--------------------------------------------------
+Calculating for: RBA name: Rabat - city: Rabat
+(2084) Rabat to Girona Barcelona Distance: 1205
+(2085) Rabat to Madrid Distance: 769
+(2086) Rabat to Paris Beauvais Distance: 1860
+(2087) Rabat to Marseille Provence Distance: 1469
+(2088) Rabat to Brussels Charleroi Distance: 2039
+(2089) Rabat to London Stansted Distance: 2060
+(2090) Rabat to Rome Ciampino Distance: 1897
+--------------------------------------------------
+Calculating for: RDZ name: Rodez - city: Rodez
+(2091) Rodez to London Stansted Distance: 847
+(2092) Rodez to Brussels Charleroi Distance: 688
+--------------------------------------------------
+Calculating for: REU name: Reus Barcelona - city: Reus
+(2093) Reus Barcelona to Brussels Charleroi Distance: 1066
+(2094) Reus Barcelona to Dublin Distance: 1473
+(2095) Reus Barcelona to Frankfurt Hahn Distance: 1086
+(2096) Reus Barcelona to London Stansted Distance: 1196
+(2097) Reus Barcelona to Eindhoven Distance: 1189
+(2098) Reus Barcelona to Palma Distance: 221
+(2099) Reus Barcelona to Cork Distance: 1397
+--------------------------------------------------
+Calculating for: RHO name: Rhodes - city: Rhodes
+(2100) Rhodes to Brussels Charleroi Distance: 2447
+(2101) Rhodes to Milan Bergamo Distance: 1847
+(2102) Rhodes to Bologna Distance: 1679
+(2103) Rhodes to East Midlands Distance: 2924
+(2104) Rhodes to Stockholm Skavsta Distance: 2618
+(2105) Rhodes to Liverpool Distance: 3040
+(2106) Rhodes to Kaunas Distance: 2086
+(2107) Rhodes to Pisa Distance: 1704
+(2108) Rhodes to London Stansted Distance: 2781
+(2109) Rhodes to Athens Distance: 404
+--------------------------------------------------
+Calculating for: RIX name: Riga - city: Riga
+(2110) Riga to Bremen Distance: 1057
+(2111) Riga to Leeds Bradford Distance: 1643
+(2112) Riga to Frankfurt Hahn Distance: 1345
+(2113) Riga to London Stansted Distance: 1625
+(2114) Riga to Dublin Distance: 1942
+(2115) Riga to Milan Bergamo Distance: 1589
+(2116) Riga to East Midlands Distance: 1670
+(2117) Riga to Manchester Distance: 1703
+(2118) Riga to Dusseldorf Weeze Distance: 1295
+(2119) Riga to Oslo Rygge Distance: 818
+(2120) Riga to Cologne Distance: 1286
+(2121) Riga to Brussels Charleroi Distance: 1465
+(2122) Riga to Glasgow International Distance: 1745
+(2123) Riga to Berlin Schonefeld Distance: 839
+--------------------------------------------------
+Calculating for: RJK name: Rijeka - city: Rijeka
+(2124) Rijeka to London Stansted Distance: 1285
+(2125) Rijeka to Brussels Charleroi Distance: 952
+(2126) Rijeka to Oslo Rygge Distance: 1594
+(2127) Rijeka to Stockholm Skavsta Distance: 1517
+--------------------------------------------------
+Calculating for: RYG name: Oslo Rygge - city: Oslo
+(2128) Oslo Rygge to Gran Canaria Distance: 4025
+(2129) Oslo Rygge to Tenerife Sth Distance: 4058
+(2130) Oslo Rygge to Rzeszow Distance: 1254
+(2131) Oslo Rygge to Kaunas Distance: 937
+(2132) Oslo Rygge to Rijeka Distance: 1594
+(2133) Oslo Rygge to Vilnius Distance: 1021
+(2134) Oslo Rygge to Madrid Distance: 2326
+(2135) Oslo Rygge to Manchester Distance: 1043
+(2136) Oslo Rygge to Alicante Distance: 2480
+(2137) Oslo Rygge to London Stansted Distance: 1061
+(2138) Oslo Rygge to Brussels Charleroi Distance: 1070
+(2139) Oslo Rygge to Malta Distance: 2629
+(2140) Oslo Rygge to Krakow Distance: 1182
+(2141) Oslo Rygge to Gdansk Distance: 725
+(2142) Oslo Rygge to Wroclaw Distance: 997
+(2143) Oslo Rygge to Palma Distance: 2276
+(2144) Oslo Rygge to Poznan Distance: 859
+(2145) Oslo Rygge to Malaga Distance: 2753
+(2146) Oslo Rygge to Riga Distance: 818
+(2147) Oslo Rygge to Dublin Distance: 1235
+(2148) Oslo Rygge to Paris Beauvais Distance: 1235
+(2149) Oslo Rygge to Faro Distance: 2826
+(2150) Oslo Rygge to Zadar Distance: 1725
+(2151) Oslo Rygge to Tallinn Distance: 793
+(2152) Oslo Rygge to Beziers Distance: 1855
+(2153) Oslo Rygge to Thessaloniki Distance: 2262
+(2154) Oslo Rygge to Chania Distance: 2823
+(2155) Oslo Rygge to Milan Bergamo Distance: 1525
+(2156) Oslo Rygge to Pula Distance: 1624
+(2157) Oslo Rygge to Lodz Distance: 1007
+(2158) Oslo Rygge to Warsaw Modlin Distance: 983
+(2159) Oslo Rygge to Edinburgh Distance: 921
+(2160) Oslo Rygge to Ibiza Distance: 2375
+(2161) Oslo Rygge to Szczecin Distance: 691
+--------------------------------------------------
+Calculating for: RZE name: Rzeszow - city: Rzeszow
+(2162) Rzeszow to Oslo Rygge Distance: 1254
+(2163) Rzeszow to Bristol Distance: 1737
+(2164) Rzeszow to Dublin Distance: 1967
+(2165) Rzeszow to East Midlands Distance: 1637
+(2166) Rzeszow to London Luton Distance: 1572
+(2167) Rzeszow to Manchester Distance: 1702
+(2168) Rzeszow to London Stansted Distance: 1531
+--------------------------------------------------
+Calculating for: SCQ name: Santiago - city: Santiago De Compostela
+(2169) Santiago to Seville Distance: 645
+(2170) Santiago to Barcelona El Prat Distance: 883
+(2171) Santiago to London Stansted Distance: 1191
+(2172) Santiago to Madrid Distance: 483
+(2173) Santiago to Alicante Distance: 838
+(2174) Santiago to Malaga Distance: 768
+(2175) Santiago to Valencia Distance: 763
+(2176) Santiago to Gran Canaria Distance: 1778
+(2177) Santiago to Tenerife Sth Distance: 1806
+(2178) Santiago to Lanzarote Distance: 1619
+(2179) Santiago to Frankfurt Hahn Distance: 1430
+(2180) Santiago to Milan Bergamo Distance: 1471
+(2181) Santiago to Palma Distance: 1003
+--------------------------------------------------
+Calculating for: SDR name: Santander - city: Santander
+(2182) Santander to Dusseldorf Weeze Distance: 1175
+(2183) Santander to Edinburgh Distance: 1392
+(2184) Santander to Barcelona El Prat Distance: 539
+(2185) Santander to Frankfurt Hahn Distance: 1111
+(2186) Santander to London Stansted Distance: 987
+(2187) Santander to Rome Ciampino Distance: 1353
+(2188) Santander to Milan Bergamo Distance: 1098
+(2189) Santander to Brussels Charleroi Distance: 1001
+(2190) Santander to Malaga Distance: 753
+(2191) Santander to Gran Canaria Distance: 2010
+(2192) Santander to Tenerife Sth Distance: 2056
+(2193) Santander to Lanzarote Distance: 1831
+(2194) Santander to Seville Distance: 690
+(2195) Santander to Dublin Distance: 1125
+(2196) Santander to Palma Distance: 695
+(2197) Santander to Valencia Distance: 518
+--------------------------------------------------
+Calculating for: SFT name: Skelleftea - city: Skelleftea
+(2198) Skelleftea to London Stansted Distance: 1851
+--------------------------------------------------
+Calculating for: SKG name: Thessaloniki - city: Thessaloniki
+(2199) Thessaloniki to Pisa Distance: 1094
+(2200) Thessaloniki to Chania Distance: 564
+(2201) Thessaloniki to Bremen Distance: 1755
+(2202) Thessaloniki to Girona Barcelona Distance: 1693
+(2203) Thessaloniki to Milan Bergamo Distance: 1218
+(2204) Thessaloniki to Rome Ciampino Distance: 879
+(2205) Thessaloniki to Brussels Charleroi Distance: 1809
+(2206) Thessaloniki to Baden-Baden Distance: 1489
+(2207) Thessaloniki to Frankfurt Hahn Distance: 1610
+(2208) Thessaloniki to Dusseldorf Weeze Distance: 1782
+(2209) Thessaloniki to Stockholm Skavsta Distance: 2075
+(2210) Thessaloniki to Paphos Distance: 1056
+(2211) Thessaloniki to Oslo Rygge Distance: 2262
+(2212) Thessaloniki to London Stansted Distance: 2143
+(2213) Thessaloniki to Warsaw Modlin Distance: 1338
+(2214) Thessaloniki to Athens Distance: 299
+(2215) Thessaloniki to Paris Beauvais Distance: 1908
+--------------------------------------------------
+Calculating for: SNN name: Shannon - city: Shannon
+(2216) Shannon to Alicante Distance: 1728
+(2217) Shannon to Malaga Distance: 1815
+(2218) Shannon to London Gatwick Distance: 622
+(2219) Shannon to Poitiers Distance: 949
+(2220) Shannon to London Stansted Distance: 629
+(2221) Shannon to Wroclaw Distance: 1770
+(2222) Shannon to Tenerife Sth Distance: 2813
+(2223) Shannon to Palma Distance: 1711
+(2224) Shannon to Lanzarote Distance: 2669
+(2225) Shannon to Fuerteventura Distance: 2726
+(2226) Shannon to Paris Beauvais Distance: 850
+(2227) Shannon to Faro Distance: 1745
+(2228) Shannon to Memmingen (Munich West) Distance: 1451
+(2229) Shannon to Berlin Schonefeld Distance: 1512
+(2230) Shannon to Nice Distance: 1556
+(2231) Shannon to Krakow Distance: 1999
+(2232) Shannon to Warsaw Modlin Distance: 1984
+(2233) Shannon to Kaunas Distance: 2160
+(2234) Shannon to Manchester Distance: 450
+(2235) Shannon to Cardiff Distance: 408
+(2236) Shannon to Rome Fiumicino Distance: 1993
+--------------------------------------------------
+Calculating for: STN name: London Stansted - city: London
+(2237) London Stansted to Milan Malpensa Distance: 932
+(2238) London Stansted to Comiso Distance: 2002
+(2239) London Stansted to Grenoble Distance: 815
+(2240) London Stansted to Rijeka Distance: 1285
+(2241) London Stansted to Ostrava Distance: 1276
+(2242) London Stansted to Tallinn Distance: 1741
+(2243) London Stansted to Kefalonia Distance: 2195
+(2244) London Stansted to Strasbourg Distance: 643
+(2245) London Stansted to Nuremberg Distance: 806
+(2246) London Stansted to Aarhus Distance: 835
+(2247) London Stansted to Malaga Distance: 1731
+(2248) London Stansted to Alghero Distance: 1394
+(2249) London Stansted to Ancona Distance: 1341
+(2250) London Stansted to Brindisi Distance: 1838
+(2251) London Stansted to Milan Bergamo Distance: 977
+(2252) London Stansted to Biarritz Distance: 945
+(2253) London Stansted to Bremen Distance: 593
+(2254) London Stansted to Bari Distance: 1732
+(2255) London Stansted to Brno Distance: 1199
+(2256) London Stansted to Bratislava Distance: 1277
+(2257) London Stansted to Bydgoszcz Distance: 1205
+(2258) London Stansted to Carcassonne Distance: 976
+(2259) London Stansted to Rome Ciampino Distance: 1459
+(2260) London Stansted to Dinard Distance: 401
+(2261) London Stansted to Dublin Distance: 470
+(2262) London Stansted to Bergerac Distance: 785
+(2263) London Stansted to Eindhoven Distance: 357
+(2264) London Stansted to Baden-Baden Distance: 654
+(2265) London Stansted to Gdansk Distance: 1243
+(2266) London Stansted to Genoa Distance: 1046
+(2267) London Stansted to Girona Barcelona Distance: 1126
+(2268) London Stansted to Haugesund Distance: 885
+(2269) London Stansted to Frankfurt Hahn Distance: 537
+(2270) London Stansted to Ibiza Distance: 1449
+(2271) London Stansted to Kerry Distance: 667
+(2272) London Stansted to Krakow Distance: 1378
+(2273) London Stansted to Katowice Distance: 1319
+(2274) London Stansted to Kaunas Distance: 1608
+(2275) London Stansted to Lodz Distance: 1313
+(2276) London Stansted to Leipzig Distance: 828
+(2277) London Stansted to Derry Distance: 601
+(2278) London Stansted to Almeria Distance: 1684
+(2279) London Stansted to Limoges Distance: 673
+(2280) London Stansted to Linz Distance: 1073
+(2281) London Stansted to La Rochelle Distance: 642
+(2282) London Stansted to Lublin Distance: 1547
+(2283) London Stansted to Madrid Distance: 1299
+(2284) London Stansted to Murcia Distance: 1571
+(2285) London Stansted to Malta Distance: 2108
+(2286) London Stansted to Marseille Provence Distance: 1010
+(2287) London Stansted to Knock Ireland West Distance: 647
+(2288) London Stansted to Dusseldorf Weeze Distance: 407
+(2289) London Stansted to Stockholm Skavsta Distance: 1298
+(2290) London Stansted to Porto Distance: 1362
+(2291) London Stansted to Cork Distance: 598
+(2292) London Stansted to Perugia Distance: 1340
+(2293) London Stansted to Paphos Distance: 3190
+(2294) London Stansted to Perpignan Distance: 1035
+(2295) London Stansted to Poitiers Distance: 589
+(2296) London Stansted to Parma Distance: 1079
+(2297) London Stansted to Poznan Distance: 1131
+(2298) London Stansted to Pescara Distance: 1484
+(2299) London Stansted to Pula Distance: 1271
+(2300) London Stansted to Reus Barcelona Distance: 1196
+(2301) London Stansted to Rodez Distance: 847
+(2302) London Stansted to Riga Distance: 1625
+(2303) London Stansted to Rzeszow Distance: 1531
+(2304) London Stansted to Santiago Distance: 1191
+(2305) London Stansted to Santander Distance: 987
+(2306) London Stansted to Shannon Distance: 629
+(2307) London Stansted to Seville Distance: 1678
+(2308) London Stansted to Berlin Schonefeld Distance: 907
+(2309) London Stansted to Salzburg Distance: 1020
+(2310) London Stansted to Szczecin Distance: 1003
+(2311) London Stansted to Tenerife Sth Distance: 2996
+(2312) London Stansted to Tampere Distance: 1762
+(2313) London Stansted to Oslo Torp Distance: 1025
+(2314) London Stansted to Turin Distance: 921
+(2315) London Stansted to Trieste Distance: 1176
+(2316) London Stansted to Tours Loire Valley Distance: 496
+(2317) London Stansted to Valencia Distance: 1379
+(2318) London Stansted to Wroclaw Distance: 1153
+(2319) London Stansted to Jerez Distance: 1754
+(2320) London Stansted to Zaragoza Distance: 1140
+(2321) London Stansted to Stockholm Vasteras Distance: 1330
+(2322) London Stansted to Alicante Distance: 1513
+(2323) London Stansted to Palma Distance: 1384
+(2324) London Stansted to Billund Distance: 724
+(2325) London Stansted to Faro Distance: 1774
+(2326) London Stansted to Bologna Distance: 1154
+(2327) London Stansted to Memmingen (Munich West) Distance: 835
+(2328) London Stansted to Oslo Rygge Distance: 1061
+(2329) London Stansted to Lanzarote Distance: 2796
+(2330) London Stansted to Gran Canaria Distance: 2963
+(2331) London Stansted to Fuerteventura Distance: 2856
+(2332) London Stansted to Plovdiv Distance: 2147
+(2333) London Stansted to Lourdes Distance: 968
+(2334) London Stansted to Zadar Distance: 1413
+(2335) London Stansted to Palermo Distance: 1822
+(2336) London Stansted to Thessaloniki Distance: 2143
+(2337) London Stansted to Rhodes Distance: 2781
+(2338) London Stansted to Lamezia Distance: 1900
+(2339) London Stansted to Vilnius Distance: 1684
+(2340) London Stansted to Corfu Distance: 2036
+(2341) London Stansted to Venice Treviso Distance: 1115
+(2342) London Stansted to Barcelona El Prat Distance: 1185
+(2343) London Stansted to Pisa Distance: 1184
+(2344) London Stansted to Fez Distance: 2040
+(2345) London Stansted to Marrakesh Distance: 2353
+(2346) London Stansted to Chania Distance: 2623
+(2347) London Stansted to Kos Distance: 2689
+(2348) London Stansted to Budapest Distance: 1450
+(2349) London Stansted to Warsaw Modlin Distance: 1389
+(2350) London Stansted to Rabat Distance: 2060
+(2351) London Stansted to Bordeaux Distance: 787
+(2352) London Stansted to Lisbon Distance: 1627
+(2353) London Stansted to Dortmund Distance: 509
+(2354) London Stansted to Basel Distance: 708
+(2355) London Stansted to Brive Distance: 754
+(2356) London Stansted to Bucharest (Otopeni) Distance: 2067
+(2357) London Stansted to Osijek Distance: 1533
+(2358) London Stansted to Podgorica Distance: 1777
+(2359) London Stansted to Prague Distance: 999
+(2360) London Stansted to Skelleftea Distance: 1851
+(2361) London Stansted to Athens Distance: 2407
+(2362) London Stansted to Cologne Distance: 492
+(2363) London Stansted to Glasgow International Distance: 520
+(2364) London Stansted to Edinburgh Distance: 509
+(2365) London Stansted to Gothenburg Landvetter Distance: 1003
+(2366) London Stansted to Ponta Delgada Distance: 2556
+(2367) London Stansted to Deauville-Normandy Distance: 280
+(2368) London Stansted to Clermont Ferrand Distance: 711
+(2369) London Stansted to Castellon Distance: 1321
+(2370) London Stansted to Verona Distance: 1062
+(2371) London Stansted to Sofia Distance: 2009
+--------------------------------------------------
+Calculating for: SUF name: Lamezia - city: Lamezia Terme
+(2372) Lamezia to Milan Bergamo Distance: 924
+(2373) Lamezia to Pisa Distance: 721
+(2374) Lamezia to Bologna Distance: 748
+(2375) Lamezia to Dusseldorf Weeze Distance: 1614
+(2376) Lamezia to Brussels Charleroi Distance: 1583
+(2377) Lamezia to London Stansted Distance: 1900
+(2378) Lamezia to Frankfurt Hahn Distance: 1417
+(2379) Lamezia to Rome Fiumicino Distance: 467
+(2380) Lamezia to Venice Treviso Distance: 820
+(2381) Lamezia to Rome Ciampino Distance: 446
+--------------------------------------------------
+Calculating for: SVQ name: Seville - city: Sevilla
+(2382) Seville to Milan Malpensa Distance: 1517
+(2383) Seville to Pisa Distance: 1538
+(2384) Seville to Santiago Distance: 645
+(2385) Seville to Barcelona El Prat Distance: 809
+(2386) Seville to London Stansted Distance: 1678
+(2387) Seville to Milan Bergamo Distance: 1585
+(2388) Seville to Dublin Distance: 1779
+(2389) Seville to Marrakesh Distance: 675
+(2390) Seville to Bologna Distance: 1640
+(2391) Seville to Brussels Charleroi Distance: 1666
+(2392) Seville to Palma Distance: 787
+(2393) Seville to Marseille Provence Distance: 1153
+(2394) Seville to London Gatwick Distance: 1591
+(2395) Seville to Eindhoven Distance: 1793
+(2396) Seville to Paris Beauvais Distance: 1484
+(2397) Seville to Palermo Distance: 1667
+(2398) Seville to Gran Canaria Distance: 1377
+(2399) Seville to Tenerife Sth Distance: 1441
+(2400) Seville to Lanzarote Distance: 1183
+(2401) Seville to Bordeaux Distance: 930
+(2402) Seville to Santander Distance: 690
+(2403) Seville to Rome Fiumicino Distance: 1625
+--------------------------------------------------
+Calculating for: SXB name: Strasbourg - city: Strasbourg
+(2404) Strasbourg to London Stansted Distance: 643
+(2405) Strasbourg to Porto Distance: 1514
+--------------------------------------------------
+Calculating for: SXF name: Berlin Schonefeld - city: Berlin
+(2406) Berlin Schonefeld to Milan Bergamo Distance: 795
+(2407) Berlin Schonefeld to London Stansted Distance: 907
+(2408) Berlin Schonefeld to East Midlands Distance: 1002
+(2409) Berlin Schonefeld to Dublin Distance: 1328
+(2410) Berlin Schonefeld to Shannon Distance: 1512
+(2411) Berlin Schonefeld to Porto Distance: 2080
+(2412) Berlin Schonefeld to Madrid Distance: 1851
+(2413) Berlin Schonefeld to Palermo Distance: 1579
+(2414) Berlin Schonefeld to Athens Distance: 1797
+(2415) Berlin Schonefeld to Malaga Distance: 2243
+(2416) Berlin Schonefeld to Alicante Distance: 1908
+(2417) Berlin Schonefeld to Barcelona El Prat Distance: 1504
+(2418) Berlin Schonefeld to Bologna Distance: 887
+(2419) Berlin Schonefeld to Bari Distance: 1273
+(2420) Berlin Schonefeld to Brussels Zaventem Distance: 644
+(2421) Berlin Schonefeld to Bratislava Distance: 536
+(2422) Berlin Schonefeld to Rome Ciampino Distance: 1178
+(2423) Berlin Schonefeld to Glasgow International Distance: 1224
+(2424) Berlin Schonefeld to Palma Distance: 1648
+(2425) Berlin Schonefeld to Venice Treviso Distance: 754
+(2426) Berlin Schonefeld to Valencia Distance: 1789
+(2427) Berlin Schonefeld to Riga Distance: 839
+(2428) Berlin Schonefeld to Cologne Distance: 471
+(2429) Berlin Schonefeld to Tenerife Sth Distance: 3671
+(2430) Berlin Schonefeld to Turin Distance: 906
+--------------------------------------------------
+Calculating for: SZG name: Salzburg - city: Salzburg
+(2431) Salzburg to London Stansted Distance: 1020
+(2432) Salzburg to Dublin Distance: 1491
+--------------------------------------------------
+Calculating for: SZZ name: Szczecin - city: Szczecin
+(2433) Szczecin to London Stansted Distance: 1003
+(2434) Szczecin to Dublin Distance: 1395
+(2435) Szczecin to Liverpool Distance: 1172
+(2436) Szczecin to Oslo Rygge Distance: 691
+--------------------------------------------------
+Calculating for: TFN name: Tenerife North - city: Tenerife
+(2437) Tenerife North to Barcelona El Prat Distance: 2194
+(2438) Tenerife North to Madrid Distance: 1772
+--------------------------------------------------
+Calculating for: TFS name: Tenerife Sth - city: Tenerife
+(2439) Tenerife Sth to Oslo Rygge Distance: 4058
+(2440) Tenerife Sth to Stockholm Skavsta Distance: 4271
+(2441) Tenerife Sth to Memmingen (Munich West) Distance: 3199
+(2442) Tenerife Sth to Cologne Distance: 3223
+(2443) Tenerife Sth to Linz Distance: 3463
+(2444) Tenerife Sth to Barcelona El Prat Distance: 2245
+(2445) Tenerife Sth to Milan Bergamo Distance: 3025
+(2446) Tenerife Sth to Bologna Distance: 3072
+(2447) Tenerife Sth to Birmingham Distance: 2978
+(2448) Tenerife Sth to Bournemouth Distance: 2815
+(2449) Tenerife Sth to Bremen Distance: 3471
+(2450) Tenerife Sth to Bristol Distance: 2841
+(2451) Tenerife Sth to Billund Distance: 3698
+(2452) Tenerife Sth to Paris Beauvais Distance: 2862
+(2453) Tenerife Sth to Brussels Charleroi Distance: 3057
+(2454) Tenerife Sth to Dublin Distance: 2945
+(2455) Tenerife Sth to Edinburgh Distance: 3276
+(2456) Tenerife Sth to East Midlands Distance: 3028
+(2457) Tenerife Sth to Baden-Baden Distance: 3123
+(2458) Tenerife Sth to Frankfurt Hahn Distance: 3161
+(2459) Tenerife Sth to Liverpool Distance: 3028
+(2460) Tenerife Sth to London Luton Distance: 2972
+(2461) Tenerife Sth to Leeds Bradford Distance: 3117
+(2462) Tenerife Sth to Manchester Distance: 3048
+(2463) Tenerife Sth to Madrid Distance: 1824
+(2464) Tenerife Sth to Knock Ireland West Distance: 2944
+(2465) Tenerife Sth to Dusseldorf Weeze Distance: 3230
+(2466) Tenerife Sth to Porto Distance: 1634
+(2467) Tenerife Sth to Cork Distance: 2730
+(2468) Tenerife Sth to Glasgow Prestwick Distance: 3201
+(2469) Tenerife Sth to Pisa Distance: 2965
+(2470) Tenerife Sth to Shannon Distance: 2813
+(2471) Tenerife Sth to London Stansted Distance: 2996
+(2472) Tenerife Sth to Santiago Distance: 1806
+(2473) Tenerife Sth to Santander Distance: 2056
+(2474) Tenerife Sth to Seville Distance: 1441
+(2475) Tenerife Sth to Valencia Distance: 1951
+(2476) Tenerife Sth to Cardiff Distance: 2822
+(2477) Tenerife Sth to Warsaw Modlin Distance: 4088
+(2478) Tenerife Sth to Eindhoven Distance: 3181
+(2479) Tenerife Sth to Venice Treviso Distance: 3192
+(2480) Tenerife Sth to Krakow Distance: 3918
+(2481) Tenerife Sth to Wroclaw Distance: 3789
+(2482) Tenerife Sth to Berlin Schonefeld Distance: 3671
+(2483) Tenerife Sth to Copenhagen Distance: 3849
+--------------------------------------------------
+Calculating for: TGD name: Podgorica - city: Podgorica
+(2484) Podgorica to Brussels Charleroi Distance: 1444
+(2485) Podgorica to London Stansted Distance: 1777
+--------------------------------------------------
+Calculating for: TLL name: Tallinn - city: Tallinn
+(2486) Tallinn to London Stansted Distance: 1741
+(2487) Tallinn to Milan Bergamo Distance: 1829
+(2488) Tallinn to Bremen Distance: 1213
+(2489) Tallinn to Dublin Distance: 2003
+(2490) Tallinn to Girona Barcelona Distance: 2468
+(2491) Tallinn to Manchester Distance: 1784
+(2492) Tallinn to Dusseldorf Weeze Distance: 1454
+(2493) Tallinn to Oslo Rygge Distance: 793
+--------------------------------------------------
+Calculating for: TLN name: Toulon - city: Hyeres
+--------------------------------------------------
+Calculating for: TMP name: Tampere - city: Tampere
+(2494) Tampere to Budapest Distance: 1578
+(2495) Tampere to Frankfurt Hahn Distance: 1625
+(2496) Tampere to London Stansted Distance: 1762
+(2497) Tampere to Bremen Distance: 1282
+(2498) Tampere to Milan Bergamo Distance: 1967
+(2499) Tampere to Malaga Distance: 3374
+(2500) Tampere to Alicante Distance: 3062
+--------------------------------------------------
+Calculating for: TNG name: Tangier - city: Tangier
+(2501) Tangier to Brussels Charleroi Distance: 1837
+(2502) Tangier to Madrid Distance: 568
+(2503) Tangier to Paris Beauvais Distance: 1659
+(2504) Tangier to Marseille Provence Distance: 1281
+--------------------------------------------------
+Calculating for: TPS name: Trapani - city: Trapani
+(2505) Trapani to Kaunas Distance: 2087
+(2506) Trapani to Bratislava Distance: 1203
+(2507) Trapani to Warsaw Modlin Distance: 1736
+(2508) Trapani to Ancona Distance: 638
+(2509) Trapani to Milan Bergamo Distance: 893
+(2510) Trapani to Bologna Distance: 743
+(2511) Trapani to Paris Beauvais Distance: 1527
+(2512) Trapani to Cagliari Distance: 333
+(2513) Trapani to Rome Ciampino Distance: 432
+(2514) Trapani to Brussels Charleroi Distance: 1533
+(2515) Trapani to Baden-Baden Distance: 1259
+(2516) Trapani to Girona Barcelona Distance: 940
+(2517) Trapani to Pisa Distance: 665
+(2518) Trapani to Frankfurt Hahn Distance: 1401
+(2519) Trapani to Turin Distance: 904
+(2520) Trapani to Malta Distance: 288
+(2521) Trapani to Genoa Distance: 784
+(2522) Trapani to Trieste Distance: 883
+(2523) Trapani to Eindhoven Distance: 1605
+(2524) Trapani to Memmingen (Munich West) Distance: 1135
+(2525) Trapani to Krakow Distance: 1471
+(2526) Trapani to Perugia Distance: 576
+(2527) Trapani to Cuneo Distance: 842
+(2528) Trapani to Parma Distance: 790
+(2529) Trapani to Venice Treviso Distance: 860
+--------------------------------------------------
+Calculating for: TRF name: Oslo Torp - city: Oslo
+(2530) Oslo Torp to Liverpool Distance: 1035
+(2531) Oslo Torp to London Stansted Distance: 1025
+(2532) Oslo Torp to Alicante Distance: 2448
+(2533) Oslo Torp to Malaga Distance: 2719
+--------------------------------------------------
+Calculating for: TRN name: Turin - city: Turin
+(2534) Turin to Barcelona El Prat Distance: 625
+(2535) Turin to Bari Distance: 865
+(2536) Turin to Brindisi Distance: 977
+(2537) Turin to Brussels Charleroi Distance: 631
+(2538) Turin to Malta Distance: 1187
+(2539) Turin to London Stansted Distance: 921
+(2540) Turin to Trapani Distance: 904
+(2541) Turin to Dublin Distance: 1357
+(2542) Turin to Catania Distance: 1058
+(2543) Turin to Alghero Distance: 510
+(2544) Turin to Eindhoven Distance: 714
+(2545) Turin to Palermo Distance: 901
+(2546) Turin to Cagliari Distance: 671
+(2547) Turin to Berlin Schonefeld Distance: 906
+(2548) Turin to Comiso Distance: 1081
+--------------------------------------------------
+Calculating for: TRS name: Trieste - city: Trieste
+(2549) Trieste to Alghero Distance: 713
+(2550) Trieste to London Stansted Distance: 1176
+(2551) Trieste to Trapani Distance: 883
+(2552) Trieste to Valencia Distance: 1338
+(2553) Trieste to Bari Distance: 584
+--------------------------------------------------
+Calculating for: TSF name: Venice Treviso - city: Venice
+(2554) Venice Treviso to Chania Distance: 1508
+(2555) Venice Treviso to Alghero Distance: 641
+(2556) Venice Treviso to Barcelona El Prat Distance: 947
+(2557) Venice Treviso to Paris Beauvais Distance: 865
+(2558) Venice Treviso to Cagliari Distance: 756
+(2559) Venice Treviso to Brussels Charleroi Distance: 784
+(2560) Venice Treviso to Frankfurt Hahn Distance: 603
+(2561) Venice Treviso to Malta Distance: 1105
+(2562) Venice Treviso to London Stansted Distance: 1115
+(2563) Venice Treviso to Trapani Distance: 860
+(2564) Venice Treviso to Leeds Bradford Distance: 1346
+(2565) Venice Treviso to Bari Distance: 622
+(2566) Venice Treviso to East Midlands Distance: 1262
+(2567) Venice Treviso to Palermo Distance: 834
+(2568) Venice Treviso to Valencia Distance: 1241
+(2569) Venice Treviso to Brindisi Distance: 724
+(2570) Venice Treviso to Malaga Distance: 1711
+(2571) Venice Treviso to Bremen Distance: 858
+(2572) Venice Treviso to Bristol Distance: 1266
+(2573) Venice Treviso to Dublin Distance: 1581
+(2574) Venice Treviso to Stockholm Skavsta Distance: 1495
+(2575) Venice Treviso to Billund Distance: 1142
+(2576) Venice Treviso to Budapest Distance: 575
+(2577) Venice Treviso to Lamezia Distance: 820
+(2578) Venice Treviso to Catania Distance: 940
+(2579) Venice Treviso to Brussels Zaventem Distance: 815
+(2580) Venice Treviso to Eindhoven Distance: 816
+(2581) Venice Treviso to Berlin Schonefeld Distance: 754
+(2582) Venice Treviso to Tenerife Sth Distance: 3192
+--------------------------------------------------
+Calculating for: TUF name: Tours Loire Valley - city: Tours
+(2583) Tours Loire Valley to Marrakesh Distance: 1910
+(2584) Tours Loire Valley to London Stansted Distance: 496
+(2585) Tours Loire Valley to Porto Distance: 1014
+(2586) Tours Loire Valley to Dublin Distance: 829
+(2587) Tours Loire Valley to Marseille Provence Distance: 565
+--------------------------------------------------
+Calculating for: VLC name: Valencia - city: Manises
+(2588) Valencia to Milan Bergamo Distance: 1079
+(2589) Valencia to Rome Ciampino Distance: 1131
+(2590) Valencia to Brussels Charleroi Distance: 1279
+(2591) Valencia to Frankfurt Hahn Distance: 1312
+(2592) Valencia to Pisa Distance: 1016
+(2593) Valencia to London Stansted Distance: 1379
+(2594) Valencia to East Midlands Distance: 1484
+(2595) Valencia to Dusseldorf Weeze Distance: 1440
+(2596) Valencia to Bologna Distance: 1121
+(2597) Valencia to Bari Distance: 1470
+(2598) Valencia to Dublin Distance: 1610
+(2599) Valencia to Manchester Distance: 1547
+(2600) Valencia to Porto Distance: 721
+(2601) Valencia to Santiago Distance: 763
+(2602) Valencia to Ibiza Distance: 173
+(2603) Valencia to Palma Distance: 276
+(2604) Valencia to Marseille Provence Distance: 646
+(2605) Valencia to Trieste Distance: 1338
+(2606) Valencia to Paris Beauvais Distance: 1126
+(2607) Valencia to Gran Canaria Distance: 1879
+(2608) Valencia to Tenerife Sth Distance: 1951
+(2609) Valencia to Venice Treviso Distance: 1241
+(2610) Valencia to Bristol Distance: 1333
+(2611) Valencia to Santander Distance: 518
+(2612) Valencia to Menorca Distance: 404
+(2613) Valencia to Brussels Zaventem Distance: 1326
+(2614) Valencia to Berlin Schonefeld Distance: 1789
+(2615) Valencia to Cologne Distance: 1397
+--------------------------------------------------
+Calculating for: VLL name: Valladolid - city: Valladolid
+(2616) Valladolid to Barcelona El Prat Distance: 578
+(2617) Valladolid to Lanzarote Distance: 1623
+--------------------------------------------------
+Calculating for: VNO name: Vilnius - city: Vilnius
+(2618) Vilnius to Chania Distance: 2125
+(2619) Vilnius to Barcelona El Prat Distance: 2258
+(2620) Vilnius to Milan Bergamo Distance: 1485
+(2621) Vilnius to Paris Beauvais Distance: 1676
+(2622) Vilnius to Bremen Distance: 1094
+(2623) Vilnius to Rome Ciampino Distance: 1703
+(2624) Vilnius to Brussels Charleroi Distance: 1476
+(2625) Vilnius to Dublin Distance: 2048
+(2626) Vilnius to Liverpool Distance: 1832
+(2627) Vilnius to Oslo Rygge Distance: 1021
+(2628) Vilnius to London Stansted Distance: 1684
+(2629) Vilnius to Madrid Distance: 2644
+(2630) Vilnius to Frankfurt Hahn Distance: 1327
+--------------------------------------------------
+Calculating for: VRN name: Verona - city: Verona
+(2631) Verona to Palermo Distance: 823
+(2632) Verona to Brussels Zaventem Distance: 774
+(2633) Verona to London Stansted Distance: 1062
+--------------------------------------------------
+Calculating for: VST name: Stockholm Vasteras - city: Stockholm
+(2634) Stockholm Vasteras to Alicante Distance: 2663
+(2635) Stockholm Vasteras to Malaga Distance: 2963
+(2636) Stockholm Vasteras to London Stansted Distance: 1330
+--------------------------------------------------
+Calculating for: VXO name: Växjö - city: Växjö
+(2637) Växjö to Dusseldorf Weeze Distance: 812
+(2638) Växjö to Alicante Distance: 2356
+--------------------------------------------------
+Calculating for: WMI name: Warsaw Modlin - city: Nowy Dwor Mazowiecki
+(2639) Warsaw Modlin to Chania Distance: 1901
+(2640) Warsaw Modlin to Trapani Distance: 1736
+(2641) Warsaw Modlin to Pisa Distance: 1235
+(2642) Warsaw Modlin to Marseille Provence Distance: 1519
+(2643) Warsaw Modlin to Palma Distance: 1982
+(2644) Warsaw Modlin to Milan Bergamo Distance: 1095
+(2645) Warsaw Modlin to Barcelona El Prat Distance: 1869
+(2646) Warsaw Modlin to Bologna Distance: 1116
+(2647) Warsaw Modlin to Paris Beauvais Distance: 1336
+(2648) Warsaw Modlin to Bristol Distance: 1600
+(2649) Warsaw Modlin to Rome Ciampino Distance: 1330
+(2650) Warsaw Modlin to Brussels Charleroi Distance: 1141
+(2651) Warsaw Modlin to Dublin Distance: 1796
+(2652) Warsaw Modlin to Eindhoven Distance: 1050
+(2653) Warsaw Modlin to East Midlands Distance: 1477
+(2654) Warsaw Modlin to Liverpool Distance: 1572
+(2655) Warsaw Modlin to Manchester Distance: 1534
+(2656) Warsaw Modlin to Stockholm Skavsta Distance: 742
+(2657) Warsaw Modlin to Oslo Rygge Distance: 983
+(2658) Warsaw Modlin to London Stansted Distance: 1389
+(2659) Warsaw Modlin to Alicante Distance: 2270
+(2660) Warsaw Modlin to Thessaloniki Distance: 1338
+(2661) Warsaw Modlin to Gdansk Distance: 258
+(2662) Warsaw Modlin to Wroclaw Distance: 299
+(2663) Warsaw Modlin to Shannon Distance: 1984
+(2664) Warsaw Modlin to Madrid Distance: 2264
+(2665) Warsaw Modlin to Gran Canaria Distance: 4027
+(2666) Warsaw Modlin to Fuerteventura Distance: 3890
+(2667) Warsaw Modlin to Tenerife Sth Distance: 4088
+(2668) Warsaw Modlin to Glasgow International Distance: 1665
+(2669) Warsaw Modlin to Athens Distance: 1634
+(2670) Warsaw Modlin to Lisbon Distance: 2740
+(2671) Warsaw Modlin to Copenhagen Distance: 629
+(2672) Warsaw Modlin to Cologne Distance: 946
+(2673) Warsaw Modlin to Malaga Distance: 2630
+(2674) Warsaw Modlin to Gothenburg Landvetter Distance: 786
+--------------------------------------------------
+Calculating for: WRO name: Wroclaw - city: Wroclaw
+(2675) Wroclaw to Alicante Distance: 1973
+(2676) Wroclaw to Malaga Distance: 2331
+(2677) Wroclaw to Paris Beauvais Distance: 1063
+(2678) Wroclaw to Bologna Distance: 840
+(2679) Wroclaw to Milan Bergamo Distance: 802
+(2680) Wroclaw to Bristol Distance: 1360
+(2681) Wroclaw to Rome Ciampino Distance: 1084
+(2682) Wroclaw to Chania Distance: 1826
+(2683) Wroclaw to Dublin Distance: 1589
+(2684) Wroclaw to East Midlands Distance: 1259
+(2685) Wroclaw to Girona Barcelona Distance: 1483
+(2686) Wroclaw to Liverpool Distance: 1362
+(2687) Wroclaw to Malta Distance: 1706
+(2688) Wroclaw to Cork Distance: 1750
+(2689) Wroclaw to Oslo Rygge Distance: 997
+(2690) Wroclaw to London Stansted Distance: 1153
+(2691) Wroclaw to Shannon Distance: 1770
+(2692) Wroclaw to Warsaw Modlin Distance: 299
+(2693) Wroclaw to Gdansk Distance: 379
+(2694) Wroclaw to Glasgow International Distance: 1495
+(2695) Wroclaw to Tenerife Sth Distance: 3789
+--------------------------------------------------
+Calculating for: XCR name: Paris Vatry - city: Paris
+(2696) Paris Vatry to Marrakesh Distance: 2166
+(2697) Paris Vatry to Porto Distance: 1309
+--------------------------------------------------
+Calculating for: XRY name: Jerez - city: Jerez De La Frontera
+(2698) Jerez to Barcelona El Prat Distance: 865
+(2699) Jerez to Frankfurt Hahn Distance: 1815
+(2700) Jerez to London Stansted Distance: 1754
+--------------------------------------------------
+Calculating for: ZAD name: Zadar - city: Zadar
+(2701) Zadar to Dublin Distance: 1881
+(2702) Zadar to Paris Beauvais Distance: 1167
+(2703) Zadar to Stockholm Skavsta Distance: 1635
+(2704) Zadar to Dusseldorf Weeze Distance: 1078
+(2705) Zadar to Frankfurt Hahn Distance: 891
+(2706) Zadar to Brussels Charleroi Distance: 1081
+(2707) Zadar to Oslo Rygge Distance: 1725
+(2708) Zadar to London Stansted Distance: 1413
+(2709) Zadar to Baden-Baden Distance: 760
+(2710) Zadar to Marseille Provence Distance: 815
+(2711) Zadar to Manchester Distance: 1643
+(2712) Zadar to Gothenburg Landvetter Distance: 1523
+--------------------------------------------------
+Calculating for: ZAZ name: Zaragoza - city: Zaragoza
+(2713) Zaragoza to London Stansted Distance: 1140
+(2714) Zaragoza to Milan Bergamo Distance: 971
+(2715) Zaragoza to Brussels Charleroi Distance: 1064
+(2716) Zaragoza to Paris Beauvais Distance: 899
+(2717) Zaragoza to Lanzarote Distance: 1812
+--------------------------------------------------
+Calculating for: ZTH name: Zakynthos - city: Zakinthos
+(2718) Zakynthos to Brussels Charleroi Distance: 1919
+--------------------------------------------------
+Calculating for: GLA name: Glasgow International - city: Glasgow
+(2719) Glasgow International to Dublin Distance: 276
+(2720) Glasgow International to London Stansted Distance: 520
+(2721) Glasgow International to Warsaw Modlin Distance: 1665
+(2722) Glasgow International to Bydgoszcz Distance: 1472
+(2723) Glasgow International to Wroclaw Distance: 1495
+(2724) Glasgow International to Riga Distance: 1745
+(2725) Glasgow International to Derry Distance: 186
+(2726) Glasgow International to Chania Distance: 3113
+(2727) Glasgow International to Carcassonne Distance: 1466
+(2728) Glasgow International to Berlin Schonefeld Distance: 1224
+--------------------------------------------------
+Calculating for: CPH name: Copenhagen - city: Copenhagen
+(2729) Copenhagen to London Luton Distance: 950
+(2730) Copenhagen to Milan Bergamo Distance: 1124
+(2731) Copenhagen to Warsaw Modlin Distance: 629
+(2732) Copenhagen to Rome Ciampino Distance: 1536
+(2733) Copenhagen to Brussels Charleroi Distance: 792
+(2734) Copenhagen to Madrid Distance: 2058
+(2735) Copenhagen to Stockholm Skavsta Distance: 435
+(2736) Copenhagen to Dublin Distance: 1241
+(2737) Copenhagen to Cologne Distance: 642
+(2738) Copenhagen to Alicante Distance: 2164
+(2739) Copenhagen to Malaga Distance: 2471
+(2740) Copenhagen to Budapest Distance: 1016
+(2741) Copenhagen to Kaunas Distance: 726
+(2742) Copenhagen to Bologna Distance: 1236
+(2743) Copenhagen to Edinburgh Distance: 1000
+(2744) Copenhagen to Tenerife Sth Distance: 3849
+(2745) Copenhagen to Porto Distance: 2225
+--------------------------------------------------
+Calculating for: HAM name: Hamburg - city: Hamburg
+(2746) Hamburg to Porto Distance: 1955
+(2747) Hamburg to Lisbon Distance: 2197
+(2748) Hamburg to Alicante Distance: 1886
+(2749) Hamburg to Malaga Distance: 2191
+(2750) Hamburg to Barcelona El Prat Distance: 1492
+(2751) Hamburg to Madrid Distance: 1779
+(2752) Hamburg to Palma Distance: 1658
+--------------------------------------------------
+Calculating for: GOT name: Gothenburg Landvetter - city: Gothenburg
+(2753) Gothenburg Landvetter to Malaga Distance: 2641
+(2754) Gothenburg Landvetter to Alicante Distance: 2349
+(2755) Gothenburg Landvetter to Paris Beauvais Distance: 1132
+(2756) Gothenburg Landvetter to Rome Ciampino Distance: 1765
+(2757) Gothenburg Landvetter to London Stansted Distance: 1003
+(2758) Gothenburg Landvetter to Alghero Distance: 1916
+(2759) Gothenburg Landvetter to Pisa Distance: 1561
+(2760) Gothenburg Landvetter to Edinburgh Distance: 970
+(2761) Gothenburg Landvetter to Marseille Provence Distance: 1657
+(2762) Gothenburg Landvetter to Milan Bergamo Distance: 1345
+(2763) Gothenburg Landvetter to Malta Distance: 2431
+(2764) Gothenburg Landvetter to Zadar Distance: 1523
+(2765) Gothenburg Landvetter to Palma Distance: 2129
+(2766) Gothenburg Landvetter to Warsaw Modlin Distance: 786
+--------------------------------------------------
+Calculating for: PDL name: Ponta Delgada - city: Ponta Delgada
+(2767) Ponta Delgada to Porto Distance: 1508
+(2768) Ponta Delgada to Lisbon Distance: 1448
+(2769) Ponta Delgada to London Stansted Distance: 2556
+--------------------------------------------------
+Calculating for: LRT name: Lorient - city: Lorient
+(2770) Lorient to Porto Distance: 834
+--------------------------------------------------
+Calculating for: JTR name: Santorini National - city: Santorini (Thira)
+(2771) Santorini National to Athens Distance: 218
+--------------------------------------------------
+Calculating for: STR name: Stuttgart - city: Stuttgart
+(2772) Stuttgart to Manchester Distance: 955
+--------------------------------------------------
+Calculating for: CDT name: Castellon - city: Castellon de la Plana
+(2773) Castellon to London Stansted Distance: 1321
+(2774) Castellon to Bristol Distance: 1283
+--------------------------------------------------
+Calculating for: VDA name: Eilat (Ovda) - city: Ovda
+(2775) Eilat (Ovda) to Kaunas Distance: 2913
+(2776) Eilat (Ovda) to Budapest Distance: 2364
+(2777) Eilat (Ovda) to Krakow Distance: 2573
+--------------------------------------------------
+Calculating for: SOF name: Sofia - city: Sofia
+(2778) Sofia to London Stansted Distance: 2009
