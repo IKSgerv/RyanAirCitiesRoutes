@@ -30,7 +30,8 @@ public class RyanairAirportController {
 		name = jsonAirport.getString("name");
 		iataCode = jsonAirport.getString("iataCode");
 		latitude = jsonAirport.getDouble("latitude");
-		longitude = jsonAirport.getDouble("longitude");		
+		longitude = jsonAirport.getDouble("longitude");	
+		//city = new RyanairCityController();
 		city = new RyanairCityController(iataCode);
 		
 		jsonRoutes = jsonController.getJsonArray(ryanairRoutesUrl.replace("{iataCode}", iataCode));

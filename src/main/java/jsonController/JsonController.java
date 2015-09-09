@@ -8,7 +8,7 @@ import org.jsoup.Connection.Method;
 import org.jsoup.Jsoup;
 
 public class JsonController {
-	private int timeout = 2000;
+	private int timeout = 8000;
 	
 	/**
 	 * 

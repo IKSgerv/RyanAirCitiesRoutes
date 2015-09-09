@@ -19,6 +19,13 @@ public class RyanairCityController {
 	 * 
 	 */
 	
+	RyanairCityController(){		
+		iataCode = "Empty";
+		name = "Empty";
+		latitude = 0;
+		longitude = 0;
+	}
+	
 	RyanairCityController(String airportIataCode){
 		JsonController jsonController = new JsonController();
 		JSONArray response = null;
