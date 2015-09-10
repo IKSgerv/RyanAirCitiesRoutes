@@ -49,6 +49,15 @@ public class PoiController {
 	}
 	
 	public void putContent(double[][] content){
+		double prom;
+		
+		for(int i = 0; i < content.length; i++){
+			for(int j = 0; j < content[i].length; j++){
+				prom = (content[i][j] + content[j][i]) / 2;
+				content[i][j] = content[j][i] = prom;
+			}
+		}
+		
 		Row row;
 		Cell cell;
 		
@@ -95,6 +104,24 @@ public class PoiController {
 		    }
 	    }
 	    System.out.println("Reading graph - finished");
-		return new Graph(vectorV, vectorE);
+	    
+		return solveMissing(new Graph(vectorV, vectorE));
+	}
+	
+	Graph solveMissing(Graph graphG){
+		boolean found;
+		for(int i = 0; i < graphG.getVectorV().size(); i++){
+			found = false;
+			for(int j = 0; j < graphG.getVectorE().size(); j++){
+				if(graphG.getVectorE().get(j).getFrom().equals(graphG.getVectorV().get(i)) || graphG.getVectorE().get(j).getTo().equals(graphG.getVectorV().get(i))){
+					found = true;
+				}
+			}
+			if(!found){
+				System.out.println("Deleted: " + graphG.getVectorV().remove(i));
+				i--;
+			}
+		}
+		return graphG;
 	}
 }

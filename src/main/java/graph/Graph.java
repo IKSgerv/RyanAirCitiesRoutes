@@ -9,6 +9,10 @@ public class Graph {
 		vectorV = v;
 		vectorE = e;
 	}
+	public Graph(){
+		vectorV = new Vector<String>();
+		vectorE = new Vector<Edge>();
+	}
 	public Vector<Edge> getVectorE() {
 		return vectorE;
 	}
@@ -16,6 +20,6 @@ public class Graph {
 		return vectorV;
 	}
 	public String toString(){
-		return "V: " + vectorV.toString() + "\nE: " + vectorE.toString();
+		return " V: " + vectorV.toString() + "\n E: " + vectorE.toString();
 	}
 }

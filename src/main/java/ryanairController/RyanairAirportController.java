@@ -31,8 +31,8 @@ public class RyanairAirportController {
 		iataCode = jsonAirport.getString("iataCode");
 		latitude = jsonAirport.getDouble("latitude");
 		longitude = jsonAirport.getDouble("longitude");	
-		//city = new RyanairCityController();
-		city = new RyanairCityController(iataCode);
+		city = new RyanairCityController();
+		//city = new RyanairCityController(iataCode);
 		
 		jsonRoutes = jsonController.getJsonArray(ryanairRoutesUrl.replace("{iataCode}", iataCode));
 		destinationsIataCodes = new String[jsonRoutes.length()];

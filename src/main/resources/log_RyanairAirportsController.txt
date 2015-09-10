@@ -1,202 +1,202 @@
 RyanairAirportsController constructor - Started
-(1%) AAR name: Aarhus - city: Aarhus
-(1%) ACE name: Lanzarote - city: Arrecife
-(2%) AGA name: Agadir - city: Agadir
-(2%) AGP name: Malaga - city: Malaga
-(3%) AHO name: Alghero - city: Alghero
-(3%) ALC name: Alicante - city: Alicante
-(4%) AOI name: Ancona - city: Ancona
-(4%) ATH name: Athens - city: Athens
-(5%) BCN name: Barcelona El Prat - city: Barcelona
-(5%) BDS name: Brindisi - city: Brindisi
-(6%) BES name: Brest - city: Brest
-(6%) BGY name: Milan Bergamo - city: Milan
-(7%) BHX name: Birmingham - city: Birmingham
-(7%) BIQ name: Biarritz - city: Biarritz
-(8%) BLL name: Billund - city: Billund
-(8%) BLQ name: Bologna - city: Bologna
-(9%) BOD name: Bordeaux - city: Bordeaux
-(9%) BOH name: Bournemouth - city: Bournemouth
-(10%) BRE name: Bremen - city: Bremen
-(10%) BRI name: Bari - city: Bari
-(11%) BRQ name: Brno - city: Brno
-(12%) BRS name: Bristol - city: Bristol
-(12%) BRU name: Brussels Zaventem - city: Brussels
-(13%) BSL name: Basel - city: Mulhouse
-(13%) BTS name: Bratislava - city: Bratislava
-(14%) BUD name: Budapest - city: Budapest
-(14%) BVA name: Paris Beauvais - city: Paris
-(15%) BVE name: Brive - city: Brive-La-Gaillarde
-(15%) BZG name: Bydgoszcz - city: Bydgoszcz
-(16%) BZR name: Beziers - city: Beziers
-(16%) CAG name: Cagliari - city: Cagliari
-(17%) CCF name: Carcassonne - city: Carcassonne
-(17%) CFE name: Clermont Ferrand - city: Clermont-Ferrand
-(18%) CFU name: Corfu - city: Kerkyra
-(18%) CGN name: Cologne - city: Cologne
-(19%) CHQ name: Chania - city: Chania
-(19%) CIA name: Rome Ciampino - city: Rome
-(20%) CIY name: Comiso - city: Comiso
-(20%) CRL name: Brussels Charleroi - city: Brussels
-(21%) CRV name: Crotone - city: Crotone
-(21%) CTA name: Catania - city: Catania
-(22%) CUF name: Cuneo - city: Cuneo
-(23%) CWL name: Cardiff - city: Cardiff
-(23%) DLE name: Dole - city: Dole
-(24%) DNR name: Dinard - city: Dinard
-(24%) DOL name: Deauville-Normandy - city: Deauville
-(25%) DTM name: Dortmund - city: Dortmund
-(25%) DUB name: Dublin - city: Dublin
-(26%) EBU name: St Etienne - city: St Etienne
-(26%) EDI name: Edinburgh - city: Edinburgh
-(27%) EFL name: Kefalonia - city: Kefalonia
-(27%) EGC name: Bergerac - city: Bergerac
-(28%) EIN name: Eindhoven - city: Eindhoven
-(28%) EMA name: East Midlands - city: Nottingham
-(29%) ESU name: Essaouira - city: Essaouira
-(29%) FAO name: Faro - city: Faro
-(30%) FCO name: Rome Fiumicino - city: Rome
-(30%) FEZ name: Fez - city: Fez
-(31%) FKB name: Baden-Baden - city: Karlsruhe
-(31%) FMM name: Memmingen (Munich West) - city: Memmingen
-(32%) FMO name: Münster - city: Greven
-(32%) FNI name: Nimes - city: Nimes
-(33%) FSC name: Figari - city: Figari
-(34%) FUE name: Fuerteventura - city: Puerto del Rosario
-(34%) GDN name: Gdansk - city: Gdansk
-(35%) GNB name: Grenoble - city: Lyon
-(35%) GOA name: Genoa - city: Genova
-(36%) GPA name: Patras (Araxos) - city: Patras
-(36%) GRO name: Girona Barcelona - city: Gerona
-(37%) HAU name: Haugesund - city: Haugesund
-(37%) HHN name: Frankfurt Hahn - city: Frankfurt
-(38%) IBZ name: Ibiza - city: Ibiza
-(38%) KGS name: Kos - city: Kos
-(39%) KIR name: Kerry - city: Farranfore
-(39%) KLX name: Kalamata - city: Kalamata
-(40%) KRK name: Krakow - city: Krakow
-(40%) KTW name: Katowice - city: Katowice
-(41%) KUN name: Kaunas - city: Kaunas
-(41%) LBA name: Leeds Bradford - city: Leeds
-(42%) LCJ name: Lodz - city: Lodz
-(42%) LDE name: Lourdes - city: Lourdes
-(43%) LDY name: Derry - city: Derry
-(43%) LEI name: Almeria - city: Almeria
-(44%) LEJ name: Leipzig - city: Leipzig-Halle
-(45%) LGW name: London Gatwick - city: London
-(45%) LIG name: Limoges - city: Limoges
-(46%) LIL name: Lille - city: Lille
-(46%) LIS name: Lisbon - city: Lisbon
-(47%) LNZ name: Linz - city: Linz
-(47%) LPA name: Gran Canaria - city: Las Palmas
-(48%) LPL name: Liverpool - city: Liverpool
-(48%) LPP name: Lappeenranta - city: Lappeenranta
-(49%) LRH name: La Rochelle - city: La Rochelle
-(49%) LTN name: London Luton - city: London
-(50%) LUZ name: Lublin - city: Lushan
-(50%) MAD name: Madrid - city: Madrid
-(51%) MAH name: Menorca - city: Menorca
-(51%) MAN name: Manchester - city: Manchester
-(52%) MJV name: Murcia - city: Murcia
-(52%) MLA name: Malta - city: Gudja
-(53%) MPL name: Montpellier - city: Montpellier
-(53%) MRS name: Marseille Provence - city: Marseille
-(54%) MST name: Maastricht - city: Maastricht
-(54%) MXP name: Milan Malpensa - city: Milan
-(55%) NCE name: Nice - city: Nice
-(55%) NCL name: Newcastle - city: Newcastle
-(56%) NDR name: Nador - city: Nador
-(57%) NOC name: Knock Ireland West - city: Knock
-(57%) NRN name: Dusseldorf Weeze - city: Dusseldorf
-(58%) NTE name: Nantes - city: Nantes
-(58%) NUE name: Nuremberg - city: Nürnberg
-(59%) NYO name: Stockholm Skavsta - city: Stockholm
-(59%) OPO name: Porto - city: Porto
-(60%) ORK name: Cork - city: Cork
-(60%) OSI name: Osijek - city: Osijek
-(61%) OSR name: Ostrava - city: Ostrava
-(61%) OTP name: Bucharest (Otopeni) - city: Bucharest
-(62%) OUD name: Oujda - city: Oujda
-(62%) PDV name: Plovdiv - city: Plovdiv
-(63%) PEG name: Perugia - city: Perugia
-(63%) PFO name: Paphos - city: Paphos
-(64%) PGF name: Perpignan - city: Perpignan
-(64%) PIK name: Glasgow Prestwick - city: Glasgow
-(65%) PIS name: Poitiers - city: Poitiers
-(65%) PMF name: Parma - city: Milan
-(66%) PMI name: Palma - city: Palma Mallorca
-(66%) PMO name: Palermo - city: Palermo
-(67%) POZ name: Poznan - city: Poznan
-(68%) PRG name: Prague - city: Prague
-(68%) PSA name: Pisa - city: Pisa
-(69%) PSR name: Pescara - city: Pescara
-(69%) PUY name: Pula - city: Pula
-(70%) RAK name: Marrakesh - city: Marrakech
-(70%) RBA name: Rabat - city: Rabat
-(71%) RDZ name: Rodez - city: Rodez
-(71%) REU name: Reus Barcelona - city: Reus
-(72%) RHO name: Rhodes - city: Rhodes
-(72%) RIX name: Riga - city: Riga
-(73%) RJK name: Rijeka - city: Rijeka
-(73%) RYG name: Oslo Rygge - city: Oslo
-(74%) RZE name: Rzeszow - city: Rzeszow
-(74%) SCQ name: Santiago - city: Santiago De Compostela
-(75%) SDR name: Santander - city: Santander
-(75%) SFT name: Skelleftea - city: Skelleftea
-(76%) SKG name: Thessaloniki - city: Thessaloniki
-(76%) SNN name: Shannon - city: Shannon
-(77%) STN name: London Stansted - city: London
-(77%) SUF name: Lamezia - city: Lamezia Terme
-(78%) SVQ name: Seville - city: Sevilla
-(79%) SXB name: Strasbourg - city: Strasbourg
-(79%) SXF name: Berlin Schonefeld - city: Berlin
-(80%) SZG name: Salzburg - city: Salzburg
-(80%) SZZ name: Szczecin - city: Szczecin
-(81%) TFN name: Tenerife North - city: Tenerife
-(81%) TFS name: Tenerife Sth - city: Tenerife
-(82%) TGD name: Podgorica - city: Podgorica
-(82%) TLL name: Tallinn - city: Tallinn
-(83%) TLN name: Toulon - city: Hyeres
-(83%) TMP name: Tampere - city: Tampere
-(84%) TNG name: Tangier - city: Tangier
-(84%) TPS name: Trapani - city: Trapani
-(85%) TRF name: Oslo Torp - city: Oslo
-(85%) TRN name: Turin - city: Turin
-(86%) TRS name: Trieste - city: Trieste
-(86%) TSF name: Venice Treviso - city: Venice
-(87%) TUF name: Tours Loire Valley - city: Tours
-(87%) VLC name: Valencia - city: Manises
-(88%) VLL name: Valladolid - city: Valladolid
-(88%) VNO name: Vilnius - city: Vilnius
-(89%) VRN name: Verona - city: Verona
-(90%) VST name: Stockholm Vasteras - city: Stockholm
-(90%) VXO name: Växjö - city: Växjö
-(91%) WMI name: Warsaw Modlin - city: Nowy Dwor Mazowiecki
-(91%) WRO name: Wroclaw - city: Wroclaw
-(92%) XCR name: Paris Vatry - city: Paris
-(92%) XRY name: Jerez - city: Jerez De La Frontera
-(93%) ZAD name: Zadar - city: Zadar
-(93%) ZAZ name: Zaragoza - city: Zaragoza
-(94%) ZTH name: Zakynthos - city: Zakinthos
-(94%) GLA name: Glasgow International - city: Glasgow
-(95%) CPH name: Copenhagen - city: Copenhagen
-(95%) HAM name: Hamburg - city: Hamburg
-(96%) GOT name: Gothenburg Landvetter - city: Gothenburg
-(96%) PDL name: Ponta Delgada - city: Ponta Delgada
-(97%) LRT name: Lorient - city: Lorient
-(97%) JTR name: Santorini National - city: Santorini (Thira)
-(98%) STR name: Stuttgart - city: Stuttgart
-(98%) CDT name: Castellon - city: Castellon de la Plana
-(99%) VDA name: Eilat (Ovda) - city: Ovda
-(99%) SOF name: Sofia - city: Sofia
-(100%) AMS name: Amsterdam - city: Amsterdam
+(1%) AAR name: Aarhus - city: Empty
+(1%) ACE name: Lanzarote - city: Empty
+(2%) AGA name: Agadir - city: Empty
+(2%) AGP name: Malaga - city: Empty
+(3%) AHO name: Alghero - city: Empty
+(3%) ALC name: Alicante - city: Empty
+(4%) AOI name: Ancona - city: Empty
+(4%) ATH name: Athens - city: Empty
+(5%) BCN name: Barcelona El Prat - city: Empty
+(5%) BDS name: Brindisi - city: Empty
+(6%) BES name: Brest - city: Empty
+(6%) BGY name: Milan Bergamo - city: Empty
+(7%) BHX name: Birmingham - city: Empty
+(7%) BIQ name: Biarritz - city: Empty
+(8%) BLL name: Billund - city: Empty
+(8%) BLQ name: Bologna - city: Empty
+(9%) BOD name: Bordeaux - city: Empty
+(9%) BOH name: Bournemouth - city: Empty
+(10%) BRE name: Bremen - city: Empty
+(10%) BRI name: Bari - city: Empty
+(11%) BRQ name: Brno - city: Empty
+(12%) BRS name: Bristol - city: Empty
+(12%) BRU name: Brussels Zaventem - city: Empty
+(13%) BSL name: Basel - city: Empty
+(13%) BTS name: Bratislava - city: Empty
+(14%) BUD name: Budapest - city: Empty
+(14%) BVA name: Paris Beauvais - city: Empty
+(15%) BVE name: Brive - city: Empty
+(15%) BZG name: Bydgoszcz - city: Empty
+(16%) BZR name: Beziers - city: Empty
+(16%) CAG name: Cagliari - city: Empty
+(17%) CCF name: Carcassonne - city: Empty
+(17%) CFE name: Clermont Ferrand - city: Empty
+(18%) CFU name: Corfu - city: Empty
+(18%) CGN name: Cologne - city: Empty
+(19%) CHQ name: Chania - city: Empty
+(19%) CIA name: Rome Ciampino - city: Empty
+(20%) CIY name: Comiso - city: Empty
+(20%) CRL name: Brussels Charleroi - city: Empty
+(21%) CRV name: Crotone - city: Empty
+(21%) CTA name: Catania - city: Empty
+(22%) CUF name: Cuneo - city: Empty
+(23%) CWL name: Cardiff - city: Empty
+(23%) DLE name: Dole - city: Empty
+(24%) DNR name: Dinard - city: Empty
+(24%) DOL name: Deauville-Normandy - city: Empty
+(25%) DTM name: Dortmund - city: Empty
+(25%) DUB name: Dublin - city: Empty
+(26%) EBU name: St Etienne - city: Empty
+(26%) EDI name: Edinburgh - city: Empty
+(27%) EFL name: Kefalonia - city: Empty
+(27%) EGC name: Bergerac - city: Empty
+(28%) EIN name: Eindhoven - city: Empty
+(28%) EMA name: East Midlands - city: Empty
+(29%) ESU name: Essaouira - city: Empty
+(29%) FAO name: Faro - city: Empty
+(30%) FCO name: Rome Fiumicino - city: Empty
+(30%) FEZ name: Fez - city: Empty
+(31%) FKB name: Baden-Baden - city: Empty
+(31%) FMM name: Memmingen (Munich West) - city: Empty
+(32%) FMO name: Münster - city: Empty
+(32%) FNI name: Nimes - city: Empty
+(33%) FSC name: Figari - city: Empty
+(34%) FUE name: Fuerteventura - city: Empty
+(34%) GDN name: Gdansk - city: Empty
+(35%) GNB name: Grenoble - city: Empty
+(35%) GOA name: Genoa - city: Empty
+(36%) GPA name: Patras (Araxos) - city: Empty
+(36%) GRO name: Girona Barcelona - city: Empty
+(37%) HAU name: Haugesund - city: Empty
+(37%) HHN name: Frankfurt Hahn - city: Empty
+(38%) IBZ name: Ibiza - city: Empty
+(38%) KGS name: Kos - city: Empty
+(39%) KIR name: Kerry - city: Empty
+(39%) KLX name: Kalamata - city: Empty
+(40%) KRK name: Krakow - city: Empty
+(40%) KTW name: Katowice - city: Empty
+(41%) KUN name: Kaunas - city: Empty
+(41%) LBA name: Leeds Bradford - city: Empty
+(42%) LCJ name: Lodz - city: Empty
+(42%) LDE name: Lourdes - city: Empty
+(43%) LDY name: Derry - city: Empty
+(43%) LEI name: Almeria - city: Empty
+(44%) LEJ name: Leipzig - city: Empty
+(45%) LGW name: London Gatwick - city: Empty
+(45%) LIG name: Limoges - city: Empty
+(46%) LIL name: Lille - city: Empty
+(46%) LIS name: Lisbon - city: Empty
+(47%) LNZ name: Linz - city: Empty
+(47%) LPA name: Gran Canaria - city: Empty
+(48%) LPL name: Liverpool - city: Empty
+(48%) LPP name: Lappeenranta - city: Empty
+(49%) LRH name: La Rochelle - city: Empty
+(49%) LTN name: London Luton - city: Empty
+(50%) LUZ name: Lublin - city: Empty
+(50%) MAD name: Madrid - city: Empty
+(51%) MAH name: Menorca - city: Empty
+(51%) MAN name: Manchester - city: Empty
+(52%) MJV name: Murcia - city: Empty
+(52%) MLA name: Malta - city: Empty
+(53%) MPL name: Montpellier - city: Empty
+(53%) MRS name: Marseille Provence - city: Empty
+(54%) MST name: Maastricht - city: Empty
+(54%) MXP name: Milan Malpensa - city: Empty
+(55%) NCE name: Nice - city: Empty
+(55%) NCL name: Newcastle - city: Empty
+(56%) NDR name: Nador - city: Empty
+(57%) NOC name: Knock Ireland West - city: Empty
+(57%) NRN name: Dusseldorf Weeze - city: Empty
+(58%) NTE name: Nantes - city: Empty
+(58%) NUE name: Nuremberg - city: Empty
+(59%) NYO name: Stockholm Skavsta - city: Empty
+(59%) OPO name: Porto - city: Empty
+(60%) ORK name: Cork - city: Empty
+(60%) OSI name: Osijek - city: Empty
+(61%) OSR name: Ostrava - city: Empty
+(61%) OTP name: Bucharest (Otopeni) - city: Empty
+(62%) OUD name: Oujda - city: Empty
+(62%) PDV name: Plovdiv - city: Empty
+(63%) PEG name: Perugia - city: Empty
+(63%) PFO name: Paphos - city: Empty
+(64%) PGF name: Perpignan - city: Empty
+(64%) PIK name: Glasgow Prestwick - city: Empty
+(65%) PIS name: Poitiers - city: Empty
+(65%) PMF name: Parma - city: Empty
+(66%) PMI name: Palma - city: Empty
+(66%) PMO name: Palermo - city: Empty
+(67%) POZ name: Poznan - city: Empty
+(68%) PRG name: Prague - city: Empty
+(68%) PSA name: Pisa - city: Empty
+(69%) PSR name: Pescara - city: Empty
+(69%) PUY name: Pula - city: Empty
+(70%) RAK name: Marrakesh - city: Empty
+(70%) RBA name: Rabat - city: Empty
+(71%) RDZ name: Rodez - city: Empty
+(71%) REU name: Reus Barcelona - city: Empty
+(72%) RHO name: Rhodes - city: Empty
+(72%) RIX name: Riga - city: Empty
+(73%) RJK name: Rijeka - city: Empty
+(73%) RYG name: Oslo Rygge - city: Empty
+(74%) RZE name: Rzeszow - city: Empty
+(74%) SCQ name: Santiago - city: Empty
+(75%) SDR name: Santander - city: Empty
+(75%) SFT name: Skelleftea - city: Empty
+(76%) SKG name: Thessaloniki - city: Empty
+(76%) SNN name: Shannon - city: Empty
+(77%) STN name: London Stansted - city: Empty
+(77%) SUF name: Lamezia - city: Empty
+(78%) SVQ name: Seville - city: Empty
+(79%) SXB name: Strasbourg - city: Empty
+(79%) SXF name: Berlin Schonefeld - city: Empty
+(80%) SZG name: Salzburg - city: Empty
+(80%) SZZ name: Szczecin - city: Empty
+(81%) TFN name: Tenerife North - city: Empty
+(81%) TFS name: Tenerife Sth - city: Empty
+(82%) TGD name: Podgorica - city: Empty
+(82%) TLL name: Tallinn - city: Empty
+(83%) TLN name: Toulon - city: Empty
+(83%) TMP name: Tampere - city: Empty
+(84%) TNG name: Tangier - city: Empty
+(84%) TPS name: Trapani - city: Empty
+(85%) TRF name: Oslo Torp - city: Empty
+(85%) TRN name: Turin - city: Empty
+(86%) TRS name: Trieste - city: Empty
+(86%) TSF name: Venice Treviso - city: Empty
+(87%) TUF name: Tours Loire Valley - city: Empty
+(87%) VLC name: Valencia - city: Empty
+(88%) VLL name: Valladolid - city: Empty
+(88%) VNO name: Vilnius - city: Empty
+(89%) VRN name: Verona - city: Empty
+(90%) VST name: Stockholm Vasteras - city: Empty
+(90%) VXO name: Växjö - city: Empty
+(91%) WMI name: Warsaw Modlin - city: Empty
+(91%) WRO name: Wroclaw - city: Empty
+(92%) XCR name: Paris Vatry - city: Empty
+(92%) XRY name: Jerez - city: Empty
+(93%) ZAD name: Zadar - city: Empty
+(93%) ZAZ name: Zaragoza - city: Empty
+(94%) ZTH name: Zakynthos - city: Empty
+(94%) GLA name: Glasgow International - city: Empty
+(95%) CPH name: Copenhagen - city: Empty
+(95%) HAM name: Hamburg - city: Empty
+(96%) GOT name: Gothenburg Landvetter - city: Empty
+(96%) PDL name: Ponta Delgada - city: Empty
+(97%) LRT name: Lorient - city: Empty
+(97%) JTR name: Santorini National - city: Empty
+(98%) STR name: Stuttgart - city: Empty
+(98%) CDT name: Castellon - city: Empty
+(99%) VDA name: Eilat (Ovda) - city: Empty
+(99%) SOF name: Sofia - city: Empty
+(100%) AMS name: Amsterdam - city: Empty
 Airports: 191
 RyanairAirportsController constructor - Finished
 --------------------------------------------------
-Calculating for: AAR name: Aarhus - city: Aarhus
+Calculating for: AAR name: Aarhus - city: Empty
 (1) Aarhus to London Stansted(STN) Distance: 835.0
 --------------------------------------------------
-Calculating for: ACE name: Lanzarote - city: Arrecife
+Calculating for: ACE name: Lanzarote - city: Empty
 (2) Lanzarote to Manchester(MAN) Distance: 2866.0
 (3) Lanzarote to Barcelona El Prat(BCN) Distance: 1974.0
 (4) Lanzarote to Birmingham(BHX) Distance: 2790.0
@@ -226,12 +226,12 @@ Calculating for: ACE name: Lanzarote - city: Arrecife
 (28) Lanzarote to Milan Bergamo(BGY) Distance: 2757.0
 (29) Lanzarote to Paris Beauvais(BVA) Distance: 2640.0
 --------------------------------------------------
-Calculating for: AGA name: Agadir - city: Agadir
+Calculating for: AGA name: Agadir - city: Empty
 (30) Agadir to Marseille Provence(MRS) Distance: 1948.0
 (31) Agadir to Brussels Charleroi(CRL) Distance: 2518.0
 (32) Agadir to Dusseldorf Weeze(NRN) Distance: 2689.0
 --------------------------------------------------
-Calculating for: AGP name: Malaga - city: Malaga
+Calculating for: AGP name: Malaga - city: Empty
 (33) Malaga to Münster(FMO) Distance: 1966.0
 (34) Malaga to Knock Ireland West(NOC) Distance: 1945.0
 (35) Malaga to Nuremberg(NUE) Distance: 1897.0
@@ -285,7 +285,7 @@ Calculating for: AGP name: Malaga - city: Malaga
 (83) Malaga to Warsaw Modlin(WMI) Distance: 2630.0
 (84) Malaga to Hamburg(HAM) Distance: 2191.0
 --------------------------------------------------
-Calculating for: AHO name: Alghero - city: Alghero
+Calculating for: AHO name: Alghero - city: Empty
 (85) Alghero to Paris Beauvais(BVA) Distance: 1093.0
 (86) Alghero to Trieste(TRS) Distance: 713.0
 (87) Alghero to Pisa(PSA) Distance: 380.0
@@ -310,7 +310,7 @@ Calculating for: AHO name: Alghero - city: Alghero
 (106) Alghero to Turin(TRN) Distance: 510.0
 (107) Alghero to Gothenburg Landvetter(GOT) Distance: 1916.0
 --------------------------------------------------
-Calculating for: ALC name: Alicante - city: Alicante
+Calculating for: ALC name: Alicante - city: Empty
 (108) Alicante to Derry(LDY) Distance: 1928.0
 (109) Alicante to Shannon(SNN) Distance: 1728.0
 (110) Alicante to Cork(ORK) Distance: 1629.0
@@ -363,14 +363,14 @@ Calculating for: ALC name: Alicante - city: Alicante
 (157) Alicante to Hamburg(HAM) Distance: 1886.0
 (158) Alicante to Newcastle(NCL) Distance: 1865.0
 --------------------------------------------------
-Calculating for: AOI name: Ancona - city: Ancona
+Calculating for: AOI name: Ancona - city: Empty
 (159) Ancona to London Stansted(STN) Distance: 1341.0
 (160) Ancona to Dusseldorf Weeze(NRN) Distance: 1038.0
 (161) Ancona to Alghero(AHO) Distance: 533.0
 (162) Ancona to Brussels Charleroi(CRL) Distance: 1015.0
 (163) Ancona to Trapani(TPS) Distance: 638.0
 --------------------------------------------------
-Calculating for: ATH name: Athens - city: Athens
+Calculating for: ATH name: Athens - city: Empty
 (164) Athens to Thessaloniki(SKG) Distance: 299.0
 (165) Athens to Chania(CHQ) Distance: 268.0
 (166) Athens to Rhodes(RHO) Distance: 404.0
@@ -385,7 +385,7 @@ Calculating for: ATH name: Athens - city: Athens
 (175) Athens to Santorini National(JTR) Distance: 218.0
 (176) Athens to Berlin Schonefeld(SXF) Distance: 1797.0
 --------------------------------------------------
-Calculating for: BCN name: Barcelona El Prat - city: Barcelona
+Calculating for: BCN name: Barcelona El Prat - city: Empty
 (177) Barcelona El Prat to Manchester(MAN) Distance: 1379.0
 (178) Barcelona El Prat to Turin(TRN) Distance: 625.0
 (179) Barcelona El Prat to Bologna(BLQ) Distance: 831.0
@@ -428,7 +428,7 @@ Calculating for: BCN name: Barcelona El Prat - city: Barcelona
 (216) Barcelona El Prat to Berlin Schonefeld(SXF) Distance: 1504.0
 (217) Barcelona El Prat to Hamburg(HAM) Distance: 1492.0
 --------------------------------------------------
-Calculating for: BDS name: Brindisi - city: Brindisi
+Calculating for: BDS name: Brindisi - city: Empty
 (218) Brindisi to Milan Bergamo(BGY) Distance: 869.0
 (219) Brindisi to Bologna(BLQ) Distance: 694.0
 (220) Brindisi to Paris Beauvais(BVA) Distance: 1576.0
@@ -444,10 +444,10 @@ Calculating for: BDS name: Brindisi - city: Brindisi
 (230) Brindisi to Perugia(PEG) Distance: 525.0
 (231) Brindisi to Rome Fiumicino(FCO) Distance: 493.0
 --------------------------------------------------
-Calculating for: BES name: Brest - city: Brest
+Calculating for: BES name: Brest - city: Empty
 (232) Brest to Marseille Provence(MRS) Distance: 929.0
 --------------------------------------------------
-Calculating for: BGY name: Milan Bergamo - city: Milan
+Calculating for: BGY name: Milan Bergamo - city: Empty
 (233) Milan Bergamo to Catania(CTA) Distance: 1015.0
 (234) Milan Bergamo to Kalamata(KLX) Distance: 1401.0
 (235) Milan Bergamo to Malta(MLA) Distance: 1162.0
@@ -520,7 +520,7 @@ Calculating for: BGY name: Milan Bergamo - city: Milan
 (302) Milan Bergamo to Bucharest (Otopeni)(OTP) Distance: 1290.0
 (303) Milan Bergamo to Comiso(CIY) Distance: 1047.0
 --------------------------------------------------
-Calculating for: BHX name: Birmingham - city: Birmingham
+Calculating for: BHX name: Birmingham - city: Empty
 (304) Birmingham to Perpignan(PGF) Distance: 1133.0
 (305) Birmingham to Malaga(AGP) Distance: 1767.0
 (306) Birmingham to Alicante(ALC) Distance: 1578.0
@@ -542,13 +542,13 @@ Calculating for: BHX name: Birmingham - city: Birmingham
 (322) Birmingham to Krakow(KRK) Distance: 1515.0
 (323) Birmingham to Barcelona El Prat(BCN) Distance: 1273.0
 --------------------------------------------------
-Calculating for: BIQ name: Biarritz - city: Biarritz
+Calculating for: BIQ name: Biarritz - city: Empty
 (324) Biarritz to Dublin(DUB) Distance: 1160.0
 (325) Biarritz to Brussels Charleroi(CRL) Distance: 899.0
 (326) Biarritz to Stockholm Skavsta(NYO) Distance: 2119.0
 (327) Biarritz to London Stansted(STN) Distance: 945.0
 --------------------------------------------------
-Calculating for: BLL name: Billund - city: Billund
+Calculating for: BLL name: Billund - city: Empty
 (328) Billund to Chania(CHQ) Distance: 2519.0
 (329) Billund to Malaga(AGP) Distance: 2356.0
 (330) Billund to Alicante(ALC) Distance: 2071.0
@@ -564,7 +564,7 @@ Calculating for: BLL name: Billund - city: Billund
 (340) Billund to Tenerife Sth(TFS) Distance: 3698.0
 (341) Billund to Venice Treviso(TSF) Distance: 1142.0
 --------------------------------------------------
-Calculating for: BLQ name: Bologna - city: Bologna
+Calculating for: BLQ name: Bologna - city: Empty
 (342) Bologna to Manchester(MAN) Distance: 1389.0
 (343) Bologna to Dublin(DUB) Distance: 1610.0
 (344) Bologna to Barcelona El Prat(BCN) Distance: 831.0
@@ -605,7 +605,7 @@ Calculating for: BLQ name: Bologna - city: Bologna
 (379) Bologna to Gran Canaria(LPA) Distance: 2998.0
 (380) Bologna to Copenhagen(CPH) Distance: 1236.0
 --------------------------------------------------
-Calculating for: BOD name: Bordeaux - city: Bordeaux
+Calculating for: BOD name: Bordeaux - city: Empty
 (381) Bordeaux to Rome Ciampino(CIA) Distance: 1126.0
 (382) Bordeaux to Brussels Charleroi(CRL) Distance: 735.0
 (383) Bordeaux to Porto(OPO) Distance: 759.0
@@ -615,7 +615,7 @@ Calculating for: BOD name: Bordeaux - city: Bordeaux
 (387) Bordeaux to London Stansted(STN) Distance: 787.0
 (388) Bordeaux to Cork(ORK) Distance: 967.0
 --------------------------------------------------
-Calculating for: BOH name: Bournemouth - city: Bournemouth
+Calculating for: BOH name: Bournemouth - city: Empty
 (389) Bournemouth to Alicante(ALC) Distance: 1393.0
 (390) Bournemouth to Malaga(AGP) Distance: 1582.0
 (391) Bournemouth to Faro(FAO) Distance: 1605.0
@@ -626,7 +626,7 @@ Calculating for: BOH name: Bournemouth - city: Bournemouth
 (396) Bournemouth to Palma(PMI) Distance: 1298.0
 (397) Bournemouth to Tenerife Sth(TFS) Distance: 2815.0
 --------------------------------------------------
-Calculating for: BRE name: Bremen - city: Bremen
+Calculating for: BRE name: Bremen - city: Empty
 (398) Bremen to Thessaloniki(SKG) Distance: 1755.0
 (399) Bremen to Chania(CHQ) Distance: 2288.0
 (400) Bremen to Malaga(AGP) Distance: 2092.0
@@ -654,7 +654,7 @@ Calculating for: BRE name: Bremen - city: Bremen
 (422) Bremen to Lisbon(LIS) Distance: 2094.0
 (423) Bremen to Prague(PRG) Distance: 500.0
 --------------------------------------------------
-Calculating for: BRI name: Bari - city: Bari
+Calculating for: BRI name: Bari - city: Empty
 (424) Bari to Milan Bergamo(BGY) Distance: 760.0
 (425) Bari to Frankfurt Hahn(HHN) Distance: 1225.0
 (426) Bari to Malta(MLA) Distance: 619.0
@@ -678,10 +678,10 @@ Calculating for: BRI name: Bari - city: Bari
 (444) Bari to Rome Fiumicino(FCO) Distance: 382.0
 (445) Bari to Berlin Schonefeld(SXF) Distance: 1273.0
 --------------------------------------------------
-Calculating for: BRQ name: Brno - city: Brno
+Calculating for: BRQ name: Brno - city: Empty
 (446) Brno to London Stansted(STN) Distance: 1199.0
 --------------------------------------------------
-Calculating for: BRS name: Bristol - city: Bristol
+Calculating for: BRS name: Bristol - city: Empty
 (447) Bristol to Chania(CHQ) Distance: 2767.0
 (448) Bristol to Dublin(DUB) Distance: 330.0
 (449) Bristol to Girona Barcelona(GRO) Distance: 1133.0
@@ -711,7 +711,7 @@ Calculating for: BRS name: Bristol - city: Bristol
 (473) Bristol to Bologna(BLQ) Distance: 1287.0
 (474) Bristol to Castellon(CDT) Distance: 1283.0
 --------------------------------------------------
-Calculating for: BRU name: Brussels Zaventem - city: Brussels
+Calculating for: BRU name: Brussels Zaventem - city: Empty
 (475) Brussels Zaventem to Rome Fiumicino(FCO) Distance: 1172.0
 (476) Brussels Zaventem to Palma(PMI) Distance: 1269.0
 (477) Brussels Zaventem to Barcelona El Prat(BCN) Distance: 1083.0
@@ -726,11 +726,11 @@ Calculating for: BRU name: Brussels Zaventem - city: Brussels
 (486) Brussels Zaventem to Verona(VRN) Distance: 774.0
 (487) Brussels Zaventem to Berlin Schonefeld(SXF) Distance: 644.0
 --------------------------------------------------
-Calculating for: BSL name: Basel - city: Mulhouse
+Calculating for: BSL name: Basel - city: Empty
 (488) Basel to Dublin(DUB) Distance: 1168.0
 (489) Basel to London Stansted(STN) Distance: 708.0
 --------------------------------------------------
-Calculating for: BTS name: Bratislava - city: Bratislava
+Calculating for: BTS name: Bratislava - city: Empty
 (490) Bratislava to Trapani(TPS) Distance: 1203.0
 (491) Bratislava to Milan Bergamo(BGY) Distance: 633.0
 (492) Bratislava to Dublin(DUB) Distance: 1741.0
@@ -750,7 +750,7 @@ Calculating for: BTS name: Bratislava - city: Bratislava
 (506) Bratislava to Athens(ATH) Distance: 1261.0
 (507) Bratislava to Berlin Schonefeld(SXF) Distance: 536.0
 --------------------------------------------------
-Calculating for: BUD name: Budapest - city: Budapest
+Calculating for: BUD name: Budapest - city: Empty
 (508) Budapest to Barcelona El Prat(BCN) Distance: 1522.0
 (509) Budapest to Milan Bergamo(BGY) Distance: 755.0
 (510) Budapest to Billund(BLL) Distance: 1154.0
@@ -769,7 +769,7 @@ Calculating for: BUD name: Budapest - city: Budapest
 (523) Budapest to Copenhagen(CPH) Distance: 1016.0
 (524) Budapest to Eilat (Ovda)(VDA) Distance: 2364.0
 --------------------------------------------------
-Calculating for: BVA name: Paris Beauvais - city: Paris
+Calculating for: BVA name: Paris Beauvais - city: Empty
 (525) Paris Beauvais to Oujda(OUD) Distance: 1663.0
 (526) Paris Beauvais to Alghero(AHO) Distance: 1093.0
 (527) Paris Beauvais to Rabat(RBA) Distance: 1860.0
@@ -819,17 +819,17 @@ Calculating for: BVA name: Paris Beauvais - city: Paris
 (571) Paris Beauvais to Gothenburg Landvetter(GOT) Distance: 1132.0
 (572) Paris Beauvais to Palermo(PMO) Distance: 1529.0
 --------------------------------------------------
-Calculating for: BVE name: Brive - city: Brive-La-Gaillarde
+Calculating for: BVE name: Brive - city: Empty
 (573) Brive to London Stansted(STN) Distance: 754.0
 --------------------------------------------------
-Calculating for: BZG name: Bydgoszcz - city: Bydgoszcz
+Calculating for: BZG name: Bydgoszcz - city: Empty
 (574) Bydgoszcz to Birmingham(BHX) Distance: 1324.0
 (575) Bydgoszcz to Dublin(DUB) Distance: 1605.0
 (576) Bydgoszcz to Dusseldorf Weeze(NRN) Distance: 819.0
 (577) Bydgoszcz to London Stansted(STN) Distance: 1205.0
 (578) Bydgoszcz to Glasgow International(GLA) Distance: 1472.0
 --------------------------------------------------
-Calculating for: BZR name: Beziers - city: Beziers
+Calculating for: BZR name: Beziers - city: Empty
 (579) Beziers to Edinburgh(EDI) Distance: 1483.0
 (580) Beziers to Bristol(BRS) Distance: 1005.0
 (581) Beziers to London Luton(LTN) Distance: 990.0
@@ -839,7 +839,7 @@ Calculating for: BZR name: Beziers - city: Beziers
 (585) Beziers to Paris Beauvais(BVA) Distance: 688.0
 (586) Beziers to Manchester(MAN) Distance: 1189.0
 --------------------------------------------------
-Calculating for: CAG name: Cagliari - city: Cagliari
+Calculating for: CAG name: Cagliari - city: Empty
 (587) Cagliari to Kaunas(KUN) Distance: 2075.0
 (588) Cagliari to Milan Bergamo(BGY) Distance: 716.0
 (589) Cagliari to Paris Beauvais(BVA) Distance: 1260.0
@@ -863,7 +863,7 @@ Calculating for: CAG name: Cagliari - city: Cagliari
 (607) Cagliari to Turin(TRN) Distance: 671.0
 (608) Cagliari to Bologna(BLQ) Distance: 615.0
 --------------------------------------------------
-Calculating for: CCF name: Carcassonne - city: Carcassonne
+Calculating for: CCF name: Carcassonne - city: Empty
 (609) Carcassonne to Brussels Charleroi(CRL) Distance: 821.0
 (610) Carcassonne to Dublin(DUB) Distance: 1297.0
 (611) Carcassonne to East Midlands(EMA) Distance: 1102.0
@@ -874,11 +874,11 @@ Calculating for: CCF name: Carcassonne - city: Carcassonne
 (616) Carcassonne to Cork(ORK) Distance: 1253.0
 (617) Carcassonne to Glasgow International(GLA) Distance: 1466.0
 --------------------------------------------------
-Calculating for: CFE name: Clermont Ferrand - city: Clermont-Ferrand
+Calculating for: CFE name: Clermont Ferrand - city: Empty
 (618) Clermont Ferrand to Porto(OPO) Distance: 1079.0
 (619) Clermont Ferrand to London Stansted(STN) Distance: 711.0
 --------------------------------------------------
-Calculating for: CFU name: Corfu - city: Kerkyra
+Calculating for: CFU name: Corfu - city: Empty
 (620) Corfu to Rome Ciampino(CIA) Distance: 663.0
 (621) Corfu to Frankfurt Hahn(HHN) Distance: 1519.0
 (622) Corfu to Edinburgh(EDI) Distance: 2492.0
@@ -894,7 +894,7 @@ Calculating for: CFU name: Corfu - city: Kerkyra
 (632) Corfu to Bremen(BRE) Distance: 1717.0
 (633) Corfu to Eindhoven(EIN) Distance: 1730.0
 --------------------------------------------------
-Calculating for: CGN name: Cologne - city: Cologne
+Calculating for: CGN name: Cologne - city: Empty
 (634) Cologne to Tenerife Sth(TFS) Distance: 3223.0
 (635) Cologne to Faro(FAO) Distance: 1950.0
 (636) Cologne to Malaga(AGP) Distance: 1829.0
@@ -914,7 +914,7 @@ Calculating for: CGN name: Cologne - city: Cologne
 (650) Cologne to Warsaw Modlin(WMI) Distance: 946.0
 (651) Cologne to Berlin Schonefeld(SXF) Distance: 471.0
 --------------------------------------------------
-Calculating for: CHQ name: Chania - city: Chania
+Calculating for: CHQ name: Chania - city: Empty
 (652) Chania to Marseille Provence(MRS) Distance: 1841.0
 (653) Chania to Venice Treviso(TSF) Distance: 1508.0
 (654) Chania to Memmingen (Munich West)(FMM) Distance: 1796.0
@@ -945,7 +945,7 @@ Calculating for: CHQ name: Chania - city: Chania
 (679) Chania to Glasgow International(GLA) Distance: 3113.0
 (680) Chania to Manchester(MAN) Distance: 2854.0
 --------------------------------------------------
-Calculating for: CIA name: Rome Ciampino - city: Rome
+Calculating for: CIA name: Rome Ciampino - city: Empty
 (681) Rome Ciampino to Corfu(CFU) Distance: 663.0
 (682) Rome Ciampino to Fez(FEZ) Distance: 1768.0
 (683) Rome Ciampino to Alghero(AHO) Distance: 382.0
@@ -1004,7 +1004,7 @@ Calculating for: CIA name: Rome Ciampino - city: Rome
 (736) Rome Ciampino to Lamezia(SUF) Distance: 446.0
 (737) Rome Ciampino to Palermo(PMO) Distance: 405.0
 --------------------------------------------------
-Calculating for: CIY name: Comiso - city: Comiso
+Calculating for: CIY name: Comiso - city: Empty
 (738) Comiso to London Stansted(STN) Distance: 2002.0
 (739) Comiso to Brussels Charleroi(CRL) Distance: 1701.0
 (740) Comiso to Dublin(DUB) Distance: 2433.0
@@ -1015,7 +1015,7 @@ Calculating for: CIY name: Comiso - city: Comiso
 (745) Comiso to Milan Bergamo(BGY) Distance: 1047.0
 (746) Comiso to Milan Malpensa(MXP) Distance: 1077.0
 --------------------------------------------------
-Calculating for: CRL name: Brussels Charleroi - city: Brussels
+Calculating for: CRL name: Brussels Charleroi - city: Empty
 (747) Brussels Charleroi to Comiso(CIY) Distance: 1701.0
 (748) Brussels Charleroi to Podgorica(TGD) Distance: 1444.0
 (749) Brussels Charleroi to Rhodes(RHO) Distance: 2447.0
@@ -1095,12 +1095,12 @@ Calculating for: CRL name: Brussels Charleroi - city: Brussels
 (823) Brussels Charleroi to Riga(RIX) Distance: 1465.0
 (824) Brussels Charleroi to Copenhagen(CPH) Distance: 792.0
 --------------------------------------------------
-Calculating for: CRV name: Crotone - city: Crotone
+Calculating for: CRV name: Crotone - city: Empty
 (825) Crotone to Pisa(PSA) Distance: 763.0
 (826) Crotone to Rome Ciampino(CIA) Distance: 491.0
 (827) Crotone to Milan Bergamo(BGY) Distance: 957.0
 --------------------------------------------------
-Calculating for: CTA name: Catania - city: Catania
+Calculating for: CTA name: Catania - city: Empty
 (828) Catania to Milan Bergamo(BGY) Distance: 1015.0
 (829) Catania to Rome Fiumicino(FCO) Distance: 539.0
 (830) Catania to Turin(TRN) Distance: 1058.0
@@ -1110,31 +1110,31 @@ Calculating for: CTA name: Catania - city: Catania
 (834) Catania to Marseille Provence(MRS) Distance: 1064.0
 (835) Catania to Madrid(MAD) Distance: 1642.0
 --------------------------------------------------
-Calculating for: CUF name: Cuneo - city: Cuneo
+Calculating for: CUF name: Cuneo - city: Empty
 (836) Cuneo to Alghero(AHO) Distance: 438.0
 (837) Cuneo to Cagliari(CAG) Distance: 600.0
 (838) Cuneo to Trapani(TPS) Distance: 842.0
 --------------------------------------------------
-Calculating for: CWL name: Cardiff - city: Cardiff
+Calculating for: CWL name: Cardiff - city: Empty
 (839) Cardiff to Tenerife Sth(TFS) Distance: 2822.0
 (840) Cardiff to Dublin(DUB) Distance: 300.0
 (841) Cardiff to Shannon(SNN) Distance: 408.0
 --------------------------------------------------
-Calculating for: DLE name: Dole - city: Dole
+Calculating for: DLE name: Dole - city: Empty
 (842) Dole to Marrakesh(RAK) Distance: 2063.0
 (843) Dole to Porto(OPO) Distance: 1294.0
 (844) Dole to Lisbon(LIS) Distance: 1495.0
 (845) Dole to Fez(FEZ) Distance: 1699.0
 --------------------------------------------------
-Calculating for: DNR name: Dinard - city: Dinard
+Calculating for: DNR name: Dinard - city: Empty
 (846) Dinard to East Midlands(EMA) Distance: 474.0
 (847) Dinard to London Stansted(STN) Distance: 401.0
 (848) Dinard to Leeds Bradford(LBA) Distance: 587.0
 --------------------------------------------------
-Calculating for: DOL name: Deauville-Normandy - city: Deauville
+Calculating for: DOL name: Deauville-Normandy - city: Empty
 (849) Deauville-Normandy to London Stansted(STN) Distance: 280.0
 --------------------------------------------------
-Calculating for: DTM name: Dortmund - city: Dortmund
+Calculating for: DTM name: Dortmund - city: Empty
 (850) Dortmund to Krakow(KRK) Distance: 869.0
 (851) Dortmund to Palma(PMI) Distance: 1382.0
 (852) Dortmund to Malaga(AGP) Distance: 1907.0
@@ -1144,7 +1144,7 @@ Calculating for: DTM name: Dortmund - city: Dortmund
 (856) Dortmund to Faro(FAO) Distance: 2025.0
 (857) Dortmund to London Stansted(STN) Distance: 509.0
 --------------------------------------------------
-Calculating for: DUB name: Dublin - city: Dublin
+Calculating for: DUB name: Dublin - city: Empty
 (858) Dublin to Marseille Provence(MRS) Distance: 1393.0
 (859) Dublin to Grenoble(GNB) Distance: 1224.0
 (860) Dublin to Bologna(BLQ) Distance: 1610.0
@@ -1235,11 +1235,11 @@ Calculating for: DUB name: Dublin - city: Dublin
 (945) Dublin to Copenhagen(CPH) Distance: 1241.0
 (946) Dublin to Amsterdam(AMS) Distance: 750.0
 --------------------------------------------------
-Calculating for: EBU name: St Etienne - city: St Etienne
+Calculating for: EBU name: St Etienne - city: Empty
 (947) St Etienne to Fez(FEZ) Distance: 1513.0
 (948) St Etienne to Porto(OPO) Distance: 1150.0
 --------------------------------------------------
-Calculating for: EDI name: Edinburgh - city: Edinburgh
+Calculating for: EDI name: Edinburgh - city: Empty
 (949) Edinburgh to Santander(SDR) Distance: 1392.0
 (950) Edinburgh to Corfu(CFU) Distance: 2492.0
 (951) Edinburgh to Beziers(BZR) Distance: 1483.0
@@ -1274,19 +1274,19 @@ Calculating for: EDI name: Edinburgh - city: Edinburgh
 (980) Edinburgh to Gothenburg Landvetter(GOT) Distance: 970.0
 (981) Edinburgh to Copenhagen(CPH) Distance: 1000.0
 --------------------------------------------------
-Calculating for: EFL name: Kefalonia - city: Kefalonia
+Calculating for: EFL name: Kefalonia - city: Empty
 (982) Kefalonia to London Stansted(STN) Distance: 2195.0
 (983) Kefalonia to Pisa(PSA) Distance: 1049.0
 (984) Kefalonia to Milan Bergamo(BGY) Distance: 1224.0
 --------------------------------------------------
-Calculating for: EGC name: Bergerac - city: Bergerac
+Calculating for: EGC name: Bergerac - city: Empty
 (985) Bergerac to Liverpool(LPL) Distance: 977.0
 (986) Bergerac to London Stansted(STN) Distance: 785.0
 (987) Bergerac to Brussels Charleroi(CRL) Distance: 692.0
 (988) Bergerac to Bristol(BRS) Distance: 767.0
 (989) Bergerac to East Midlands(EMA) Distance: 900.0
 --------------------------------------------------
-Calculating for: EIN name: Eindhoven - city: Eindhoven
+Calculating for: EIN name: Eindhoven - city: Empty
 (990) Eindhoven to Fez(FEZ) Distance: 2119.0
 (991) Eindhoven to Chania(CHQ) Distance: 2315.0
 (992) Eindhoven to Milan Bergamo(BGY) Distance: 716.0
@@ -1325,7 +1325,7 @@ Calculating for: EIN name: Eindhoven - city: Eindhoven
 (1025) Eindhoven to Turin(TRN) Distance: 714.0
 (1026) Eindhoven to Tenerife Sth(TFS) Distance: 3181.0
 --------------------------------------------------
-Calculating for: EMA name: East Midlands - city: Nottingham
+Calculating for: EMA name: East Midlands - city: Empty
 (1027) East Midlands to Menorca(MAH) Distance: 1502.0
 (1028) East Midlands to Carcassonne(CCF) Distance: 1102.0
 (1029) East Midlands to Rome Ciampino(CIA) Distance: 1608.0
@@ -1362,10 +1362,10 @@ Calculating for: EMA name: East Midlands - city: Nottingham
 (1060) East Midlands to Warsaw Modlin(WMI) Distance: 1477.0
 (1061) East Midlands to Malta(MLA) Distance: 2256.0
 --------------------------------------------------
-Calculating for: ESU name: Essaouira - city: Essaouira
+Calculating for: ESU name: Essaouira - city: Empty
 (1062) Essaouira to Marseille Provence(MRS) Distance: 1871.0
 --------------------------------------------------
-Calculating for: FAO name: Faro - city: Faro
+Calculating for: FAO name: Faro - city: Empty
 (1063) Faro to Cologne(CGN) Distance: 1950.0
 (1064) Faro to Brussels Charleroi(CRL) Distance: 1792.0
 (1065) Faro to Dortmund(DTM) Distance: 2025.0
@@ -1396,7 +1396,7 @@ Calculating for: FAO name: Faro - city: Faro
 (1090) Faro to Manchester(MAN) Distance: 1869.0
 (1091) Faro to Shannon(SNN) Distance: 1745.0
 --------------------------------------------------
-Calculating for: FCO name: Rome Fiumicino - city: Rome
+Calculating for: FCO name: Rome Fiumicino - city: Empty
 (1092) Rome Fiumicino to Brussels Zaventem(BRU) Distance: 1172.0
 (1093) Rome Fiumicino to Catania(CTA) Distance: 539.0
 (1094) Rome Fiumicino to Palermo(PMO) Distance: 409.0
@@ -1409,7 +1409,7 @@ Calculating for: FCO name: Rome Fiumicino - city: Rome
 (1101) Rome Fiumicino to Marseille Provence(MRS) Distance: 602.0
 (1102) Rome Fiumicino to Shannon(SNN) Distance: 1993.0
 --------------------------------------------------
-Calculating for: FEZ name: Fez - city: Fez
+Calculating for: FEZ name: Fez - city: Empty
 (1103) Fez to St Etienne(EBU) Distance: 1513.0
 (1104) Fez to Nimes(FNI) Distance: 1360.0
 (1105) Fez to Nantes(NTE) Distance: 1497.0
@@ -1427,7 +1427,7 @@ Calculating for: FEZ name: Fez - city: Fez
 (1117) Fez to Madrid(MAD) Distance: 740.0
 (1118) Fez to Dole(DLE) Distance: 1699.0
 --------------------------------------------------
-Calculating for: FKB name: Baden-Baden - city: Karlsruhe
+Calculating for: FKB name: Baden-Baden - city: Empty
 (1119) Baden-Baden to Cagliari(CAG) Distance: 1062.0
 (1120) Baden-Baden to Girona Barcelona(GRO) Distance: 870.0
 (1121) Baden-Baden to London Stansted(STN) Distance: 654.0
@@ -1443,7 +1443,7 @@ Calculating for: FKB name: Baden-Baden - city: Karlsruhe
 (1131) Baden-Baden to Thessaloniki(SKG) Distance: 1489.0
 (1132) Baden-Baden to Zadar(ZAD) Distance: 760.0
 --------------------------------------------------
-Calculating for: FMM name: Memmingen (Munich West) - city: Memmingen
+Calculating for: FMM name: Memmingen (Munich West) - city: Empty
 (1133) Memmingen (Munich West) to Tenerife Sth(TFS) Distance: 3199.0
 (1134) Memmingen (Munich West) to Girona Barcelona(GRO) Distance: 896.0
 (1135) Memmingen (Munich West) to Chania(CHQ) Distance: 1796.0
@@ -1460,20 +1460,20 @@ Calculating for: FMM name: Memmingen (Munich West) - city: Memmingen
 (1146) Memmingen (Munich West) to Shannon(SNN) Distance: 1451.0
 (1147) Memmingen (Munich West) to Palermo(PMO) Distance: 1115.0
 --------------------------------------------------
-Calculating for: FMO name: Münster - city: Greven
+Calculating for: FMO name: Münster - city: Empty
 (1148) Münster to Malaga(AGP) Distance: 1966.0
 --------------------------------------------------
-Calculating for: FNI name: Nimes - city: Nimes
+Calculating for: FNI name: Nimes - city: Empty
 (1149) Nimes to Fez(FEZ) Distance: 1360.0
 (1150) Nimes to Liverpool(LPL) Distance: 1190.0
 (1151) Nimes to London Luton(LTN) Distance: 970.0
 (1152) Nimes to Brussels Charleroi(CRL) Distance: 745.0
 --------------------------------------------------
-Calculating for: FSC name: Figari - city: Figari
+Calculating for: FSC name: Figari - city: Empty
 (1153) Figari to Brussels Charleroi(CRL) Distance: 1058.0
 (1154) Figari to Paris Beauvais(BVA) Distance: 1037.0
 --------------------------------------------------
-Calculating for: FUE name: Fuerteventura - city: Puerto del Rosario
+Calculating for: FUE name: Fuerteventura - city: Empty
 (1155) Fuerteventura to Liverpool(LPL) Distance: 2909.0
 (1156) Fuerteventura to Madrid(MAD) Distance: 1635.0
 (1157) Fuerteventura to Frankfurt Hahn(HHN) Distance: 2982.0
@@ -1496,7 +1496,7 @@ Calculating for: FUE name: Fuerteventura - city: Puerto del Rosario
 (1174) Fuerteventura to Manchester(MAN) Distance: 2926.0
 (1175) Fuerteventura to Warsaw Modlin(WMI) Distance: 3890.0
 --------------------------------------------------
-Calculating for: GDN name: Gdansk - city: Gdansk
+Calculating for: GDN name: Gdansk - city: Empty
 (1176) Gdansk to Pisa(PSA) Distance: 1324.0
 (1177) Gdansk to Birmingham(BHX) Distance: 1351.0
 (1178) Gdansk to Bristol(BRS) Distance: 1454.0
@@ -1513,20 +1513,20 @@ Calculating for: GDN name: Gdansk - city: Gdansk
 (1189) Gdansk to Wroclaw(WRO) Distance: 379.0
 (1190) Gdansk to Alicante(ALC) Distance: 2294.0
 --------------------------------------------------
-Calculating for: GNB name: Grenoble - city: Lyon
+Calculating for: GNB name: Grenoble - city: Empty
 (1191) Grenoble to Dublin(DUB) Distance: 1224.0
 (1192) Grenoble to London Stansted(STN) Distance: 815.0
 --------------------------------------------------
-Calculating for: GOA name: Genoa - city: Genova
+Calculating for: GOA name: Genoa - city: Empty
 (1193) Genoa to Cagliari(CAG) Distance: 574.0
 (1194) Genoa to London Stansted(STN) Distance: 1046.0
 (1195) Genoa to Bari(BRI) Distance: 741.0
 (1196) Genoa to Trapani(TPS) Distance: 784.0
 --------------------------------------------------
-Calculating for: GPA name: Patras (Araxos) - city: Patras
+Calculating for: GPA name: Patras (Araxos) - city: Empty
 (1197) Patras (Araxos) to Paphos(PFO) Distance: 1059.0
 --------------------------------------------------
-Calculating for: GRO name: Girona Barcelona - city: Gerona
+Calculating for: GRO name: Girona Barcelona - city: Empty
 (1198) Girona Barcelona to Rabat(RBA) Distance: 1205.0
 (1199) Girona Barcelona to Memmingen (Munich West)(FMM) Distance: 896.0
 (1200) Girona Barcelona to Thessaloniki(SKG) Distance: 1693.0
@@ -1564,12 +1564,12 @@ Calculating for: GRO name: Girona Barcelona - city: Gerona
 (1232) Girona Barcelona to Wroclaw(WRO) Distance: 1483.0
 (1233) Girona Barcelona to Poznan(POZ) Distance: 1575.0
 --------------------------------------------------
-Calculating for: HAU name: Haugesund - city: Haugesund
+Calculating for: HAU name: Haugesund - city: Empty
 (1234) Haugesund to London Stansted(STN) Distance: 885.0
 (1235) Haugesund to Alicante(ALC) Distance: 2377.0
 (1236) Haugesund to Malaga(AGP) Distance: 2615.0
 --------------------------------------------------
-Calculating for: HHN name: Frankfurt Hahn - city: Frankfurt
+Calculating for: HHN name: Frankfurt Hahn - city: Empty
 (1237) Frankfurt Hahn to Corfu(CFU) Distance: 1519.0
 (1238) Frankfurt Hahn to Lanzarote(ACE) Distance: 2922.0
 (1239) Frankfurt Hahn to Malaga(AGP) Distance: 1751.0
@@ -1617,7 +1617,7 @@ Calculating for: HHN name: Frankfurt Hahn - city: Frankfurt
 (1281) Frankfurt Hahn to Comiso(CIY) Distance: 1555.0
 (1282) Frankfurt Hahn to Vilnius(VNO) Distance: 1327.0
 --------------------------------------------------
-Calculating for: IBZ name: Ibiza - city: Ibiza
+Calculating for: IBZ name: Ibiza - city: Empty
 (1283) Ibiza to Barcelona El Prat(BCN) Distance: 276.0
 (1284) Ibiza to Milan Bergamo(BGY) Distance: 1019.0
 (1285) Ibiza to London Stansted(STN) Distance: 1449.0
@@ -1643,7 +1643,7 @@ Calculating for: IBZ name: Ibiza - city: Ibiza
 (1305) Ibiza to Brussels Zaventem(BRU) Distance: 1359.0
 (1306) Ibiza to Oslo Rygge(RYG) Distance: 2375.0
 --------------------------------------------------
-Calculating for: KGS name: Kos - city: Kos
+Calculating for: KGS name: Kos - city: Empty
 (1307) Kos to Krakow(KRK) Distance: 1588.0
 (1308) Kos to Milan Bergamo(BGY) Distance: 1751.0
 (1309) Kos to Bologna(BLQ) Distance: 1582.0
@@ -1654,17 +1654,17 @@ Calculating for: KGS name: Kos - city: Kos
 (1314) Kos to London Stansted(STN) Distance: 2689.0
 (1315) Kos to Bari(BRI) Distance: 1014.0
 --------------------------------------------------
-Calculating for: KIR name: Kerry - city: Farranfore
+Calculating for: KIR name: Kerry - city: Empty
 (1316) Kerry to Frankfurt Hahn(HHN) Distance: 1196.0
 (1317) Kerry to London Stansted(STN) Distance: 667.0
 (1318) Kerry to London Luton(LTN) Distance: 626.0
 (1319) Kerry to Faro(FAO) Distance: 1690.0
 (1320) Kerry to Alicante(ALC) Distance: 1694.0
 --------------------------------------------------
-Calculating for: KLX name: Kalamata - city: Kalamata
+Calculating for: KLX name: Kalamata - city: Empty
 (1321) Kalamata to Milan Bergamo(BGY) Distance: 1401.0
 --------------------------------------------------
-Calculating for: KRK name: Krakow - city: Krakow
+Calculating for: KRK name: Krakow - city: Empty
 (1322) Krakow to Kos(KGS) Distance: 1588.0
 (1323) Krakow to Dortmund(DTM) Distance: 869.0
 (1324) Krakow to Manchester(MAN) Distance: 1555.0
@@ -1699,14 +1699,14 @@ Calculating for: KRK name: Krakow - city: Krakow
 (1353) Krakow to Tenerife Sth(TFS) Distance: 3918.0
 (1354) Krakow to Eilat (Ovda)(VDA) Distance: 2573.0
 --------------------------------------------------
-Calculating for: KTW name: Katowice - city: Katowice
+Calculating for: KTW name: Katowice - city: Empty
 (1355) Katowice to Chania(CHQ) Distance: 1710.0
 (1356) Katowice to Alicante(ALC) Distance: 2055.0
 (1357) Katowice to Birmingham(BHX) Distance: 1454.0
 (1358) Katowice to Dublin(DUB) Distance: 1758.0
 (1359) Katowice to London Stansted(STN) Distance: 1319.0
 --------------------------------------------------
-Calculating for: KUN name: Kaunas - city: Kaunas
+Calculating for: KUN name: Kaunas - city: Empty
 (1360) Kaunas to London Luton(LTN) Distance: 1647.0
 (1361) Kaunas to Oslo Rygge(RYG) Distance: 937.0
 (1362) Kaunas to Trapani(TPS) Distance: 2087.0
@@ -1727,7 +1727,7 @@ Calculating for: KUN name: Kaunas - city: Kaunas
 (1377) Kaunas to Copenhagen(CPH) Distance: 726.0
 (1378) Kaunas to Eilat (Ovda)(VDA) Distance: 2913.0
 --------------------------------------------------
-Calculating for: LBA name: Leeds Bradford - city: Leeds
+Calculating for: LBA name: Leeds Bradford - city: Empty
 (1379) Leeds Bradford to Riga(RIX) Distance: 1643.0
 (1380) Leeds Bradford to Alicante(ALC) Distance: 1734.0
 (1381) Leeds Bradford to Dublin(DUB) Distance: 307.0
@@ -1750,50 +1750,50 @@ Calculating for: LBA name: Leeds Bradford - city: Leeds
 (1398) Leeds Bradford to Dinard(DNR) Distance: 587.0
 (1399) Leeds Bradford to Tenerife Sth(TFS) Distance: 3117.0
 --------------------------------------------------
-Calculating for: LCJ name: Lodz - city: Lodz
+Calculating for: LCJ name: Lodz - city: Empty
 (1400) Lodz to Dublin(DUB) Distance: 1735.0
 (1401) Lodz to London Stansted(STN) Distance: 1313.0
 (1402) Lodz to East Midlands(EMA) Distance: 1410.0
 (1403) Lodz to Oslo Rygge(RYG) Distance: 1007.0
 --------------------------------------------------
-Calculating for: LDE name: Lourdes - city: Lourdes
+Calculating for: LDE name: Lourdes - city: Empty
 (1404) Lourdes to London Stansted(STN) Distance: 968.0
 (1405) Lourdes to Milan Bergamo(BGY) Distance: 818.0
 --------------------------------------------------
-Calculating for: LDY name: Derry - city: Derry
+Calculating for: LDY name: Derry - city: Empty
 (1406) Derry to Faro(FAO) Distance: 2005.0
 (1407) Derry to Liverpool(LPL) Distance: 338.0
 (1408) Derry to London Stansted(STN) Distance: 601.0
 (1409) Derry to Alicante(ALC) Distance: 1928.0
 (1410) Derry to Glasgow International(GLA) Distance: 186.0
 --------------------------------------------------
-Calculating for: LEI name: Almeria - city: Almeria
+Calculating for: LEI name: Almeria - city: Empty
 (1411) Almeria to Brussels Charleroi(CRL) Distance: 1608.0
 (1412) Almeria to London Stansted(STN) Distance: 1684.0
 (1413) Almeria to Dublin(DUB) Distance: 1867.0
 --------------------------------------------------
-Calculating for: LEJ name: Leipzig - city: Leipzig-Halle
+Calculating for: LEJ name: Leipzig - city: Empty
 (1414) Leipzig to London Stansted(STN) Distance: 828.0
 --------------------------------------------------
-Calculating for: LGW name: London Gatwick - city: London
+Calculating for: LGW name: London Gatwick - city: Empty
 (1415) London Gatwick to Dublin(DUB) Distance: 484.0
 (1416) London Gatwick to Shannon(SNN) Distance: 622.0
 (1417) London Gatwick to Cork(ORK) Distance: 579.0
 (1418) London Gatwick to Kaunas(KUN) Distance: 1667.0
 (1419) London Gatwick to Seville(SVQ) Distance: 1591.0
 --------------------------------------------------
-Calculating for: LIG name: Limoges - city: Limoges
+Calculating for: LIG name: Limoges - city: Empty
 (1420) Limoges to Liverpool(LPL) Distance: 879.0
 (1421) Limoges to London Stansted(STN) Distance: 673.0
 (1422) Limoges to East Midlands(EMA) Distance: 795.0
 (1423) Limoges to Bristol(BRS) Distance: 677.0
 (1424) Limoges to Leeds Bradford(LBA) Distance: 912.0
 --------------------------------------------------
-Calculating for: LIL name: Lille - city: Lille
+Calculating for: LIL name: Lille - city: Empty
 (1425) Lille to Marseille Provence(MRS) Distance: 808.0
 (1426) Lille to Porto(OPO) Distance: 1375.0
 --------------------------------------------------
-Calculating for: LIS name: Lisbon - city: Lisbon
+Calculating for: LIS name: Lisbon - city: Empty
 (1427) Lisbon to London Stansted(STN) Distance: 1627.0
 (1428) Lisbon to Frankfurt Hahn(HHN) Distance: 1793.0
 (1429) Lisbon to Paris Beauvais(BVA) Distance: 1484.0
@@ -1812,11 +1812,11 @@ Calculating for: LIS name: Lisbon - city: Lisbon
 (1442) Lisbon to Warsaw Modlin(WMI) Distance: 2740.0
 (1443) Lisbon to Ponta Delgada(PDL) Distance: 1448.0
 --------------------------------------------------
-Calculating for: LNZ name: Linz - city: Linz
+Calculating for: LNZ name: Linz - city: Empty
 (1444) Linz to Tenerife Sth(TFS) Distance: 3463.0
 (1445) Linz to London Stansted(STN) Distance: 1073.0
 --------------------------------------------------
-Calculating for: LPA name: Gran Canaria - city: Las Palmas
+Calculating for: LPA name: Gran Canaria - city: Empty
 (1446) Gran Canaria to Pisa(PSA) Distance: 2890.0
 (1447) Gran Canaria to Oslo Rygge(RYG) Distance: 4025.0
 (1448) Gran Canaria to Stockholm Skavsta(NYO) Distance: 4229.0
@@ -1851,7 +1851,7 @@ Calculating for: LPA name: Gran Canaria - city: Las Palmas
 (1477) Gran Canaria to Bologna(BLQ) Distance: 2998.0
 (1478) Gran Canaria to Krakow(KRK) Distance: 3852.0
 --------------------------------------------------
-Calculating for: LPL name: Liverpool - city: Liverpool
+Calculating for: LPL name: Liverpool - city: Empty
 (1479) Liverpool to Malta(MLA) Distance: 2365.0
 (1480) Liverpool to Vilnius(VNO) Distance: 1832.0
 (1481) Liverpool to Barcelona El Prat(BCN) Distance: 1388.0
@@ -1884,17 +1884,17 @@ Calculating for: LPL name: Liverpool - city: Liverpool
 (1508) Liverpool to Rhodes(RHO) Distance: 3040.0
 (1509) Liverpool to Warsaw Modlin(WMI) Distance: 1572.0
 --------------------------------------------------
-Calculating for: LPP name: Lappeenranta - city: Lappeenranta
+Calculating for: LPP name: Lappeenranta - city: Empty
 (1510) Lappeenranta to Milan Bergamo(BGY) Distance: 2086.0
 --------------------------------------------------
-Calculating for: LRH name: La Rochelle - city: La Rochelle
+Calculating for: LRH name: La Rochelle - city: Empty
 (1511) La Rochelle to London Stansted(STN) Distance: 642.0
 (1512) La Rochelle to Brussels Charleroi(CRL) Distance: 632.0
 (1513) La Rochelle to Porto(OPO) Distance: 813.0
 (1514) La Rochelle to Dublin(DUB) Distance: 883.0
 (1515) La Rochelle to East Midlands(EMA) Distance: 739.0
 --------------------------------------------------
-Calculating for: LTN name: London Luton - city: London
+Calculating for: LTN name: London Luton - city: Empty
 (1516) London Luton to Kaunas(KUN) Distance: 1647.0
 (1517) London Luton to Beziers(BZR) Distance: 990.0
 (1518) London Luton to Dublin(DUB) Distance: 433.0
@@ -1913,11 +1913,11 @@ Calculating for: LTN name: London Luton - city: London
 (1531) London Luton to Fuerteventura(FUE) Distance: 2835.0
 (1532) London Luton to Copenhagen(CPH) Distance: 950.0
 --------------------------------------------------
-Calculating for: LUZ name: Lublin - city: Lushan
+Calculating for: LUZ name: Lublin - city: Empty
 (1533) Lublin to Dublin(DUB) Distance: 1969.0
 (1534) Lublin to London Stansted(STN) Distance: 1547.0
 --------------------------------------------------
-Calculating for: MAD name: Madrid - city: Madrid
+Calculating for: MAD name: Madrid - city: Empty
 (1535) Madrid to Rabat(RBA) Distance: 769.0
 (1536) Madrid to Lanzarote(ACE) Distance: 1575.0
 (1537) Madrid to Alghero(AHO) Distance: 1001.0
@@ -1961,13 +1961,13 @@ Calculating for: MAD name: Madrid - city: Madrid
 (1575) Madrid to Copenhagen(CPH) Distance: 2058.0
 (1576) Madrid to Hamburg(HAM) Distance: 1779.0
 --------------------------------------------------
-Calculating for: MAH name: Menorca - city: Menorca
+Calculating for: MAH name: Menorca - city: Empty
 (1577) Menorca to East Midlands(EMA) Distance: 1502.0
 (1578) Menorca to Barcelona El Prat(BCN) Distance: 241.0
 (1579) Menorca to Madrid(MAD) Distance: 664.0
 (1580) Menorca to Valencia(VLC) Distance: 404.0
 --------------------------------------------------
-Calculating for: MAN name: Manchester - city: Manchester
+Calculating for: MAN name: Manchester - city: Empty
 (1581) Manchester to Barcelona El Prat(BCN) Distance: 1379.0
 (1582) Manchester to Bologna(BLQ) Distance: 1389.0
 (1583) Manchester to Lanzarote(ACE) Distance: 2866.0
@@ -2006,7 +2006,7 @@ Calculating for: MAN name: Manchester - city: Manchester
 (1616) Manchester to Chania(CHQ) Distance: 2854.0
 (1617) Manchester to Stuttgart(STR) Distance: 955.0
 --------------------------------------------------
-Calculating for: MJV name: Murcia - city: Murcia
+Calculating for: MJV name: Murcia - city: Empty
 (1618) Murcia to Birmingham(BHX) Distance: 1633.0
 (1619) Murcia to Dublin(DUB) Distance: 1789.0
 (1620) Murcia to East Midlands(EMA) Distance: 1674.0
@@ -2018,7 +2018,7 @@ Calculating for: MJV name: Murcia - city: Murcia
 (1626) Murcia to Manchester(MAN) Distance: 1735.0
 (1627) Murcia to Eindhoven(EIN) Distance: 1596.0
 --------------------------------------------------
-Calculating for: MLA name: Malta - city: Gudja
+Calculating for: MLA name: Malta - city: Empty
 (1628) Malta to Milan Bergamo(BGY) Distance: 1162.0
 (1629) Malta to Liverpool(LPL) Distance: 2365.0
 (1630) Malta to Birmingham(BHX) Distance: 2242.0
@@ -2050,12 +2050,12 @@ Calculating for: MLA name: Malta - city: Gudja
 (1656) Malta to Gothenburg Landvetter(GOT) Distance: 2431.0
 (1657) Malta to Rome Ciampino(CIA) Distance: 680.0
 --------------------------------------------------
-Calculating for: MPL name: Montpellier - city: Montpellier
+Calculating for: MPL name: Montpellier - city: Empty
 (1658) Montpellier to Brussels Charleroi(CRL) Distance: 766.0
 (1659) Montpellier to Frankfurt Hahn(HHN) Distance: 751.0
 (1660) Montpellier to Leeds Bradford(LBA) Distance: 1215.0
 --------------------------------------------------
-Calculating for: MRS name: Marseille Provence - city: Marseille
+Calculating for: MRS name: Marseille Provence - city: Empty
 (1661) Marseille Provence to Dublin(DUB) Distance: 1393.0
 (1662) Marseille Provence to Essaouira(ESU) Distance: 1871.0
 (1663) Marseille Provence to Rabat(RBA) Distance: 1469.0
@@ -2094,35 +2094,35 @@ Calculating for: MRS name: Marseille Provence - city: Marseille
 (1696) Marseille Provence to Rome Fiumicino(FCO) Distance: 602.0
 (1697) Marseille Provence to Gothenburg Landvetter(GOT) Distance: 1657.0
 --------------------------------------------------
-Calculating for: MST name: Maastricht - city: Maastricht
+Calculating for: MST name: Maastricht - city: Empty
 (1698) Maastricht to Alicante(ALC) Distance: 1489.0
 (1699) Maastricht to Bari(BRI) Distance: 1375.0
 (1700) Maastricht to Faro(FAO) Distance: 1889.0
 (1701) Maastricht to Girona Barcelona(GRO) Distance: 1027.0
 (1702) Maastricht to Porto(OPO) Distance: 1543.0
 --------------------------------------------------
-Calculating for: MXP name: Milan Malpensa - city: Milan
+Calculating for: MXP name: Milan Malpensa - city: Empty
 (1703) Milan Malpensa to London Stansted(STN) Distance: 932.0
 (1704) Milan Malpensa to Seville(SVQ) Distance: 1517.0
 (1705) Milan Malpensa to Comiso(CIY) Distance: 1077.0
 (1706) Milan Malpensa to Bucharest (Otopeni)(OTP) Distance: 1366.0
 --------------------------------------------------
-Calculating for: NCE name: Nice - city: Nice
+Calculating for: NCE name: Nice - city: Empty
 (1707) Nice to Dublin(DUB) Distance: 1466.0
 (1708) Nice to Shannon(SNN) Distance: 1556.0
 --------------------------------------------------
-Calculating for: NCL name: Newcastle - city: Newcastle
+Calculating for: NCL name: Newcastle - city: Empty
 (1709) Newcastle to Dublin(DUB) Distance: 347.0
 (1710) Newcastle to Alicante(ALC) Distance: 1865.0
 --------------------------------------------------
-Calculating for: NDR name: Nador - city: Nador
+Calculating for: NDR name: Nador - city: Empty
 (1711) Nador to Barcelona El Prat(BCN) Distance: 831.0
 (1712) Nador to Brussels Charleroi(CRL) Distance: 1823.0
 (1713) Nador to Paris Beauvais(BVA) Distance: 1662.0
 (1714) Nador to Frankfurt Hahn(HHN) Distance: 1861.0
 (1715) Nador to Marseille Provence(MRS) Distance: 1176.0
 --------------------------------------------------
-Calculating for: NOC name: Knock Ireland West - city: Knock
+Calculating for: NOC name: Knock Ireland West - city: Empty
 (1716) Knock Ireland West to Malaga(AGP) Distance: 1945.0
 (1717) Knock Ireland West to Milan Bergamo(BGY) Distance: 1606.0
 (1718) Knock Ireland West to Girona Barcelona(GRO) Distance: 1585.0
@@ -2136,7 +2136,7 @@ Calculating for: NOC name: Knock Ireland West - city: Knock
 (1726) Knock Ireland West to Tenerife Sth(TFS) Distance: 2944.0
 (1727) Knock Ireland West to Lanzarote(ACE) Distance: 2802.0
 --------------------------------------------------
-Calculating for: NRN name: Dusseldorf Weeze - city: Dusseldorf
+Calculating for: NRN name: Dusseldorf Weeze - city: Empty
 (1728) Dusseldorf Weeze to Santander(SDR) Distance: 1175.0
 (1729) Dusseldorf Weeze to Oujda(OUD) Distance: 1977.0
 (1730) Dusseldorf Weeze to Lanzarote(ACE) Distance: 3004.0
@@ -2179,17 +2179,17 @@ Calculating for: NRN name: Dusseldorf Weeze - city: Dusseldorf
 (1767) Dusseldorf Weeze to Perugia(PEG) Distance: 1059.0
 (1768) Dusseldorf Weeze to Stockholm Skavsta(NYO) Distance: 1049.0
 --------------------------------------------------
-Calculating for: NTE name: Nantes - city: Nantes
+Calculating for: NTE name: Nantes - city: Empty
 (1769) Nantes to Fez(FEZ) Distance: 1497.0
 (1770) Nantes to Dublin(DUB) Distance: 771.0
 (1771) Nantes to Marseille Provence(MRS) Distance: 674.0
 --------------------------------------------------
-Calculating for: NUE name: Nuremberg - city: Nürnberg
+Calculating for: NUE name: Nuremberg - city: Empty
 (1772) Nuremberg to Malaga(AGP) Distance: 1897.0
 (1773) Nuremberg to London Stansted(STN) Distance: 806.0
 (1774) Nuremberg to Alicante(ALC) Distance: 1552.0
 --------------------------------------------------
-Calculating for: NYO name: Stockholm Skavsta - city: Stockholm
+Calculating for: NYO name: Stockholm Skavsta - city: Empty
 (1775) Stockholm Skavsta to Tenerife Sth(TFS) Distance: 4271.0
 (1776) Stockholm Skavsta to Gran Canaria(LPA) Distance: 4229.0
 (1777) Stockholm Skavsta to Malaga(AGP) Distance: 2906.0
@@ -2223,7 +2223,7 @@ Calculating for: NYO name: Stockholm Skavsta - city: Stockholm
 (1805) Stockholm Skavsta to Dusseldorf Weeze(NRN) Distance: 1049.0
 (1806) Stockholm Skavsta to Copenhagen(CPH) Distance: 435.0
 --------------------------------------------------
-Calculating for: OPO name: Porto - city: Porto
+Calculating for: OPO name: Porto - city: Empty
 (1807) Porto to Clermont Ferrand(CFE) Distance: 1079.0
 (1808) Porto to Strasbourg(SXB) Distance: 1514.0
 (1809) Porto to Paris Beauvais(BVA) Distance: 1240.0
@@ -2268,7 +2268,7 @@ Calculating for: OPO name: Porto - city: Porto
 (1848) Porto to Cologne(CGN) Distance: 1617.0
 (1849) Porto to Copenhagen(CPH) Distance: 2225.0
 --------------------------------------------------
-Calculating for: ORK name: Cork - city: Cork
+Calculating for: ORK name: Cork - city: Empty
 (1850) Cork to Alicante(ALC) Distance: 1629.0
 (1851) Cork to Lanzarote(ACE) Distance: 2580.0
 (1852) Cork to Malaga(AGP) Distance: 1715.0
@@ -2289,13 +2289,13 @@ Calculating for: ORK name: Cork - city: Cork
 (1867) Cork to Bordeaux(BOD) Distance: 967.0
 (1868) Cork to Pisa(PSA) Distance: 1670.0
 --------------------------------------------------
-Calculating for: OSI name: Osijek - city: Osijek
+Calculating for: OSI name: Osijek - city: Empty
 (1869) Osijek to London Stansted(STN) Distance: 1533.0
 --------------------------------------------------
-Calculating for: OSR name: Ostrava - city: Ostrava
+Calculating for: OSR name: Ostrava - city: Empty
 (1870) Ostrava to London Stansted(STN) Distance: 1276.0
 --------------------------------------------------
-Calculating for: OTP name: Bucharest (Otopeni) - city: Bucharest
+Calculating for: OTP name: Bucharest (Otopeni) - city: Empty
 (1871) Bucharest (Otopeni) to Dublin(DUB) Distance: 2530.0
 (1872) Bucharest (Otopeni) to London Stansted(STN) Distance: 2067.0
 (1873) Bucharest (Otopeni) to Brussels Charleroi(CRL) Distance: 1744.0
@@ -2305,17 +2305,17 @@ Calculating for: OTP name: Bucharest (Otopeni) - city: Bucharest
 (1877) Bucharest (Otopeni) to Rome Ciampino(CIA) Distance: 1136.0
 (1878) Bucharest (Otopeni) to Milan Malpensa(MXP) Distance: 1366.0
 --------------------------------------------------
-Calculating for: OUD name: Oujda - city: Oujda
+Calculating for: OUD name: Oujda - city: Empty
 (1879) Oujda to Paris Beauvais(BVA) Distance: 1663.0
 (1880) Oujda to Dusseldorf Weeze(NRN) Distance: 1977.0
 (1881) Oujda to Brussels Charleroi(CRL) Distance: 1817.0
 (1882) Oujda to Marseille Provence(MRS) Distance: 1141.0
 --------------------------------------------------
-Calculating for: PDV name: Plovdiv - city: Plovdiv
+Calculating for: PDV name: Plovdiv - city: Empty
 (1883) Plovdiv to London Stansted(STN) Distance: 2147.0
 (1884) Plovdiv to Frankfurt Hahn(HHN) Distance: 1610.0
 --------------------------------------------------
-Calculating for: PEG name: Perugia - city: Perugia
+Calculating for: PEG name: Perugia - city: Empty
 (1885) Perugia to Brussels Charleroi(CRL) Distance: 1021.0
 (1886) Perugia to Cagliari(CAG) Distance: 516.0
 (1887) Perugia to Girona Barcelona(GRO) Distance: 810.0
@@ -2324,7 +2324,7 @@ Calculating for: PEG name: Perugia - city: Perugia
 (1890) Perugia to Dusseldorf Weeze(NRN) Distance: 1059.0
 (1891) Perugia to Brindisi(BDS) Distance: 525.0
 --------------------------------------------------
-Calculating for: PFO name: Paphos - city: Paphos
+Calculating for: PFO name: Paphos - city: Empty
 (1892) Paphos to Brussels Charleroi(CRL) Distance: 2857.0
 (1893) Paphos to Chania(CHQ) Distance: 763.0
 (1894) Paphos to Rome Ciampino(CIA) Distance: 1900.0
@@ -2336,12 +2336,12 @@ Calculating for: PFO name: Paphos - city: Paphos
 (1900) Paphos to London Stansted(STN) Distance: 3190.0
 (1901) Paphos to Athens(ATH) Distance: 844.0
 --------------------------------------------------
-Calculating for: PGF name: Perpignan - city: Perpignan
+Calculating for: PGF name: Perpignan - city: Empty
 (1902) Perpignan to Birmingham(BHX) Distance: 1133.0
 (1903) Perpignan to London Stansted(STN) Distance: 1035.0
 (1904) Perpignan to Brussels Charleroi(CRL) Distance: 866.0
 --------------------------------------------------
-Calculating for: PIK name: Glasgow Prestwick - city: Glasgow
+Calculating for: PIK name: Glasgow Prestwick - city: Empty
 (1905) Glasgow Prestwick to Malaga(AGP) Distance: 2094.0
 (1906) Glasgow Prestwick to Rome Ciampino(CIA) Distance: 1967.0
 (1907) Glasgow Prestwick to Faro(FAO) Distance: 2072.0
@@ -2358,7 +2358,7 @@ Calculating for: PIK name: Glasgow Prestwick - city: Glasgow
 (1918) Glasgow Prestwick to Corfu(CFU) Distance: 2525.0
 (1919) Glasgow Prestwick to Barcelona El Prat(BCN) Distance: 1653.0
 --------------------------------------------------
-Calculating for: PIS name: Poitiers - city: Poitiers
+Calculating for: PIS name: Poitiers - city: Empty
 (1920) Poitiers to London Stansted(STN) Distance: 589.0
 (1921) Poitiers to Shannon(SNN) Distance: 949.0
 (1922) Poitiers to Edinburgh(EDI) Distance: 1071.0
@@ -2367,12 +2367,12 @@ Calculating for: PIS name: Poitiers - city: Poitiers
 (1925) Poitiers to Marrakesh(RAK) Distance: 1812.0
 (1926) Poitiers to Marseille Provence(MRS) Distance: 521.0
 --------------------------------------------------
-Calculating for: PMF name: Parma - city: Milan
+Calculating for: PMF name: Parma - city: Empty
 (1927) Parma to London Stansted(STN) Distance: 1079.0
 (1928) Parma to Trapani(TPS) Distance: 790.0
 (1929) Parma to Cagliari(CAG) Distance: 628.0
 --------------------------------------------------
-Calculating for: PMI name: Palma - city: Palma Mallorca
+Calculating for: PMI name: Palma - city: Empty
 (1930) Palma to Warsaw Modlin(WMI) Distance: 1982.0
 (1931) Palma to Barcelona El Prat(BCN) Distance: 201.0
 (1932) Palma to Birmingham(BHX) Distance: 1475.0
@@ -2423,7 +2423,7 @@ Calculating for: PMI name: Palma - city: Palma Mallorca
 (1977) Palma to Berlin Schonefeld(SXF) Distance: 1648.0
 (1978) Palma to Hamburg(HAM) Distance: 1658.0
 --------------------------------------------------
-Calculating for: PMO name: Palermo - city: Palermo
+Calculating for: PMO name: Palermo - city: Empty
 (1979) Palermo to Milan Bergamo(BGY) Distance: 879.0
 (1980) Palermo to Pisa(PSA) Distance: 652.0
 (1981) Palermo to Bologna(BLQ) Distance: 722.0
@@ -2442,7 +2442,7 @@ Calculating for: PMO name: Palermo - city: Palermo
 (1994) Palermo to Memmingen (Munich West)(FMM) Distance: 1115.0
 (1995) Palermo to Rome Ciampino(CIA) Distance: 405.0
 --------------------------------------------------
-Calculating for: POZ name: Poznan - city: Poznan
+Calculating for: POZ name: Poznan - city: Empty
 (1996) Poznan to Bristol(BRS) Distance: 1341.0
 (1997) Poznan to Rome Ciampino(CIA) Distance: 1223.0
 (1998) Poznan to Dublin(DUB) Distance: 1545.0
@@ -2453,13 +2453,13 @@ Calculating for: POZ name: Poznan - city: Poznan
 (2003) Poznan to Palma(PMI) Distance: 1791.0
 (2004) Poznan to Girona Barcelona(GRO) Distance: 1575.0
 --------------------------------------------------
-Calculating for: PRG name: Prague - city: Prague
+Calculating for: PRG name: Prague - city: Empty
 (2005) Prague to Dublin(DUB) Distance: 1454.0
 (2006) Prague to London Stansted(STN) Distance: 999.0
 (2007) Prague to Brussels Charleroi(CRL) Distance: 697.0
 (2008) Prague to Bremen(BRE) Distance: 500.0
 --------------------------------------------------
-Calculating for: PSA name: Pisa - city: Pisa
+Calculating for: PSA name: Pisa - city: Empty
 (2009) Pisa to Thessaloniki(SKG) Distance: 1094.0
 (2010) Pisa to Gdansk(GDN) Distance: 1324.0
 (2011) Pisa to Seville(SVQ) Distance: 1538.0
@@ -2507,7 +2507,7 @@ Calculating for: PSA name: Pisa - city: Pisa
 (2053) Pisa to Crotone(CRV) Distance: 763.0
 (2054) Pisa to Gothenburg Landvetter(GOT) Distance: 1561.0
 --------------------------------------------------
-Calculating for: PSR name: Pescara - city: Pescara
+Calculating for: PSR name: Pescara - city: Empty
 (2055) Pescara to Milan Bergamo(BGY) Distance: 507.0
 (2056) Pescara to Paris Beauvais(BVA) Distance: 1214.0
 (2057) Pescara to Brussels Charleroi(CRL) Distance: 1160.0
@@ -2516,13 +2516,13 @@ Calculating for: PSR name: Pescara - city: Pescara
 (2060) Pescara to Dusseldorf Weeze(NRN) Distance: 1186.0
 (2061) Pescara to London Stansted(STN) Distance: 1484.0
 --------------------------------------------------
-Calculating for: PUY name: Pula - city: Pula
+Calculating for: PUY name: Pula - city: Empty
 (2062) Pula to London Stansted(STN) Distance: 1271.0
 (2063) Pula to Frankfurt Hahn(HHN) Distance: 752.0
 (2064) Pula to Brussels Charleroi(CRL) Distance: 939.0
 (2065) Pula to Oslo Rygge(RYG) Distance: 1624.0
 --------------------------------------------------
-Calculating for: RAK name: Marrakesh - city: Marrakech
+Calculating for: RAK name: Marrakesh - city: Empty
 (2066) Marrakesh to Dole(DLE) Distance: 2063.0
 (2067) Marrakesh to Tours Loire Valley(TUF) Distance: 1910.0
 (2068) Marrakesh to Paris Vatry(XCR) Distance: 2166.0
@@ -2543,7 +2543,7 @@ Calculating for: RAK name: Marrakesh - city: Marrakech
 (2083) Marrakesh to Dublin(DUB) Distance: 2429.0
 (2084) Marrakesh to Poitiers(PIS) Distance: 1812.0
 --------------------------------------------------
-Calculating for: RBA name: Rabat - city: Rabat
+Calculating for: RBA name: Rabat - city: Empty
 (2085) Rabat to Girona Barcelona(GRO) Distance: 1205.0
 (2086) Rabat to Madrid(MAD) Distance: 769.0
 (2087) Rabat to Paris Beauvais(BVA) Distance: 1860.0
@@ -2552,11 +2552,11 @@ Calculating for: RBA name: Rabat - city: Rabat
 (2090) Rabat to London Stansted(STN) Distance: 2060.0
 (2091) Rabat to Rome Ciampino(CIA) Distance: 1897.0
 --------------------------------------------------
-Calculating for: RDZ name: Rodez - city: Rodez
+Calculating for: RDZ name: Rodez - city: Empty
 (2092) Rodez to London Stansted(STN) Distance: 847.0
 (2093) Rodez to Brussels Charleroi(CRL) Distance: 688.0
 --------------------------------------------------
-Calculating for: REU name: Reus Barcelona - city: Reus
+Calculating for: REU name: Reus Barcelona - city: Empty
 (2094) Reus Barcelona to Brussels Charleroi(CRL) Distance: 1066.0
 (2095) Reus Barcelona to Dublin(DUB) Distance: 1473.0
 (2096) Reus Barcelona to Frankfurt Hahn(HHN) Distance: 1086.0
@@ -2565,7 +2565,7 @@ Calculating for: REU name: Reus Barcelona - city: Reus
 (2099) Reus Barcelona to Palma(PMI) Distance: 221.0
 (2100) Reus Barcelona to Cork(ORK) Distance: 1397.0
 --------------------------------------------------
-Calculating for: RHO name: Rhodes - city: Rhodes
+Calculating for: RHO name: Rhodes - city: Empty
 (2101) Rhodes to Brussels Charleroi(CRL) Distance: 2447.0
 (2102) Rhodes to Milan Bergamo(BGY) Distance: 1847.0
 (2103) Rhodes to Bologna(BLQ) Distance: 1679.0
@@ -2577,7 +2577,7 @@ Calculating for: RHO name: Rhodes - city: Rhodes
 (2109) Rhodes to London Stansted(STN) Distance: 2781.0
 (2110) Rhodes to Athens(ATH) Distance: 404.0
 --------------------------------------------------
-Calculating for: RIX name: Riga - city: Riga
+Calculating for: RIX name: Riga - city: Empty
 (2111) Riga to Bremen(BRE) Distance: 1057.0
 (2112) Riga to Leeds Bradford(LBA) Distance: 1643.0
 (2113) Riga to Frankfurt Hahn(HHN) Distance: 1345.0
@@ -2593,13 +2593,13 @@ Calculating for: RIX name: Riga - city: Riga
 (2123) Riga to Glasgow International(GLA) Distance: 1745.0
 (2124) Riga to Berlin Schonefeld(SXF) Distance: 839.0
 --------------------------------------------------
-Calculating for: RJK name: Rijeka - city: Rijeka
+Calculating for: RJK name: Rijeka - city: Empty
 (2125) Rijeka to London Stansted(STN) Distance: 1285.0
 (2126) Rijeka to Brussels Charleroi(CRL) Distance: 952.0
 (2127) Rijeka to Oslo Rygge(RYG) Distance: 1594.0
 (2128) Rijeka to Stockholm Skavsta(NYO) Distance: 1517.0
 --------------------------------------------------
-Calculating for: RYG name: Oslo Rygge - city: Oslo
+Calculating for: RYG name: Oslo Rygge - city: Empty
 (2129) Oslo Rygge to Gran Canaria(LPA) Distance: 4025.0
 (2130) Oslo Rygge to Tenerife Sth(TFS) Distance: 4058.0
 (2131) Oslo Rygge to Rzeszow(RZE) Distance: 1254.0
@@ -2635,7 +2635,7 @@ Calculating for: RYG name: Oslo Rygge - city: Oslo
 (2161) Oslo Rygge to Ibiza(IBZ) Distance: 2375.0
 (2162) Oslo Rygge to Szczecin(SZZ) Distance: 691.0
 --------------------------------------------------
-Calculating for: RZE name: Rzeszow - city: Rzeszow
+Calculating for: RZE name: Rzeszow - city: Empty
 (2163) Rzeszow to Oslo Rygge(RYG) Distance: 1254.0
 (2164) Rzeszow to Bristol(BRS) Distance: 1737.0
 (2165) Rzeszow to Dublin(DUB) Distance: 1967.0
@@ -2644,7 +2644,7 @@ Calculating for: RZE name: Rzeszow - city: Rzeszow
 (2168) Rzeszow to Manchester(MAN) Distance: 1702.0
 (2169) Rzeszow to London Stansted(STN) Distance: 1531.0
 --------------------------------------------------
-Calculating for: SCQ name: Santiago - city: Santiago De Compostela
+Calculating for: SCQ name: Santiago - city: Empty
 (2170) Santiago to Seville(SVQ) Distance: 645.0
 (2171) Santiago to Barcelona El Prat(BCN) Distance: 883.0
 (2172) Santiago to London Stansted(STN) Distance: 1191.0
@@ -2659,7 +2659,7 @@ Calculating for: SCQ name: Santiago - city: Santiago De Compostela
 (2181) Santiago to Milan Bergamo(BGY) Distance: 1471.0
 (2182) Santiago to Palma(PMI) Distance: 1003.0
 --------------------------------------------------
-Calculating for: SDR name: Santander - city: Santander
+Calculating for: SDR name: Santander - city: Empty
 (2183) Santander to Dusseldorf Weeze(NRN) Distance: 1175.0
 (2184) Santander to Edinburgh(EDI) Distance: 1392.0
 (2185) Santander to Barcelona El Prat(BCN) Distance: 539.0
@@ -2677,10 +2677,10 @@ Calculating for: SDR name: Santander - city: Santander
 (2197) Santander to Palma(PMI) Distance: 695.0
 (2198) Santander to Valencia(VLC) Distance: 518.0
 --------------------------------------------------
-Calculating for: SFT name: Skelleftea - city: Skelleftea
+Calculating for: SFT name: Skelleftea - city: Empty
 (2199) Skelleftea to London Stansted(STN) Distance: 1851.0
 --------------------------------------------------
-Calculating for: SKG name: Thessaloniki - city: Thessaloniki
+Calculating for: SKG name: Thessaloniki - city: Empty
 (2200) Thessaloniki to Pisa(PSA) Distance: 1094.0
 (2201) Thessaloniki to Chania(CHQ) Distance: 564.0
 (2202) Thessaloniki to Bremen(BRE) Distance: 1755.0
@@ -2699,7 +2699,7 @@ Calculating for: SKG name: Thessaloniki - city: Thessaloniki
 (2215) Thessaloniki to Athens(ATH) Distance: 299.0
 (2216) Thessaloniki to Paris Beauvais(BVA) Distance: 1908.0
 --------------------------------------------------
-Calculating for: SNN name: Shannon - city: Shannon
+Calculating for: SNN name: Shannon - city: Empty
 (2217) Shannon to Alicante(ALC) Distance: 1728.0
 (2218) Shannon to Malaga(AGP) Distance: 1815.0
 (2219) Shannon to London Gatwick(LGW) Distance: 622.0
@@ -2722,7 +2722,7 @@ Calculating for: SNN name: Shannon - city: Shannon
 (2236) Shannon to Cardiff(CWL) Distance: 408.0
 (2237) Shannon to Rome Fiumicino(FCO) Distance: 1993.0
 --------------------------------------------------
-Calculating for: STN name: London Stansted - city: London
+Calculating for: STN name: London Stansted - city: Empty
 (2238) London Stansted to Milan Malpensa(MXP) Distance: 932.0
 (2239) London Stansted to Comiso(CIY) Distance: 2002.0
 (2240) London Stansted to Grenoble(GNB) Distance: 815.0
@@ -2859,7 +2859,7 @@ Calculating for: STN name: London Stansted - city: London
 (2371) London Stansted to Verona(VRN) Distance: 1062.0
 (2372) London Stansted to Sofia(SOF) Distance: 2009.0
 --------------------------------------------------
-Calculating for: SUF name: Lamezia - city: Lamezia Terme
+Calculating for: SUF name: Lamezia - city: Empty
 (2373) Lamezia to Milan Bergamo(BGY) Distance: 924.0
 (2374) Lamezia to Pisa(PSA) Distance: 721.0
 (2375) Lamezia to Bologna(BLQ) Distance: 748.0
@@ -2871,7 +2871,7 @@ Calculating for: SUF name: Lamezia - city: Lamezia Terme
 (2381) Lamezia to Venice Treviso(TSF) Distance: 820.0
 (2382) Lamezia to Rome Ciampino(CIA) Distance: 446.0
 --------------------------------------------------
-Calculating for: SVQ name: Seville - city: Sevilla
+Calculating for: SVQ name: Seville - city: Empty
 (2383) Seville to Milan Malpensa(MXP) Distance: 1517.0
 (2384) Seville to Pisa(PSA) Distance: 1538.0
 (2385) Seville to Santiago(SCQ) Distance: 645.0
@@ -2895,11 +2895,11 @@ Calculating for: SVQ name: Seville - city: Sevilla
 (2403) Seville to Santander(SDR) Distance: 690.0
 (2404) Seville to Rome Fiumicino(FCO) Distance: 1625.0
 --------------------------------------------------
-Calculating for: SXB name: Strasbourg - city: Strasbourg
+Calculating for: SXB name: Strasbourg - city: Empty
 (2405) Strasbourg to London Stansted(STN) Distance: 643.0
 (2406) Strasbourg to Porto(OPO) Distance: 1514.0
 --------------------------------------------------
-Calculating for: SXF name: Berlin Schonefeld - city: Berlin
+Calculating for: SXF name: Berlin Schonefeld - city: Empty
 (2407) Berlin Schonefeld to Milan Bergamo(BGY) Distance: 795.0
 (2408) Berlin Schonefeld to London Stansted(STN) Distance: 907.0
 (2409) Berlin Schonefeld to East Midlands(EMA) Distance: 1002.0
@@ -2926,21 +2926,21 @@ Calculating for: SXF name: Berlin Schonefeld - city: Berlin
 (2430) Berlin Schonefeld to Tenerife Sth(TFS) Distance: 3671.0
 (2431) Berlin Schonefeld to Turin(TRN) Distance: 906.0
 --------------------------------------------------
-Calculating for: SZG name: Salzburg - city: Salzburg
+Calculating for: SZG name: Salzburg - city: Empty
 (2432) Salzburg to London Stansted(STN) Distance: 1020.0
 (2433) Salzburg to Dublin(DUB) Distance: 1491.0
 --------------------------------------------------
-Calculating for: SZZ name: Szczecin - city: Szczecin
+Calculating for: SZZ name: Szczecin - city: Empty
 (2434) Szczecin to London Stansted(STN) Distance: 1003.0
 (2435) Szczecin to Dublin(DUB) Distance: 1395.0
 (2436) Szczecin to Liverpool(LPL) Distance: 1172.0
 (2437) Szczecin to Oslo Rygge(RYG) Distance: 691.0
 --------------------------------------------------
-Calculating for: TFN name: Tenerife North - city: Tenerife
+Calculating for: TFN name: Tenerife North - city: Empty
 (2438) Tenerife North to Barcelona El Prat(BCN) Distance: 2194.0
 (2439) Tenerife North to Madrid(MAD) Distance: 1772.0
 --------------------------------------------------
-Calculating for: TFS name: Tenerife Sth - city: Tenerife
+Calculating for: TFS name: Tenerife Sth - city: Empty
 (2440) Tenerife Sth to Oslo Rygge(RYG) Distance: 4058.0
 (2441) Tenerife Sth to Stockholm Skavsta(NYO) Distance: 4271.0
 (2442) Tenerife Sth to Memmingen (Munich West)(FMM) Distance: 3199.0
@@ -2987,11 +2987,11 @@ Calculating for: TFS name: Tenerife Sth - city: Tenerife
 (2483) Tenerife Sth to Berlin Schonefeld(SXF) Distance: 3671.0
 (2484) Tenerife Sth to Copenhagen(CPH) Distance: 3849.0
 --------------------------------------------------
-Calculating for: TGD name: Podgorica - city: Podgorica
+Calculating for: TGD name: Podgorica - city: Empty
 (2485) Podgorica to Brussels Charleroi(CRL) Distance: 1444.0
 (2486) Podgorica to London Stansted(STN) Distance: 1777.0
 --------------------------------------------------
-Calculating for: TLL name: Tallinn - city: Tallinn
+Calculating for: TLL name: Tallinn - city: Empty
 (2487) Tallinn to London Stansted(STN) Distance: 1741.0
 (2488) Tallinn to Milan Bergamo(BGY) Distance: 1829.0
 (2489) Tallinn to Bremen(BRE) Distance: 1213.0
@@ -3001,9 +3001,9 @@ Calculating for: TLL name: Tallinn - city: Tallinn
 (2493) Tallinn to Dusseldorf Weeze(NRN) Distance: 1454.0
 (2494) Tallinn to Oslo Rygge(RYG) Distance: 793.0
 --------------------------------------------------
-Calculating for: TLN name: Toulon - city: Hyeres
+Calculating for: TLN name: Toulon - city: Empty
 --------------------------------------------------
-Calculating for: TMP name: Tampere - city: Tampere
+Calculating for: TMP name: Tampere - city: Empty
 (2495) Tampere to Budapest(BUD) Distance: 1578.0
 (2496) Tampere to Frankfurt Hahn(HHN) Distance: 1625.0
 (2497) Tampere to London Stansted(STN) Distance: 1762.0
@@ -3012,13 +3012,13 @@ Calculating for: TMP name: Tampere - city: Tampere
 (2500) Tampere to Malaga(AGP) Distance: 3374.0
 (2501) Tampere to Alicante(ALC) Distance: 3062.0
 --------------------------------------------------
-Calculating for: TNG name: Tangier - city: Tangier
+Calculating for: TNG name: Tangier - city: Empty
 (2502) Tangier to Brussels Charleroi(CRL) Distance: 1837.0
 (2503) Tangier to Madrid(MAD) Distance: 568.0
 (2504) Tangier to Paris Beauvais(BVA) Distance: 1659.0
 (2505) Tangier to Marseille Provence(MRS) Distance: 1281.0
 --------------------------------------------------
-Calculating for: TPS name: Trapani - city: Trapani
+Calculating for: TPS name: Trapani - city: Empty
 (2506) Trapani to Kaunas(KUN) Distance: 2087.0
 (2507) Trapani to Bratislava(BTS) Distance: 1203.0
 (2508) Trapani to Warsaw Modlin(WMI) Distance: 1736.0
@@ -3045,13 +3045,13 @@ Calculating for: TPS name: Trapani - city: Trapani
 (2529) Trapani to Parma(PMF) Distance: 790.0
 (2530) Trapani to Venice Treviso(TSF) Distance: 860.0
 --------------------------------------------------
-Calculating for: TRF name: Oslo Torp - city: Oslo
+Calculating for: TRF name: Oslo Torp - city: Empty
 (2531) Oslo Torp to Liverpool(LPL) Distance: 1035.0
 (2532) Oslo Torp to London Stansted(STN) Distance: 1025.0
 (2533) Oslo Torp to Alicante(ALC) Distance: 2448.0
 (2534) Oslo Torp to Malaga(AGP) Distance: 2719.0
 --------------------------------------------------
-Calculating for: TRN name: Turin - city: Turin
+Calculating for: TRN name: Turin - city: Empty
 (2535) Turin to Barcelona El Prat(BCN) Distance: 625.0
 (2536) Turin to Bari(BRI) Distance: 865.0
 (2537) Turin to Brindisi(BDS) Distance: 977.0
@@ -3068,14 +3068,14 @@ Calculating for: TRN name: Turin - city: Turin
 (2548) Turin to Berlin Schonefeld(SXF) Distance: 906.0
 (2549) Turin to Comiso(CIY) Distance: 1081.0
 --------------------------------------------------
-Calculating for: TRS name: Trieste - city: Trieste
+Calculating for: TRS name: Trieste - city: Empty
 (2550) Trieste to Alghero(AHO) Distance: 713.0
 (2551) Trieste to London Stansted(STN) Distance: 1176.0
 (2552) Trieste to Trapani(TPS) Distance: 883.0
 (2553) Trieste to Valencia(VLC) Distance: 1338.0
 (2554) Trieste to Bari(BRI) Distance: 584.0
 --------------------------------------------------
-Calculating for: TSF name: Venice Treviso - city: Venice
+Calculating for: TSF name: Venice Treviso - city: Empty
 (2555) Venice Treviso to Chania(CHQ) Distance: 1508.0
 (2556) Venice Treviso to Alghero(AHO) Distance: 641.0
 (2557) Venice Treviso to Barcelona El Prat(BCN) Distance: 947.0
@@ -3106,14 +3106,14 @@ Calculating for: TSF name: Venice Treviso - city: Venice
 (2582) Venice Treviso to Berlin Schonefeld(SXF) Distance: 754.0
 (2583) Venice Treviso to Tenerife Sth(TFS) Distance: 3192.0
 --------------------------------------------------
-Calculating for: TUF name: Tours Loire Valley - city: Tours
+Calculating for: TUF name: Tours Loire Valley - city: Empty
 (2584) Tours Loire Valley to Marrakesh(RAK) Distance: 1910.0
 (2585) Tours Loire Valley to London Stansted(STN) Distance: 496.0
 (2586) Tours Loire Valley to Porto(OPO) Distance: 1014.0
 (2587) Tours Loire Valley to Dublin(DUB) Distance: 829.0
 (2588) Tours Loire Valley to Marseille Provence(MRS) Distance: 565.0
 --------------------------------------------------
-Calculating for: VLC name: Valencia - city: Manises
+Calculating for: VLC name: Valencia - city: Empty
 (2589) Valencia to Milan Bergamo(BGY) Distance: 1079.0
 (2590) Valencia to Rome Ciampino(CIA) Distance: 1131.0
 (2591) Valencia to Brussels Charleroi(CRL) Distance: 1279.0
@@ -3143,11 +3143,11 @@ Calculating for: VLC name: Valencia - city: Manises
 (2615) Valencia to Berlin Schonefeld(SXF) Distance: 1789.0
 (2616) Valencia to Cologne(CGN) Distance: 1397.0
 --------------------------------------------------
-Calculating for: VLL name: Valladolid - city: Valladolid
+Calculating for: VLL name: Valladolid - city: Empty
 (2617) Valladolid to Barcelona El Prat(BCN) Distance: 578.0
 (2618) Valladolid to Lanzarote(ACE) Distance: 1623.0
 --------------------------------------------------
-Calculating for: VNO name: Vilnius - city: Vilnius
+Calculating for: VNO name: Vilnius - city: Empty
 (2619) Vilnius to Chania(CHQ) Distance: 2125.0
 (2620) Vilnius to Barcelona El Prat(BCN) Distance: 2258.0
 (2621) Vilnius to Milan Bergamo(BGY) Distance: 1485.0
@@ -3162,21 +3162,21 @@ Calculating for: VNO name: Vilnius - city: Vilnius
 (2630) Vilnius to Madrid(MAD) Distance: 2644.0
 (2631) Vilnius to Frankfurt Hahn(HHN) Distance: 1327.0
 --------------------------------------------------
-Calculating for: VRN name: Verona - city: Verona
+Calculating for: VRN name: Verona - city: Empty
 (2632) Verona to Palermo(PMO) Distance: 823.0
 (2633) Verona to Brussels Zaventem(BRU) Distance: 774.0
 (2634) Verona to London Stansted(STN) Distance: 1062.0
 --------------------------------------------------
-Calculating for: VST name: Stockholm Vasteras - city: Stockholm
+Calculating for: VST name: Stockholm Vasteras - city: Empty
 (2635) Stockholm Vasteras to Alicante(ALC) Distance: 2663.0
 (2636) Stockholm Vasteras to Malaga(AGP) Distance: 2963.0
 (2637) Stockholm Vasteras to London Stansted(STN) Distance: 1330.0
 --------------------------------------------------
-Calculating for: VXO name: Växjö - city: Växjö
+Calculating for: VXO name: Växjö - city: Empty
 (2638) Växjö to Dusseldorf Weeze(NRN) Distance: 812.0
 (2639) Växjö to Alicante(ALC) Distance: 2356.0
 --------------------------------------------------
-Calculating for: WMI name: Warsaw Modlin - city: Nowy Dwor Mazowiecki
+Calculating for: WMI name: Warsaw Modlin - city: Empty
 (2640) Warsaw Modlin to Chania(CHQ) Distance: 1901.0
 (2641) Warsaw Modlin to Trapani(TPS) Distance: 1736.0
 (2642) Warsaw Modlin to Pisa(PSA) Distance: 1235.0
@@ -3214,7 +3214,7 @@ Calculating for: WMI name: Warsaw Modlin - city: Nowy Dwor Mazowiecki
 (2674) Warsaw Modlin to Malaga(AGP) Distance: 2630.0
 (2675) Warsaw Modlin to Gothenburg Landvetter(GOT) Distance: 786.0
 --------------------------------------------------
-Calculating for: WRO name: Wroclaw - city: Wroclaw
+Calculating for: WRO name: Wroclaw - city: Empty
 (2676) Wroclaw to Alicante(ALC) Distance: 1973.0
 (2677) Wroclaw to Malaga(AGP) Distance: 2331.0
 (2678) Wroclaw to Paris Beauvais(BVA) Distance: 1063.0
@@ -3237,16 +3237,16 @@ Calculating for: WRO name: Wroclaw - city: Wroclaw
 (2695) Wroclaw to Glasgow International(GLA) Distance: 1495.0
 (2696) Wroclaw to Tenerife Sth(TFS) Distance: 3789.0
 --------------------------------------------------
-Calculating for: XCR name: Paris Vatry - city: Paris
+Calculating for: XCR name: Paris Vatry - city: Empty
 (2697) Paris Vatry to Marrakesh(RAK) Distance: 2166.0
 (2698) Paris Vatry to Porto(OPO) Distance: 1309.0
 --------------------------------------------------
-Calculating for: XRY name: Jerez - city: Jerez De La Frontera
+Calculating for: XRY name: Jerez - city: Empty
 (2699) Jerez to Barcelona El Prat(BCN) Distance: 865.0
 (2700) Jerez to Frankfurt Hahn(HHN) Distance: 1815.0
 (2701) Jerez to London Stansted(STN) Distance: 1754.0
 --------------------------------------------------
-Calculating for: ZAD name: Zadar - city: Zadar
+Calculating for: ZAD name: Zadar - city: Empty
 (2702) Zadar to Dublin(DUB) Distance: 1881.0
 (2703) Zadar to Paris Beauvais(BVA) Distance: 1167.0
 (2704) Zadar to Stockholm Skavsta(NYO) Distance: 1635.0
@@ -3260,17 +3260,17 @@ Calculating for: ZAD name: Zadar - city: Zadar
 (2712) Zadar to Manchester(MAN) Distance: 1643.0
 (2713) Zadar to Gothenburg Landvetter(GOT) Distance: 1523.0
 --------------------------------------------------
-Calculating for: ZAZ name: Zaragoza - city: Zaragoza
+Calculating for: ZAZ name: Zaragoza - city: Empty
 (2714) Zaragoza to London Stansted(STN) Distance: 1140.0
 (2715) Zaragoza to Milan Bergamo(BGY) Distance: 971.0
 (2716) Zaragoza to Brussels Charleroi(CRL) Distance: 1064.0
 (2717) Zaragoza to Paris Beauvais(BVA) Distance: 899.0
 (2718) Zaragoza to Lanzarote(ACE) Distance: 1812.0
 --------------------------------------------------
-Calculating for: ZTH name: Zakynthos - city: Zakinthos
+Calculating for: ZTH name: Zakynthos - city: Empty
 (2719) Zakynthos to Brussels Charleroi(CRL) Distance: 1919.0
 --------------------------------------------------
-Calculating for: GLA name: Glasgow International - city: Glasgow
+Calculating for: GLA name: Glasgow International - city: Empty
 (2720) Glasgow International to Dublin(DUB) Distance: 276.0
 (2721) Glasgow International to London Stansted(STN) Distance: 520.0
 (2722) Glasgow International to Warsaw Modlin(WMI) Distance: 1665.0
@@ -3282,7 +3282,7 @@ Calculating for: GLA name: Glasgow International - city: Glasgow
 (2728) Glasgow International to Carcassonne(CCF) Distance: 1466.0
 (2729) Glasgow International to Berlin Schonefeld(SXF) Distance: 1224.0
 --------------------------------------------------
-Calculating for: CPH name: Copenhagen - city: Copenhagen
+Calculating for: CPH name: Copenhagen - city: Empty
 (2730) Copenhagen to London Luton(LTN) Distance: 950.0
 (2731) Copenhagen to Milan Bergamo(BGY) Distance: 1124.0
 (2732) Copenhagen to Warsaw Modlin(WMI) Distance: 629.0
@@ -3301,7 +3301,7 @@ Calculating for: CPH name: Copenhagen - city: Copenhagen
 (2745) Copenhagen to Tenerife Sth(TFS) Distance: 3849.0
 (2746) Copenhagen to Porto(OPO) Distance: 2225.0
 --------------------------------------------------
-Calculating for: HAM name: Hamburg - city: Hamburg
+Calculating for: HAM name: Hamburg - city: Empty
 (2747) Hamburg to Porto(OPO) Distance: 1955.0
 (2748) Hamburg to Lisbon(LIS) Distance: 2197.0
 (2749) Hamburg to Alicante(ALC) Distance: 1886.0
@@ -3310,7 +3310,7 @@ Calculating for: HAM name: Hamburg - city: Hamburg
 (2752) Hamburg to Madrid(MAD) Distance: 1779.0
 (2753) Hamburg to Palma(PMI) Distance: 1658.0
 --------------------------------------------------
-Calculating for: GOT name: Gothenburg Landvetter - city: Gothenburg
+Calculating for: GOT name: Gothenburg Landvetter - city: Empty
 (2754) Gothenburg Landvetter to Malaga(AGP) Distance: 2641.0
 (2755) Gothenburg Landvetter to Alicante(ALC) Distance: 2349.0
 (2756) Gothenburg Landvetter to Paris Beauvais(BVA) Distance: 1132.0
@@ -3326,32 +3326,32 @@ Calculating for: GOT name: Gothenburg Landvetter - city: Gothenburg
 (2766) Gothenburg Landvetter to Palma(PMI) Distance: 2129.0
 (2767) Gothenburg Landvetter to Warsaw Modlin(WMI) Distance: 786.0
 --------------------------------------------------
-Calculating for: PDL name: Ponta Delgada - city: Ponta Delgada
+Calculating for: PDL name: Ponta Delgada - city: Empty
 (2768) Ponta Delgada to Porto(OPO) Distance: 1508.0
 (2769) Ponta Delgada to Lisbon(LIS) Distance: 1448.0
 (2770) Ponta Delgada to London Stansted(STN) Distance: 2556.0
 --------------------------------------------------
-Calculating for: LRT name: Lorient - city: Lorient
+Calculating for: LRT name: Lorient - city: Empty
 (2771) Lorient to Porto(OPO) Distance: 834.0
 --------------------------------------------------
-Calculating for: JTR name: Santorini National - city: Santorini (Thira)
+Calculating for: JTR name: Santorini National - city: Empty
 (2772) Santorini National to Athens(ATH) Distance: 218.0
 --------------------------------------------------
-Calculating for: STR name: Stuttgart - city: Stuttgart
+Calculating for: STR name: Stuttgart - city: Empty
 (2773) Stuttgart to Manchester(MAN) Distance: 955.0
 --------------------------------------------------
-Calculating for: CDT name: Castellon - city: Castellon de la Plana
+Calculating for: CDT name: Castellon - city: Empty
 (2774) Castellon to London Stansted(STN) Distance: 1321.0
 (2775) Castellon to Bristol(BRS) Distance: 1283.0
 --------------------------------------------------
-Calculating for: VDA name: Eilat (Ovda) - city: Ovda
+Calculating for: VDA name: Eilat (Ovda) - city: Empty
 (2776) Eilat (Ovda) to Kaunas(KUN) Distance: 2913.0
 (2777) Eilat (Ovda) to Budapest(BUD) Distance: 2364.0
 (2778) Eilat (Ovda) to Krakow(KRK) Distance: 2573.0
 --------------------------------------------------
-Calculating for: SOF name: Sofia - city: Sofia
+Calculating for: SOF name: Sofia - city: Empty
 (2779) Sofia to London Stansted(STN) Distance: 2009.0
 --------------------------------------------------
-Calculating for: AMS name: Amsterdam - city: Amsterdam
+Calculating for: AMS name: Amsterdam - city: Empty
 (2780) Amsterdam to Dublin(DUB) Distance: 750.0
 Routes: 2780
