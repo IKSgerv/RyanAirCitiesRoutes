@@ -13,17 +13,23 @@ import jsonController.JsonController;
  * -----------------------------------
  */
 
-public class RyanairAirportController {
-	private String name;
+public class RyanairAirportController implements Comparable<RyanairAirportController> {
 	private String iataCode;
+	private String name;
 	private double latitude;
 	private double longitude;
-	private int id;
+	//private int id;
 	private String[] destinationsIataCodes;	
-	private RyanairCityController city;
+//	private RyanairCityController city;
 	
 	private static String ryanairRoutesUrl = "https://www.ryanair.com/en/api/2/routes/{iataCode}/";
-	
+	public RyanairAirportController(String iataCode, String name, double latitude, double longitude){
+		this.name = name;
+		this.iataCode = iataCode;
+		this.latitude = latitude;
+		this.longitude = longitude;	
+		destinationsIataCodes = null;
+	}
 	RyanairAirportController(JSONObject jsonAirport){
 		JSONArray jsonRoutes = null;
 		JsonController jsonController = new JsonController();
@@ -31,7 +37,7 @@ public class RyanairAirportController {
 		iataCode = jsonAirport.getString("iataCode");
 		latitude = jsonAirport.getDouble("latitude");
 		longitude = jsonAirport.getDouble("longitude");	
-		city = new RyanairCityController();
+		//city = new RyanairCityController();
 		//city = new RyanairCityController(iataCode);
 		
 		jsonRoutes = jsonController.getJsonArray(ryanairRoutesUrl.replace("{iataCode}", iataCode));
@@ -42,7 +48,7 @@ public class RyanairAirportController {
 	}
 	
 	public String toString(){
-		return iataCode + " name: " + name + " - city: " + city.getName();
+		return iataCode + " name: " + name;// + " - city: " + city.getName();
 	}
 
 	public String getName() {
@@ -61,19 +67,30 @@ public class RyanairAirportController {
 		return longitude;
 	}
 
-	public RyanairCityController getCity() {
-		return city;
-	}
+//	public RyanairCityController getCity() {
+//		return city;
+//	}
 
-	public int getId() {
-		return id;
-	}
+//	public int getId() {
+//		return id;
+//	}
 
-	public void setId(int id) {
-		this.id = id;
-	}
+//	public void setId(int id) {
+//		this.id = id;
+//	}
 	
 	public String[] getDestinationsIataCodes(){
 		return destinationsIataCodes;
 	}
+	
+	public int compareTo(RyanairAirportController o) {
+		return iataCode.compareTo(o.iataCode);
+	}
+	
+	public boolean equals(Object o) {
+		if(o.getClass() == this.iataCode.getClass())
+			return this.iataCode.equals((String) o);
+		else
+			return this.equals(((RyanairAirportController) o).getIataCode());
+	  }
 }

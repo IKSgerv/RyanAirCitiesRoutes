@@ -2,21 +2,23 @@ package graph;
 
 import java.util.Vector;
 
+import ryanairController.RyanairAirportController;
+
 public class Graph {
-	private Vector<String> vectorV;
+	private Vector<RyanairAirportController> vectorV;
 	private Vector<Edge> vectorE;	
-	public Graph(Vector<String> v, Vector<Edge> e){
+	public Graph(Vector<RyanairAirportController> v, Vector<Edge> e){
 		vectorV = v;
 		vectorE = e;
 	}
 	public Graph(){
-		vectorV = new Vector<String>();
+		vectorV = new Vector<RyanairAirportController>();
 		vectorE = new Vector<Edge>();
 	}
-	public Vector<Edge> getVectorE() {
+	public Vector<Edge> getE() {
 		return vectorE;
 	}
-	public Vector<String> getVectorV() {
+	public Vector<RyanairAirportController> getV() {
 		return vectorV;
 	}
 	public String toString(){

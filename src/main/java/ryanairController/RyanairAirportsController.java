@@ -44,7 +44,7 @@ public class RyanairAirportsController {
 		
 		for(int i = 0; i < jsonAirports.length(); i++){
 			airports[i] = new RyanairAirportController(jsonAirports.getJSONObject(i));
-			airports[i].setId(i);
+//			airports[i].setId(i);
 			log.println("(" + Math.round(ind * (i + 1)) + "%) " + airports[i].toString());
 		}
 		log.println("Airports: " + airports.length);
@@ -117,10 +117,10 @@ public class RyanairAirportsController {
 		return res;
 	}
 	
-	public String[] getIataCodes(){
-		String[] iataCodes = new String[airports.length];
+	public RyanairAirportController[] getHeaders(){
+		RyanairAirportController[] iataCodes = new RyanairAirportController[airports.length];
 		for (int i = 0; i < iataCodes.length; i++){
-			iataCodes[i] = airports[i].getIataCode();
+			iataCodes[i] = airports[i];
 		}
 		return iataCodes;
 	}
