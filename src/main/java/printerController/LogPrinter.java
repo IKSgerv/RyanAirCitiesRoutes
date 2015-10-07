@@ -8,7 +8,7 @@ import java.io.PrintWriter;
 public class LogPrinter {
 	private PrintWriter logWriter;
 	private File file;
-	
+	private String log;
 	public LogPrinter(){
 		file = new File("log.txt");
 		newLogWrite(false, "", false);
@@ -39,9 +39,16 @@ public class LogPrinter {
 	}
 	
 	public void print(String str){
-		newLogWrite(true, str, false);
+		log = str;
+//		newLogWrite(true, str, false);
 	}
+	
 	public void println(String str){
-		newLogWrite(true, str, true);
+		log = str + "\n";
+//		newLogWrite(true, str, true);
+	}
+	
+	public void save(){
+		newLogWrite(true, log, true);
 	}
 }

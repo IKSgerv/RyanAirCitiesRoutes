@@ -5,19 +5,19 @@ import java.util.Map;
 
 import graph.Edge;
 import graph.Graph;
-//import printerController.LogPrinter;
-import ryanairController.RyanairAirportController;
+import graph.Vertex;
+import printerController.LogPrinter;
 
 public class Dijkstra {
 	private Graph graphG;
 	private Graph graphT = new Graph();
 	private Map<String, DijkstraElement> dijkstraElements = new HashMap<String, DijkstraElement>();
-//	private static LogPrinter log = new LogPrinter("src/main/resources/log_Dijkstra.txt");
+	private static LogPrinter log = new LogPrinter("src/main/resources/log_Dijkstra.txt");
 	
 	public Dijkstra(Graph g){
-		System.out.println("Dijkstra Controller - Started");
+		log.println("Dijkstra Controller - Started");
 		graphG = g;
-		System.out.println("G: {\n" + g.toString() + "\n}\n"
+		log.println("G: {\n" + g.toString() + "\n}\n"
 				+ " Vertices: " + graphG.getV().size() + "\n"
 				+ " Edges: " + graphG.getE().size());
 	}
@@ -27,21 +27,21 @@ public class Dijkstra {
 		NewString newTo = new NewString();
 		newFrom.str = from;
 		newTo.str = to;
-		System.out.println("Resolve: from " + newFrom + " to " + newTo);
+		log.println("Resolve: from " + newFrom + " to " + newTo);
 		DijkstraElement element = null;
 		
 		if (!graphG.getV().contains(newFrom)){
-			System.out.println("Can not find the vertex: " + newFrom);
+			log.println("Can not find the vertex: " + newFrom);
 			return null;
 //			throw new IllegalArgumentException("Can not find the vertex: " + newFrom);
 		}
 		if (!graphG.getV().contains(newTo)){
-			System.out.println("Can not find the vertex: " + newTo);
+			log.println("Can not find the vertex: " + newTo);
 			return null;
 //			throw new IllegalArgumentException("Can not find the vertex: " + newTo);
 		}
 		
-		for (RyanairAirportController s : graphG.getV())
+		for (Vertex s : graphG.getV())
 			dijkstraElements.put(s.getIataCode(), new DijkstraElement(s));
 		
 		for (Edge e : graphG.getE())
@@ -53,10 +53,10 @@ public class Dijkstra {
 			element.setPermanent();			
 			for(Map.Entry<String, Double> neighbour : element.neighbours.entrySet())
 				dijkstraElements.get(neighbour.getKey()).setWeight(neighbour.getValue() + element.getWeight(), element);
-			System.out.println(dijkstraElements.toString());
+			log.println(dijkstraElements.toString());
 		}
 		
-		System.out.println(element.printTrace());
+		log.println(element.printTrace());
 		do{
 			graphT.getV().add(element.airport);
 			graphT.getE().add(new Edge(element.previos.airport.getIataCode(), element.airport.getIataCode(), element.getWeight() - element.previos.getWeight()));
@@ -64,7 +64,8 @@ public class Dijkstra {
 		}while(element.previos != element);
 		graphT.getV().add(element.airport);
 		
-		System.out.println(graphT.toString());
+		log.println(graphT.toString());
+		log.save();
 		return graphT;
 	}
 	
@@ -79,13 +80,13 @@ public class Dijkstra {
 
 //------------------------------------------------------------------------------------------------------------------------------------
 class DijkstraElement{
-	RyanairAirportController airport;
+	Vertex airport;
 	private double weight = Double.POSITIVE_INFINITY;
 	DijkstraElement previos = null;
 	private boolean permanent = false;
 	Map<String, Double> neighbours = new HashMap<String, Double>();
 	
-	DijkstraElement(RyanairAirportController airport){
+	DijkstraElement(Vertex airport){
 		this.airport = airport;
 	}
 	
