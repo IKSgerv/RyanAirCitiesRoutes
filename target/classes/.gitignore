@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /META-INF/
 /ai/
 /graph/
@@ -6,6 +7,9 @@
 /poiController/
 /printerController/
 /ryanairController/
+=======
+/graph/
+>>>>>>> origin/master
 =======
 /graph/
 >>>>>>> origin/master
