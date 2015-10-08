@@ -1,13 +1,13 @@
 package graph;
 
 public class Edge implements Comparable<Edge>{
-	private String fromIatacode;
-	private String toIatacode;
+	private String fromVertexCode;
+	private String toVertexCode;
 	private double distance;
 	
 	public Edge(String from, String to, double distance){
-		this.fromIatacode = from;
-		this.toIatacode = to;
+		this.fromVertexCode = from;
+		this.toVertexCode = to;
 		this.distance = distance < 0 ? Double.POSITIVE_INFINITY : distance;
 	}
 	
@@ -16,15 +16,15 @@ public class Edge implements Comparable<Edge>{
 	}
 	
 	public String getFrom(){
-		return fromIatacode;
+		return fromVertexCode;
 	}
 	
 	public String getTo(){
-		return toIatacode;
+		return toVertexCode;
 	}
 	
 	public String toString(){
-		return "(" + fromIatacode + "," + toIatacode + ":" + distance + ")";
+		return "(" + fromVertexCode + "," + toVertexCode + ":" + distance + ")";
 	}
 	
 	public int compareTo(Edge o) {

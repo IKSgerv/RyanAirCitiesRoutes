@@ -14,7 +14,7 @@ import org.apache.poi.ss.usermodel.Workbook;
 
 import graph.Edge;
 import graph.Graph;
-import ryanairController.RyanairAirportController;
+import graph.Vertex;
 
 public class PoiController{
 	private Workbook wb = null;
@@ -40,7 +40,7 @@ public class PoiController{
 	    sheet = null;
 	}
 	
-	public void putHeaders(RyanairAirportController[] headers){
+	public void putHeaders(Vertex[] headers){
 		Row rowIata = sheet.createRow(0);//for iataCodes
 		Row rowName = sheet.createRow(1);//for names
 		Row rowLati = sheet.createRow(2);//for latitude
@@ -94,8 +94,8 @@ public class PoiController{
 	public Graph readGraph(String file){
 		Row row;
 		Row rowName;//for names
-		Row rowLati;//for latitude
-		Row rowLong;//for longitude
+		Row positionY;//for positionY
+		Row positionX;//for positionX
 	    
 		Cell cell;
 	    Cell cellName;
@@ -103,7 +103,7 @@ public class PoiController{
 		Cell cellLong;
 		
 	    Sheet sheet = null;
-	    Vector<RyanairAirportController> vectorV = new Vector<RyanairAirportController>();
+	    Vector<Vertex> vectorV = new Vector<Vertex>();
 		Vector<Edge> vectorE = new Vector<Edge>();
 		System.out.println("Reading graph - started");
 		
@@ -113,21 +113,20 @@ public class PoiController{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		sheet = wb.getSheetAt(0);
-	    row = sheet.getRow(0);//for iataCodes
+	    row = sheet.getRow(0);//for codes
 		rowName = sheet.getRow(1);//for names
-		rowLati = sheet.getRow(2);//for latitude
-		rowLong = sheet.getRow(3);//for longitude
+		positionY = sheet.getRow(2);//for positionY
+		positionX = sheet.getRow(3);//for positionX
 		
 	    for (int i = 0; row.getCell(i) != null; i++ ){
 	    	cell = row.getCell(i);
 	    	cellName = rowName.getCell(i);
-			cellLati = rowLati.getCell(i);
-			cellLong = rowLong.getCell(i);
-	    	vectorV.add(new RyanairAirportController(cell.getStringCellValue(), cellName.getStringCellValue(), cellLati.getNumericCellValue(), cellLong.getNumericCellValue()));
+			cellLati = positionY.getCell(i);
+			cellLong = positionX.getCell(i);
+	    	vectorV.add(new Vertex(cell.getStringCellValue(), cellName.getStringCellValue(), cellLati.getNumericCellValue(), cellLong.getNumericCellValue()));
 	    }
 	    
 	    for(int i = 4; sheet.getRow(i) != null; i++){
@@ -144,6 +143,7 @@ public class PoiController{
 	}
 	
 	Graph solveMissing(Graph graphG){
+		//TODO quit and handle in the algorithms
 		boolean found;
 		for(int i = 0; i < graphG.getV().size(); i++){
 			found = false;

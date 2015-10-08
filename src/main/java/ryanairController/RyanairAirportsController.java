@@ -2,6 +2,7 @@ package ryanairController;
 
 import org.json.JSONArray;
 
+import graph.Vertex;
 import jsonController.JsonController;
 import printerController.LogPrinter;
 
@@ -23,32 +24,57 @@ import printerController.LogPrinter;
  * -----------------------------------
  */
 
+/* 
+ * ryanairRoutesUrl: JSONArray
+ * -----------------------------------
+ * airportFrom - iataCode
+ * airportTo - iataCode
+ * -----------------------------------
+ */
 public class RyanairAirportsController {
 	private static String ryanairAirportsUrl = "https://www.ryanair.com/en/api/2/airports/";
+	private static String ryanairRoutesUrl = "https://www.ryanair.com/en/api/2/routes/{iataCode}/";
 	
 	private JSONArray jsonAirports;
 	private static LogPrinter log = new LogPrinter("src/main/resources/log_RyanairAirportsController.txt");
 	
-	public RyanairAirportController[] airports;
+	public Vertex[] airports;
 	public double[][] table;
 	
 	public RyanairAirportsController(){
 		double ind;		
 		JsonController jsonController = new JsonController();
 		jsonAirports = jsonController.getJsonArray(ryanairAirportsUrl);	
+		JSONArray jsonRoutes = null;
+		String name, code;
+		Double positionY, positionX;
+		String[] adjacentNodes;
 		
 		log.println("RyanairAirportsController constructor - Started");
 		
-		airports = new RyanairAirportController[jsonAirports.length()];
+		airports = new Vertex[jsonAirports.length()];
 		ind = 100.0 / airports.length;
 		
 		for(int i = 0; i < jsonAirports.length(); i++){
-			airports[i] = new RyanairAirportController(jsonAirports.getJSONObject(i));
-//			airports[i].setId(i);
+			
+			name = jsonAirports.getJSONObject(i).getString("name");
+			code = jsonAirports.getJSONObject(i).getString("iataCode");
+			positionX = jsonAirports.getJSONObject(i).getDouble("longitude");
+			positionY = jsonAirports.getJSONObject(i).getDouble("latitude");
+			
+			jsonRoutes = jsonController.getJsonArray(ryanairRoutesUrl.replace("{iataCode}", code));
+			adjacentNodes = new String[jsonRoutes.length()];
+			
+			for(int j = 0; j < jsonRoutes.length(); j++){
+				adjacentNodes[j] = jsonRoutes.getJSONObject(j).getString("airportTo");
+			}
+			
+			airports[i] = new Vertex(code, name, positionX, positionY, adjacentNodes);
 			log.println("(" + Math.round(ind * (i + 1)) + "%) " + airports[i].toString());
 		}
 		log.println("Airports: " + airports.length);
 		log.println("RyanairAirportsController constructor - Finished");
+		log.save();
 	}
 		
 	/**
@@ -56,7 +82,7 @@ public class RyanairAirportsController {
 	 * @param iataCode
 	 * @return
 	 */
-	public RyanairAirportController getAirport(String iataCode){
+	public Vertex getAirport(String iataCode){
 		for(int i = 0; i < airports.length; i++)
 			if (airports[i].getIataCode().equals(iataCode))
 				return airports[i];
@@ -65,7 +91,7 @@ public class RyanairAirportsController {
 	
 	public void fullTable(){
 		int count = 0;
-		RyanairAirportController toAirport;
+		Vertex toAirport;
 		table = new double[airports.length][airports.length];
 		for (int i = 0; i < airports.length; i++) {
 			log.println("--------------------------------------------------\n"
@@ -93,7 +119,7 @@ public class RyanairAirportsController {
 	 * @param airport2
 	 * @return
 	 */
-	public double getDistance(RyanairAirportController airport1, RyanairAirportController airport2){				
+	public double getDistance(Vertex airport1, Vertex airport2){				
 		double dlat, dlon, h, distance, lat1, lat2, R;
 		R = 6371;
 		dlat = Math.toRadians(airport2.getLatitude() - airport1.getLatitude());
@@ -117,8 +143,8 @@ public class RyanairAirportsController {
 		return res;
 	}
 	
-	public RyanairAirportController[] getHeaders(){
-		RyanairAirportController[] iataCodes = new RyanairAirportController[airports.length];
+	public Vertex[] getHeaders(){
+		Vertex[] iataCodes = new Vertex[airports.length];
 		for (int i = 0; i < iataCodes.length; i++){
 			iataCodes[i] = airports[i];
 		}

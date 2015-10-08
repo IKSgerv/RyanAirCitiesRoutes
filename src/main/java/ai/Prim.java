@@ -5,19 +5,19 @@ import java.util.Random;
 
 import graph.Edge;
 import graph.Graph;
-//import printerController.LogPrinter;
-import ryanairController.RyanairAirportController;
+import graph.Vertex;
+import printerController.LogPrinter;
 
 public class Prim {
 	private Graph graphG;
 	private Graph graphT = new Graph();
 	private double weight;
-//	private static LogPrinter log = new LogPrinter("src/main/resources/log_Prim.txt");
+	private static LogPrinter log = new LogPrinter("src/main/resources/log_Prim.txt");
 	public Prim(Graph g){
-		System.out.println("Prim Controller - Started");
+		log.println("Prim Controller - Started");
 		graphG = g;
 		weight = 0;
-		System.out.println("G: {\n" + g.toString() + "\n}\n"
+		log.println("G: {\n" + g.toString() + "\n}\n"
 				+ " Vertices: " + g.getV().size() + "\n"
 				+ " Edges: " + g.getE().size());
 	}
@@ -29,9 +29,9 @@ public class Prim {
 		Edge newEdge;
 		Random rand = new Random();
 		int random = rand.nextInt(graphG.getV().size() - 1);
-		RyanairAirportController v = graphG.getV().get(random);
+		Vertex v = graphG.getV().get(random);
 		
-		System.out.println("Resolve: " + v);
+		log.println("Resolve: " + v);
 		graphT.getV().add(v);
 		while( !graphT.getV().containsAll( graphG.getV() )){
 			
@@ -57,15 +57,16 @@ public class Prim {
 			
 			Collections.sort(graphT.getV());
 			Collections.sort(graphG.getV());
-			System.out.println("(" + graphT.getV().size() + "/" + graphG.getV().size() + ")\n" + graphT.getV().toString() + "\n" + graphG.getV().toString());
+			log.println("(" + graphT.getV().size() + "/" + graphG.getV().size() + ")\n" + graphT.getV().toString() + "\n" + graphG.getV().toString());
 			
 		}
-		System.out.println("T: {\n" + graphT.toString() + "\n}\n Weight: " + weight);
+		log.println("T: {\n" + graphT.toString() + "\n}\n Weight: " + weight);
+		log.save();
 		return graphT;
 	}
 	
-	RyanairAirportController showMissing(){
-		for(RyanairAirportController s : graphG.getV()){
+	Vertex showMissing(){
+		for(Vertex s : graphG.getV()){
 			if(!graphT.getV().contains(s))
 				return s;
 		}

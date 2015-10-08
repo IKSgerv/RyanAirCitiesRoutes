@@ -3,16 +3,16 @@ package ai;
 import java.util.Vector;
 
 import graph.Graph;
-import ryanairController.RyanairAirportController;
+import graph.Vertex;
 
 public class Kruskal {
 	private Vector<Graph> forestB;
 	public Kruskal(Graph g){
 		Graph newGraph;
-		Vector<RyanairAirportController> newRyanVect;
+		Vector<Vertex> newRyanVect;
 		forestB = new Vector<Graph>();
-		for (RyanairAirportController airport : g.getV()) {
-			newRyanVect = new Vector<RyanairAirportController>();
+		for (Vertex airport : g.getV()) {
+			newRyanVect = new Vector<Vertex>();
 			newGraph = new Graph();
 			forestB.add(newGraph);
 		}
