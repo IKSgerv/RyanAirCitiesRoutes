@@ -6,37 +6,57 @@ import java.util.Random;
 import graph.Edge;
 import graph.Graph;
 import graph.Vertex;
-import printerController.LogPrinter;
 
 public class Prim {
 	private Graph graphG;
 	private Graph graphT = new Graph();
 	private double weight;
-	private static LogPrinter log = new LogPrinter("src/main/resources/log_Prim.txt");
+//	private static logPrinter log = new logPrinter("src/main/resources/System.out_Prim.txt");
 	public Prim(Graph g){
-		log.println("Prim Controller - Started");
+		System.out.println("Prim Controller - Started");
 		graphG = g;
 		weight = 0;
-		log.println("G: {\n" + g.toString() + "\n}\n"
+		System.out.println("G: {\n" + g.toString() + "\n}\n"
 				+ " Vertices: " + g.getV().size() + "\n"
 				+ " Edges: " + g.getE().size());
 	}
 	
+	private Graph quitLonely(Graph graphG){
+		boolean found;
+		for(int i = 0; i < graphG.getV().size(); i++){
+			found = false;
+			for(int j = 0; j < graphG.getE().size(); j++){
+				if(graphG.getE().get(j).getFrom().equals(graphG.getV().get(i).getCode()) || graphG.getE().get(j).getTo().equals(graphG.getV().get(i).getCode())){
+					found = true;
+				}
+			}
+			if(!found){
+				System.out.println("Deleted: " + graphG.getV().remove(i));
+				i--;
+			}
+		}
+		return graphG;
+	}
+	
 	public Graph resolve(){
+		boolean fail = false;
 		NewString newFrom = new NewString();
 		NewString newTo = new NewString();
-		
+		graphG = quitLonely(graphG);
 		Edge newEdge;
 		Random rand = new Random();
 		int random = rand.nextInt(graphG.getV().size() - 1);
 		Vertex v = graphG.getV().get(random);
 		
-		log.println("Resolve: " + v);
+		System.out.println("Resolve: " + v);
 		graphT.getV().add(v);
 		while( !graphT.getV().containsAll( graphG.getV() )){
 			
-			if(graphT.getV().size() >= graphG.getV().size())
-				throw new OutOfMemoryError("It is infinite iterating: " + showMissing() + "\n" + graphT.getV().containsAll(graphG.getV()));
+			if(graphT.getV().size() >= graphG.getV().size()){
+//				throw new OutOfMemoryError("It is infinite iterating: " + showMissing() + "\n" + graphT.getV().containsAll(graphG.getV()));
+				fail = true;				
+				break;
+			}
 			
 			newEdge = getMin();
 			
@@ -53,15 +73,17 @@ public class Prim {
 				graphT.getV().add(graphG.getV().get(graphG.getV().indexOf(newTo)));
 			}
 			
-			
-			
 			Collections.sort(graphT.getV());
 			Collections.sort(graphG.getV());
-			log.println("(" + graphT.getV().size() + "/" + graphG.getV().size() + ")\n" + graphT.getV().toString() + "\n" + graphG.getV().toString());
+			System.out.println("(" + graphT.getV().size() + "/" + graphG.getV().size() + ")\n" + graphT.getV().toString() + "\n" + graphG.getV().toString());
 			
 		}
-		log.println("T: {\n" + graphT.toString() + "\n}\n Weight: " + weight);
-		log.save();
+		if (fail) {
+			System.out.println("Failed to resolve");
+			return null;
+		}
+		System.out.println("T: {\n" + graphT.toString() + "\n}\n Weight: " + weight);
+//		System.out.save();
 		return graphT;
 	}
 	
@@ -91,9 +113,5 @@ public class Prim {
 			}
 		}
 		return graphG.getE().get(index);
-	}
-	
-	void trans(){
-		
 	}
 }

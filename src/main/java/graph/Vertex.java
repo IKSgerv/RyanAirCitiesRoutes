@@ -5,14 +5,14 @@ public class Vertex implements Comparable<Vertex> {
 	private String name;
 	private double positionY;
 	private double positionX;
-	private String[] adjacentNodes;
+	private String[] adjacentNodes;//used just for the pio controller - have to change that
 	
 	public Vertex(String code, String name, Double positionX, Double positionY){
 		this.code = code;
 		this.name = name;
 		this.positionY = positionX;
 		this.positionX = positionY;
-		adjacentNodes = null;
+		adjacentNodes = new String[0];
 	}
 	
 	public Vertex(String code, String name, Double positionX, Double positionY, String[] adjacentNode){
@@ -24,22 +24,22 @@ public class Vertex implements Comparable<Vertex> {
 	}
 	
 	public String toString(){
-		return code + " name: " + name + "(" + positionX + "," + positionY + ")";
+		return code + "(" + positionX + "," + positionY + ")";
 	}
 
 	public String getName() {
 		return name;
 	}
 	
-	public String getIataCode() {
+	public String getCode() {
 		return code;
 	}
 	
-	public double getLatitude(){
+	public double getPositionY(){
 		return positionY;
 	}
 	
-	public double getLongitude(){
+	public double getPositionX(){
 		return positionX;
 	}
 	
@@ -55,7 +55,7 @@ public class Vertex implements Comparable<Vertex> {
 		if(o instanceof String)
 			return this.code.equals((String) o);
 		else if(o instanceof Vertex)
-			return this.equals(((Vertex) o).getIataCode());
+			return this.equals(((Vertex) o).getCode());
 		return false;
 	  }
 }

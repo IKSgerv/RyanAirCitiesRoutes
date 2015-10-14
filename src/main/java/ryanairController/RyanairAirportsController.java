@@ -84,7 +84,7 @@ public class RyanairAirportsController {
 	 */
 	public Vertex getAirport(String iataCode){
 		for(int i = 0; i < airports.length; i++)
-			if (airports[i].getIataCode().equals(iataCode))
+			if (airports[i].getCode().equals(iataCode))
 				return airports[i];
 		return null;
 	}
@@ -98,8 +98,8 @@ public class RyanairAirportsController {
 					+ "Calculating for: " + airports[i].toString());			
 			for (int j = 0; j < airports[i].getDestinationsIataCodes().length; j++) {
 				toAirport = getAirport(airports[i].getDestinationsIataCodes()[j]);
-				table[i][getIndex(toAirport.getIataCode())] = (int) getDistance(airports[i], toAirport);
-				log.println("(" + ++count + ") " + airports[i].getName() + " to " + toAirport.getName() + "(" + toAirport.getIataCode() + ") Distance: " + table[i][getIndex(toAirport.getIataCode())]);
+				table[i][getIndex(toAirport.getCode())] = (int) getDistance(airports[i], toAirport);
+				log.println("(" + ++count + ") " + airports[i].getName() + " to " + toAirport.getName() + "(" + toAirport.getCode() + ") Distance: " + table[i][getIndex(toAirport.getCode())]);
 			}
 		}
 		log.println("Routes: " + count);
@@ -107,7 +107,7 @@ public class RyanairAirportsController {
 	
 	private int getIndex(String iataCode){
 		for(int i = 0; i < airports.length; i++){
-			if(iataCode.equals(airports[i].getIataCode()))
+			if(iataCode.equals(airports[i].getCode()))
 				return i;
 		}
 		return -1;
@@ -122,10 +122,10 @@ public class RyanairAirportsController {
 	public double getDistance(Vertex airport1, Vertex airport2){				
 		double dlat, dlon, h, distance, lat1, lat2, R;
 		R = 6371;
-		dlat = Math.toRadians(airport2.getLatitude() - airport1.getLatitude());
-		dlon = Math.toRadians(airport2.getLongitude() - airport1.getLongitude());
-		lat1 = Math.toRadians(airport1.getLatitude());
-		lat2 = Math.toRadians(airport2.getLatitude());
+		dlat = Math.toRadians(airport2.getPositionY() - airport1.getPositionY());
+		dlon = Math.toRadians(airport2.getPositionX() - airport1.getPositionX());
+		lat1 = Math.toRadians(airport1.getPositionY());
+		lat2 = Math.toRadians(airport2.getPositionY());
 		h = Math.pow((Math.sin(dlat/2)),2) + Math.cos(lat1)*Math.cos(lat2)*Math.pow((Math.sin(dlon/2)),2);
 		distance = 2 * R * Math.asin(Math.sqrt(h));
 		

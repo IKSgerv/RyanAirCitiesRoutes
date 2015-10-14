@@ -8,14 +8,16 @@ import java.io.PrintWriter;
 public class LogPrinter {
 	private PrintWriter logWriter;
 	private File file;
-	private String log;
+	private String log = "";
 	public LogPrinter(){
-		file = new File("log.txt");
+		log = "";
+//		file = new File("log.txt");
 		newLogWrite(false, "", false);
 	}
 	
 	public LogPrinter(String fileName){
-		file = new File(fileName);
+		log = "";
+//		file = new File(fileName);
 		newLogWrite(false, "", false);
 	}
 	
@@ -24,10 +26,10 @@ public class LogPrinter {
 			logWriter = new PrintWriter(new FileWriter(file, append));
 			if(println){
 				logWriter.println(str);
-				System.out.println(str);
+				
 			}else{
 				logWriter.print(str);
-				System.out.print(str);
+				
 			}
 			
 		} catch (IOException e) {
@@ -39,16 +41,18 @@ public class LogPrinter {
 	}
 	
 	public void print(String str){
-		log = str;
+		log += str;
+		System.out.print(str);
 //		newLogWrite(true, str, false);
 	}
 	
 	public void println(String str){
-		log = str + "\n";
+		log += str + "\n";
+		System.out.println(str);
 //		newLogWrite(true, str, true);
 	}
 	
 	public void save(){
-		newLogWrite(true, log, true);
+//		newLogWrite(true, log, true);
 	}
 }

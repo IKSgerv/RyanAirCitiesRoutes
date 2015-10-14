@@ -1,15 +1,5 @@
 Manifest-Version: 1.0
-<<<<<<< HEAD
-<<<<<<< HEAD
 Built-By: GermￃﾡnEduardo
 Build-Jdk: 1.8.0_45
-=======
-Built-By: Administrator
-Build-Jdk: 1.8.0_51
->>>>>>> origin/master
-=======
-Built-By: Administrator
-Build-Jdk: 1.8.0_51
->>>>>>> origin/master
 Created-By: Maven Integration for Eclipse
 

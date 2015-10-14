@@ -7,12 +7,13 @@ import graph.Vertex;
 
 public class Kruskal {
 	private Vector<Graph> forestB;
+	@SuppressWarnings("unused")
 	public Kruskal(Graph g){
 		Graph newGraph;
-		Vector<Vertex> newRyanVect;
+		Vector<Vertex> vertex;
 		forestB = new Vector<Graph>();
 		for (Vertex airport : g.getV()) {
-			newRyanVect = new Vector<Vertex>();
+			vertex = new Vector<Vertex>();
 			newGraph = new Graph();
 			forestB.add(newGraph);
 		}

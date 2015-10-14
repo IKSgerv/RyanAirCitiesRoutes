@@ -56,10 +56,10 @@ public class PoiController{
 			cellLati = rowLati.createCell(i);
 			cellLong = rowLong.createCell(i);
 			
-			cellIata.setCellValue(headers[i].getIataCode());
+			cellIata.setCellValue(headers[i].getCode());
 			cellName.setCellValue(headers[i].getName());
-			cellLati.setCellValue(headers[i].getLatitude());
-			cellLong.setCellValue(headers[i].getLongitude());
+			cellLati.setCellValue(headers[i].getPositionY());
+			cellLong.setCellValue(headers[i].getPositionX());
 		}
 	}
 	
@@ -134,29 +134,13 @@ public class PoiController{
 		    for (int j = 0; row.getCell(j) != null; j++ ){
 		    	cell = row.getCell(j);
 		    	if (row.getCell(j).getNumericCellValue() >= 0)
-		    		vectorE.add(new Edge(vectorV.get(i - 4).getIataCode(), vectorV.get(j).getIataCode(), cell.getNumericCellValue()));
+		    		vectorE.add(new Edge(vectorV.get(i - 4).getCode(), vectorV.get(j).getCode(), cell.getNumericCellValue()));
 		    }
 	    }
 	    System.out.println("Reading graph - finished");
 	    
-		return solveMissing(new Graph(vectorV, vectorE));
+		return new Graph(vectorV, vectorE);
 	}
 	
-	Graph solveMissing(Graph graphG){
-		//TODO quit and handle in the algorithms
-		boolean found;
-		for(int i = 0; i < graphG.getV().size(); i++){
-			found = false;
-			for(int j = 0; j < graphG.getE().size(); j++){
-				if(graphG.getE().get(j).getFrom().equals(graphG.getV().get(i).getIataCode()) || graphG.getE().get(j).getTo().equals(graphG.getV().get(i).getIataCode())){
-					found = true;
-				}
-			}
-			if(!found){
-				System.out.println("Deleted: " + graphG.getV().remove(i));
-				i--;
-			}
-		}
-		return graphG;
-	}
+	
 }
