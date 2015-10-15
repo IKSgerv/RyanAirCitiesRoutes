@@ -23,6 +23,10 @@ public class Vertex implements Comparable<Vertex> {
 		this.adjacentNodes = adjacentNode;
 	}
 	
+	public void setAdjacentNodes(String[] adjacentNodes){
+		this.adjacentNodes = adjacentNodes;
+	}
+	
 	public String toString(){
 		return code + "(" + positionX + "," + positionY + ")";
 	}
@@ -43,7 +47,7 @@ public class Vertex implements Comparable<Vertex> {
 		return positionX;
 	}
 	
-	public String[] getDestinationsIataCodes(){
+	public String[] getAdjacentNodes(){
 		return adjacentNodes;
 	}
 	

@@ -96,8 +96,8 @@ public class RyanairAirportsController {
 		for (int i = 0; i < airports.length; i++) {
 			log.println("--------------------------------------------------\n"
 					+ "Calculating for: " + airports[i].toString());			
-			for (int j = 0; j < airports[i].getDestinationsIataCodes().length; j++) {
-				toAirport = getAirport(airports[i].getDestinationsIataCodes()[j]);
+			for (int j = 0; j < airports[i].getAdjacentNodes().length; j++) {
+				toAirport = getAirport(airports[i].getAdjacentNodes()[j]);
 				table[i][getIndex(toAirport.getCode())] = (int) getDistance(airports[i], toAirport);
 				log.println("(" + ++count + ") " + airports[i].getName() + " to " + toAirport.getName() + "(" + toAirport.getCode() + ") Distance: " + table[i][getIndex(toAirport.getCode())]);
 			}

@@ -11,10 +11,10 @@ import graph.Vertex;
 public class DepthFirstSearch {
 	private Graph graphG;
 	private Graph graphT = new Graph();
-	private Map<String, DepthFirstSearchElement> depthFirstSearchElements = new HashMap<String, DepthFirstSearchElement>();
+	private Map<String, Vertex> vElements = new HashMap<String, Vertex>();
 	private String[] rules = null;// {"270","0","90","180"};
-	private Vector<DepthFirstSearchElement> opened = new Vector<DepthFirstSearchElement>();
-	private Vector<DepthFirstSearchElement> closed = new Vector<DepthFirstSearchElement>();
+	private Vector<DepthFirstSearchElement> dfsOpened = new Vector<DepthFirstSearchElement>();
+	private Vector<DepthFirstSearchElement> dfsClosed = new Vector<DepthFirstSearchElement>();
 	
 	public DepthFirstSearch(Graph g){
 		System.out.println("DepthFirstSearch Controller - Started");
@@ -30,12 +30,11 @@ public class DepthFirstSearch {
 	
 	public Graph resolve(String from, String to){
 		boolean fail = true;
-		NewString newFrom = new NewString();
-		NewString newTo = new NewString();
+		NewString newFrom = new NewString(), newTo = new NewString();
+		DepthFirstSearchElement element = null, elementToAdd;
 		newFrom.str = from;
 		newTo.str = to;
 		System.out.println("Resolve: from " + newFrom + " to " + newTo);
-		DepthFirstSearchElement element = null;
 		
 		if (!graphG.getV().contains(newFrom)){
 			System.out.println("Can not find the vertex: " + newFrom);
@@ -49,46 +48,43 @@ public class DepthFirstSearch {
 		}
 		
 		for (Vertex s : graphG.getV())
-			depthFirstSearchElements.put(s.getCode(), new DepthFirstSearchElement(s));
+			vElements.put(s.getCode(), s);
 		
-		for (Edge e : graphG.getE())
-			depthFirstSearchElements.get(e.getFrom()).neighbors.put(e.getTo(), e.getDistance());//here is geter the order
-
-		System.out.println(depthFirstSearchElements.toString());
-		depthFirstSearchElements.get(from).setWeight(0.0);
-		depthFirstSearchElements.get(from).previous = depthFirstSearchElements.get(from);
-		opened.add(depthFirstSearchElements.get(from));
-		while(!closed.contains(depthFirstSearchElements.get(to))){
-			if(!opened.isEmpty())
-				element = opened.lastElement();
-			else
-				break;
+		System.out.println(vElements.toString());
+		
+		elementToAdd = new DepthFirstSearchElement(vElements.get(from), 1, 0.0);
+		elementToAdd.setPrevious(elementToAdd);
+		putNeighbors(elementToAdd);
+		
+		dfsOpened.add(elementToAdd);
+		
+		while(!dfsOpened.isEmpty()){
 			
-			if(element.equals(depthFirstSearchElements.get(to))){
-				closed.add(element);
+			element = dfsOpened.lastElement();
+			System.out.println("Level: " + element.getLevel());
+			if(element.equalsStr(to)){
 				fail = false;
 				break;
 			}
 			
 			if(rules != null){
-				opened.addAll(ruledNeighbors(rules, element));
+				dfsOpened.addAll(ruledNeighbors(rules, element));
 			}else{
-				for (String neighborCode : element.neighbors.keySet()) {
-					if(!closed.contains(depthFirstSearchElements.get(neighborCode))){
-						depthFirstSearchElements.get(neighborCode).setWeight(element.neighbors.get(neighborCode) + element.getWeight());
-						depthFirstSearchElements.get(neighborCode).previous = element;
-						opened.add(depthFirstSearchElements.get(neighborCode));
+				for (String neighborCode : element.getNeighbors().keySet()) {
+					if(!contains(dfsOpened, neighborCode)){
+						elementToAdd = new DepthFirstSearchElement(vElements.get(neighborCode), element.getLevel() + 1, element.getNeighbors().get(neighborCode) + element.getWeight());
+						elementToAdd.setPrevious(element);
+						putNeighbors(elementToAdd);
+						dfsOpened.add(elementToAdd);
 					}
 				}
 			}
 			
-			opened.remove(element);
-			if(!closed.contains(element)){
-				closed.add(element);
-			}
-			System.out.println("\n-");
-			System.out.println("O:=" + opened.toString());
-			System.out.println("C:=" + closed.toString());
+			dfsOpened.remove(element);
+			dfsClosed.add(element);
+			System.out.println("----------------------------------");
+			System.out.println("O:=" + dfsOpened.toString());
+			System.out.println("C:=" + dfsClosed.toString());
 		}
 		if (fail) {
 			System.out.println("Failed to resolve");
@@ -96,31 +92,41 @@ public class DepthFirstSearch {
 		}
 		System.out.println(element.printTrace());
 		do{
-			graphT.getV().add(element.vertex);
-			graphT.getE().add(new Edge(element.previous.vertex.getCode(), element.vertex.getCode(), element.getWeight() - element.previous.getWeight()));
-			element = element.previous;
-		}while(element.previous != element);
-		graphT.getV().add(element.vertex);
+			graphT.getV().add(element.getVertex());
+			graphT.getE().add(new Edge(element.getPrevious().getVertex().getCode(), element.getVertex().getCode(), element.getWeight() - element.getPrevious().getWeight()));
+			element = element.getPrevious();
+		}while(!element.getPrevious().equalsStr(element.getVertex().getCode()));
+		graphT.getV().add(element.getVertex());
 		
 		System.out.println(graphT.toString());
 //		System.out.save();
 		return graphT;
 	}
 	
-	private Vector<DepthFirstSearchElement> ruledNeighbors (String[] rules, DepthFirstSearchElement element){
+	void putNeighbors(DepthFirstSearchElement elementToAdd){
+		Map<String, Double> neighbors = new HashMap<String, Double>();
+		for (Edge e : graphG.getE())
+			if(elementToAdd.equalsStr(e.getFrom()))
+				neighbors.put(e.getTo(), e.getDistance());
+		elementToAdd.getNeighbors().putAll(neighbors);
+	}
+	
+	private Vector<DepthFirstSearchElement> ruledNeighbors (String[] rules, DepthFirstSearchElement dfsElement){
 		Vector<DepthFirstSearchElement> res = new Vector<DepthFirstSearchElement>();
+		System.out.println("All neighbors: " + dfsElement.getNeighbors().size());
 		System.out.print("Ruled neighbors: [");
 		String strRule = "";
+		DepthFirstSearchElement elementToAdd;
 		for (int i = rules.length - 1; i >=0 ; i--) {
 			strRule = rules[i];
-			for(String neighborCode : element.neighbors.keySet()){
+			for(String neighborCode : dfsElement.getNeighbors().keySet()){
 				for(Edge edge : graphG.getE()){
-					if(edge.getFrom().equals(element.vertex.getCode()) && edge.getTo().equals(neighborCode) && edge.getOrderCode().equals(strRule)){
-						//Here we have to let open again the closed vertex
-						if(!closed.contains(depthFirstSearchElements.get(neighborCode))){
-							depthFirstSearchElements.get(neighborCode).setWeight(element.neighbors.get(neighborCode) + element.getWeight());
-							depthFirstSearchElements.get(neighborCode).previous = element;
-							res.add(depthFirstSearchElements.get(neighborCode));
+					if(dfsElement.equalsStr(edge.getFrom()) && neighborCode.equals(edge.getTo()) && strRule.equals(edge.getOrderCode())){
+						if(!contains(dfsClosed, neighborCode)){
+							elementToAdd = new DepthFirstSearchElement(vElements.get(neighborCode), dfsElement.getLevel() + 1, dfsElement.getNeighbors().get(neighborCode) + dfsElement.getWeight());
+							elementToAdd.setPrevious(dfsElement);
+							putNeighbors(elementToAdd);
+							res.add(elementToAdd);
 							System.out.print(strRule + ": " + neighborCode + "  ");
 						}
 					}
@@ -130,16 +136,47 @@ public class DepthFirstSearch {
 		System.out.println("]\n");
 		return res;
 	}
+	
+	private boolean contains(Vector<DepthFirstSearchElement> v, String str){
+		for (DepthFirstSearchElement depthFirstSearchElement : v)
+			if(depthFirstSearchElement.equalsStr(str))
+				return true;
+		return false;
+	}
+	
 }
 
 class DepthFirstSearchElement{
-	Vertex vertex;
-	Map<String, Double> neighbors = new HashMap<String, Double>();
-	DepthFirstSearchElement previous = null;
-	double weight;
+	private Vertex vertex;
+	private Map<String, Double> neighbors = new HashMap<String, Double>();
+	private DepthFirstSearchElement previous = null;
+	private int level;
+	private double weight;
 	
-	DepthFirstSearchElement(Vertex vertex){
+	public Vertex getVertex(){
+		return vertex;
+	}
+	
+	public Map<String, Double> getNeighbors(){
+		return neighbors;
+	}
+	
+	public int getLevel(){
+		return level;
+	}
+	
+	public void setPrevious(DepthFirstSearchElement previous){
+		this.previous = previous;
+	}
+	
+	public DepthFirstSearchElement getPrevious(){
+		return previous;
+	}
+	
+	DepthFirstSearchElement(Vertex vertex, int level, double weight){
 		this.vertex = vertex;
+		this.level = level;
+		this.weight = weight;
 	}
 	
 	void setWeight(double w){
@@ -157,11 +194,15 @@ class DepthFirstSearchElement{
 	public String toString(){
 		String res = "";
 		String previosName = previous != null ? previous.vertex.getCode() : "-";
-		return res + vertex + "(" + previosName + ")";
+		return res + vertex.getCode() + "[" + previosName + "," + level + "]";
 	}
 	
 	String printTrace(){
 		String res = this != this.previous ? previous.printTrace() + " > " : "";
-		return res + vertex.getCode() + "(" + weight + ", " + previous.vertex.getCode() + ")";
+		return res + this.toString();
+	}
+	
+	public boolean equalsStr(String str){
+		return this.vertex.getCode().equals(str);
 	}
 }
