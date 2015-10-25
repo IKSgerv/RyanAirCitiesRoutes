@@ -12,7 +12,7 @@ public class LimitedDepthFirstSearch {
 	private Graph graphG;
 	private Graph graphT = new Graph();
 	private Map<String, Vertex> vElements = new HashMap<String, Vertex>();
-	private String[] rules = null;// {"270","0","90","180"};
+	private Vector<String> rules = null;// {"270","0","90","180"};
 	private Vector<LimitedDepthFirstSearchElement> ldfsOpened = new Vector<LimitedDepthFirstSearchElement>();
 	private Vector<LimitedDepthFirstSearchElement> ldfsClosed = new Vector<LimitedDepthFirstSearchElement>();
 	private int limitLevel;
@@ -25,7 +25,7 @@ public class LimitedDepthFirstSearch {
 				+ " Edges: " + graphG.getE().size());
 	}
 	
-	public void setRules(String[] rul){
+	public void setRules(Vector<String> rul){
 		this.rules = rul;
 	}
 	
@@ -96,8 +96,8 @@ public class LimitedDepthFirstSearch {
 			ldfsOpened.remove(element);
 			ldfsClosed.add(element);
 			System.out.println("----------------------------------");
-			System.out.println("O:=" + ldfsOpened.toString());
-			System.out.println("C:=" + ldfsClosed.toString());
+			System.out.println("O:=(" + ldfsOpened.size() + ")" + ldfsOpened.toString());
+			System.out.println("C:=(" + ldfsClosed.size() + ")" + ldfsClosed.toString());
 		}
 		if (fail) {
 			System.out.println("Failed to resolve");
@@ -132,14 +132,15 @@ public class LimitedDepthFirstSearch {
 		return res;
 	}
 	
-	private Vector<LimitedDepthFirstSearchElement> ruledNeighbors (String[] rules, LimitedDepthFirstSearchElement ldfsElement){
+	private Vector<LimitedDepthFirstSearchElement> ruledNeighbors (Vector<String> rules, LimitedDepthFirstSearchElement ldfsElement){
+		
 		Vector<LimitedDepthFirstSearchElement> res = new Vector<LimitedDepthFirstSearchElement>();
 		System.out.println("All neighbors: " + ldfsElement.getNeighbors().size());
 		System.out.print("Ruled neighbors: [");
 		String strRule = "";
 		LimitedDepthFirstSearchElement elementToAdd;
-		for (int i = rules.length - 1; i >=0 ; i--) {
-			strRule = rules[i];
+		for (int i = rules.size() - 1; i >=0 ; i--) {
+			strRule = rules.elementAt(i);
 			for(String neighborCode : ldfsElement.getNeighbors().keySet()){
 				for(Edge edge : graphG.getE()){
 					if(ldfsElement.equalsStr(edge.getFrom()) && neighborCode.equals(edge.getTo()) && strRule.equals(edge.getOrderCode())){

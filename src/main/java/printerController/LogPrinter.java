@@ -53,6 +53,6 @@ public class LogPrinter {
 	}
 	
 	public void save(){
-//		newLogWrite(true, log, true);
+		newLogWrite(true, log, true);
 	}
 }

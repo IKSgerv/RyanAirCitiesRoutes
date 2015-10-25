@@ -3,11 +3,13 @@ package test;
 import java.io.IOException;
 import java.util.Scanner;
 
+import ai.AscensoDeLaColina;
 import ai.BreadthFirstSearch;
 import ai.DepthFirstSearch;
 import ai.Dijkstra;
 import ai.LimitedDepthFirstSearch;
 import ai.Prim;
+import ai.PrimeroElMejor;
 import graph.Graph;
 import matrixFileController.MatrixFileController;
 import poiController.PoiController;
@@ -24,6 +26,8 @@ public class Test {
 		BreadthFirstSearch BFS;
 		DepthFirstSearch DFS;
 		LimitedDepthFirstSearch LDFS;
+		PrimeroElMejor PEM;
+		AscensoDeLaColina ADLC;
 		Graph graphG;
 		boolean opc = false;
 		int iOpc = 0;
@@ -60,6 +64,8 @@ public class Test {
 					+ "3.- BFS\n"
 					+ "4.- DFS\n"
 					+ "5.- LDFS\n"
+					+ "6.- PEM\n"
+					+ "7.- ADLC\n"
 					+ "0.- Salir");
 			iOpc = keyboard.nextInt();
 			switch (iOpc) {
@@ -84,6 +90,7 @@ public class Test {
 				System.out.println("Ingrese el iataCode del aeropuerto de destino");
 				strTo = keyboard.next();
 				BFS = new BreadthFirstSearch(graphG);
+				BFS.setRules(mfController.getRules());
 				BFS.resolve(strFrom, strTo);//"AAR", "AHO"
 				break;
 			case 4:
@@ -92,6 +99,7 @@ public class Test {
 				System.out.println("Ingrese el iataCode del aeropuerto de destino");
 				strTo = keyboard.next();
 				DFS = new DepthFirstSearch(graphG);
+				DFS.setRules(mfController.getRules());
 				DFS.resolve(strFrom, strTo);//"AAR", "AHO"
 				break;
 			case 5:
@@ -100,9 +108,25 @@ public class Test {
 				System.out.println("Ingrese el iataCode del aeropuerto de destino");
 				strTo = keyboard.next();
 				LDFS = new LimitedDepthFirstSearch(graphG);
-				LDFS.setRules(new String[]{"270","0","90","180"});
+				LDFS.setRules(mfController.getRules());
 				LDFS.setLimitLevel(35);
 				LDFS.resolve(strFrom, strTo);//"AAR", "AHO"
+				break;
+			case 6:
+				System.out.println("Ingrese el iataCode del aeropuerto de origen");
+				strFrom = keyboard.next();
+				System.out.println("Ingrese el iataCode del aeropuerto de destino");
+				strTo = keyboard.next();
+				PEM = new PrimeroElMejor(graphG);
+				PEM.resolve(strFrom, strTo);//"AAR", "AHO"
+				break;
+			case 7:
+				System.out.println("Ingrese el iataCode del aeropuerto de origen");
+				strFrom = keyboard.next();
+				System.out.println("Ingrese el iataCode del aeropuerto de destino");
+				strTo = keyboard.next();
+				ADLC = new AscensoDeLaColina(graphG);
+				ADLC.resolve(strFrom, strTo);//"AAR", "AHO"
 				break;
 			default:
 				break;

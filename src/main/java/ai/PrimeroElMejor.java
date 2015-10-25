@@ -1,5 +1,6 @@
 package ai;
 
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Vector;
@@ -8,31 +9,27 @@ import graph.Edge;
 import graph.Graph;
 import graph.Vertex;
 
-public class BreadthFirstSearch {
+public class PrimeroElMejor {
+
 	private Graph graphG;
 	private Graph graphT = new Graph();
 	private Map<String, Vertex> vElements = new HashMap<String, Vertex>();
-	private Vector<String> rules = null;// {"270","0","90","180"};
-	private Vector<BreadthFirstSearchElement> bfsOpened = new Vector<BreadthFirstSearchElement>();
-	private Vector<BreadthFirstSearchElement> bfsClosed = new Vector<BreadthFirstSearchElement>();
+	private Vector<PrimeroElMejorElement> bfsOpened = new Vector<PrimeroElMejorElement>();
+	private Vector<PrimeroElMejorElement> bfsClosed = new Vector<PrimeroElMejorElement>();
 	
-	public BreadthFirstSearch(Graph g){
-		System.out.println("BreadthFirstSearch Controller - Started");
+	public PrimeroElMejor(Graph g){
+		System.out.println("PrimeroElMejor Controller - Started");
 		graphG = g;
 		System.out.println("G: {\n" + g.toString() + "\n}\n"
 				+ " Vertices: " + graphG.getV().size() + "\n"
 				+ " Edges: " + graphG.getE().size());
 	}
-	
-	public void setRules(Vector<String> rul){
-		this.rules = rul;
-	}
-	
 	public Graph resolve(String from, String to){
 		boolean fail = true;
+		double angle, deltaX, deltaY;
 		NewString newFrom = new NewString(), newTo = new NewString();
-		BreadthFirstSearchElement element = null;
-		BreadthFirstSearchElement elementToAdd;
+		PrimeroElMejorElement element = null;
+		PrimeroElMejorElement elementToAdd;
 		newFrom.str = from;
 		newTo.str = to;
 		System.out.println("Resolve: from " + newFrom + " to " + newTo);
@@ -52,8 +49,13 @@ public class BreadthFirstSearch {
 			vElements.put(s.getCode(), s);
 
 		System.out.println(vElements.toString());
+		
+		deltaX = vElements.get(to).getPositionX() - vElements.get(from).getPositionX();
+		deltaY = vElements.get(to).getPositionY() - vElements.get(from).getPositionY();
+		angle = Math.atan2(deltaY, deltaX) * 180 / Math.PI;
+		angle = angle > 180 ? 360 - angle : angle;
 
-		elementToAdd = new BreadthFirstSearchElement(vElements.get(from), 1, 0.0);
+		elementToAdd = new PrimeroElMejorElement(vElements.get(from), 1, 0.0, vElements.get(to), angle);
 		elementToAdd.setPrevious(elementToAdd);
 		putNeighbors(elementToAdd);
 		
@@ -68,21 +70,13 @@ public class BreadthFirstSearch {
 				break;
 			}
 			
-			if(rules != null){
-				bfsOpened.addAll(ruledNeighbors(rules, element));
-			}else{
-				for (String neighborCode : element.getNeighbors().keySet()) {
-					if(!contains(bfsClosed, neighborCode)){
-						elementToAdd = new BreadthFirstSearchElement(vElements.get(neighborCode), element.getLevel() + 1, element.getNeighbors().get(neighborCode) + element.getWeight());
-						elementToAdd.setPrevious(element);
-						putNeighbors(elementToAdd);
-						bfsOpened.add(elementToAdd);
-					}
-				}
-			}
+			
+			bfsOpened.addAll(heuristicNeighbors(element, vElements.get(to), angle));
+			
 			
 			bfsOpened.remove(element);
 			bfsClosed.add(element);
+			
 			System.out.println("\n-");
 			System.out.println("O:=(" + bfsOpened.size() + ")" + bfsOpened.toString());
 			System.out.println("C:=(" + bfsClosed.size() + ")" + bfsClosed.toString());
@@ -104,7 +98,7 @@ public class BreadthFirstSearch {
 		return graphT;
 	}
 	
-	void putNeighbors(BreadthFirstSearchElement elementToAdd){
+	void putNeighbors(PrimeroElMejorElement elementToAdd){
 		Map<String, Double> neighbors = new HashMap<String, Double>();
 		for (Edge e : graphG.getE())
 			if(elementToAdd.equalsStr(e.getFrom()))
@@ -112,49 +106,50 @@ public class BreadthFirstSearch {
 		elementToAdd.getNeighbors().putAll(neighbors);
 	}
 	
-	private Vector<BreadthFirstSearchElement> ruledNeighbors (Vector<String> rules, BreadthFirstSearchElement bfsElement){
+	private Vector<PrimeroElMejorElement> heuristicNeighbors (PrimeroElMejorElement bfsElement, Vertex vTo, double angle){
 		
-		Vector<BreadthFirstSearchElement> res = new Vector<BreadthFirstSearchElement>();
+		Vector<PrimeroElMejorElement> res = new Vector<PrimeroElMejorElement>();
 		System.out.println("All neighbors: " + bfsElement.getNeighbors().size());
-		System.out.println(rules);
-		System.out.println(rules.size());
-		System.out.print("Ruled neighbors: [");
-		BreadthFirstSearchElement elementToAdd;
-		for (String strRule : rules) {
-			for(String neighborCode : bfsElement.getNeighbors().keySet()){
-				for(Edge edge : graphG.getE()){
-					if(bfsElement.equalsStr(edge.getFrom()) && neighborCode.equals(edge.getTo()) && strRule.equals(edge.getOrderCode())){
-						if(!contains(bfsClosed, neighborCode)){
-							elementToAdd = new BreadthFirstSearchElement(vElements.get(neighborCode), bfsElement.getLevel() + 1, bfsElement.getNeighbors().get(neighborCode) + bfsElement.getWeight());
-							elementToAdd.setPrevious(bfsElement);
-							putNeighbors(elementToAdd);
-							res.add(elementToAdd);
-							System.out.print(strRule + ": " + neighborCode + "  ");
-						}
+		System.out.print("Neighbors: [");
+		PrimeroElMejorElement elementToAdd;
+		for(String neighborCode : bfsElement.getNeighbors().keySet()){
+			for(Edge edge : graphG.getE()){
+				if(bfsElement.equalsStr(edge.getFrom()) && neighborCode.equals(edge.getTo())){
+					if(!contains(bfsClosed, neighborCode)){
+						elementToAdd = new PrimeroElMejorElement(vElements.get(neighborCode), bfsElement.getLevel() + 1, bfsElement.getNeighbors().get(neighborCode) + bfsElement.getWeight(), vTo, angle);
+						elementToAdd.setPrevious(bfsElement);
+						putNeighbors(elementToAdd);
+						res.add(elementToAdd);
+						System.out.print( neighborCode + "  ");
 					}
 				}
 			}
 		}
 		System.out.println("]\n");
+		Collections.sort(res);
+		for (PrimeroElMejorElement primeroElMejorElement : res) {
+			System.out.print(primeroElMejorElement.getValue() + "|");
+		}
+		System.out.println();
 		return res;
-	}
+	}	
 	
-	private boolean contains(Vector<BreadthFirstSearchElement> bfsClosed2, String str){
-		for (BreadthFirstSearchElement breadthFirstSearchElement : bfsClosed2)
-			if(breadthFirstSearchElement.equalsStr(str))
+	private boolean contains(Vector<PrimeroElMejorElement> v, String str){
+		for (PrimeroElMejorElement primeroElMejorElement : v)
+			if(primeroElMejorElement.equalsStr(str))
 				return true;
 		return false;
 	}
 	
 }
 
-class BreadthFirstSearchElement{
+class PrimeroElMejorElement implements Comparable<PrimeroElMejorElement>{
 	private Vertex vertex;
 	private Map<String, Double> neighbors = new HashMap<String, Double>();
-	private BreadthFirstSearchElement previous = null;
+	private PrimeroElMejorElement previous = null;
 	private int level;
 	private double weight;
-	
+	private double value;
 	public Vertex getVertex(){
 		return vertex;
 	}
@@ -167,18 +162,19 @@ class BreadthFirstSearchElement{
 		return level;
 	}
 	
-	public void setPrevious(BreadthFirstSearchElement bfsElement){
-		this.previous = bfsElement;
+	public void setPrevious(PrimeroElMejorElement previous){
+		this.previous = previous;
 	}
 	
-	public BreadthFirstSearchElement getPrevious(){
+	public PrimeroElMejorElement getPrevious(){
 		return previous;
 	}
 	
-	BreadthFirstSearchElement(Vertex vertex, int level, double weight){
+	PrimeroElMejorElement(Vertex vertex, int level, double weight, Vertex vTo, double oAngle){
 		this.vertex = vertex;
 		this.level = level;
 		this.weight = weight;
+		this.value = heuristicValuer(vTo, oAngle);
 	}
 	
 	void setWeight(double w){
@@ -206,5 +202,23 @@ class BreadthFirstSearchElement{
 	
 	public boolean equalsStr(String str){
 		return this.vertex.getCode().equals(str);
+	}
+	public double getValue(){
+		return value;
+	}
+	public double heuristicValuer(Vertex vTo, double oAngle){
+		double distance, angle;
+		double deltaX, deltaY;
+		deltaX = vTo.getPositionX() - vertex.getPositionX();
+		deltaY = vTo.getPositionY() - vertex.getPositionY();
+		distance = Math.sqrt(Math.pow(deltaX, 2) + Math.pow(deltaY, 2));
+		angle = Math.atan2(deltaY, deltaX) * 180 / Math.PI;
+		angle = angle > 180 ? 360 - angle : angle;
+		angle = Math.abs(oAngle - angle);
+		return (angle * angle) + (distance * distance);
+	}
+
+	public int compareTo(PrimeroElMejorElement o) {
+		return Double.compare(value, o.getValue());
 	}
 }

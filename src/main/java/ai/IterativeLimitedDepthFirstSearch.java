@@ -12,7 +12,7 @@ public class IterativeLimitedDepthFirstSearch {
 	private Graph graphG;
 	private Graph graphT = new Graph();
 	private Map<String, Vertex> vElements = new HashMap<String, Vertex>();
-	private String[] rules = null;// {"270","0","90","180"};
+	private Vector<String> rules = null;// {"270","0","90","180"};
 	private Vector<IterativeLimitedDepthFirstSearchElement> ildfsOpened = new Vector<IterativeLimitedDepthFirstSearchElement>();
 	private Vector<IterativeLimitedDepthFirstSearchElement> ildfsClosed = new Vector<IterativeLimitedDepthFirstSearchElement>();
 	private int limitLevel;
@@ -26,7 +26,7 @@ public class IterativeLimitedDepthFirstSearch {
 				+ " Edges: " + graphG.getE().size());
 	}
 	
-	public void setRules(String[] rul){
+	public void setRules(Vector<String> rul){
 		this.rules = rul;
 	}
 	
@@ -89,7 +89,7 @@ public class IterativeLimitedDepthFirstSearch {
 						ildfsOpened.addAll(ruledNeighbors(rules, element));
 					}else{
 						for (String neighborCode : element.getNeighbors().keySet()) {
-							if(!contains(ildfsOpened, neighborCode)){
+							if(!contains(ildfsClosed, neighborCode)){
 								elementToAdd = new IterativeLimitedDepthFirstSearchElement(vElements.get(neighborCode), element.getLevel() + 1, element.getNeighbors().get(neighborCode) + element.getWeight());
 								elementToAdd.setPrevious(element);
 								putNeighbors(elementToAdd);
@@ -102,8 +102,8 @@ public class IterativeLimitedDepthFirstSearch {
 				ildfsOpened.remove(element);
 				ildfsClosed.add(element);
 				System.out.println("----------------------------------");
-				System.out.println("O:=" + ildfsOpened.toString());
-				System.out.println("C:=" + ildfsClosed.toString());
+				System.out.println("O:=(" + ildfsOpened.size() + ")" + ildfsOpened.toString());
+				System.out.println("C:=(" + ildfsClosed.size() + ")" + ildfsClosed.toString());
 			}
 			if (fail) {
 				limitLevel = limitLevel + iterativeLimitLevel;
@@ -157,14 +157,15 @@ public class IterativeLimitedDepthFirstSearch {
 		return res;
 	}
 	
-	private Vector<IterativeLimitedDepthFirstSearchElement> ruledNeighbors (String[] rules, IterativeLimitedDepthFirstSearchElement ildfsElement){
+	private Vector<IterativeLimitedDepthFirstSearchElement> ruledNeighbors (Vector<String> rules, IterativeLimitedDepthFirstSearchElement ildfsElement){
+		
 		Vector<IterativeLimitedDepthFirstSearchElement> res = new Vector<IterativeLimitedDepthFirstSearchElement>();
 		System.out.println("All neighbors: " + ildfsElement.getNeighbors().size());
 		System.out.print("Ruled neighbors: [");
 		String strRule = "";
 		IterativeLimitedDepthFirstSearchElement elementToAdd;
-		for (int i = rules.length - 1; i >=0 ; i--) {
-			strRule = rules[i];
+		for (int i = rules.size() - 1; i >=0 ; i--) {
+			strRule = rules.elementAt(i);
 			for(String neighborCode : ildfsElement.getNeighbors().keySet()){
 				for(Edge edge : graphG.getE()){
 					if(ildfsElement.equalsStr(edge.getFrom()) && neighborCode.equals(edge.getTo()) && strRule.equals(edge.getOrderCode())){

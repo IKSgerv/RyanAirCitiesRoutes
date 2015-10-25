@@ -12,7 +12,7 @@ public class DepthFirstSearch {
 	private Graph graphG;
 	private Graph graphT = new Graph();
 	private Map<String, Vertex> vElements = new HashMap<String, Vertex>();
-	private String[] rules = null;// {"270","0","90","180"};
+	private Vector<String> rules = null;// {"270","0","90","180"};
 	private Vector<DepthFirstSearchElement> dfsOpened = new Vector<DepthFirstSearchElement>();
 	private Vector<DepthFirstSearchElement> dfsClosed = new Vector<DepthFirstSearchElement>();
 	
@@ -24,7 +24,7 @@ public class DepthFirstSearch {
 				+ " Edges: " + graphG.getE().size());
 	}
 	
-	public void setRules(String[] rul){
+	public void setRules(Vector<String> rul){
 		this.rules = rul;
 	}
 	
@@ -71,7 +71,7 @@ public class DepthFirstSearch {
 				dfsOpened.addAll(ruledNeighbors(rules, element));
 			}else{
 				for (String neighborCode : element.getNeighbors().keySet()) {
-					if(!contains(dfsOpened, neighborCode)){
+					if(!contains(dfsClosed, neighborCode)){
 						elementToAdd = new DepthFirstSearchElement(vElements.get(neighborCode), element.getLevel() + 1, element.getNeighbors().get(neighborCode) + element.getWeight());
 						elementToAdd.setPrevious(element);
 						putNeighbors(elementToAdd);
@@ -82,9 +82,10 @@ public class DepthFirstSearch {
 			
 			dfsOpened.remove(element);
 			dfsClosed.add(element);
+			
 			System.out.println("----------------------------------");
-			System.out.println("O:=" + dfsOpened.toString());
-			System.out.println("C:=" + dfsClosed.toString());
+			System.out.println("O:=(" + dfsOpened.size() + ")" + dfsOpened.toString());
+			System.out.println("C:=(" + dfsClosed.size() + ")" + dfsClosed.toString());
 		}
 		if (fail) {
 			System.out.println("Failed to resolve");
@@ -111,14 +112,15 @@ public class DepthFirstSearch {
 		elementToAdd.getNeighbors().putAll(neighbors);
 	}
 	
-	private Vector<DepthFirstSearchElement> ruledNeighbors (String[] rules, DepthFirstSearchElement dfsElement){
+	private Vector<DepthFirstSearchElement> ruledNeighbors (Vector<String> rules, DepthFirstSearchElement dfsElement){
+		
 		Vector<DepthFirstSearchElement> res = new Vector<DepthFirstSearchElement>();
 		System.out.println("All neighbors: " + dfsElement.getNeighbors().size());
 		System.out.print("Ruled neighbors: [");
 		String strRule = "";
 		DepthFirstSearchElement elementToAdd;
-		for (int i = rules.length - 1; i >=0 ; i--) {
-			strRule = rules[i];
+		for (int i = rules.size() - 1; i >=0 ; i--) {
+			strRule = rules.elementAt(i);
 			for(String neighborCode : dfsElement.getNeighbors().keySet()){
 				for(Edge edge : graphG.getE()){
 					if(dfsElement.equalsStr(edge.getFrom()) && neighborCode.equals(edge.getTo()) && strRule.equals(edge.getOrderCode())){
