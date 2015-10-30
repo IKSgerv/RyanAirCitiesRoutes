@@ -70,9 +70,7 @@ public class PrimeroElMejor {
 				break;
 			}
 			
-			
 			bfsOpened.addAll(heuristicNeighbors(element, vElements.get(to), angle));
-			
 			
 			bfsOpened.remove(element);
 			bfsClosed.add(element);
@@ -115,7 +113,7 @@ public class PrimeroElMejor {
 		for(String neighborCode : bfsElement.getNeighbors().keySet()){
 			for(Edge edge : graphG.getE()){
 				if(bfsElement.equalsStr(edge.getFrom()) && neighborCode.equals(edge.getTo())){
-					if(!contains(bfsClosed, neighborCode)){
+					if(!contains(bfsClosed, neighborCode) && !containsRoute(bfsOpened, neighborCode, bfsElement.getVertex().getCode())){
 						elementToAdd = new PrimeroElMejorElement(vElements.get(neighborCode), bfsElement.getLevel() + 1, bfsElement.getNeighbors().get(neighborCode) + bfsElement.getWeight(), vTo, angle);
 						elementToAdd.setPrevious(bfsElement);
 						putNeighbors(elementToAdd);
@@ -137,6 +135,13 @@ public class PrimeroElMejor {
 	private boolean contains(Vector<PrimeroElMejorElement> v, String str){
 		for (PrimeroElMejorElement primeroElMejorElement : v)
 			if(primeroElMejorElement.equalsStr(str))
+				return true;
+		return false;
+	}
+	
+	private boolean containsRoute(Vector<PrimeroElMejorElement> v, String strActual, String strPrev){
+		for (PrimeroElMejorElement primeroElMejorElement : v)
+			if(primeroElMejorElement.equalsStr(strActual) && primeroElMejorElement.getPrevious().equalsStr(strPrev))
 				return true;
 		return false;
 	}

@@ -72,7 +72,7 @@ public class BreadthFirstSearch {
 				bfsOpened.addAll(ruledNeighbors(rules, element));
 			}else{
 				for (String neighborCode : element.getNeighbors().keySet()) {
-					if(!contains(bfsClosed, neighborCode)){
+					if(!contains(bfsClosed, neighborCode) && !containsRoute(bfsOpened, neighborCode, element.getVertex().getCode())){
 						elementToAdd = new BreadthFirstSearchElement(vElements.get(neighborCode), element.getLevel() + 1, element.getNeighbors().get(neighborCode) + element.getWeight());
 						elementToAdd.setPrevious(element);
 						putNeighbors(elementToAdd);
@@ -80,6 +80,7 @@ public class BreadthFirstSearch {
 					}
 				}
 			}
+			
 			
 			bfsOpened.remove(element);
 			bfsClosed.add(element);
@@ -124,7 +125,7 @@ public class BreadthFirstSearch {
 			for(String neighborCode : bfsElement.getNeighbors().keySet()){
 				for(Edge edge : graphG.getE()){
 					if(bfsElement.equalsStr(edge.getFrom()) && neighborCode.equals(edge.getTo()) && strRule.equals(edge.getOrderCode())){
-						if(!contains(bfsClosed, neighborCode)){
+						if(!contains(bfsClosed, neighborCode) && !containsRoute(bfsOpened, neighborCode, bfsElement.getVertex().getCode())){
 							elementToAdd = new BreadthFirstSearchElement(vElements.get(neighborCode), bfsElement.getLevel() + 1, bfsElement.getNeighbors().get(neighborCode) + bfsElement.getWeight());
 							elementToAdd.setPrevious(bfsElement);
 							putNeighbors(elementToAdd);
@@ -142,6 +143,13 @@ public class BreadthFirstSearch {
 	private boolean contains(Vector<BreadthFirstSearchElement> bfsClosed2, String str){
 		for (BreadthFirstSearchElement breadthFirstSearchElement : bfsClosed2)
 			if(breadthFirstSearchElement.equalsStr(str))
+				return true;
+		return false;
+	}
+	
+	private boolean containsRoute(Vector<BreadthFirstSearchElement> v, String strActual, String strPrev){
+		for (BreadthFirstSearchElement breadthFirstSearchElement : v)
+			if(breadthFirstSearchElement.equalsStr(strActual) && breadthFirstSearchElement.getPrevious().equalsStr(strPrev))
 				return true;
 		return false;
 	}
