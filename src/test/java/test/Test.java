@@ -3,17 +3,17 @@ package test;
 import java.io.IOException;
 import java.util.Scanner;
 
-import ai.AscensoDeLaColina;
-import ai.BreadthFirstSearch;
-import ai.DepthFirstSearch;
-import ai.Dijkstra;
-import ai.LimitedDepthFirstSearch;
-import ai.Prim;
-import ai.PrimeroElMejor;
-import graph.Graph;
-import matrixFileController.MatrixFileController;
-import poiController.PoiController;
-import ryanairController.RyanairAirportsController;
+import mx.ia.algorithms.AscensoDeLaColina;
+import mx.ia.algorithms.BreadthFirstSearch;
+import mx.ia.algorithms.DepthFirstSearch;
+import mx.ia.algorithms.Dijkstra;
+import mx.ia.algorithms.LimitedDepthFirstSearch;
+import mx.ia.algorithms.Prim;
+import mx.ia.algorithms.PrimeroElMejor;
+import mx.ia.controllers.MatrixFileController;
+import mx.ia.controllers.PoiController;
+import mx.ia.controllers.RyanairAirportsController;
+import mx.ia.graph.Graph;
 
 public class Test {
 	@SuppressWarnings("resource")
@@ -32,7 +32,7 @@ public class Test {
 		boolean opc = false;
 		int iOpc = 0;
 		String workbook = "src/main/resources/ryanairGraph.xls";
-		String matrixFile = "src/main/resources/matrixGraph.txt";
+		String matrixFile = "src/main/resources/Enemigos.txt";
 		Scanner keyboard;
 		String strFrom, strTo;
 		System.out.println("Started");
