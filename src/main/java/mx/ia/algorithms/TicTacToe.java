@@ -9,63 +9,79 @@ public class TicTacToe {
 	public static String EMPTY = "e";
 	
 	public static void main(String[] args){
-		Scanner keyboard;
-		boolean play = true;
-		String[][] board = {
-				{"e","o","e"},
-				{"e","e","e"},
-				{"e","e","e"}
-		};
-		int i, j;
-		
-		TicTacToe game = new TicTacToe();
-		
-		if(play){
-			keyboard = new Scanner(System.in);
-			while(true){
-				
-				board = game.generateStates(board);
-				
-				for (int in = 0; in < 3; in++){
-					for (int jn = 0; jn < 3; jn++){
-						System.out.print(board[in][jn] + "|");
-					}
-					System.out.println();
-				}
-				if(game.gameOver(board) || game.win(board))
-					break;
-				do{
-					System.out.println("Ingrese i");
-					i = Integer.parseInt(keyboard.next());
-					System.out.println("Ingrese j");
-					j = Integer.parseInt(keyboard.next());
-				}while(board[i][j] != EMPTY);
-				board[i][j] = OPPONENT;
-				
-				if(game.gameOver(board) || game.win(board))
-					break;
-			}
-		}else{
-			String[][] testBoard = {
-					{"o","e","e"},
-					{"e","m","e"},
-					{"e","e","o"}
-			};
-			
-			testBoard = game.generateStates(testBoard);
-			
-			for (int in = 0; in < 3; in++){
-				for (int jn = 0; jn < 3; jn++){
-					System.out.print(testBoard[in][jn] + "|");
-				}
-				System.out.println();
+//		Scanner keyboard;
+//		boolean play = true;
+//		String[][] board = {
+//				{"e","o","e"},
+//				{"e","e","e"},
+//				{"e","e","e"}
+//		};
+//		int i, j;
+//		
+//		TicTacToe game = new TicTacToe();
+//		
+//		if(play){
+//			keyboard = new Scanner(System.in);
+//			while(true){
+//				
+//				board = game.generateStates(board);
+//				
+//				for (int in = 0; in < 3; in++){
+//					for (int jn = 0; jn < 3; jn++){
+//						System.out.print(board[in][jn] + "|");
+//					}
+//					System.out.println();
+//				}
+//				if(game.gameOver(board) || game.win(board))
+//					break;
+//				do{
+//					System.out.println("Ingrese i");
+//					i = Integer.parseInt(keyboard.next());
+//					System.out.println("Ingrese j");
+//					j = Integer.parseInt(keyboard.next());
+//				}while(board[i][j] != EMPTY);
+//				board[i][j] = OPPONENT;
+//				
+//				if(game.gameOver(board) || game.win(board))
+//					break;
+//			}
+//		}else{
+//			String[][] testBoard = {
+//					{"o","e","e"},
+//					{"e","m","e"},
+//					{"e","e","o"}
+//			};
+//			
+//			testBoard = game.generateStates(testBoard);
+//			
+//			for (int in = 0; in < 3; in++){
+//				for (int jn = 0; jn < 3; jn++){
+//					System.out.print(testBoard[in][jn] + "|");
+//				}
+//				System.out.println();
+//			}
+//		}
+//		
+//		System.out.println("gameover");
+////		testBoard = game.generateStates(testBoard);
+		for(int i = 0; i < 9; i++){
+			System.out.println(i + " : " + " - " + i % 3 + " - " + (i / 3));
+		}
+	}
+	public String[] resolve(String[] board){
+		String[] res = new String[9];
+		String[][] b = new String[3][3], r;
+		for(int in = 0; in < 9; in ++){
+			b[in / 3][in % 3] = board[in];
+		}
+		r = this.generateStates(b);
+		for(int in = 0; in < 3; in++){
+			for(int jn = 0; jn < 3; jn++){
+				res[in - (jn / 3)] = r[in][jn];
 			}
 		}
-		
-		System.out.println("gameover");
-//		testBoard = game.generateStates(testBoard);
+		return res;
 	}
-	
 	public boolean gameOver(String[][] t){
 		for (String[] strings : t) {
 			for (String string : strings) {
