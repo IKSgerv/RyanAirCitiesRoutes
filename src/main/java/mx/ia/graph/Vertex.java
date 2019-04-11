@@ -5,65 +5,84 @@ public class Vertex implements Comparable<Vertex> {
 	private String name;
 	private double positionY;
 	private double positionX;
-	private double danger = 0;//value from 0 to 1
+	private double danger = 0;// value from 0 to 1
 	private boolean blocked = false;
-	private String[] adjacentNodes;//used just for the pio controller - have to change that
-	
-	public Vertex(String code, String name, Double positionX, Double positionY){
+	private String[] adjacentNodes;// used just for the pio controller - have to change that
+	private double[] prices;
+
+	public double[] getPrices() {
+		return prices;
+	}
+
+	public void setPrices(double[] prices) {
+		this.prices = prices;
+	}
+
+	public Vertex(String code, String name, Double positionX, Double positionY) {
 		this.code = code;
 		this.name = name;
 		this.positionY = positionX;
 		this.positionX = positionY;
 		adjacentNodes = new String[0];
 	}
-	
-	public Vertex(String code, String name, Double positionX, Double positionY, String[] adjacentNode){
+
+	public Vertex(String code, String name, Double positionX, Double positionY, String[] adjacentNodes) {
 		this.code = code;
 		this.name = name;
 		this.positionX = positionX;
 		this.positionY = positionY;
-		this.adjacentNodes = adjacentNode;
-	}
-	
-	public void setAdjacentNodes(String[] adjacentNodes){
 		this.adjacentNodes = adjacentNodes;
 	}
-	
-	public String toString(){
+
+	public Vertex(String code, String name, Double positionX, Double positionY, String[] adjacentNodes,
+			double[] prices) {
+		this.code = code;
+		this.name = name;
+		this.positionX = positionX;
+		this.positionY = positionY;
+		this.adjacentNodes = adjacentNodes;
+		this.prices = prices;
+	}
+
+	public void setAdjacentNodes(String[] adjacentNodes) {
+		this.adjacentNodes = adjacentNodes;
+	}
+
+	public String toString() {
 		return code + "(" + positionX + "," + positionY + ":" + danger + ")";
 	}
 
 	public String getName() {
 		return name;
 	}
-	
+
 	public String getCode() {
 		return code;
 	}
-	
-	public double getPositionY(){
+
+	public double getPositionY() {
 		return positionY;
 	}
-	
-	public double getPositionX(){
+
+	public double getPositionX() {
 		return positionX;
 	}
-	
-	public String[] getAdjacentNodes(){
+
+	public String[] getAdjacentNodes() {
 		return adjacentNodes;
 	}
-	
+
 	public int compareTo(Vertex o) {
 		return code.compareTo(o.code);
 	}
-	
-	public boolean equals(Object o){
-		if(o instanceof String)
+
+	public boolean equals(Object o) {
+		if (o instanceof String)
 			return this.code.equals((String) o);
-		else if(o instanceof Vertex)
+		else if (o instanceof Vertex)
 			return this.equals(((Vertex) o).getCode());
 		return false;
-	  }
+	}
 
 	public double getDanger() {
 		return danger;

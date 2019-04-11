@@ -16,42 +16,40 @@ public class LimitedDepthFirstSearch {
 	private Vector<LimitedDepthFirstSearchElement> ldfsOpened = new Vector<LimitedDepthFirstSearchElement>();
 	private Vector<LimitedDepthFirstSearchElement> ldfsClosed = new Vector<LimitedDepthFirstSearchElement>();
 	private int limitLevel;
-	
-	public LimitedDepthFirstSearch(Graph g){
+
+	public LimitedDepthFirstSearch(Graph g) {
 		System.out.println("LimitedDepthFirstSearch Controller - Started");
 		graphG = g;
-		System.out.println("G: {\n" + g.toString() + "\n}\n"
-				+ " Vertices: " + graphG.getV().size() + "\n"
-				+ " Edges: " + graphG.getE().size());
+		System.out.println("G: {\n" + g.toString() + "\n}\n" + " Vertices: " + graphG.getV().size() + "\n" + " Edges: "
+				+ graphG.getE().size());
 	}
-	
-	public void setRules(Vector<String> rul){
+
+	public void setRules(Vector<String> rul) {
 		this.rules = rul;
 	}
-	
-	public void setLimitLevel(int limit){
+
+	public void setLimitLevel(int limit) {
 		limitLevel = limit;
 	}
-	
-	public Graph resolve(String from, String to){
+
+	@SuppressWarnings("unlikely-arg-type")
+	public Graph resolve(String from, String to) {
 		boolean fail = true;
 		NewString newFrom = new NewString(), newTo = new NewString();
 		LimitedDepthFirstSearchElement element = null, elementToAdd;
 		newFrom.str = from;
 		newTo.str = to;
 		System.out.println("Resolve: from " + newFrom + " to " + newTo);
-		
-		if (!graphG.getV().contains(newFrom)){
+
+		if (!graphG.getV().contains(newFrom)) {
 			System.out.println("Can not find the vertex: " + newFrom);
 			return null;
-//			throw new IllegalArgumentException("Can not find the vertex: " + newFrom);
 		}
-		if (!graphG.getV().contains(newTo)){
+		if (!graphG.getV().contains(newTo)) {
 			System.out.println("Can not find the vertex: " + newTo);
 			return null;
-//			throw new IllegalArgumentException("Can not find the vertex: " + newTo);
 		}
-		
+
 		for (Vertex s : graphG.getV())
 			vElements.put(s.getCode(), s);
 
@@ -60,31 +58,32 @@ public class LimitedDepthFirstSearch {
 		elementToAdd = new LimitedDepthFirstSearchElement(vElements.get(from), 1, 0.0);
 		elementToAdd.setPrevious(elementToAdd);
 		putNeighbors(elementToAdd);
-		
+
 		ldfsOpened.add(elementToAdd);
 
-		while(!ldfsOpened.isEmpty()){
-			
+		while (!ldfsOpened.isEmpty()) {
+
 			element = ldfsOpened.lastElement();
 			System.out.println("Level: " + element.getLevel());
-			if(element.equalsStr(to)){
+			if (element.equalsStr(to)) {
 				fail = false;
 				break;
 			}
-			
-			if(element.getLevel() <= getBiggerLevel(ldfsClosed))
+
+			if (element.getLevel() <= getBiggerLevel(ldfsClosed))
 				for (int i = 0; i < ldfsClosed.size(); i++)
 					if (ldfsClosed.elementAt(i).getLevel() >= element.getLevel())
 						ldfsClosed.remove(ldfsClosed.elementAt(i--));
 
-			
-			if(element.getLevel() < limitLevel){
-				if(rules != null){
+			if (element.getLevel() < limitLevel) {
+				if (rules != null) {
 					ldfsOpened.addAll(ruledNeighbors(rules, element));
-				}else{
+				} else {
 					for (String neighborCode : element.getNeighbors().keySet()) {
-						if(!contains(ldfsClosed, neighborCode)){
-							elementToAdd = new LimitedDepthFirstSearchElement(vElements.get(neighborCode), element.getLevel() + 1, element.getNeighbors().get(neighborCode) + element.getWeight());
+						if (!contains(ldfsClosed, neighborCode)) {
+							elementToAdd = new LimitedDepthFirstSearchElement(vElements.get(neighborCode),
+									element.getLevel() + 1,
+									element.getNeighbors().get(neighborCode) + element.getWeight());
 							elementToAdd.setPrevious(element);
 							putNeighbors(elementToAdd);
 							ldfsOpened.add(elementToAdd);
@@ -92,7 +91,7 @@ public class LimitedDepthFirstSearch {
 					}
 				}
 			}
-			
+
 			ldfsOpened.remove(element);
 			ldfsClosed.add(element);
 			System.out.println("----------------------------------");
@@ -104,48 +103,53 @@ public class LimitedDepthFirstSearch {
 			return null;
 		}
 		System.out.println(element.printTrace());
-		do{
+		do {
 			graphT.getV().add(element.getVertex());
-			graphT.getE().add(new Edge(element.getPrevious().getVertex().getCode(), element.getVertex().getCode(), element.getWeight() - element.getPrevious().getWeight()));
+			graphT.getE().add(new Edge(element.getPrevious().getVertex().getCode(), element.getVertex().getCode(),
+					element.getWeight() - element.getPrevious().getWeight()));
 			element = element.getPrevious();
-		}while(!element.getPrevious().equalsStr(element.getVertex().getCode()));
+		} while (!element.getPrevious().equalsStr(element.getVertex().getCode()));
 		graphT.getV().add(element.getVertex());
-		
+
 		System.out.println(graphT.toString());
 //		System.out.save();
 		return graphT;
 	}
-	
-	void putNeighbors(LimitedDepthFirstSearchElement ldfsElement){
+
+	void putNeighbors(LimitedDepthFirstSearchElement ldfsElement) {
 		Map<String, Double> neighbors = new HashMap<String, Double>();
 		for (Edge e : graphG.getE())
-			if(ldfsElement.equalsStr(e.getFrom()))
+			if (ldfsElement.equalsStr(e.getFrom()))
 				neighbors.put(e.getTo(), e.getDistance());
 		ldfsElement.getNeighbors().putAll(neighbors);
 	}
-	
-	private int getBiggerLevel(Vector<LimitedDepthFirstSearchElement> v){
+
+	private int getBiggerLevel(Vector<LimitedDepthFirstSearchElement> v) {
 		int res = 1;
 		for (LimitedDepthFirstSearchElement limitedDepthFirstSearchElement : v)
-			if(limitedDepthFirstSearchElement.getLevel() > res) 
+			if (limitedDepthFirstSearchElement.getLevel() > res)
 				res = limitedDepthFirstSearchElement.getLevel();
 		return res;
 	}
-	
-	private Vector<LimitedDepthFirstSearchElement> ruledNeighbors (Vector<String> rules, LimitedDepthFirstSearchElement ldfsElement){
-		
+
+	private Vector<LimitedDepthFirstSearchElement> ruledNeighbors(Vector<String> rules,
+			LimitedDepthFirstSearchElement ldfsElement) {
+
 		Vector<LimitedDepthFirstSearchElement> res = new Vector<LimitedDepthFirstSearchElement>();
 		System.out.println("All neighbors: " + ldfsElement.getNeighbors().size());
 		System.out.print("Ruled neighbors: [");
 		String strRule = "";
 		LimitedDepthFirstSearchElement elementToAdd;
-		for (int i = rules.size() - 1; i >=0 ; i--) {
+		for (int i = rules.size() - 1; i >= 0; i--) {
 			strRule = rules.elementAt(i);
-			for(String neighborCode : ldfsElement.getNeighbors().keySet()){
-				for(Edge edge : graphG.getE()){
-					if(ldfsElement.equalsStr(edge.getFrom()) && neighborCode.equals(edge.getTo()) && strRule.equals(edge.getOrderCode())){
-						if(!contains(ldfsClosed, neighborCode)){
-							elementToAdd = new LimitedDepthFirstSearchElement(vElements.get(neighborCode), ldfsElement.getLevel() + 1, ldfsElement.getNeighbors().get(neighborCode) + ldfsElement.getWeight());
+			for (String neighborCode : ldfsElement.getNeighbors().keySet()) {
+				for (Edge edge : graphG.getE()) {
+					if (ldfsElement.equalsStr(edge.getFrom()) && neighborCode.equals(edge.getTo())
+							&& strRule.equals(edge.getOrderCode())) {
+						if (!contains(ldfsClosed, neighborCode)) {
+							elementToAdd = new LimitedDepthFirstSearchElement(vElements.get(neighborCode),
+									ldfsElement.getLevel() + 1,
+									ldfsElement.getNeighbors().get(neighborCode) + ldfsElement.getWeight());
 							elementToAdd.setPrevious(ldfsElement);
 							putNeighbors(elementToAdd);
 							res.add(elementToAdd);
@@ -158,73 +162,73 @@ public class LimitedDepthFirstSearch {
 		System.out.println("]\n");
 		return res;
 	}
-	
-	private boolean contains(Vector<LimitedDepthFirstSearchElement> v, String str){
+
+	private boolean contains(Vector<LimitedDepthFirstSearchElement> v, String str) {
 		for (LimitedDepthFirstSearchElement limitedDepthFirstSearchElement : v)
-			if(limitedDepthFirstSearchElement.equalsStr(str))
+			if (limitedDepthFirstSearchElement.equalsStr(str))
 				return true;
 		return false;
 	}
-	
+
 }
 
-class LimitedDepthFirstSearchElement{
+class LimitedDepthFirstSearchElement {
 	private Vertex vertex;
 	private Map<String, Double> neighbors = new HashMap<String, Double>();
 	private LimitedDepthFirstSearchElement previous = null;
 	private int level;
 	private double weight;
-	
-	public Vertex getVertex(){
+
+	public Vertex getVertex() {
 		return vertex;
 	}
-	
-	public Map<String, Double> getNeighbors(){
+
+	public Map<String, Double> getNeighbors() {
 		return neighbors;
 	}
-	
-	public int getLevel(){
+
+	public int getLevel() {
 		return level;
 	}
-	
-	public void setPrevious(LimitedDepthFirstSearchElement previous){
+
+	public void setPrevious(LimitedDepthFirstSearchElement previous) {
 		this.previous = previous;
 	}
-	
-	public LimitedDepthFirstSearchElement getPrevious(){
+
+	public LimitedDepthFirstSearchElement getPrevious() {
 		return previous;
 	}
-	
-	LimitedDepthFirstSearchElement(Vertex vertex, int level, double weight){
+
+	LimitedDepthFirstSearchElement(Vertex vertex, int level, double weight) {
 		this.vertex = vertex;
 		this.level = level;
 		this.weight = weight;
 	}
-	
-	void setWeight(double w){
+
+	void setWeight(double w) {
 		this.weight = w;
 	}
-	
-	double getWeight(){
+
+	double getWeight() {
 		return weight;
 	}
-	
-	void setNeighbors(Map<String, Double> neighbors){
+
+	void setNeighbors(Map<String, Double> neighbors) {
 		this.neighbors = neighbors;
 	}
-	
-	public String toString(){
+
+	public String toString() {
 		String res = "";
 		String previosName = previous != null ? previous.vertex.getCode() : "-";
 		return res + vertex.getCode() + "[" + previosName + "," + level + "]";
 	}
-	
-	String printTrace(){
+
+	String printTrace() {
 		String res = this != this.previous ? previous.printTrace() + " > " : "";
 		return res + this.toString();
 	}
-	
-	public boolean equalsStr(String str){
+
+	public boolean equalsStr(String str) {
 		return this.vertex.getCode().equals(str);
 	}
 }

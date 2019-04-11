@@ -11,13 +11,13 @@ public class LogPrinter {
 	private String log = "";
 	public LogPrinter(){
 		log = "";
-//		file = new File("log.txt");
+		file = new File("log.txt");
 		newLogWrite(false, "", false);
 	}
 	
 	public LogPrinter(String fileName){
 		log = "";
-//		file = new File(fileName);
+		file = new File(fileName);
 		newLogWrite(false, "", false);
 	}
 	

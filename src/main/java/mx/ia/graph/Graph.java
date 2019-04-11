@@ -20,6 +20,6 @@ public class Graph {
 		return vectorV;
 	}
 	public String toString(){
-		return " V: " + vectorV.toString() + "\n E: " + vectorE.toString();
+		return " V: " + vectorV.toString() + "\n V.size = " + vectorV.size() + " \n E: " + vectorE.toString() + "\n E.size = " + vectorE.size() + "\n ";
 	}
 }
